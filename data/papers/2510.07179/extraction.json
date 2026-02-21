@@ -1,0 +1,64 @@
+{
+  "abstract": "Optimal constructions of classical LDPC codes can be obtained by choosing the Tanner graph uniformly at random among biregular graphs. We introduce a class of codes that we call ``diffusion codes'', defined by placing each edge connecting bits and checks on some graph, and acting on that graph with a random SWAP network. By tuning the depth of the SWAP network, we can tune a tradeoff between the amount of randomness -- and hence the optimality of code parameters -- and locality with respect to the underlying graph. For diffusion codes defined on the cycle graph, if the SWAP network has depth $\\sim Tn$ with $T> n^{2β}$ for arbitrary $β>0$, then we prove that almost surely the Tanner graph is a lossless ``smaller set'' vertex expander for small sets up size $δ\\sim \\sqrt T \\sim n^β$, with bounded bit and check degree. At the same time, the geometric size of the largest stabilizer is bounded by $\\sqrt T$ in graph distance. We argue, based on physical intuition, that this result should hold more generally on arbitrary graphs. By taking hypergraph products of these classical codes we obtain quantum LDPC codes defined on the torus with smaller-set boundary and co-boundary expansion and the same expansion/locality tradeoffs as for the classical codes. These codes are self-correcting and admit single-shot decoding, while having the geometric size of the stabilizer growing as an arbitrarily small power law. Our proof technique establishes mixing of a random SWAP network on small subsystems at times scaling with only the subsystem size, which may be of independent interest.",
+  "arxiv_id": "2510.07179",
+  "arxiv_version": "v2",
+  "authors": [
+    "Adithya Sriram",
+    "Vedika Khemani",
+    "Benedikt Placke"
+  ],
+  "categories": [
+    "quant-ph",
+    "cond-mat.dis-nn",
+    "cond-mat.stat-mech",
+    "cs.IT",
+    "math.CO"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2510.07179v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2510.07179v2"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoding",
+      "hypergraph product"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2025-10-08",
+  "title": "Diffusion Codes: Self-Correction from Small(er)-Set Expansion with Tunable Non-locality",
+  "updated_date": "2026-02-18"
+}

@@ -1,0 +1,59 @@
+{
+  "abstract": "The preparation of a quantum state using a noisy quantum computer (gate noise strength $δ$), will necessarily affect an O($δ$)-fraction of the qubits, no matter which protocol is used. Here, we show that fault-tolerant quantum state preparation can be achieved with constant space overhead improving on previous constructions requiring polylogarithmic overhead. To achieve this, we add to the toolbox of fault-tolerant schemes for circuits with quantum input and output. More specifically, we construct fault-tolerant interfaces that decrease the level of protection for quantum low-density parity-check (LDPC) codes. When information is encoded in multiple code blocks, our interfaces have constant space overhead. In our decoder construction that change the level of protection by an arbitrary amount, we circumvent bottlenecks to error pileup and overhead by gradual lowering of the level of encoding at the same time as we increase the number of blocks on which decoding is carried out simultaneously.",
+  "arxiv_id": "2602.16948",
+  "arxiv_version": "v1",
+  "authors": [
+    "Matthias Christandl",
+    "Omar Fawzi",
+    "Ashutosh Goswami"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2602.16948v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2602.16948v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-02-18",
+  "title": "Fault-tolerant interfaces for quantum LDPC codes",
+  "updated_date": "2026-02-18"
+}

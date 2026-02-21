@@ -1,0 +1,36 @@
+{
+  "abstract": "This work presents a hardware-efficient and fully parallelizable decoder for quantum LDPC codes that leverages belief propagation (BP) with a speculative post-processing strategy inspired by classical Chase decoding algorithm. By monitoring bit-level oscillation patterns during BP, our method identifies unreliable bits and generates multiple candidate vectors to selectively flip syndromes. Each modified syndrome is then decoded independently using short-depth BP, a process we refer to as BP-SF (syndrome flip). This design eliminates the need for costly Gaussian elimination used in the current BP-OSD approaches. Our implementation achieves logical error rates comparable to or better than BP-OSD while offering significantly lower latency due to its high degree of parallelism for a variety of bivariate bicycle codes. Evaluation on the [[144,12,12]] bivariate bicycle code shows that the proposed decoder reduces average latency to approximately $70\\%$ of BP-OSD. When post-processing is parallelized the average latency is reduced by $55\\%$ compared to the single process implementation, with the maximum latency reaching as low as $18\\%$. These advantages make it particularly well-suited for real-time and resource-constrained quantum error correction systems.",
+  "arxiv_id": "2507.00254",
+  "arxiv_version": "v3",
+  "authors": [
+    "Ming Wang",
+    "Ang Li",
+    "Frank Mueller"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "818c2fb83c7c2fb05b9f7782ece22e59523a809ca46113588360cde3fa18a8cc",
+  "last_processed_at": "2026-02-21T11:21:09.327660+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2507.00254v3",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2507.00254v3"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "aaa1c2412c51dd5def3d7ffdef6c111fdca937488b19370101a12eb96d9a99e4",
+  "submitted_date": "2025-06-30",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Fully Parallelized BP Decoding for Quantum LDPC Codes Can Outperform BP-OSD",
+  "updated_date": "2026-02-10"
+}
