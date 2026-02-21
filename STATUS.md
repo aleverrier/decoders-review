@@ -20,10 +20,13 @@ Last updated: 2026-02-21
 - Ran formatter/linter/tests successfully (`ruff format`, `ruff check`, `pytest`).
 - Ran end-to-end update smoke run and generated 3 paper folders plus indexes/digest/site.
 - Updated arXiv retrieval defaults to abstract-targeted (`abs:`) quantum-LDPC decoder queries.
+- Added `qldpcwatch update --refresh-fallback` to re-extract existing abstract-only fallback entries.
+- Added `qldpcwatch report` to generate cross-paper decoder/error-model/performance/repo reports.
 
 ## In Progress
 
 - Routine updates and future paper refresh runs.
+- Full-detail corpus re-extraction with PDFs + OpenAI key (required to replace current fallback-only details).
 
 ## Completed (Deployment)
 

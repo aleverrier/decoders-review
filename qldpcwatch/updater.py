@@ -159,6 +159,7 @@ def _process_paper(
     state: StateDB,
     extractor: OpenAIExtractor,
     download_pdfs: bool,
+    refresh_fallback: bool,
 ) -> tuple[bool, bool, bool, dict]:
     paper_dir = paper_dir_from_id(paths.papers, paper.arxiv_id)
     paper_dir.mkdir(parents=True, exist_ok=True)
@@ -175,14 +176,22 @@ def _process_paper(
         max_text_chars=cfg.openai.max_text_chars,
     )
 
+    extraction_path = paper_dir / "extraction.json"
     existing_version = state.get_version(paper.arxiv_id, paper.arxiv_version)
-    has_outputs = (paper_dir / "metadata.json").exists() and (
-        paper_dir / "extraction.json"
-    ).exists()
+    has_outputs = (paper_dir / "metadata.json").exists() and extraction_path.exists()
+    should_force_refresh = False
+    if refresh_fallback and extraction_path.exists():
+        try:
+            current_extraction = read_json(extraction_path)
+            rationale = str(current_extraction.get("relevance", {}).get("rationale", ""))
+            should_force_refresh = "Fallback extraction from abstract only" in rationale
+        except Exception:
+            should_force_refresh = False
     if (
         existing_version is not None
         and str(existing_version["source_hash"]) == source_hash
         and has_outputs
+        and not should_force_refresh
     ):
         state.upsert_paper(
             arxiv_id=paper.arxiv_id,
@@ -317,6 +326,7 @@ def run_update(
     since: str | None,
     download_pdfs: bool,
     rebuild_site_flag: bool,
+    refresh_fallback: bool = False,
 ) -> UpdateResult:
     state = StateDB(paths.db)
     started_at = datetime.now(tz=UTC)
@@ -376,6 +386,7 @@ def run_update(
             state=state,
             extractor=extractor,
             download_pdfs=download_pdfs,
+            refresh_fallback=refresh_fallback,
         )
 
         if changed:

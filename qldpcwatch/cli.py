@@ -13,6 +13,7 @@ from qldpcwatch.diffing import diff_latest_two_versions
 from qldpcwatch.indexer import rebuild_indexes
 from qldpcwatch.paths import resolve_paths
 from qldpcwatch.repo_layout import paper_dir_from_id
+from qldpcwatch.reporting import generate_report
 from qldpcwatch.search import search_local
 from qldpcwatch.site_builder import rebuild_site
 from qldpcwatch.updater import run_update
@@ -40,6 +41,11 @@ def update(
         "--rebuild-site/--no-rebuild-site",
         help="Regenerate static website output under /site/.",
     ),
+    refresh_fallback: bool = typer.Option(
+        False,
+        "--refresh-fallback/--no-refresh-fallback",
+        help="Re-extract papers that currently have fallback (abstract-only) extractions.",
+    ),
     config: Annotated[Path, typer.Option(help="Path to config YAML.")] = DEFAULT_CONFIG_PATH,
     verbose: bool = typer.Option(False, "--verbose", "-v", help="Enable debug logs."),
 ) -> None:
@@ -50,7 +56,8 @@ def update(
 
     console.print(
         f"Running update with model={cfg.openai.default_model}, "
-        f"download_pdfs={download_pdfs}, since={since or 'last_run'}"
+        f"download_pdfs={download_pdfs}, refresh_fallback={refresh_fallback}, "
+        f"since={since or 'last_run'}"
     )
 
     result = run_update(
@@ -59,6 +66,7 @@ def update(
         since=since,
         download_pdfs=download_pdfs,
         rebuild_site_flag=rebuild_site_flag,
+        refresh_fallback=refresh_fallback,
     )
 
     console.print("Update complete")
@@ -119,6 +127,33 @@ def diff(arxiv_id: str) -> None:
 
     output = diff_latest_two_versions(paper_dir)
     console.print(output)
+
+
+@app.command()
+def report(
+    only_relevant: bool = typer.Option(
+        False,
+        "--only-relevant/--all-papers",
+        help="Include only papers labeled relevant/maybe.",
+    ),
+    out_md: Annotated[Path, typer.Option(help="Output Markdown report path.")] = Path(
+        "data/reports/decoder_report.md"
+    ),
+    out_csv: Annotated[Path, typer.Option(help="Output CSV table path.")] = Path(
+        "data/reports/decoder_report.csv"
+    ),
+) -> None:
+    """Generate a cross-paper decoder/error-model/performance/code-repo report."""
+    paths = resolve_paths()
+    md_path, csv_path, count = generate_report(
+        paths.papers,
+        out_md=out_md,
+        out_csv=out_csv,
+        only_relevant=only_relevant,
+    )
+    console.print(f"Report generated for {count} papers.")
+    console.print(f"markdown: {md_path}")
+    console.print(f"csv: {csv_path}")
 
 
 if __name__ == "__main__":

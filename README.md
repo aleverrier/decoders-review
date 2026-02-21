@@ -21,6 +21,7 @@
   - `qldpcwatch rebuild-site`
   - `qldpcwatch search "<query>"`
   - `qldpcwatch diff <arxiv_id>`
+  - `qldpcwatch report [--only-relevant]`
 - Optional static website output in `/site/`.
 
 ## Repository Layout
@@ -90,6 +91,12 @@ Edit `config.yaml`:
 qldpcwatch update --download-pdfs --rebuild-site
 ```
 
+To refresh existing abstract-only fallback entries with full extraction:
+
+```bash
+qldpcwatch update --since 2000-01-01T00:00:00+00:00 --download-pdfs --refresh-fallback --rebuild-site
+```
+
 Or incremental:
 
 ```bash
@@ -113,6 +120,16 @@ qldpcwatch search "belief propagation hypergraph product"
 ```bash
 qldpcwatch diff 2401.01234
 ```
+
+### Generate a global decoder report
+
+```bash
+qldpcwatch report --all-papers
+```
+
+Outputs:
+- `data/reports/decoder_report.md`
+- `data/reports/decoder_report.csv`
 
 ## GitHub Actions
 
