@@ -1,0 +1,63 @@
+{
+  "abstract": "We propose an evolutionary belief propagation (EBP) decoder for quantum error correction, which incorporates trainable weights into the BP algorithm and optimizes them via the differential evolution algorithm. This approach enables end-to-end optimization of the EBP combined with ordered statistics decoding (OSD). Experimental results on surface codes and quantum low-density parity-check codes show that EBP+OSD achieves better decoding performance and lower computational complexity than BP+OSD, particularly under strict low latency constraints (within 5 BP iterations).",
+  "arxiv_id": "2512.18273",
+  "arxiv_version": "v1",
+  "authors": [
+    "Hee-Youl Kwak",
+    "Seong-Joon Park",
+    "Hyunwoo Jung",
+    "Jeongseok Ha",
+    "Jae-Won Kim"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.AI"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2512.18273v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2512.18273v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding",
+      "belief propagation"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2025-12-20",
+  "title": "Evolutionary BP+OSD Decoding for Low-Latency Quantum Error Correction",
+  "updated_date": "2025-12-20"
+}

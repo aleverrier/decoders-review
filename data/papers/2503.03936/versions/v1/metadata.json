@@ -1,0 +1,34 @@
+{
+  "abstract": "Quantum low-density parity-check codes are a promising approach to fault-tolerant quantum computation, offering potential advantages in rate and decoding efficiency. In this work, we introduce quantum Margulis codes, a new class of QLDPC codes derived from Margulis' classical LDPC construction via the two-block group algebra framework. We show that quantum Margulis codes, unlike bivariate bicycle codes which require ordered statistics decoding for effective error correction, can be efficiently decoded using a standard min-sum decoder with linear complexity, when decoded under depolarizing noise. This is attributed to their Tanner graph structure, which does not exhibit group symmetry, thereby mitigating the well-known problem of error degeneracy in QLDPC decoding. To further enhance performance, we propose an algorithm for constructing 2BGA codes with controlled girth, ensuring a minimum girth of 6 or 8, and use it to generate several quantum Margulis codes of length 240 and 642. We validate our approach through numerical simulations, demonstrating that quantum Margulis codes behave significantly better than BB codes in the error floor region, under min-sum decoding.",
+  "arxiv_id": "2503.03936",
+  "arxiv_version": "v1",
+  "authors": [
+    "Michele Pacenti",
+    "Dimitris Chytas",
+    "Bane Vasic"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "9141599f12d15c4834b7fdbbc2d6d058ee1b69d6690d1ed682f9d5f27d0a2447",
+  "last_processed_at": "2026-02-21T12:31:38.445494+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2503.03936v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2503.03936v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "b3c5fe610258d4ced41f0c4bbfc19b4d932c4e254cf38932df3f45deaa0e4211",
+  "submitted_date": "2025-03-05",
+  "tags": [
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Construction and Decoding of Quantum Margulis Codes",
+  "updated_date": "2025-03-05"
+}

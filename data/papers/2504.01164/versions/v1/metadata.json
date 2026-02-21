@@ -1,0 +1,35 @@
+{
+  "abstract": "Understanding the impact of accuracy and speed when quantum error correction (QEC) decoders transition from floating-point software implementations to finite-precision hardware architectures is crucial for resource estimation on both classical and quantum sides. The final performance of the hardware implementation influences the code distance, affecting the number of physical qubits needed, and defines connectivity between quantum and classical control units, among other factors like refrigeration systems. This paper introduces a hardware emulator to evaluate QEC decoders using real hardware instead of software models. The emulator can explore $10^{13}$ different error patterns in 20 days with a single FPGA device running at 150 MHz, guaranteeing the decoder's performance at logical rates of $10^{-12}$, the requirement for most quantum algorithms. In contrast, an optimized C++ software on an Intel Core i9 with 128 GB RAM would take over a year to achieve similar results. The emulator also enables storing patterns that generate logical errors for offline analysis and to design new decoders. Using results from the emulator, we propose a diversity-based method combining several belief propagation (BP) decoders with different quantization levels. Individually, these decoders may show subpar error correction, but together they outperform the floating-point version of BP for quantum low-density parity-check (QLDPC) codes like hypergraph or lifted product. Preliminary results with circuit-level noise and bivariate bicycle codes suggest hardware insights can also improve software. Our diversity-based proposal achieves a similar logical error rate as BP with ordered statistics decoding, with average speed improvements ranging from 30% to 80%, and 10% to 120% in worst-case scenarios, while reducing post-processing algorithm activation by 47% to 96.93%, maintaining the same accuracy.",
+  "arxiv_id": "2504.01164",
+  "arxiv_version": "v1",
+  "authors": [
+    "Francisco Garcia-Herrero",
+    "Javier Valls",
+    "Llanos Vergara-Picazo",
+    "Vicente Torres"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "7eb414f3abb0231f012b9bb86aa4c30a9ccdd95770eb0fc44c3047d1304814be",
+  "last_processed_at": "2026-02-21T12:31:38.440547+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2504.01164v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2504.01164v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "7399a01fc2976915fbb7a32a532a3d9e2506cdca2636ddeaf0f4b2838363a4bf",
+  "submitted_date": "2025-04-01",
+  "tags": [
+    "belief propagation",
+    "decoder",
+    "decoding",
+    "lifted product",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Diversity Methods for Improving Convergence and Accuracy of Quantum Error Correction Decoders Through Hardware Emulation",
+  "updated_date": "2025-04-01"
+}

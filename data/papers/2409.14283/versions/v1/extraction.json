@@ -1,0 +1,62 @@
+{
+  "abstract": "Quantum error correction is necessary for achieving exponential speedups on important applications. The planar surface code has remained the most studied error-correcting code for the last two decades because of its relative simplicity. However, encoding a singular logical qubit with the planar surface code requires physical qubits quadratic in the code distance~($d$), making it space-inefficient for the large-distance codes necessary for promising applications. Thus, {\\em Quantum Low-Density Parity-Check (QLDPC)} have emerged as an alternative to the planar surface code but require a higher degree of connectivity. Furthermore, the problems of fault-tolerant syndrome extraction and decoding are understudied for these codes and also remain obstacles to their usage. In this paper, we consider two under-studied families of QLDPC codes: hyperbolic surface codes and hyperbolic color codes. We tackle the three challenges mentioned above as follows. {\\em First}, we propose {\\em Flag-Proxy Networks (FPNs)}, a generalizable architecture for quantum codes that achieves low connectivity through flag and proxy qubits. {\\em Second}, we propose a {\\em greedy syndrome extraction scheduling} algorithm for general quantum codes and further use this algorithm for fault-tolerant syndrome extraction on FPNs. {\\em Third}, we present two decoders that leverage flag measurements to decode the hyperbolic codes accurately. Our work finds that degree-4 FPNs of the hyperbolic surface and color codes are respectively $2.9\\times$ and $5.5\\times$ more space-efficient than the $d = 5$ planar surface code, and become even more space-efficient when considering higher distances. The hyperbolic codes also have error rates comparable to their planar counterparts.",
+  "arxiv_id": "2409.14283",
+  "arxiv_version": "v1",
+  "authors": [
+    "Suhas Vittal",
+    "Ali Javadi-Abhari",
+    "Andrew W. Cross",
+    "Lev S. Bishop",
+    "Moinuddin Qureshi"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.AR"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2409.14283v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2409.14283v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2024-09-22",
+  "title": "Flag Proxy Networks: Tackling the Architectural, Scheduling, and Decoding Obstacles of Quantum LDPC codes",
+  "updated_date": "2024-09-22"
+}

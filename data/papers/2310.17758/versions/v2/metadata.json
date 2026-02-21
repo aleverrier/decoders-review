@@ -1,0 +1,34 @@
+{
+  "abstract": "In this work, we propose a fully differentiable iterative decoder for quantum low-density parity-check (LDPC) codes. The proposed algorithm is composed of classical belief propagation (BP) decoding stages and intermediate graph neural network (GNN) layers. Both component decoders are defined over the same sparse decoding graph enabling a seamless integration and scalability to large codes. The core idea is to use the GNN component between consecutive BP runs, so that the knowledge from the previous BP run, if stuck in a local minima caused by trapping sets or short cycles in the decoding graph, can be leveraged to better initialize the next BP run. By doing so, the proposed decoder can learn to compensate for sub-optimal BP decoding graphs that result from the design constraints of quantum LDPC codes. Since the entire decoder remains differentiable, gradient descent-based training is possible. We compare the error rate performance of the proposed decoder against various post-processing methods such as random perturbation, enhanced feedback, augmentation, and ordered-statistics decoding (OSD) and show that a carefully designed training process lowers the error-floor significantly. As a result, our proposed decoder outperforms the former three methods using significantly fewer post-processing attempts. The source code of our experiments is available online.",
+  "arxiv_id": "2310.17758",
+  "arxiv_version": "v2",
+  "authors": [
+    "Anqi Gong",
+    "Sebastian Cammerer",
+    "Joseph M. Renes"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "88d6ce3489adc7af5bd3437decb0df1b5417c5ee78e7bf6218b8d15e7c07dda2",
+  "last_processed_at": "2026-02-21T12:31:38.547488+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2310.17758v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2310.17758v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "24a73061a5ac61d5bb4198f74a18738113fbc9c0c951243a8bbc16900c3ac126",
+  "submitted_date": "2023-10-26",
+  "tags": [
+    "belief propagation",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Graph Neural Networks for Enhanced Decoding of Quantum LDPC Codes",
+  "updated_date": "2023-11-06"
+}

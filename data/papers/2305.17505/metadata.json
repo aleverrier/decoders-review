@@ -1,0 +1,35 @@
+{
+  "abstract": "We propose a new method called decoupling representation to represent Pauli operators as vectors over $GF(2)$, based on which we propose partially decoupled belief propagation and fully decoupled belief propagation decoding algorithm for quantum low density parity-check codes. These two algorithms have the capability to deal with the correlations between the $X$ part and the $Z$ part of the vectors in symplectic representation, which are introduced by Pauli $Y$ errors. Hence, they can not only apply to CSS codes, but also to non-CSS codes. Under the assumption that there is no measurement error, compared with traditional belief propagation algorithm in symplectic representation over $GF(2)$, within the same number of iterations, the decoding accuracy of partially decoupled belief propagation and fully decoupled belief propagation algorithm is significantly improved in pure $Y$ noise and depolarizing noise, which supports that decoding algorithms of quantum error correcting codes might have better performance in decoupling representation than in symplectic representation. The impressive performance of fully decoupled belief propagation algorithm might promote the realization of quantum error correcting codes in engineering.",
+  "arxiv_id": "2305.17505",
+  "arxiv_version": "v4",
+  "authors": [
+    "Zhengzhong Yi",
+    "Zhipeng Liang",
+    "Kaixin Zhong",
+    "Yulin Wu",
+    "Zhou Fang",
+    "Xuan Wang"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "18adbb239438f819a3adff2320edb7fe7008f92835bad26b5ac1255b0d5713cf",
+  "last_processed_at": "2026-02-21T12:31:38.543476+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2305.17505v4",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2305.17505v4"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "79d0570bf6cc32aea934ddeba193cbf40be919c74fa397440b7f14a828f8241b",
+  "submitted_date": "2023-05-27",
+  "tags": [
+    "belief propagation",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Improved belief propagation decoding algorithm based on decoupling representation of Pauli operators for quantum LDPC codes",
+  "updated_date": "2023-12-04"
+}

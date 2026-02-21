@@ -1,0 +1,57 @@
+{
+  "abstract": "Single-shot error correction outperforms conventional approaches by requiring only one round of stabilizer measurements for decoding, even in the presence of measurement errors. This capability relates to the confinement property of codes, which provides an energy barrier lower bound. Earlier research established a confinement property for higher-dimensional hypergraph product (HHGP) codes (Quintavalle et al. 2021 PRX Quantum), yielding an energy barrier lower bound for these codes. In this work, by analyzing the structure of logical operators, we show an improved energy barrier lower bound for HHGP codes with low-density parity-check (LDPC) property. Our bound exceeds results derived from confinement alone, and unlike standard hypergraph product codes, these higher dimensional variants can possess macroscopic energy barriers even when the underlying classical codes lack this property. Specifically, our analysis shows that the energy barrier of LDPC HHGP codes is lower bounded by the distance of the underlying classical codes. This bound is tight if the underlying classical codes exhibit system size-dependent distances but constant energy barriers, like 3D and 4D toric codes.",
+  "arxiv_id": "2506.19219",
+  "arxiv_version": "v3",
+  "authors": [
+    "Guangqi Zhao"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2506.19219v3",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2506.19219v3"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoding",
+      "hypergraph product"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2025-06-24",
+  "title": "Improved energy barrier in higher-dimensional hypergraph product codes",
+  "updated_date": "2025-11-26"
+}

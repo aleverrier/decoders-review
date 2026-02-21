@@ -1,0 +1,60 @@
+{
+  "abstract": "We derive two families of EA-QC quantum LDPC (EA-QC-QLDPC) codes by tiling permutation matrices of prime and composite orders. The unassisted portion of the Tanner graphs corresponding to these codes, constructed from two distinct classical QC-LDPC codes, exhibits girth greater then 4 an essential property for effective error correction. We analytically derive the exact code rate of the proposed constructions. Remarkably, one of these families requires only a single Bell pair to be shared between the quantum transmitter and receiver. Furthermore, two additional families of EA-QC-QLDPC codes are constructed based on a single classical code, whose Tanner graphs exhibit girths exceeding six, thereby further enhancing the error-correction capability. For one of these families, we explicitly determine the transversal logical operators an aspect that is typically non-trivial for random quasi-cyclic codes. The performance of the proposed codes is assessed under both random and burst error models under the depolarizing and Markovian noise actions. Employing a modified sum-product decoding algorithm over a quaternary alphabet, we demonstrate that correlated Pauli errors can be effectively addressed within the decoding framework. Simulation results reveal nearly an order of improvement in error-correction performance with the quaternary decoder compared to the binary decoder over both depolarizing and Markovian channels. Further, the proposed codes are compared with existing ones, demonstrating significant improvement.",
+  "arxiv_id": "2501.07363",
+  "arxiv_version": "v2",
+  "authors": [
+    "Pavan Kumar",
+    "Abhi Kumar Sharma",
+    "Shayan Srinivasa Garani"
+  ],
+  "categories": [
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2501.07363v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2501.07363v2"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "cs.IT",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoder",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2025-01-13",
+  "title": "Entanglement-Assisted Quantum Quasi-Cyclic LDPC Codes with Transversal Logical Operators",
+  "updated_date": "2025-11-03"
+}

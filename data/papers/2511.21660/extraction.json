@@ -1,0 +1,62 @@
+{
+  "abstract": "Real-time decoding is crucial for fault-tolerant quantum computing but likely requires specialized hardware such as field-programmable gate arrays (FPGAs), whose parallelism can alter relative algorithmic performance. We analyze FPGA-tailored versions of three decoder classes for quantum low-density parity-check (qLDPC) codes: message passing, ordered statistics, and clustering. For message passing, we analyze the recently introduced Relay decoder and its FPGA implementation; for ordered statistics decoding (OSD), we introduce a filtered variant that concentrates computation on high-likelihood fault locations; and for clustering, we design an FPGA-adapted generalized union-find decoder. We design a systolic algorithm for Gaussian elimination on rank-deficient systems that runs in linear parallel time, enabling fast validity checks and local corrections in clustering and eliminating costly full-rank inversion in filtered-OSD. Despite these improvements, both remain far slower and less accurate than Relay, suggesting message passing is the most viable route to real-time qLDPC decoding.",
+  "arxiv_id": "2511.21660",
+  "arxiv_version": "v2",
+  "authors": [
+    "Satvik Maurya",
+    "Thilo Maurer",
+    "Markus Bühler",
+    "Drew Vandeth",
+    "Michael E. Beverland"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2511.21660v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2511.21660v2"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding",
+      "union-find"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2025-11-26",
+  "title": "FPGA-tailored algorithms for real-time decoding of quantum LDPC codes",
+  "updated_date": "2026-01-26"
+}

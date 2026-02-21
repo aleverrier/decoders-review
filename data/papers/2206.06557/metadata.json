@@ -1,0 +1,33 @@
+{
+  "abstract": "Recent developments have shown the existence of quantum low-density parity check (qLDPC) codes with constant rate and linear distance. A natural question concerns the efficient decodability of these codes. In this paper, we present a linear time decoder for the recent quantum Tanner codes construction of asymptotically good qLDPC codes, which can correct all errors of weight up to a constant fraction of the blocklength. Our decoder is an iterative algorithm which searches for corrections within constant-sized regions. At each step, the corrections are found by reducing a locally defined and efficiently computable cost function which serves as a proxy for the weight of the remaining error.",
+  "arxiv_id": "2206.06557",
+  "arxiv_version": "v1",
+  "authors": [
+    "Shouzhen Gu",
+    "Christopher A. Pattison",
+    "Eugene Tang"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "6c3b2c565973129da3acbbc32767fab02e2c97c13cc1eea94bd207ceb0e10299",
+  "last_processed_at": "2026-02-21T12:31:38.586023+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2206.06557v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2206.06557v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "49be79a3476a65868d3bf1ccdff523274a268b78211d5abe83c1ef2f1de4b141",
+  "submitted_date": "2022-06-14",
+  "tags": [
+    "cs.IT",
+    "decoder",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "An efficient decoder for a linear distance quantum LDPC code",
+  "updated_date": "2022-06-14"
+}

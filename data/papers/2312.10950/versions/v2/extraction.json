@@ -1,0 +1,63 @@
+{
+  "abstract": "Quantum low-density parity-check (QLDPC) codes have emerged as a promising technique for quantum error correction. A variety of decoders have been proposed for QLDPC codes and many of them utilize belief propagation (BP) decoding in some fashion. However, the use of BP decoding for degenerate QLDPC codes is known to have issues with convergence. These issues are typically attributed to short cycles in the Tanner graph and code degeneracy (i.e. multiple error patterns with the same syndrome). Although various methods have been proposed to mitigate the non-convergence issue, such as BP with ordered statistics decoding (BP-OSD) and BP with stabilizer inactivation (BP-SI), achieving better performance with lower complexity remains an active area of research. In this work, we propose a decoder for QLDPC codes based on BP guided decimation (BPGD), which has been previously studied for constraint satisfaction and lossy compression problems. The decimation process is applicable to both binary and quaternary BP and it involves sequentially fixing the value of the most reliable qubits to encourage BP convergence. Despite its simplicity, We find that BPGD significantly reduces the BP failure rate due to non-convergence, achieving performance on par with BP with ordered statistics decoding and BP with stabilizer inactivation, without the need to solve systems of linear equations.",
+  "arxiv_id": "2312.10950",
+  "arxiv_version": "v2",
+  "authors": [
+    "Hanwen Yao",
+    "Waleed Abu Laban",
+    "Christian Häger",
+    "Alexandre Graell i Amat",
+    "Henry D. Pfister"
+  ],
+  "categories": [
+    "cs.IT",
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2312.10950v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2312.10950v2"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "cs.IT",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding",
+      "belief propagation"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2023-12-18",
+  "title": "Belief Propagation Decoding of Quantum LDPC Codes with Guided Decimation",
+  "updated_date": "2024-06-21"
+}

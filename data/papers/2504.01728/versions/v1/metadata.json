@@ -1,0 +1,37 @@
+{
+  "abstract": "Quantum low-density parity-check (QLDPC) codes with asymptotically non-zero rates are prominent candidates for achieving fault-tolerant quantum computation, primarily due to their syndrome-measurement circuit's low operational depth. Numerous studies advocate for the necessity of fast decoders to fully harness the capabilities of QLDPC codes, thus driving the focus towards designing low-complexity iterative decoders. However, empirical investigations indicate that such iterative decoders are susceptible to having a high error floor while decoding QLDPC codes. The main objective of this paper is to analyze the decoding failures of the \\emph{hypergraph-product} and \\emph{lifted-product} codes and to design decoders that mitigate these failures, thus achieving a reduced error floor. The suboptimal performance of these codes can predominantly be ascribed to two structural phenomena: (1) stabilizer-induced trapping sets, which are subgraphs formed by stabilizers, and (2) classical trapping sets, which originate from the classical codes utilized in the construction of hypergraph-product and lifted-product codes. The dynamics of stabilizer-induced trapping sets is examined and a straightforward modification of iterative decoders is proposed to circumvent these trapping sets. Moreover, this work proposes a systematic methodology for designing decoders that can circumvent classical trapping sets in both hypergraph product and lifted product codes, from decoders capable of avoiding their trapping set in the parent classical LDPC code. When decoders that can avoid stabilizer-induced trapping sets are run in parallel with those that can mitigate the effect of classical TS, the logical error rate improves significantly in the error-floor region.",
+  "arxiv_id": "2504.01728",
+  "arxiv_version": "v1",
+  "authors": [
+    "Asit Kumar Pradhan",
+    "Nithin Raveendran",
+    "Narayanan Rengaswamy",
+    "Bane Vasić"
+  ],
+  "categories": [
+    "cs.IT",
+    "quant-ph"
+  ],
+  "extraction_hash": "f183fb413d23a68652aa7d1e7217dbe46293b36d55def1a7e5c66cde22adbda6",
+  "last_processed_at": "2026-02-21T12:31:38.435412+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2504.01728v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2504.01728v1"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "ae42ac0e7c9316a0631d31ae41d4d5317df3806458d07bce3ed5e0b3c67c7fef",
+  "submitted_date": "2025-04-02",
+  "tags": [
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "hypergraph product",
+    "lifted product",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Linear Time Iterative Decoders for Hypergraph-Product and Lifted-Product Codes",
+  "updated_date": "2025-04-02"
+}

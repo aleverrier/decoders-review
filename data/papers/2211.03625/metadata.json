@@ -1,0 +1,31 @@
+{
+  "abstract": "Shor and Steane ancilla are two well-known methods for fault-tolerant logical measurements, which are successful on small codes and their concatenations. On large quantum low-density-parity-check (LDPC) codes, however, Shor and Steane measurements have impractical time and space overhead respectively. In this work, we widen the choice of ancilla codes by unifying Shor and Steane measurements into a single framework, called homomorphic measurements. For any Calderbank-Shor-Steane (CSS) code with the appropriate ancilla code, one can avoid repetitive measurements or complicated ancilla state preparation procedures such as distillation, which overcomes the difficulties of both Shor and Steane methods. As an example, we utilize the theory of covering spaces to construct homomorphic measurement protocols for arbitrary $X$- or $Z$-type logical Pauli operators on surface codes in general, including the toric code and hyperbolic surface codes. Conventional surface code decoders, such as minimum-weight perfect matching, can be directly applied to our constructions.",
+  "arxiv_id": "2211.03625",
+  "arxiv_version": "v2",
+  "authors": [
+    "Shilin Huang",
+    "Tomas Jochym-O'Connor",
+    "Theodore J. Yoder"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "f55dec91dea5048060406e606b9303e6898c2c7835606c45b2059f9ee4166ffc",
+  "last_processed_at": "2026-02-21T12:31:38.569408+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2211.03625v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2211.03625v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "0f35f2b3d7635cd691fffb129a036600aae56188ff14035682793a4f7facfc66",
+  "submitted_date": "2022-11-07",
+  "tags": [
+    "decoder",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Homomorphic Logical Measurements",
+  "updated_date": "2022-11-08"
+}

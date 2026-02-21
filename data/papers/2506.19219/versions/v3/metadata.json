@@ -1,0 +1,30 @@
+{
+  "abstract": "Single-shot error correction outperforms conventional approaches by requiring only one round of stabilizer measurements for decoding, even in the presence of measurement errors. This capability relates to the confinement property of codes, which provides an energy barrier lower bound. Earlier research established a confinement property for higher-dimensional hypergraph product (HHGP) codes (Quintavalle et al. 2021 PRX Quantum), yielding an energy barrier lower bound for these codes. In this work, by analyzing the structure of logical operators, we show an improved energy barrier lower bound for HHGP codes with low-density parity-check (LDPC) property. Our bound exceeds results derived from confinement alone, and unlike standard hypergraph product codes, these higher dimensional variants can possess macroscopic energy barriers even when the underlying classical codes lack this property. Specifically, our analysis shows that the energy barrier of LDPC HHGP codes is lower bounded by the distance of the underlying classical codes. This bound is tight if the underlying classical codes exhibit system size-dependent distances but constant energy barriers, like 3D and 4D toric codes.",
+  "arxiv_id": "2506.19219",
+  "arxiv_version": "v3",
+  "authors": [
+    "Guangqi Zhao"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "9e8da0aad72e432fbf6e7d67533322c491a161bb7241e059a3829b8caaa11c7d",
+  "last_processed_at": "2026-02-21T12:31:38.344794+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2506.19219v3",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2506.19219v3"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "e0fe7d0ff82ae4f161c93669bb4f76b261d26de8a6ff8e8a3f2422dce007fbf6",
+  "submitted_date": "2025-06-24",
+  "tags": [
+    "decoding",
+    "hypergraph product",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Improved energy barrier in higher-dimensional hypergraph product codes",
+  "updated_date": "2025-11-26"
+}

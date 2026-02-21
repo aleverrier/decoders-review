@@ -1,0 +1,60 @@
+{
+  "abstract": "We introduce a quantum Maxwell erasure decoder for CSS quantum low-density parity-check (qLDPC) codes that extends peeling with bounded guessing. Guesses are tracked symbolically and can be eliminated by restrictive checks, giving a tunable tradeoff between complexity and performance via a guessing budget: an unconstrained budget recovers Maximum-Likelihood (ML) performance, while a constant budget yields linear-time decoding and approximates ML. We provide theoretical guarantees on asymptotic performance and demonstrate strong performance on bivariate bicycle and quantum Tanner codes.",
+  "arxiv_id": "2601.10713",
+  "arxiv_version": "v1",
+  "authors": [
+    "Bruno Costa Alves Freire",
+    "François-Marie Le Régent",
+    "Anthony Leverrier"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2601.10713v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2601.10713v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-01-15",
+  "title": "Quantum Maxwell Erasure Decoder for qLDPC codes",
+  "updated_date": "2026-01-15"
+}

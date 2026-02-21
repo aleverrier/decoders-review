@@ -1,0 +1,37 @@
+{
+  "abstract": "Quantum LDPC codes are a promising direction for low overhead quantum computing. In this paper, we propose a generalization of the Union-Find decoder as adecoder for quantum LDPC codes. We prove that this decoder corrects all errors with weight up to An^α for some A, α > 0 for different classes of quantum LDPC codes such as toric codes and hyperbolic codes in any dimension D \\geq 3 and quantum expander codes. To prove this result, we introduce a notion of covering radius which measures the spread of an error from its syndrome. We believe this notion could find application beyond the decoding problem. We also perform numerical simulations, which show that our Union-Find decoder outperforms the belief propagation decoder in the low error rate regime in the case of a quantum LDPC code with length 3600.",
+  "arxiv_id": "2103.08049",
+  "arxiv_version": "v1",
+  "authors": [
+    "Nicolas Delfosse",
+    "Vivien Londe",
+    "Michael Beverland"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "f7bba94545e913d14d98793a453caec59a69148db1eafdec63a8eea0cd389cf7",
+  "last_processed_at": "2026-02-21T12:31:38.597031+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2103.08049v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2103.08049v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "093491cd473a5557f4f6d652845cba5134321bd52677492ecc01350b4a3d0532",
+  "submitted_date": "2021-03-14",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant",
+    "union-find"
+  ],
+  "title": "Toward a Union-Find decoder for quantum LDPC codes",
+  "updated_date": "2021-03-14"
+}

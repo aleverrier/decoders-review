@@ -1,0 +1,34 @@
+{
+  "abstract": "We show that belief propagation combined with ordered statistics post-processing is a general decoder for quantum low density parity check codes constructed from the hypergraph product. To this end, we run numerical simulations of the decoder applied to three families of hypergraph product code: topological codes, fixed-rate random codes and a new class of codes that we call semi-topological codes. Our new code families share properties of both topological and random hypergraph product codes, with a construction that allows for a finely-controlled trade-off between code threshold and stabilizer locality. Our results indicate thresholds across all three families of hypergraph product code, and provide evidence of exponential suppression in the low error regime. For the Toric code, we observe a threshold in the range $9.9\\pm0.2\\%$. This result improves upon previous quantum decoders based on belief propagation, and approaches the performance of the minimum weight perfect matching algorithm. We expect semi-topological codes to have the same threshold as Toric codes, as they are identical in the bulk, and we present numerical evidence supporting this observation.",
+  "arxiv_id": "2005.07016",
+  "arxiv_version": "v2",
+  "authors": [
+    "Joschka Roffe",
+    "David R. White",
+    "Simon Burton",
+    "Earl T. Campbell"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "dcad0fc7c51f8715e46c042507e0ff2074534159f860dfaa5fb6a64a5dfb28ff",
+  "last_processed_at": "2026-02-21T12:31:38.601365+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2005.07016v2",
+    "code_repo_urls": [],
+    "doi": "10.1103/PhysRevResearch.2.043423",
+    "pdf_url": "https://arxiv.org/pdf/2005.07016v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "902465c53deab31c807cf297d129a1cc1904e8739a1df7d31cf366fa0fd802d4",
+  "submitted_date": "2020-05-14",
+  "tags": [
+    "belief propagation",
+    "decoder",
+    "hypergraph product",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Decoding Across the Quantum LDPC Code Landscape",
+  "updated_date": "2020-12-29"
+}

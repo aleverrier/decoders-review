@@ -1,0 +1,33 @@
+{
+  "abstract": "Classical locally recoverable codes, which permit highly efficient recovery from localized errors as well as global recovery from larger errors, provide some of the most useful codes for distributed data storage in practice. In this paper, we initiate the study of quantum locally recoverable codes (qLRCs). In the long term, like their classical counterparts, such qLRCs may be used for large-scale quantum data storage. Our results also have concrete implications for quantum LDPC codes, which are applicable to near-term quantum error-correction. After defining quantum local recoverability, we provide an explicit construction of qLRCs based on the classical LRCs of Tamo and Barg (2014), which we show have (1) a close-to-optimal rate-distance tradeoff (i.e. near the Singleton bound), (2) an efficient decoder, and (3) permit good spatial locality in a physical implementation. Although the analysis is significantly more involved than in the classical case, we obtain close-to-optimal parameters by introducing a \"folded\" version of our quantum Tamo-Barg (qTB) codes, which we then analyze using a combination of algebraic techniques. We furthermore present and analyze two additional constructions using more basic techniques, namely random qLRCs, and qLRCs from AEL distance amplification. Each of these constructions has some advantages, but neither achieves all 3 properties of our folded qTB codes described above. We complement these constructions with Singleton-like bounds that show our qLRC constructions achieve close-to-optimal parameters. We also apply these results to obtain Singleton-like bounds for qLDPC codes, which to the best of our knowledge are novel. We then show that even the weakest form of a stronger locality property called local correctability, which permits more robust local recovery and is achieved by certain classical codes, is impossible quantumly.",
+  "arxiv_id": "2311.08653",
+  "arxiv_version": "v1",
+  "authors": [
+    "Louis Golowich",
+    "Venkatesan Guruswami"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "cbcf8ce8b6ba3bdd3f1ccc556c1fac29f47efab03611da32838e0c747149986b",
+  "last_processed_at": "2026-02-21T12:31:38.544715+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2311.08653v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2311.08653v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "9bafe13628f4af9352ab302dbdc03a82ec64ef74012d0f2bc9659f679f6ae021",
+  "submitted_date": "2023-11-15",
+  "tags": [
+    "cs.IT",
+    "decoder",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Quantum Locally Recoverable Codes",
+  "updated_date": "2023-11-15"
+}

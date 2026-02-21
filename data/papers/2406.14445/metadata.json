@@ -1,0 +1,32 @@
+{
+  "abstract": "We present a new family of quantum low-density parity-check codes, which we call radial codes, obtained from the lifted product of a specific subset of classical quasi-cyclic codes. The codes are defined using a pair of integers $(r,s)$ and have parameters $[\\![2r^2s,2(r-1)^2,\\leq2s]\\!]$, with numerical studies suggesting average-case distance linear in $s$. In simulations of circuit-level noise, we observe comparable error suppression to surface codes of similar distance while using approximately five times fewer physical qubits. This is true even when radial codes are decoded using a single-shot approach, which can allow for faster logical clock speeds and reduced decoding complexity. We describe an intuitive visual representation, canonical basis of logical operators and optimal-length stabiliser measurement circuits for these codes, and argue that their error correction capabilities, tunable parameters and small size make them promising candidates for implementation on near-term quantum devices.",
+  "arxiv_id": "2406.14445",
+  "arxiv_version": "v1",
+  "authors": [
+    "Thomas R. Scruby",
+    "Timo Hillmann",
+    "Joschka Roffe"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "1ceb6e481af2b7fafcc367b14756f7e4b65d93b062b1ba81c028dd9a25208ef5",
+  "last_processed_at": "2026-02-21T12:31:38.511706+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2406.14445v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2406.14445v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "bd9e8463798793475c8d88c0f7fa563c7e92def42f5b75328fde2b102b5fa52d",
+  "submitted_date": "2024-06-20",
+  "tags": [
+    "decoding",
+    "lifted product",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "High-threshold, low-overhead and single-shot decodable fault-tolerant quantum memory",
+  "updated_date": "2024-06-20"
+}

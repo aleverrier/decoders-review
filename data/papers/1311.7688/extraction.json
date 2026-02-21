@@ -1,0 +1,59 @@
+{
+  "abstract": "We study the decoding transition for quantum error correcting codes with the help of a mapping to random-bond Wegner spin models. Families of quantum low density parity-check (LDPC) codes with a finite decoding threshold lead to both known models (e.g., random bond Ising and random plaquette $\\Z2$ gauge models) as well as unexplored earlier generally non-local disordered spin models with non-trivial phase diagrams. The decoding transition corresponds to a transition from the ordered phase by proliferation of extended defects which generalize the notion of domain walls to non-local spin models. In recently discovered quantum LDPC code families with finite rates the number of distinct classes of such extended defects is exponentially large, corresponding to extensive ground state entropy of these codes. Here, the transition can be driven by the entropy of the extended defects, a mechanism distinct from that in the local spin models where the number of defect types (domain walls) is always finite.",
+  "arxiv_id": "1311.7688",
+  "arxiv_version": "v2",
+  "authors": [
+    "Alexey A. Kovalev",
+    "Leonid P. Pryadko"
+  ],
+  "categories": [
+    "quant-ph",
+    "cond-mat.stat-mech"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/1311.7688v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/1311.7688v2"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2013-11-29",
+  "title": "Spin glass reflection of the decoding transition for quantum error correcting codes",
+  "updated_date": "2014-02-10"
+}

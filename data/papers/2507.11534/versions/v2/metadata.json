@@ -1,0 +1,34 @@
+{
+  "abstract": "In this study, we report that quantum quasi-cyclic low-density parity-check codes decoded via joint belief propagation (BP) exhibit steep error-rate curves, despite the presence of error floors. To the best of our knowledge, this is the first observation of such threshold-like behavior for quantum LDPC codes with non-vanishing coding rate, excluding those decoded with non-binary BP decoders. Moreover, we find that dominant error events contributing to the error floor typically involve only a small number of bits. These findings suggest that the error floor is caused by trapping sets--specific subgraph structures in the Tanner graph--and indicate that identifying and avoiding such structures may lead to further reduction of the error floor.",
+  "arxiv_id": "2507.11534",
+  "arxiv_version": "v2",
+  "authors": [
+    "Daiki Komoto",
+    "Kenta Kasai"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "1ec9b1045242f8929cae9e68473321a83adb995055980cc57a8a352316eafa85",
+  "last_processed_at": "2026-02-21T12:31:38.403778+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2507.11534v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2507.11534v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "73222cec7fd8f30902c7ce76996e890e2a9923d74bd37c9d19fab404060db603",
+  "submitted_date": "2025-07-15",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoder",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Sharp Error-Rate Transitions in Quantum QC-LDPC Codes under Joint BP Decoding",
+  "updated_date": "2025-07-16"
+}

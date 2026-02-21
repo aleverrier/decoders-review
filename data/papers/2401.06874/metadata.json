@@ -1,0 +1,36 @@
+{
+  "abstract": "Quantum low-density parity-check (QLDPC) codes are among the most promising candidates for future quantum error correction schemes. However, a limited number of short to moderate-length QLDPC codes have been designed and their decoding performance is sub-optimal with a quaternary belief propagation (BP) decoder due to unavoidable short cycles in their Tanner graphs. In this paper, we propose a novel joint code and decoder design for QLDPC codes. The constructed codes have a minimum distance of about the square root of the block length. In addition, it is, to the best of our knowledge, the first QLDPC code family where BP decoding is not impaired by short cycles of length 4. This is achieved by using an ensemble BP decoder mitigating the influence of assembled short cycles. We outline two code construction methods based on classical quasi-cyclic codes and finite geometry codes. Numerical results demonstrate outstanding decoding performance over depolarizing channels.",
+  "arxiv_id": "2401.06874",
+  "arxiv_version": "v3",
+  "authors": [
+    "Sisi Miao",
+    "Jonathan Mandelbaum",
+    "Holger Jäkel",
+    "Laurent Schmalen"
+  ],
+  "categories": [
+    "cs.IT",
+    "quant-ph"
+  ],
+  "extraction_hash": "db551987e7f5709ebb96c22dc02e4f46432ce0dc4e3ab40b89cb3dcbf35c6094",
+  "last_processed_at": "2026-02-21T12:31:38.525953+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2401.06874v3",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2401.06874v3"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "7603d60ab4441ad746408e6bfe9e4b26cbf9f794f6bcff868a898dfd654fa686",
+  "submitted_date": "2024-01-12",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "A Joint Code and Belief Propagation Decoder Design for Quantum LDPC Codes",
+  "updated_date": "2024-05-05"
+}

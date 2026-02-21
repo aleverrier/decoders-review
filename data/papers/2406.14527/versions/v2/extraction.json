@@ -1,0 +1,59 @@
+{
+  "abstract": "Error correction allows a quantum computer to preserve states long beyond the decoherence time of its physical qubits. Key to any scheme of error correction is the decoding algorithm, which estimates the error state of qubits from the results of syndrome measurements. The leading proposal for quantum error correction, the surface code, has fast and accurate decoders, but several recently proposed quantum low-density parity check (qLDPC) codes allow more logical information to be encoded in significantly fewer physical qubits. The state-of-the-art decoder for general qLDPC codes, BP-OSD, has a cheap Belief Propagation stage, followed by linear algebra and search stages which can each be slow in practice. We introduce the Ambiguity Clustering decoder (AC) which, after the Belief Propagation stage, divides the measurement data into clusters that can be decoded independently. We benchmark AC on the recently proposed bivariate bicycle qLDPC codes and find that, with 0.3% circuit-level depolarising noise, AC is up to 27x faster than BP-OSD with matched accuracy. Our implementation of AC decodes the 144-qubit Gross code in 135us per round of syndrome extraction on an M2 CPU, already fast enough to keep up with neutral atom and trapped ion systems.",
+  "arxiv_id": "2406.14527",
+  "arxiv_version": "v2",
+  "authors": [
+    "Stasiu Wolanski",
+    "Ben Barber"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2406.14527v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2406.14527v2"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding",
+      "belief propagation"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2024-06-20",
+  "title": "Ambiguity Clustering: an accurate and efficient decoder for qLDPC codes",
+  "updated_date": "2025-01-03"
+}

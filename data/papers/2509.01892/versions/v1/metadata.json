@@ -1,0 +1,36 @@
+{
+  "abstract": "Due to the high error rate of qubits, detecting and correcting errors is essential for achieving fault-tolerant quantum computing (FTQC). Quantum low-density parity-check (QLDPC) codes are one of the most promising quantum error correction (QEC) methods due to their high encoding rates. Belief Propagation-Ordered Statistics Decoding (BP-OSD) is the state-of-the-art decoder for QLDPC codes, but it suffers from high decoding latency. We find from experiments that a large portion of this latency originates from the iterative BP stage, making BP runtime reduction a key optimization target. In this paper, we propose a lightweight preprocessing step that utilizes local syndrome patterns to detect likely trivial error events and feed them as hints into BP-OSD. These hints reduce the number of BP iterations and the overall decoding time. On Bivariate Bicycle codes, the proposed method achieves more than an 80% reduction in BP iterations and total decoding time for the $[[144,12,12]]$ code at a physical error rate of 0.05%, while maintaining the original logical error rate of BP-OSD.",
+  "arxiv_id": "2509.01892",
+  "arxiv_version": "v1",
+  "authors": [
+    "Wenxuan Fan",
+    "Yasunari Suzuki",
+    "Gokul Subramanian Ravi",
+    "Yosuke Ueno",
+    "Koji Inoue",
+    "Teruo Tanimoto"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "2a796eb5f973d42014e18b182e4526b7d688f262f9e9853b4f018a046a02be43",
+  "last_processed_at": "2026-02-21T12:31:38.395179+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2509.01892v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2509.01892v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "57c31ff33ce965e4646fecd3a6d6e6e37b135227aa0be0c5d5e315b726122c24",
+  "submitted_date": "2025-09-02",
+  "tags": [
+    "belief propagation",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Accelerating BP-OSD Decoder for QLDPC Codes with Local Syndrome-Based Preprocessing",
+  "updated_date": "2025-09-02"
+}

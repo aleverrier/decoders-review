@@ -1,0 +1,36 @@
+{
+  "abstract": "Quantum errors are primarily detected and corrected using the measurement of syndrome information which itself is an unreliable step in practical error correction implementations. Typically, such faulty or noisy syndrome measurements are modeled as a binary measurement outcome flipped with some probability. However, the measured syndrome is in fact a discretized value of the continuous voltage or current values obtained in the physical implementation of the syndrome extraction. In this paper, we use this \"soft\" or analog information without the conventional discretization step to benefit the iterative decoders for decoding quantum low-density parity-check (QLDPC) codes. Syndrome-based iterative belief propagation decoders are modified to utilize the syndrome-soft information to successfully correct both data and syndrome errors simultaneously, without repeated measurements. We demonstrate the advantages of extracting the soft information from the syndrome in our improved decoders, not only in terms of comparison of thresholds and logical error rates for quasi-cyclic lifted-product QLDPC code families, but also for faster convergence of iterative decoders. In particular, the new BP decoder with noisy syndrome performs as good as the standard BP decoder under ideal syndrome.",
+  "arxiv_id": "2205.02341",
+  "arxiv_version": "v1",
+  "authors": [
+    "Nithin Raveendran",
+    "Narayanan Rengaswamy",
+    "Asit Kumar Pradhan",
+    "Bane Vasić"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "8b3d2d36ec49131763a7a3b0e3bd8e9d9d20583b0e0ad69fdbedc63b65fdb9bc",
+  "last_processed_at": "2026-02-21T12:31:38.587821+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2205.02341v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2205.02341v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "1953a67bf893938c371c9201171860db1a4c50ccb1774fc95ad451cd284556d0",
+  "submitted_date": "2022-05-04",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Soft Syndrome Decoding of Quantum LDPC Codes for Joint Correction of Data and Syndrome Errors",
+  "updated_date": "2022-05-04"
+}

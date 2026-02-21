@@ -1,0 +1,33 @@
+{
+  "abstract": "Qudits offer significant advantages over qubit-based architectures, including more efficient gate compilation, reduced resource requirements, improved error-correction primitives, and enhanced capabilities for quantum communication and cryptography. Yet, one of the most promising family of quantum error correction codes, namely quantum low-density parity-check (LDPC) codes, have been so far mostly restricted to qubits. Here, we generalize recent advancements in LDPC codes from qubits to qudits. We introduce a general framework for finding qudit LDPC codes and apply our formalism to several promising types of LDPC codes. We generalize bivariate bicycle codes, including their coprime variant; hypergraph product codes, including the recently proposed La-cross codes; subsystem hypergraph product (SHYPS) codes; high-dimensional expander codes, which make use of Ramanujan complexes; and fiber bundle codes. Using the qudit generalization formalism, we then numerically search for and decode several novel qudit codes compatible with near-term hardware. Our results highlight the potential of qudit LDPC codes as a versatile and hardware-compatible pathway toward scalable quantum error correction.",
+  "arxiv_id": "2510.06495",
+  "arxiv_version": "v1",
+  "authors": [
+    "Daniel J. Spencer",
+    "Andrew Tanggara",
+    "Tobias Haug",
+    "Derek Khu",
+    "Kishor Bharti"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "f2b30547ea99b8855b4bd890b2a53a929bdf37844bb020796a425a94774a34fc",
+  "last_processed_at": "2026-02-21T12:31:38.383048+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2510.06495v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2510.06495v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "fa7e312243a7eb8957a2616c5dae67acb35b41881536f89d910f53bf5df4706f",
+  "submitted_date": "2025-10-07",
+  "tags": [
+    "hypergraph product",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Qudit low-density parity-check codes",
+  "updated_date": "2025-10-07"
+}

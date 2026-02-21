@@ -1,0 +1,37 @@
+{
+  "abstract": "We propose an evolutionary belief propagation (EBP) decoder for quantum error correction, which incorporates trainable weights into the BP algorithm and optimizes them via the differential evolution algorithm. This approach enables end-to-end optimization of the EBP combined with ordered statistics decoding (OSD). Experimental results on surface codes and quantum low-density parity-check codes show that EBP+OSD achieves better decoding performance and lower computational complexity than BP+OSD, particularly under strict low latency constraints (within 5 BP iterations).",
+  "arxiv_id": "2512.18273",
+  "arxiv_version": "v1",
+  "authors": [
+    "Hee-Youl Kwak",
+    "Seong-Joon Park",
+    "Hyunwoo Jung",
+    "Jeongseok Ha",
+    "Jae-Won Kim"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.AI"
+  ],
+  "extraction_hash": "81220bac9cc9fc0bc96cafe8e450e0efbc65efbdf04356f14c9aae2128fc3786",
+  "last_processed_at": "2026-02-21T12:31:38.336163+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2512.18273v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2512.18273v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "fa5bded8b3c31f7454e76925450f57ce17ea44cc36cc3d423cdb6b99df44175a",
+  "submitted_date": "2025-12-20",
+  "tags": [
+    "belief propagation",
+    "cs.AI",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Evolutionary BP+OSD Decoding for Low-Latency Quantum Error Correction",
+  "updated_date": "2025-12-20"
+}

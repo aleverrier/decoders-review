@@ -1,0 +1,63 @@
+{
+  "abstract": "Quantum error correction (QEC) is a cornerstone of quantum computing, enabling reliable information processing in the presence of noise. Sparse stabilizer codes -- referred to generally as quantum low-density parity-check (QLDPC) codes -- have risen to the forefront of QEC research in recent years. This can be attributed to several key factors. First, classical LDPC codes admit low-complexity belief propagation iterative decoding and near-capacity performance, which contributed to the early interest in QLDPC codes. Then, the result promising constant overhead fault tolerance using QLDPC codes led to the search for code families that go beyond the long-holding $\\sqrt{n}$ scaling barrier of minimum distance for codelength $n$. This resulted in recent breakthroughs in the construction of QLDPC codes, which, combined with efficient decoding algorithms and the development of fault-tolerant protocols operating on QLDPC-encoded quantum information, provide a promising pathway to low-overhead, fault-tolerant quantum computation. However, despite their potential, challenges remain, particularly in constructing and decoding finite-length codes that account for, or efficiently leverage, specific characteristics of quantum hardware, such as connectivity, topology, native gate sets, and noise models. This article provides an in-depth examination of QLDPC codes and their iterative decoders, catering to an information theory audience with no or limited background in quantum mechanics. We discuss the theoretical underpinnings, explore unique characteristics of quantum channels, and delineate key code constructions and decoding algorithms, ultimately highlighting the impact and future prospects of QLDPC codes in quantum information science.",
+  "arxiv_id": "2510.14090",
+  "arxiv_version": "v1",
+  "authors": [
+    "Bane Vasic",
+    "Valentin Savin",
+    "Michele Pacenti",
+    "Shantom Borah",
+    "Nithin Raveendran"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2510.14090v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2510.14090v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding",
+      "belief propagation"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2025-10-15",
+  "title": "Quantum Low-Density Parity-Check Codes",
+  "updated_date": "2025-10-15"
+}

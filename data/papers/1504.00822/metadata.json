@@ -1,0 +1,33 @@
+{
+  "abstract": "We present an efficient decoding algorithm for constant rate quantum hypergraph-product LDPC codes which provably corrects adversarial errors of weight $Ω(\\sqrt{n})$ for codes of length $n$. The algorithm runs in time linear in the number of qubits, which makes its performance the strongest to date for linear-time decoding of quantum codes. The algorithm relies on expanding properties, not of the quantum code's factor graph directly, but of the factor graph of the original classical code it is constructed from.",
+  "arxiv_id": "1504.00822",
+  "arxiv_version": "v1",
+  "authors": [
+    "Anthony Leverrier",
+    "Jean-Pierre Tillich",
+    "Gilles Zémor"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "61ebc9351495d5464923f6469bfa9dc068f94e4c190719e428a06bb0ee73b20f",
+  "last_processed_at": "2026-02-21T12:31:38.622270+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/1504.00822v1",
+    "code_repo_urls": [],
+    "doi": "10.1109/FOCS.2015.55",
+    "pdf_url": "https://arxiv.org/pdf/1504.00822v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "34f8351cb2a2d10efa9afad465bab82dc22aa4bb3acf2744153e4f9f5a4ee7e4",
+  "submitted_date": "2015-04-03",
+  "tags": [
+    "cs.IT",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Quantum Expander Codes",
+  "updated_date": "2015-04-03"
+}

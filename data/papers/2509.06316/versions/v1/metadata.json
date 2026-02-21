@@ -1,0 +1,32 @@
+{
+  "abstract": "Quantum processors are often affected by biased noise and noisy readout, which reduce reliability and reproducibility. This work combines two complementary strategies to address these challenges. The first is bias tailoring, which aligns stabilizers with the dominant error type. The second is single-shot (SS) decoding, which uses metachecks to identify measurement faults from just one noisy round. We implement these ideas in a four-dimensional lifted hypergraph product (4D-LHP) code constructed from quasi-cyclic protograph seeds. Simulation results show that bias tailoring lowers the word-error rate (WER) by 20-60 percent across realistic Z:X bias ratios (from 1:1 up to 1000:1), with the largest improvements at moderate bias. When measurement noise is present, a single SS round recovers more than one third of the performance lost to readout errors. Moreover, metachecks identify over 99.8 percent of faulty syndromes, providing near-complete fault visibility even with limited correction power. Together, these findings demonstrate that 4D-LHP codes maintain strong resilience under realistic noise, making them promising candidates for integration into orchestrated QPU-CPU workflows.",
+  "arxiv_id": "2509.06316",
+  "arxiv_version": "v1",
+  "authors": [
+    "Devon Campbell"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "b77b796605ce2b78dfb4d9d5cca68baa965a8ee5293589d2c6be1f0456313163",
+  "last_processed_at": "2026-02-21T12:31:38.390286+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2509.06316v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2509.06316v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "e0bfca98bf0bda12edbfb1b36c91f4c3f1897088787795b877a49c3a16b31c48",
+  "submitted_date": "2025-09-08",
+  "tags": [
+    "cs.IT",
+    "decoding",
+    "hypergraph product",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Single-Shot Decoding of Biased-Tailored Quantum LDPC Codes",
+  "updated_date": "2025-09-08"
+}

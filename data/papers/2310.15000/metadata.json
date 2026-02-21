@@ -1,0 +1,34 @@
+{
+  "abstract": "The inherent degeneracy of quantum low-density parity-check codes poses a challenge to their decoding, as it significantly degrades the error-correction performance of classical message-passing decoders. To improve their performance, a post-processing algorithm is usually employed. To narrow the gap between algorithmic solutions and hardware limitations, we introduce a new post-processing algorithm with a hardware-friendly orientation, providing error correction performance competitive to the state-of-the-art techniques. The proposed post-processing, referred to as check-agnosia, is inspired by stabilizer-inactivation, while considerably reducing the required hardware resources, and providing enough flexibility to allow different message-passing schedules and hardware architectures. We carry out a detailed analysis for a set of Pareto architectures with different tradeoffs between latency and power consumption, derived from the results of implemented designs on an FPGA board. We show that latency values close to one microsecond can be obtained on the FPGA board, and provide evidence that much lower latency values can be obtained for ASIC implementations. In the process, we also demonstrate the practical implications of the recently introduced t-covering layers and random-order layered scheduling.",
+  "arxiv_id": "2310.15000",
+  "arxiv_version": "v3",
+  "authors": [
+    "Julien du Crest",
+    "Francisco Garcia-Herrero",
+    "Mehdi Mhalla",
+    "Valentin Savin",
+    "Javier Valls"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "4dde2d04b062e720dbc5afcf9f18ffbbfab818bf1f56de36649840a5bef2b5d2",
+  "last_processed_at": "2026-02-21T12:31:38.530056+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2310.15000v3",
+    "code_repo_urls": [],
+    "doi": "10.22331/q-2024-05-02-1334",
+    "pdf_url": "https://arxiv.org/pdf/2310.15000v3"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "09f9d2c0394ed627e874e10c9d849efeb2c1c95f0c8de31368239b8f9b06b490",
+  "submitted_date": "2023-10-23",
+  "tags": [
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Check-Agnosia based Post-Processor for Message-Passing Decoding of Quantum LDPC Codes",
+  "updated_date": "2024-04-29"
+}

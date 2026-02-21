@@ -1,0 +1,57 @@
+{
+  "abstract": "Recent research has shown that syndrome-based belief propagation using layered scheduling (sLBP) can not only accelerate the convergence rate but also improve the error rate performance by breaking the quantum trapping sets for quantum low-density parity-check (QLDPC) codes, showcasing a result distinct from classical error correction codes. In this paper, we consider edge-wise informed dynamic scheduling (IDS) for QLDPC codes based on syndrome-based residual belief propagation (sRBP). However, the construction of QLDPC codes and the identical prior intrinsic information assignment will result in an equal residual in many edges, causing a performance limitation for sRBP. Two heuristic strategies, including edge pool design and error pre-correction, are introduced to tackle this obstacle and quantum trapping sets. Then, a novel sRBP equipped with a predict-and-reduce-error mechanism (PRE-sRBP) is proposed, which can provide over one order of performance gain on the considered bicycle codes and symmetric hypergraph (HP) code under similar iterations compared to sLBP.",
+  "arxiv_id": "2410.01197",
+  "arxiv_version": "v2",
+  "authors": [
+    "Tzu-Hsuan Huang",
+    "Yeong-Luh Ueng"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2410.01197v2",
+    "code_repo_urls": [],
+    "doi": "10.22331/q-2026-01-16-1967",
+    "pdf_url": "https://arxiv.org/pdf/2410.01197v2"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "belief propagation"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2024-10-02",
+  "title": "Informed Dynamic Scheduling for QLDPC Codes",
+  "updated_date": "2026-01-11"
+}

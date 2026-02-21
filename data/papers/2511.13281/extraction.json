@@ -1,0 +1,62 @@
+{
+  "abstract": "Hardware-friendly quantum low-density parity-check (QLDPC) decoders are commonly built upon belief propagation (BP) processing. Yet, quantum degeneracy often prevents BP from achieving reliable convergence. To overcome this fundamental limitation, we propose the restart belief (RB) decoder, an iterative BP-based algorithm inspired by branch-and-bound optimization principles. From our analysis we find that the RB decoder represents both the fastest and most accurate decoding algorithm applicable to QLDPC codes to date, conceived with the explicit goal of approaching error correction up to the code distance.",
+  "arxiv_id": "2511.13281",
+  "arxiv_version": "v1",
+  "authors": [
+    "Lorenzo Valentini",
+    "Diego Forlivesi",
+    "Andrea Talarico",
+    "Marco Chiani"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2511.13281v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2511.13281v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding",
+      "belief propagation"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2025-11-17",
+  "title": "Restart Belief: A General Quantum LDPC Decoder",
+  "updated_date": "2025-11-17"
+}

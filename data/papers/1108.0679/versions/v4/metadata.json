@@ -1,0 +1,35 @@
+{
+  "abstract": "As in classical coding theory, quantum analogues of low-density parity-check (LDPC) codes have offered good error correction performance and low decoding complexity by employing the Calderbank-Shor-Steane (CSS) construction. However, special requirements in the quantum setting severely limit the structures such quantum codes can have. While the entanglement-assisted stabilizer formalism overcomes this limitation by exploiting maximally entangled states (ebits), excessive reliance on ebits is a substantial obstacle to implementation. This paper gives necessary and sufficient conditions for the existence of quantum LDPC codes which are obtainable from pairs of identical LDPC codes and consume only one ebit, and studies the spectrum of attainable code parameters.",
+  "arxiv_id": "1108.0679",
+  "arxiv_version": "v4",
+  "authors": [
+    "Yuichiro Fujiwara",
+    "Vladimir D. Tonchev"
+  ],
+  "categories": [
+    "cs.IT",
+    "math.CO",
+    "quant-ph"
+  ],
+  "extraction_hash": "b3e2d4c8abf52206e93714eeeeb2b2816cf02e5fc8960cee8960e07647f311ed",
+  "last_processed_at": "2026-02-21T12:31:38.625069+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/1108.0679v4",
+    "code_repo_urls": [],
+    "doi": "10.1109/TIT.2013.2247461",
+    "pdf_url": "https://arxiv.org/pdf/1108.0679v4"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "cc27f1786227f85c78e18571b93360dd5ac760f2c60ef5175c01dfe69af6c7a7",
+  "submitted_date": "2011-08-02",
+  "tags": [
+    "cs.IT",
+    "decoding",
+    "math.CO",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "A characterization of entanglement-assisted quantum low-density parity-check codes",
+  "updated_date": "2012-10-07"
+}

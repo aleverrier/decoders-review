@@ -1,0 +1,58 @@
+{
+  "abstract": "Classical low-density parity-check (LDPC) codes are a widely deployed and well-established technology, forming the backbone of modern communication and storage systems. It is well known that, in this classical setting, increasing the girth of the Tanner graph while maintaining regular degree distributions leads simultaneously to good belief-propagation (BP) decoding performance and large minimum distance. In the quantum setting, however, this principle does not directly apply because quantum LDPC codes must satisfy additional orthogonality constraints between their parity-check matrices. When one enforces both orthogonality and regularity in a straightforward manner, the girth is typically reduced and the minimum distance becomes structurally upper bounded. In this work, we overcome this limitation by using permutation matrices with controlled commutativity and by restricting the orthogonality constraints to only the active part of the construction, while preserving regular check-matrix structures. This design circumvents conventional structural distance limitations induced by parent-matrix orthogonality, and enables the construction of quantum LDPC codes with large girth while avoiding latent low-weight logical operators. As a concrete demonstration, we construct a girth-8, (3,12)-regular $[[9216,4612, \\leq 48]]$ quantum LDPC code and show that, under BP decoding combined with a low-complexity post-processing algorithm, it achieves a frame error rate as low as $10^{-8}$ on the depolarizing channel with error probability $4 \\%$.",
+  "arxiv_id": "2601.08824",
+  "arxiv_version": "v3",
+  "authors": [
+    "Kenta Kasai"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2601.08824v3",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2601.08824v3"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-01-13",
+  "title": "Breaking the Orthogonality Barrier in Quantum LDPC Codes",
+  "updated_date": "2026-01-20"
+}

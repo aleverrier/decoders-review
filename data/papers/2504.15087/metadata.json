@@ -1,0 +1,42 @@
+{
+  "abstract": "We give the first construction of explicit constant-degree lossless vertex expanders. Specifically, for any $\\varepsilon > 0$ and sufficiently large $d$, we give an explicit construction of an infinite family of $d$-regular graphs where every small set $S$ of vertices has $(1-\\varepsilon)d|S|$ neighbors (which implies $(1-2\\varepsilon)d|S|$ unique-neighbors). Our results also extend naturally to construct biregular bipartite graphs of any constant imbalance, where small sets on each side have strong expansion guarantees. The graphs we construct admit a free group action, and hence realize new families of quantum LDPC codes of Lin and M. Hsieh with a linear time decoding algorithm. Our construction is based on taking an appropriate product of a constant-sized lossless expander with a base graph constructed from Ramanujan Cayley cubical complexes.",
+  "arxiv_id": "2504.15087",
+  "arxiv_version": "v1",
+  "authors": [
+    "Jun-Ting Hsieh",
+    "Alexander Lubotzky",
+    "Sidhanth Mohanty",
+    "Assaf Reiner",
+    "Rachel Yun Zhang"
+  ],
+  "categories": [
+    "math.CO",
+    "cs.CC",
+    "cs.DM",
+    "cs.DS",
+    "math.GR"
+  ],
+  "extraction_hash": "bae58bc6aae61f44212830afe0dde19a8ec3c497e46ac310d49a0ce7ae67eecf",
+  "last_processed_at": "2026-02-21T12:31:38.429896+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2504.15087v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2504.15087v1"
+  },
+  "primary_category": "math.CO",
+  "source_hash": "4873159dd0e1b29ed3b8a88cbf78479772f4c1dbed95ab547f76022edc3d4528",
+  "submitted_date": "2025-04-21",
+  "tags": [
+    "cs.CC",
+    "cs.DM",
+    "cs.DS",
+    "decoding",
+    "math.CO",
+    "math.GR",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Explicit Lossless Vertex Expanders",
+  "updated_date": "2025-04-21"
+}

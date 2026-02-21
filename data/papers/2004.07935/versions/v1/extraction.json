@@ -1,0 +1,60 @@
+{
+  "abstract": "Constructing quantum LDPC codes with a minimum distance that grows faster than a square root of the length has been a major challenge of the field. With this challenge in mind, we investigate constructions that come from high-dimensional expanders, in particular Ramanujan complexes. These naturally give rise to very unbalanced quantum error correcting codes that have a large $X$-distance but a much smaller $Z$-distance. However, together with a classical expander LDPC code and a tensoring method that generalises a construction of Hastings and also the Tillich-Zemor construction of quantum codes, we obtain quantum LDPC codes whose minimum distance exceeds the square root of the code length and whose dimension comes close to a square root of the code length. When the ingredient is a 3-dimensional Ramanujan complex, we show that its 2-systole behaves like a square of the log of the complex size, which results in an overall quantum code of minimum distance $n^{1/2}\\log n$, and sets a new record for quantum LDPC codes. When we use a 2-dimensional Ramanujan complex, or the 2-skeleton of a 3-dimensional Ramanujan complex, we obtain a quantum LDPC code of minimum distance $n^{1/2}\\log^{1/2}n$. We then exploit the expansion properties of the complex to devise the first polynomial time algorithm that decodes above the square root barrier for quantum LDPC codes.",
+  "arxiv_id": "2004.07935",
+  "arxiv_version": "v1",
+  "authors": [
+    "Shai Evra",
+    "Tali Kaufman",
+    "Gilles Zémor"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT",
+    "math.CO"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2004.07935v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2004.07935v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2020-04-16",
+  "title": "Decodable quantum LDPC codes beyond the $\\sqrt{n}$ distance barrier using high dimensional expanders",
+  "updated_date": "2020-04-16"
+}

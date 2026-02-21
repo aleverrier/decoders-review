@@ -1,0 +1,35 @@
+{
+  "abstract": "Fault-tolerant quantum computers will depend crucially on the performance of the classical decoding algorithm which takes in the results of measurements and outputs corrections to the errors inferred to have occurred. Machine learning models have shown great promise as decoders for the surface code; however, this promise has not yet been substantiated for the more challenging task of decoding quantum low-density parity-check (QLDPC) codes. In this paper, we present a recurrent, transformer-based neural network designed to decode circuit-level noise on Bivariate Bicycle (BB) codes, introduced recently by Bravyi et al (Nature 627, 778-782, 2024). For the $[[72,12,6]]$ BB code, at a physical error rate of $p=0.1\\%$, our model achieves a logical error rate almost $5$ times lower than belief propagation with ordered statistics decoding (BP-OSD). Moreover, while BP-OSD has a wide distribution of runtimes with significant outliers, our model has a consistent runtime and is an order-of-magnitude faster than the worst-case times from a benchmark BP-OSD implementation. On the $[[144,12,12]]$ BB code, our model obtains worse logical error rates but maintains the speed advantage. These results demonstrate that machine learning decoders can out-perform conventional decoders on QLDPC codes, in regimes of current interest.",
+  "arxiv_id": "2504.13043",
+  "arxiv_version": "v1",
+  "authors": [
+    "John Blue",
+    "Harshil Avlani",
+    "Zhiyang He",
+    "Liu Ziyin",
+    "Isaac L. Chuang"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "208ea6c924ad931728273d7587603e94cb9770580675ce2cccd4dc2bdbab5f74",
+  "last_processed_at": "2026-02-21T12:31:38.431336+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2504.13043v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2504.13043v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "f22e521b8277fa8afdcaee15986d6b21298b51257399a81eb038a09ab5f956fc",
+  "submitted_date": "2025-04-17",
+  "tags": [
+    "belief propagation",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Machine Learning Decoding of Circuit-Level Noise for Bivariate Bicycle Codes",
+  "updated_date": "2025-04-17"
+}

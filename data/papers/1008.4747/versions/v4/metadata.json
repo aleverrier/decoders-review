@@ -1,0 +1,38 @@
+{
+  "abstract": "This paper develops a general method for constructing entanglement-assisted quantum low-density parity-check (LDPC) codes, which is based on combinatorial design theory. Explicit constructions are given for entanglement-assisted quantum error-correcting codes (EAQECCs) with many desirable properties. These properties include the requirement of only one initial entanglement bit, high error correction performance, high rates, and low decoding complexity. The proposed method produces infinitely many new codes with a wide variety of parameters and entanglement requirements. Our framework encompasses various codes including the previously known entanglement-assisted quantum LDPC codes having the best error correction performance and many new codes with better block error rates in simulations over the depolarizing channel. We also determine important parameters of several well-known classes of quantum and classical LDPC codes for previously unsettled cases.",
+  "arxiv_id": "1008.4747",
+  "arxiv_version": "v4",
+  "authors": [
+    "Yuichiro Fujiwara",
+    "David Clark",
+    "Peter Vandendriessche",
+    "Maarten De Boeck",
+    "Vladimir D. Tonchev"
+  ],
+  "categories": [
+    "cs.IT",
+    "math.CO",
+    "quant-ph"
+  ],
+  "extraction_hash": "0741ef8de47742ff870f2375924e58dd39a899d20375939a091adef6da60a19f",
+  "last_processed_at": "2026-02-21T12:31:38.630711+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/1008.4747v4",
+    "code_repo_urls": [],
+    "doi": "10.1103/PhysRevA.82.042338",
+    "pdf_url": "https://arxiv.org/pdf/1008.4747v4"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "08e7fddd44ea923021b4350ffbbaee74a3943ac1c65bea435eeefa3fbc2a4d7c",
+  "submitted_date": "2010-08-27",
+  "tags": [
+    "cs.IT",
+    "decoding",
+    "math.CO",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Entanglement-assisted quantum low-density parity-check codes",
+  "updated_date": "2010-11-01"
+}

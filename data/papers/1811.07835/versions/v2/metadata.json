@@ -1,0 +1,34 @@
+{
+  "abstract": "Belief-propagation (BP) decoders play a vital role in modern coding theory, but they are not suitable to decode quantum error-correcting codes because of a unique quantum feature called error degeneracy. Inspired by an exact mapping between BP and deep neural networks, we train neural BP decoders for quantum low-density parity-check (LDPC) codes with a loss function tailored to error degeneracy. Training substantially improves the performance of BP decoders for all families of codes we tested and may solve the degeneracy problem which plagues the decoding of quantum LDPC codes.",
+  "arxiv_id": "1811.07835",
+  "arxiv_version": "v2",
+  "authors": [
+    "Ye-Hua Liu",
+    "David Poulin"
+  ],
+  "categories": [
+    "quant-ph",
+    "cond-mat.stat-mech"
+  ],
+  "extraction_hash": "11eeec4db208a8e30cb9df711ec2176bac173033f582525e3b2f11050b47e7ac",
+  "last_processed_at": "2026-02-21T12:31:38.614028+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/1811.07835v2",
+    "code_repo_urls": [],
+    "doi": "10.1103/PhysRevLett.122.200501",
+    "pdf_url": "https://arxiv.org/pdf/1811.07835v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "61bf3c6388497a8d78a4e6b67acc2507e5f6a8d25e650e8546cda50db60562e2",
+  "submitted_date": "2018-11-19",
+  "tags": [
+    "cond-mat.stat-mech",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Neural Belief-Propagation Decoders for Quantum Error-Correcting Codes",
+  "updated_date": "2019-05-07"
+}

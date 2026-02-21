@@ -1,0 +1,35 @@
+{
+  "abstract": "Quantum low-density parity-check (qLDPC) codes are an important component in the quest for quantum fault tolerance. Dramatic recent progress on qLDPC codes has led to constructions which are asymptotically good, and which admit linear-time decoders to correct errors affecting a constant fraction of codeword qubits. These constructions, while theoretically explicit, rely on inner codes with strong properties only shown to exist by probabilistic arguments, resulting in lengths that are too large to be practically relevant. In practice, the surface/toric codes, which are the product of two repetition codes, are still often the qLDPC codes of choice. A previous construction based on the lifted product of an expander-based classical LDPC code with a repetition code (Panteleev & Kalachev, 2020) achieved a near-linear distance (of $Ω(N/\\log N)$ where $N$ is the number of codeword qubits), and avoids the need for such intractable inner codes. Our main result is an efficient decoding algorithm for these codes that corrects $Θ(N/\\log N)$ adversarial errors. En route, we give such an algorithm for the hypergraph product version these codes, which have weaker $Θ(\\sqrt{N})$ distance (but are simpler). Our decoding algorithms leverage the fact that the codes we consider are quasi-cyclic, meaning that they respect a cyclic group symmetry. Since the repetition code is not based on expanders, previous approaches to decoding expander-based qLDPC codes, which typically worked by greedily flipping code bits to reduce some potential function, do not apply in our setting. Instead, we reduce our decoding problem (in a black-box manner) to that of decoding classical expander-based LDPC codes under noisy parity-check syndromes. For completeness, we also include a treatment of such classical noisy-syndrome decoding that is sufficient for our application to the quantum setting.",
+  "arxiv_id": "2411.04464",
+  "arxiv_version": "v1",
+  "authors": [
+    "Louis Golowich",
+    "Venkatesan Guruswami"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "e094faf8f5e9b93365e9693225b499e6de1e88a053ec65df210cd8bfddfa7627",
+  "last_processed_at": "2026-02-21T12:31:38.475903+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2411.04464v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2411.04464v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "6bec9f834022dd28ddcd903a566e1420505b7750b2c410738fb0ca3d5921dfe3",
+  "submitted_date": "2024-11-07",
+  "tags": [
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "hypergraph product",
+    "lifted product",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Decoding Quasi-Cyclic Quantum LDPC Codes",
+  "updated_date": "2024-11-07"
+}

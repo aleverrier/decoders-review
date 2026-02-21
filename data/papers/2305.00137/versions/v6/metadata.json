@@ -1,0 +1,35 @@
+{
+  "abstract": "Spatially-coupled (SC) codes is a class of convolutional LDPC codes that has been well investigated in classical coding theory thanks to their high performance and compatibility with low-latency decoders. We describe toric codes as quantum counterparts of classical two-dimensional spatially-coupled (2D-SC) codes, and introduce spatially-coupled quantum LDPC (SC-QLDPC) codes as a generalization. We use the convolutional structure to represent the parity check matrix of a 2D-SC code as a polynomial in two indeterminates, and derive an algebraic condition that is both necessary and sufficient for a 2D-SC code to be a stabilizer code. This algebraic framework facilitates the construction of new code families. While not the focus of this paper, we note that small memory facilitates physical connectivity of qubits, and it enables local encoding and low-latency windowed decoding. In this paper, we use the algebraic framework to optimize short cycles in the Tanner graph of 2D-SC hypergraph product (HGP) codes that arise from short cycles in either component code. While prior work focuses on QLDPC codes with rate less than 1/10, we construct 2D-SC HGP codes with small memories, higher rates (about 1/3), and superior thresholds.",
+  "arxiv_id": "2305.00137",
+  "arxiv_version": "v6",
+  "authors": [
+    "Siyi Yang",
+    "Robert Calderbank"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "2b1434935f33dc5ff40b202248ff814cbb7629b8b4cdaca8f74c5494468a25ef",
+  "last_processed_at": "2026-02-21T12:31:38.437115+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2305.00137v6",
+    "code_repo_urls": [],
+    "doi": "10.22331/q-2025-04-07-1693",
+    "pdf_url": "https://arxiv.org/pdf/2305.00137v6"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "020ecb7ee3fc4aaa474cd5eb47351a79b6880a3f48120bebbccc59d865455f4d",
+  "submitted_date": "2023-04-29",
+  "tags": [
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "hypergraph product",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Spatially-Coupled QLDPC Codes",
+  "updated_date": "2025-04-02"
+}

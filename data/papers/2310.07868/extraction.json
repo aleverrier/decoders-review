@@ -1,0 +1,61 @@
+{
+  "abstract": "Quantum low-density parity-check (LDPC) codes, a class of quantum error correcting codes, are considered a blueprint for scalable quantum circuits. To use these codes, one needs efficient decoding algorithms. In the classical setting, there are multiple efficient decoding algorithms available, including Viderman's algorithm (Viderman, TOCT 2013). Viderman's algorithm for classical LDPC codes essentially reduces the error-correction problem to that of erasure-correction, by identifying a small envelope $L$ that is guaranteed to contain the error set. Our main result is a generalization of Viderman's algorithm to quantum LDPC codes, namely hypergraph product codes (Tillich, Zémor, IEEE T-IT, 2013). This is the first erasure-conversion algorithm that can correct up to $Ω(D)$ errors for constant-rate quantum LDPC codes, where $D$ is the distance of the code. In that sense, it is also fundamentally different from existing decoding algorithms, in particular from the small-set-flip algorithm (Leverrier, Tillich, Zémor, FOCS, 2015). Moreover, in some parameter regimes, our decoding algorithm improves on the decoding radius of existing algorithms. We note that we do not yet have linear-time erasure-decoding algorithms for quantum LDPC codes, and thus the final running time of the whole decoding algorithm is not linear; however, we view our linear-time envelope-finding algorithm as an important first step.",
+  "arxiv_id": "2310.07868",
+  "arxiv_version": "v1",
+  "authors": [
+    "Anirudh Krishna",
+    "Inbal Livni Navon",
+    "Mary Wootters"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2310.07868v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2310.07868v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoding",
+      "small-set-flip",
+      "hypergraph product"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2023-10-11",
+  "title": "Viderman's algorithm for quantum LDPC codes",
+  "updated_date": "2023-10-11"
+}

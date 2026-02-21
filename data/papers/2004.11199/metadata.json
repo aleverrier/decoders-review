@@ -1,0 +1,38 @@
+{
+  "abstract": "Hypergraph product codes are a class of constant-rate quantum low-density parity-check (LDPC) codes equipped with a linear-time decoder called small-set-flip (SSF). This decoder displays sub-optimal performance in practice and requires very large error correcting codes to be effective. In this work, we present new hybrid decoders that combine the belief propagation (BP) algorithm with the SSF decoder. We present the results of numerical simulations when codes are subject to independent bit-flip and phase-flip errors. We provide evidence that the threshold of these codes is roughly 7.5% assuming an ideal syndrome extraction, and remains close to 3% in the presence of syndrome noise. This result subsumes and significantly improves upon an earlier work by Grospellier and Krishna (arXiv:1810.03681). The low-complexity high-performance of these heuristic decoders suggests that decoding should not be a substantial difficulty when moving from zero-rate surface codes to constant-rate LDPC codes and gives a further hint that such codes are well-worth investigating in the context of building large universal quantum computers.",
+  "arxiv_id": "2004.11199",
+  "arxiv_version": "v2",
+  "authors": [
+    "Antoine Grospellier",
+    "Lucien Grouès",
+    "Anirudh Krishna",
+    "Anthony Leverrier"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "d62d50ce98dd58217e141c08c24ff5dc1cca4cdd5c2f91347ef29ba484fc9b0a",
+  "last_processed_at": "2026-02-21T12:31:38.595345+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2004.11199v2",
+    "code_repo_urls": [],
+    "doi": "10.22331/q-2021-04-15-432",
+    "pdf_url": "https://arxiv.org/pdf/2004.11199v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "b28d2b1303fb7cee2ec5283a942eb7f7a5d563fdf33d6070e9bb837f85377c0c",
+  "submitted_date": "2020-04-23",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "hypergraph product",
+    "quant-ph",
+    "relevance:maybe",
+    "small-set-flip"
+  ],
+  "title": "Combining hard and soft decoders for hypergraph product codes",
+  "updated_date": "2021-04-08"
+}

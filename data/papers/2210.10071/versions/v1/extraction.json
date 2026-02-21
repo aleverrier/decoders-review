@@ -1,0 +1,59 @@
+{
+  "abstract": "Quantum repeater is the key technology enabler for long-distance quantum communication. To date, most of the existing quantum repeater protocols are designed based on specific quantum codes or graph states. In this paper, we propose a general framework for all-photonic one-way quantum repeaters based on the measurement-based error correction, which can be adapted to any Calderbank-Shor-Steane codes including the recently discovered quantum low density parity check (QLDPC) codes. We present a novel decoding scheme, where the error correction process is carried out at the destination based on the accumulated data from the measurements made across the network. This procedure not only outperforms the conventional protocols with independent repeaters but also simplifies the local quantum operations at repeaters. As an example, we numerically show that the [[48,6,8]] generalized bicycle code (as a small but efficient QLDPC code) has an equally good performance while reducing the resources by at least an order of magnitude.",
+  "arxiv_id": "2210.10071",
+  "arxiv_version": "v1",
+  "authors": [
+    "Daoheng Niu",
+    "Yuxuan Zhang",
+    "Alireza Shabani",
+    "Hassan Shapourian"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2210.10071v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2210.10071v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2022-10-18",
+  "title": "All-photonic one-way quantum repeaters",
+  "updated_date": "2022-10-18"
+}

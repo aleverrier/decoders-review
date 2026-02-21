@@ -1,0 +1,33 @@
+{
+  "abstract": "Post-selection strategies that discard low-confidence computational results can significantly improve the effective fidelity of quantum error correction at the cost of reduced acceptance rates, which can be particularly useful for offline resource state generation and other moderate-depth fault-tolerant circuits. Prior work has primarily relied on the \"logical gap\" metric with the minimum-weight perfect matching decoder, but this approach faces fundamental limitations including computational overhead that scales exponentially with the number of logical qubits and poor generalizability to arbitrary codes beyond surface codes. We develop post-selection strategies based on computationally efficient heuristic confidence metrics that leverage error cluster statistics (specifically, aggregated cluster sizes and log-likelihood ratios) from clustering-based decoders, which are applicable to arbitrary quantum low-density parity check (QLDPC) codes. We validate our method through extensive numerical simulations on surface codes, bivariate bicycle codes, and hypergraph product codes, demonstrating orders of magnitude reductions in logical error rates with moderate abort rates. For instance, applying our strategy to the [[144, 12, 12]] bivariate bicycle code achieves approximately three orders of magnitude reduction in the logical error rate with an abort rate of only 1% (19%) at a physical error rate of 0.1% (0.3%). Additionally, we integrate our approach with the sliding-window framework for real-time decoding, featuring early mid-circuit abort decisions that eliminate unnecessary overheads. Notably, its performance matches or even surpasses the original strategy for global decoding, while exhibiting favorable scaling in the number of rounds. Our approach provides a practical foundation for efficient post-selection in fault-tolerant quantum computing with QLDPC codes.",
+  "arxiv_id": "2510.05795",
+  "arxiv_version": "v4",
+  "authors": [
+    "Seok-Hyung Lee",
+    "Lucas H. English",
+    "Stephen D. Bartlett"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "8c4c5e30d7d02ac907adc231f78a7101c2c1056f29d05cdeb8185b52446aba66",
+  "last_processed_at": "2026-02-21T12:31:38.318592+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2510.05795v4",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2510.05795v4"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "e110952609cbb1625950cc2d8db5a44472a37865e7441a267e82ba3279e4a753",
+  "submitted_date": "2025-10-07",
+  "tags": [
+    "decoder",
+    "decoding",
+    "hypergraph product",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Efficient Post-Selection for General Quantum LDPC Codes",
+  "updated_date": "2026-01-25"
+}

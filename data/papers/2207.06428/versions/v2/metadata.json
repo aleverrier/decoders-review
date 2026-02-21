@@ -1,0 +1,34 @@
+{
+  "abstract": "Decoding algorithms are essential to fault-tolerant quantum-computing architectures. In this perspective we explore decoding algorithms for the surface code; a prototypical quantum low-density parity-check code that underlies many of the leading efforts to demonstrate scalable quantum computing. Central to our discussion is the minimum-weight perfect-matching decoder. The decoder works by exploiting underlying structure that arises due to materialised symmetries among surface-code stabilizer elements. By concentrating on these symmetries, we begin to address the question of how a minimum-weight perfect-matching decoder might be generalised for other families of codes. We approach this question first by investigating examples of matching decoders for other codes. These include decoding algorithms that have been specialised to correct for noise models that demonstrate a particular structure or bias with respect to certain codes. In addition to this, we propose a systematic way of constructing a minimum-weight perfect-matching decoder for codes with certain characteristic properties. The properties we make use of are common among topological codes. We discuss the broader applicability of the proposal, and we suggest some questions we can address that may show us how to design a generalised matching decoder for arbitrary stabilizer codes.",
+  "arxiv_id": "2207.06428",
+  "arxiv_version": "v2",
+  "authors": [
+    "Benjamin J. Brown"
+  ],
+  "categories": [
+    "quant-ph",
+    "cond-mat.stat-mech",
+    "cond-mat.str-el"
+  ],
+  "extraction_hash": "c6e41e9bf25768ba1fb51d617ffc8c3b074aae57bc7dea2ba2a92c0aab19bb1d",
+  "last_processed_at": "2026-02-21T12:31:38.534259+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2207.06428v2",
+    "code_repo_urls": [],
+    "doi": "10.1109/MBITS.2023.3246025",
+    "pdf_url": "https://arxiv.org/pdf/2207.06428v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "3d0768e8f02c6cc86c9e966d4e6a15f0a6efe23e633e3f3d4deabc70fc90bcf6",
+  "submitted_date": "2022-07-13",
+  "tags": [
+    "cond-mat.stat-mech",
+    "cond-mat.str-el",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Conservation laws and quantum error correction: towards a generalised matching decoder",
+  "updated_date": "2024-02-28"
+}

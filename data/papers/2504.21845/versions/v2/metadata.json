@@ -1,0 +1,39 @@
+{
+  "abstract": "The problem of recovering from qubit erasures has recently gained attention as erasures occur in many physical systems such as photonic systems, trapped ions, superconducting qubits and circuit quantum electrodynamics. While several linear-time decoders for error correction are known, their error-correcting capability is limited to half the minimum distance of the code, whereas erasure correction allows one to go beyond this limit. As in the classical case, stopping sets pose a major challenge in designing efficient erasure decoders for quantum LDPC codes. In this paper, we show through simulation, that an attractive alternative here, is the use of quantum expander codes in conjunction with the peeling decoder that has linear complexity. We also discuss additional techniques including small-set-flip decoding, that can be applied following the peeling operation, to improve decoding performance and their associated complexity.",
+  "arxiv_id": "2504.21845",
+  "arxiv_version": "v2",
+  "authors": [
+    "Jefrin Sharmitha Prabhu",
+    "Abhinav Vaishya",
+    "Shobhit Bhatnagar",
+    "Aryaman Manish Kolhe",
+    "V. Lalitha",
+    "P. Vijay Kumar"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "8a331ff10bb3fd972c2221d0e7ff79b14e82ed58d6810bb6b2af847e45f26a1b",
+  "last_processed_at": "2026-02-21T12:31:38.414103+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2504.21845v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2504.21845v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "7e423c086a1f055863a23019259e4c1f34729a78c396a9e8197a2f49b4e843cd",
+  "submitted_date": "2025-04-30",
+  "tags": [
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant",
+    "small-set-flip"
+  ],
+  "title": "On the Efficacy of the Peeling Decoder for the Quantum Expander Code",
+  "updated_date": "2025-05-29"
+}

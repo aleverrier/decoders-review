@@ -1,0 +1,37 @@
+{
+  "abstract": "Quantum computing requires effective error correction strategies to mitigate noise and decoherence. Quantum Low-Density Parity-Check (QLDPC) codes have emerged as a promising solution for scalable Quantum Error Correction (QEC) applications by supporting constant-rate encoding and a sparse parity-check structure. However, decoding QLDPC codes via traditional approaches such as Belief Propagation (BP) suffers from poor convergence in the presence of short cycles. Machine learning techniques like Graph Neural Networks (GNNs) utilize learned message passing over their node features; however, they are restricted to pairwise interactions on Tanner graphs, which limits their ability to capture higher-order correlations. In this work, we propose HyperNQ, the first Hypergraph Neural Network (HGNN)- based QLDPC decoder that captures higher-order stabilizer constraints by utilizing hyperedges-thus enabling highly expressive and compact decoding. We use a two-stage message passing scheme and evaluate the decoder over the pseudo-threshold region. Below the pseudo-threshold mark, HyperNQ improves the Logical Error Rate (LER) up to 84% over BP and 50% over GNN-based strategies, demonstrating enhanced performance over the existing state-of-the-art decoders.",
+  "arxiv_id": "2511.01741",
+  "arxiv_version": "v1",
+  "authors": [
+    "Ameya S. Bhave",
+    "Navnil Choudhury",
+    "Kanad Basu"
+  ],
+  "categories": [
+    "cs.LG",
+    "cs.IT",
+    "quant-ph"
+  ],
+  "extraction_hash": "75d8270fa5f4e59e629c9696dd9dfb6f0cd789c32e3a18703f0e7098568b3319",
+  "last_processed_at": "2026-02-21T12:31:38.359855+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2511.01741v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2511.01741v1"
+  },
+  "primary_category": "cs.LG",
+  "source_hash": "5c233b31977a366e2d6c1947d1f7a690b029a5c8911805d8158fba51cb18c606",
+  "submitted_date": "2025-11-03",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "cs.LG",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "HyperNQ: A Hypergraph Neural Network Decoder for Quantum LDPC Codes",
+  "updated_date": "2025-11-03"
+}

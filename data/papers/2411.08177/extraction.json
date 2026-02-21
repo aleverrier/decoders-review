@@ -1,0 +1,61 @@
+{
+  "abstract": "Quantum low-density parity-check (LDPC) codes are a promising family of quantum error-correcting codes for fault tolerant quantum computing with low overhead. Decoding quantum LDPC codes on quantum erasure channels has received more attention recently due to advances in erasure conversion for various types of qubits including neutral atoms, trapped ions, and superconducting qubits. Belief propagation with guided decimation (BPGD) decoding of quantum LDPC codes has demonstrated good performance in bit-flip and depolarizing noise. In this work, we apply BPGD decoding to quantum erasure channels. Using a natural modification, we show that BPGD offers competitive performance on quantum erasure channels for multiple families of quantum LDPC codes. Furthermore, we show that the performance of BPGD decoding on erasure channels can sometimes be improved significantly by either adding damping or adjusting the initial channel log-likelihood ratio for bits that are not erased. More generally, our results demonstrate BPGD is an effective general-purpose solution for erasure decoding across the quantum LDPC landscape.",
+  "arxiv_id": "2411.08177",
+  "arxiv_version": "v2",
+  "authors": [
+    "Mert Gökduman",
+    "Hanwen Yao",
+    "Henry D. Pfister"
+  ],
+  "categories": [
+    "cs.IT",
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2411.08177v2",
+    "code_repo_urls": [],
+    "doi": "10.1109/Allerton63246.2024.10735275",
+    "pdf_url": "https://arxiv.org/pdf/2411.08177v2"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "cs.IT",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoding",
+      "belief propagation"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2024-11-12",
+  "title": "Erasure Decoding for Quantum LDPC Codes via Belief Propagation with Guided Decimation",
+  "updated_date": "2024-11-15"
+}

@@ -1,0 +1,61 @@
+{
+  "abstract": "We introduce a decoding framework for correlated errors in quantum LDPC codes under circuit-level noise. The core of our approach is a graph augmentation and rewiring for interference (GARI) method, which modifies the correlated detector error model by eliminating 4-cycles involving Y-type errors, while preserving the equivalence of the decoding problem. We test our approach on the bivariate bicycle codes of distances 6, 10, and 12. A normalized min-sum decoder with a hybrid serial-layered schedule is applied on the transformed graph, achieving high accuracy with low latency. Performance is further enhanced through ensemble decoding, where 24 randomized normalized min-sum decoders run in parallel on the transformed graph, yielding the highest reported accuracy (on par with XYZ-Relay-BP) with unprecedented speed for the tested codes under uniform depolarizing circuit level noise. For the distance 12 (gross) code, our approach yields a logical error rate of $(6.70 \\pm 1.93) \\times 10^{-9}$ at a practical physical error rate of $10^{-3}$. Furthermore, preliminary FPGA implementation results show that such high accuracy can be achieved in real time, with a per-round average decoding latency of 273 ns and sub-microsecond latency in 99.99% of the decoding instances.",
+  "arxiv_id": "2510.14060",
+  "arxiv_version": "v1",
+  "authors": [
+    "Arshpreet Singh Maan",
+    "Francisco-Garcia Herrero",
+    "Alexandru Paler",
+    "Valentin Savin"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2510.14060v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2510.14060v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoder",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2025-10-15",
+  "title": "Decoding Correlated Errors in Quantum LDPC Codes",
+  "updated_date": "2025-10-15"
+}

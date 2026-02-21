@@ -1,0 +1,34 @@
+{
+  "abstract": "We introduce a quantum Maxwell erasure decoder for CSS quantum low-density parity-check (qLDPC) codes that extends peeling with bounded guessing. Guesses are tracked symbolically and can be eliminated by restrictive checks, giving a tunable tradeoff between complexity and performance via a guessing budget: an unconstrained budget recovers Maximum-Likelihood (ML) performance, while a constant budget yields linear-time decoding and approximates ML. We provide theoretical guarantees on asymptotic performance and demonstrate strong performance on bivariate bicycle and quantum Tanner codes.",
+  "arxiv_id": "2601.10713",
+  "arxiv_version": "v1",
+  "authors": [
+    "Bruno Costa Alves Freire",
+    "François-Marie Le Régent",
+    "Anthony Leverrier"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "80b6304a4e94d94033d7c21b161be27c9a961c3c2a9cde16e3eec1b14c73ed8b",
+  "last_processed_at": "2026-02-21T12:31:38.322921+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2601.10713v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2601.10713v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "5786a3ee90c5ddd54a4e104376927aba4f00835afa1ac2b431c1a3c23c3543f9",
+  "submitted_date": "2026-01-15",
+  "tags": [
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Quantum Maxwell Erasure Decoder for qLDPC codes",
+  "updated_date": "2026-01-15"
+}

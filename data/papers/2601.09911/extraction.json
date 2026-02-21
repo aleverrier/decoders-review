@@ -1,0 +1,59 @@
+{
+  "abstract": "Quantum low-density parity-check (qLDPC) codes have emerged as a promising approach for realizing low-overhead logical quantum memories. Recent theoretical developments have established shift automorphisms as a fundamental building block for completing the universal set of logical gates for qLDPC codes. However, practical challenges remain because the existing SWAP-based shift automorphism yields logical error rates that are orders of magnitude higher than those for fault-tolerant idle operations. In this work, we address this issue by dynamically varying the syndrome measurement circuits to implement the shift automorphisms without reducing the circuit distance. We benchmark our approach on both twisted and untwisted weight-6 generalized toric codes, including the gross code family. Our time-dynamic circuits for shift automorphisms achieve performance comparable to the idle operations under the circuit-level noise model (SI1000). Specifically, the dynamic circuits achieve more than an order of magnitude reduction in logical error rates relative to the SWAP-based scheme for the gross code at a physical error rate of $10^{-3}$, employing the BP-OSD decoder. Our findings improve both the error resilience and the time overhead of the shift automorphisms in qLDPC codes. Furthermore, our work can lead to alternative syndrome extraction circuit designs, such as leakage removal protocols, providing a practical pathway to utilizing dynamic circuits that extend beyond surface codes towards qLDPC codes.",
+  "arxiv_id": "2601.09911",
+  "arxiv_version": "v1",
+  "authors": [
+    "Younghun Kim",
+    "Spiro Gicev",
+    "Martin Sevior",
+    "Muhammad Usman"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2601.09911v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2601.09911v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-01-14",
+  "title": "Time-Dynamic Circuits for Fault-Tolerant Shift Automorphisms in Quantum LDPC Codes",
+  "updated_date": "2026-01-14"
+}

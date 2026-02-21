@@ -1,0 +1,33 @@
+{
+  "abstract": "Hypergraph product codes introduced by Tillich and Zémor are a class of quantum LDPC codes with constant rate and distance scaling with the square-root of the block size. Quantum expander codes, a subclass of these codes, can be decoded using the linear time small-set-flip algorithm of Leverrier, Tillich and Zémor. In this paper, we numerically estimate the performance for the hypergraph product codes under independent bit and phase flip noise. We focus on two families of hypergraph product codes. The first family has rate $1/61 \\sim 1.6\\%$, has qubits of weight $10$ or $12$ and stabilizers of weight $11$. We report a threshold near $4.6\\%$ for the small-set-flip decoder. We also show that for similar rate, the performance of the hypergraph product is better than the performance of the toric code as soon as we deal with more than $500$ logical qubits and that for $3600$ logical qubits, the logical error rate for the hypergraph product code is several orders of magnitude smaller. The second family has rate $0.2$, qubits of weight $10$ and $20$ and stabilizers of weight $15$. We report a threshold near $2\\%$ for the small-set-flip decoder.",
+  "arxiv_id": "1810.03681",
+  "arxiv_version": "v2",
+  "authors": [
+    "Antoine Grospellier",
+    "Anirudh Krishna"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "f1e6a83060f71beb876e927bc07e34b4ff88231cfa3bd62acdd0487f5747b277",
+  "last_processed_at": "2026-02-21T12:31:38.616091+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/1810.03681v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/1810.03681v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "971d4b52e1d9b48de39ab51c78be7c4ca77a93a057dfce221590ed68667e6b3a",
+  "submitted_date": "2018-10-08",
+  "tags": [
+    "decoder",
+    "hypergraph product",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant",
+    "small-set-flip"
+  ],
+  "title": "Numerical study of hypergraph product codes",
+  "updated_date": "2019-05-02"
+}

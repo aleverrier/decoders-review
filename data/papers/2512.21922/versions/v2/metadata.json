@@ -1,0 +1,39 @@
+{
+  "abstract": "Quantum LDPC codes have attracted intense interest due to their advantageous properties for realizing efficient fault-tolerant quantum computing. In particular, sheaf codes represent a novel framework that encompasses all well-known good qLDPC codes with profound underlying mathematics. In this work, we generalize Poincaré duality from manifolds to both classical and quantum codes defined via sheaf theory on $t$-dimensional cell complexes. Viewing important code properties including the encoding rate, code distance, local testability soundness, and efficient decoders as parameters of the underlying (co)chain complexes, we rigorously prove a duality relationship between the $i$-th chain and the $(t-i)$-th cochain of sheaf codes. We further build multiplicative structures such as cup and cap products on sheaved chain complexes, inspired by the standard notions of multiplicative structures and Poincaré duality on manifolds. This immediately leads to an explicit isomorphism between (co)homology groups of sheaf codes via a cap product. As an application, we obtain transversal disjoint logical $\\mathrm{C}Z$ gates with $k_{\\mathrm{C}Z}=Θ(n)$ on families of good qLDPC and almost-good quantum locally testable codes. Moreover, we provide multiple new methods to construct transversal circuits composed of $\\mathrm{C}\\mathrm{C}Z$ gates as well as for higher order controlled-$Z$ that are provably logical operations on the code space. We conjecture that they generate nontrivial logical actions, pointing towards fault-tolerant non-Clifford gates on nearly optimal qLDPC sheaf codes. Mathematically, our results are built on establishing the equivalence between sheaf cohomology in the derived-functor sense, Čech cohomology, and the cohomology of sheaf codes, thereby introducing new mathematical tools into quantum coding theory.",
+  "arxiv_id": "2512.21922",
+  "arxiv_version": "v2",
+  "authors": [
+    "Yiming Li",
+    "Zimu Li",
+    "Zi-Wen Liu",
+    "Quynh T. Nguyen"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.CC",
+    "cs.IT",
+    "math-ph"
+  ],
+  "extraction_hash": "ebb12aeab9fcaec08b01e4bafb8ec5dee3bade09d5ebf6094ae6088cc96ff9c7",
+  "last_processed_at": "2026-02-21T12:31:38.334504+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2512.21922v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2512.21922v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "48c986c22e8a7758333ca011118b010a08e41a85a9ec0f86a6ce78350805c82f",
+  "submitted_date": "2025-12-26",
+  "tags": [
+    "cs.CC",
+    "cs.IT",
+    "decoder",
+    "math-ph",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Poincaré Duality and Multiplicative Structures on Quantum Codes",
+  "updated_date": "2025-12-30"
+}

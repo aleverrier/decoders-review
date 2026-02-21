@@ -1,0 +1,59 @@
+{
+  "abstract": "Recent progress in quantum computing has enabled systems with tens of reliable logical qubits, built from thousands of noisy physical qubits. However, many impactful applications demand quantum computations with millions of logical qubits, necessitating highly scalable quantum error correction. In classical information theory, low-density parity-check (LDPC) codes can approach channel capacity efficiently. Yet, no quantum error-correcting codes with efficient decoding have been shown to approach the hashing bound - a fundamental limit on quantum capacity - despite decades of research. Here, we present quantum LDPC codes that not only approach the hashing bound but also allow decoding with computational cost linear in the number of physical qubits. This breakthrough paves the way for large-scale, fault-tolerant quantum computation. Combined with emerging hardware that manages many qubits, our approach brings quantum solutions to important real-world problems significantly closer to reality.",
+  "arxiv_id": "2412.21171",
+  "arxiv_version": "v4",
+  "authors": [
+    "Daiki Komoto",
+    "Kenta Kasai"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2412.21171v4",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2412.21171v4"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2024-12-30",
+  "title": "Quantum Error Correction near the Coding Theoretical Bound",
+  "updated_date": "2025-09-08"
+}

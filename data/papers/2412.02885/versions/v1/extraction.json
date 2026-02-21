@@ -1,0 +1,68 @@
+{
+  "abstract": "Quantum error correction (QEC) is critical for scalable and reliable quantum computing, but existing solutions, such as surface codes, incur significant qubit overhead. Quantum low-density parity check (qLDPC) codes have recently emerged as a promising alternative, requiring fewer qubits. However, the lack of efficient decoders remains a major barrier to their practical implementation. In this work, we introduce SymBreak, a novel decoder for qLDPC codes that adaptively modifies the decoding graph to improve the performance of state-of-the-art belief propagation (BP) decoders. Our key contribution is identifying quantum degeneracy as a root cause of the convergence issues often encountered in BP decoding of quantum LDPC codes. We propose a solution that mitigates this issue at the decoding graph level, achieving both fast and accurate decoding. Our results demonstrate that SymBreak outperforms BP and BP+OSD-a more complex variant of BP-with a $16.17\\times$ reduction in logical error rate compared to BP and $3.23\\times$ compared to BP+OSD across various qLDPC code families. With only an $18.97$% time overhead compared to BP, SymBreak provides significantly faster decoding times than BP+OSD, representing a major advancement in efficient and accurate decoding for qLDPC-based QEC architectures.",
+  "arxiv_id": "2412.02885",
+  "arxiv_version": "v1",
+  "authors": [
+    "Keyi Yin",
+    "Xiang Fang",
+    "Jixuan Ruan",
+    "Hezi Zhang",
+    "Dean Tullsen",
+    "Andrew Sornborger",
+    "Chenxu Liu",
+    "Ang Li",
+    "Travis Humble",
+    "Yufei Ding"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2412.02885v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2412.02885v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoder",
+      "decoding",
+      "belief propagation"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2024-12-03",
+  "title": "SymBreak: Mitigating Quantum Degeneracy Issues in QLDPC Code Decoders by Breaking Symmetry",
+  "updated_date": "2024-12-03"
+}

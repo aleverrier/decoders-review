@@ -1,0 +1,34 @@
+{
+  "abstract": "Quantum error-correcting codes protect fragile quantum information by encoding it redundantly, but identifying codes that perform well in practice with minimal overhead remains difficult due to the combinatorial search space and the high cost of logical error rate evaluation. We propose a Bayesian optimization framework to discover quantum error-correcting codes that improves data efficiency and scalability with respect to previous machine learning approaches to this task. Our main contribution is a multi-view chain-complex neural embedding that allows us to predict the logical error rate of quantum LDPC codes without performing expensive simulations. Using bivariate bicycle codes and code capacity noise as a testbed, our algorithm discovers a high-rate code [[144,36]] that achieves competitive per-qubit error rate compared to the gross code, as well as a low-error code [[144,16]] that outperforms the gross code in terms of error rate per qubit. These results highlight the ability of our pipeline to automatically discover codes balancing rate and noise suppression, while the generality of the framework enables application across diverse code families, decoders, and noise models.",
+  "arxiv_id": "2601.18562",
+  "arxiv_version": "v1",
+  "authors": [
+    "Yihua Chengyu",
+    "Richard Meister",
+    "Conor Carty",
+    "Sheng-Ku Lin",
+    "Roberto Bondesan"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "75a1d59ef62c0f75caafe618c84c0ec5698ac59438fdaad08917ea72af8dae6f",
+  "last_processed_at": "2026-02-21T12:31:38.313891+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2601.18562v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2601.18562v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "61c7e69400d9d40f471565c0db8e4b5b179ad54e667856c9afe32ba09a37ef18",
+  "submitted_date": "2026-01-26",
+  "tags": [
+    "decoder",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Bayesian Optimization for Quantum Error-Correcting Code Discovery",
+  "updated_date": "2026-01-26"
+}

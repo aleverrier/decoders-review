@@ -1,0 +1,35 @@
+{
+  "abstract": "Quantum error correction is crucial for scalable quantum information processing applications. Traditional discrete-variable quantum codes that use multiple two-level systems to encode logical information can be hardware-intensive. An alternative approach is provided by bosonic codes, which use the infinite-dimensional Hilbert space of harmonic oscillators to encode quantum information. Two promising features of bosonic codes are that syndrome measurements are natively analog and that they can be concatenated with discrete-variable codes. In this work, we propose novel decoding methods that explicitly exploit the analog syndrome information obtained from the bosonic qubit readout in a concatenated architecture. Our methods are versatile and can be generally applied to any bosonic code concatenated with a quantum low-density parity-check (QLDPC) code. Furthermore, we introduce the concept of quasi-single-shot protocols as a novel approach that significantly reduces the number of repeated syndrome measurements required when decoding under phenomenological noise. To realize the protocol, we present a first implementation of time-domain decoding with the overlapping window method for general QLDPC codes, and a novel analog single-shot decoding method. Our results lay the foundation for general decoding algorithms using analog information and demonstrate promising results in the direction of fault-tolerant quantum computation with concatenated bosonic-QLDPC codes.",
+  "arxiv_id": "2311.01328",
+  "arxiv_version": "v2",
+  "authors": [
+    "Lucas Berent",
+    "Timo Hillmann",
+    "Jens Eisert",
+    "Robert Wille",
+    "Joschka Roffe"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "20be5090719659dc48bc633153d5d2dc79511b391069c0d1f25acb0470301c26",
+  "last_processed_at": "2026-02-21T12:31:38.513002+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2311.01328v2",
+    "code_repo_urls": [],
+    "doi": "10.1103/PRXQuantum.5.020349",
+    "pdf_url": "https://arxiv.org/pdf/2311.01328v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "ced5f9799d267dd0fe46a97187da3b1aef3a7a45f0974f063294998fbc8d77c1",
+  "submitted_date": "2023-11-02",
+  "tags": [
+    "cs.IT",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Analog information decoding of bosonic quantum LDPC codes",
+  "updated_date": "2024-06-10"
+}

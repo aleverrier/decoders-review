@@ -1,0 +1,59 @@
+{
+  "abstract": "Iterative decoder failures of quantum low density parity check (QLDPC) codes are attributed to substructures in the code's graph, known as trapping sets, as well as degenerate errors that can arise in quantum codes. Failure inducing sets are subsets of codeword coordinates that, when initially in error, lead to decoding failure in a trapping set. The purpose of this paper is to examine failure inducing sets of QLDPC codes under syndrome-based iterative decoding. As for classical LDPC codes, we show that absorbing sets play a central role in understanding decoder failures. Raveendran and Vasic initiated the study of quantum trapping sets, where beyond the classical-type trapping sets, they identified rigid symmetric structures (a.k.a symmetric stabilizers) responsible for degenerate errors. In this paper, we show that this behavior is part of a much more general phenomenon that can be described by the absorbing set framework.",
+  "arxiv_id": "2307.14532",
+  "arxiv_version": "v2",
+  "authors": [
+    "Kirsten D. Morris",
+    "Tefjol Pllaha",
+    "Christine A. Kelley"
+  ],
+  "categories": [
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2307.14532v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2307.14532v2"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "cs.IT",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2023-07-26",
+  "title": "Absorbing Sets in Quantum LDPC Codes",
+  "updated_date": "2024-05-10"
+}

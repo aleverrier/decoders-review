@@ -1,0 +1,30 @@
+{
+  "abstract": "Color codes are promising quantum error correction (QEC) codes because they have an advantage over surface codes in that all Clifford gates can be implemented transversally. However, thresholds of color codes under circuit-level noise are relatively low mainly because measurements of their high-weight stabilizer generators cause an increase in a circuit depth, and thus, substantial errors are introduced. This makes color codes not the best candidate for fault-tolerant quantum computing. Here, we propose a method to suppress the impact of such errors by optimizing weights of decoders using conditional error probabilities conditioned on the measurement outcomes of flag qubits. In numerical simulations, we improve the threshold of the (4.8.8) color code under circuit-level noise from 0.14% to around 0.27%, which is calculated by using an integer programming decoder. Furthermore, in the (6.6.6) color code, we achieve a circuit-level threshold of around 0.36%, which is almost the same value as the highest value in the previous studies employing the same noise model. In both cases, an effective code distance is also improved compared to a conventional method that uses a single ancilla qubit for each stabilizer measurement. Thereby, the achieved logical error rates at low physical error rates are almost one order of magnitude lower than those of the conventional method with the same code distance. Even when compared to the single ancilla method with higher code distance, considering the increased number of qubits used in our method, we achieve lower logical error rates in most cases. This method can also be applied to other weight-based decoders, making the color codes more promising for the candidate of experimental implementation of QEC. Furthermore, one can utilize this approach to improve a threshold of wider classes of QEC codes, such as high-rate quantum low-density parity check codes.",
+  "arxiv_id": "2402.13958",
+  "arxiv_version": "v2",
+  "authors": [
+    "Yugo Takada",
+    "Keisuke Fujii"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "72b96f367aac889bbe4d18170b4c788b529eade791eb806ff9b52dd2d81d4149",
+  "last_processed_at": "2026-02-21T12:31:38.487836+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2402.13958v2",
+    "code_repo_urls": [],
+    "doi": "10.1103/PRXQuantum.5.030352",
+    "pdf_url": "https://arxiv.org/pdf/2402.13958v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "8bb0a575d75b3ca61bea6def1658913b7dfa944f6b48d10b970276aaad1cc74d",
+  "submitted_date": "2024-02-21",
+  "tags": [
+    "decoder",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Improving threshold for fault-tolerant color code quantum computing by flagged weight optimization",
+  "updated_date": "2024-09-17"
+}

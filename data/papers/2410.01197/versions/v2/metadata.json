@@ -1,0 +1,30 @@
+{
+  "abstract": "Recent research has shown that syndrome-based belief propagation using layered scheduling (sLBP) can not only accelerate the convergence rate but also improve the error rate performance by breaking the quantum trapping sets for quantum low-density parity-check (QLDPC) codes, showcasing a result distinct from classical error correction codes. In this paper, we consider edge-wise informed dynamic scheduling (IDS) for QLDPC codes based on syndrome-based residual belief propagation (sRBP). However, the construction of QLDPC codes and the identical prior intrinsic information assignment will result in an equal residual in many edges, causing a performance limitation for sRBP. Two heuristic strategies, including edge pool design and error pre-correction, are introduced to tackle this obstacle and quantum trapping sets. Then, a novel sRBP equipped with a predict-and-reduce-error mechanism (PRE-sRBP) is proposed, which can provide over one order of performance gain on the considered bicycle codes and symmetric hypergraph (HP) code under similar iterations compared to sLBP.",
+  "arxiv_id": "2410.01197",
+  "arxiv_version": "v2",
+  "authors": [
+    "Tzu-Hsuan Huang",
+    "Yeong-Luh Ueng"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "e54d3453e80159819874337cc67ad39a938b6dd7c81adeffbd163b1e22e4423f",
+  "last_processed_at": "2026-02-21T12:31:38.331418+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2410.01197v2",
+    "code_repo_urls": [],
+    "doi": "10.22331/q-2026-01-16-1967",
+    "pdf_url": "https://arxiv.org/pdf/2410.01197v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "66b147003343f7a9c6e4aba3c40459c295d5534b88aadb4021d5c6201986ddd6",
+  "submitted_date": "2024-10-02",
+  "tags": [
+    "belief propagation",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Informed Dynamic Scheduling for QLDPC Codes",
+  "updated_date": "2026-01-11"
+}

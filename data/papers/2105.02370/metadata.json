@@ -1,0 +1,32 @@
+{
+  "abstract": "The design of decoding algorithms is a significant technological component in the development of fault-tolerant quantum computers. Often design of quantum decoders is inspired by classical decoding algorithms, but there are no general principles for building quantum decoders from classical decoders. Given any pair of classical codes, we can build a quantum code using the hypergraph product, yielding a hypergraph product code. Here we show we can also lift the decoders for these classical codes. That is, given oracle access to a minimum weight decoder for the relevant classical codes, the corresponding $[[n,k,d]]$ quantum code can be efficiently decoded for any error of weight smaller than $(d-1)/2$. The quantum decoder requires only $O(k)$ oracle calls to the classical decoder and $O(n^2)$ classical resources. The lift and the correctness proof of the decoder have a purely algebraic nature that draws on the discovery of some novel homological invariants of the hypergraph product codespace. While the decoder works perfectly for adversarial errors, it is not suitable for more realistic stochastic noise models and therefore can not be used to establish an error correcting threshold.",
+  "arxiv_id": "2105.02370",
+  "arxiv_version": "v2",
+  "authors": [
+    "Armanda O. Quintavalle",
+    "Earl T. Campbell"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "6460c8a5595b0c726843ffcc03837c3d6147dfd8937ef23855919555503cc5a9",
+  "last_processed_at": "2026-02-21T12:31:38.580503+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2105.02370v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2105.02370v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "f6dd10bb736a48452f1d92ca40a9178131d94b0ed8fc5ec51e3214cbc691c6ad",
+  "submitted_date": "2021-05-05",
+  "tags": [
+    "decoder",
+    "decoding",
+    "hypergraph product",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "ReShape: a decoder for hypergraph product codes",
+  "updated_date": "2022-07-13"
+}

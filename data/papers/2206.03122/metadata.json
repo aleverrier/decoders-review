@@ -1,0 +1,33 @@
+{
+  "abstract": "In this work we study the single-shot performance of higher dimensional hypergraph product codes decoded using belief-propagation and ordered-statistics decoding [Panteleev and Kalachev, 2021]. We find that decoding data qubit and syndrome measurement errors together in a single stage leads to single-shot thresholds that greatly exceed all previously observed single-shot thresholds for these codes. For the 3D toric code and a phenomenological noise model, our results are consistent with a sustainable threshold of 7.1% for $Z$ errors, compared to the threshold of 2.90% previously found using a two-stage decoder~[Quintavalle et al., 2021]. For the 4D toric code, for which both $X$ and $Z$ error correction is single-shot, our results are consistent with a sustainable single-shot threshold of 4.3% which is even higher than the threshold of 2.93% for the 2D toric code for the same noise model but using $L$ rounds of stabiliser measurement. We also explore the performance of balanced product and 4D hypergraph product codes which we show lead to a reduction in qubit overhead compared the surface code for phenomenological error rates as high as 1%.",
+  "arxiv_id": "2206.03122",
+  "arxiv_version": "v2",
+  "authors": [
+    "Oscar Higgott",
+    "Nikolas P. Breuckmann"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "664a9bf5eeb6d6285bc00ff1e090ef75d9c8bfd7105f29f69db4eac612deba16",
+  "last_processed_at": "2026-02-21T12:31:38.555098+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2206.03122v2",
+    "code_repo_urls": [],
+    "doi": "10.1103/PRXQuantum.4.020332",
+    "pdf_url": "https://arxiv.org/pdf/2206.03122v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "86df2be3c2fac0fd43896c68293844060d414c5cb329c20d9f400ca4fe90e877",
+  "submitted_date": "2022-06-07",
+  "tags": [
+    "balanced product",
+    "decoder",
+    "decoding",
+    "hypergraph product",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Improved single-shot decoding of higher dimensional hypergraph product codes",
+  "updated_date": "2023-06-27"
+}

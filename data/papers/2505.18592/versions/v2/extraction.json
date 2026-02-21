@@ -1,0 +1,59 @@
+{
+  "abstract": "We propose and analyze a hierarchical quantum error correction (QEC) scheme that concatenates hypergraph product (HGP) codes with rotated surface codes, which is compatible with quantum computers with only nearest-neighbor interactions. The upper layer employs (3,4)-random HGP codes, known for their constant encoding rate and favorable distance scaling, while the lower layer consists of a rotated surface code with distance 5, allowing hardware compatibility through lattice surgery. To address the decoding bottleneck, we utilize a soft-decision decoding strategy that combines belief propagation with ordered statistics (BP-OS) decoding, enhanced by a syndrome-conditioned logical error probability computed via a tailored lookup table for the lower layer. Numerical simulations under a code capacity noise model demonstrate that our hierarchical codes achieve logical error suppression below the threshold. Furthermore, we derive explicit conditions under which the proposed codes surpass surface codes in both qubit efficiency and error rate. In particular, for the size parameter $s \\geq 4$ (which corresponds to 16 logical qubits) and the distance $d\\geq 25$, our construction outperforms the rotated surface code in practical regimes with physical error rates around or less than $10^{-2}$. These results suggest that concatenated qLDPC-surface architectures offer a scalable and resource-efficient path toward near-term fault-tolerant quantum computation.",
+  "arxiv_id": "2505.18592",
+  "arxiv_version": "v2",
+  "authors": [
+    "Junichi Haruna",
+    "Keisuke Fujii"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2505.18592v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2505.18592v2"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoding",
+      "belief propagation",
+      "hypergraph product"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2025-05-24",
+  "title": "Hierarchical Quantum Error Correction with Hypergraph Product Code and Rotated Surface Code",
+  "updated_date": "2025-06-24"
+}

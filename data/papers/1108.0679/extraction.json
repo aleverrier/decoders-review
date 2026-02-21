@@ -1,0 +1,60 @@
+{
+  "abstract": "As in classical coding theory, quantum analogues of low-density parity-check (LDPC) codes have offered good error correction performance and low decoding complexity by employing the Calderbank-Shor-Steane (CSS) construction. However, special requirements in the quantum setting severely limit the structures such quantum codes can have. While the entanglement-assisted stabilizer formalism overcomes this limitation by exploiting maximally entangled states (ebits), excessive reliance on ebits is a substantial obstacle to implementation. This paper gives necessary and sufficient conditions for the existence of quantum LDPC codes which are obtainable from pairs of identical LDPC codes and consume only one ebit, and studies the spectrum of attainable code parameters.",
+  "arxiv_id": "1108.0679",
+  "arxiv_version": "v4",
+  "authors": [
+    "Yuichiro Fujiwara",
+    "Vladimir D. Tonchev"
+  ],
+  "categories": [
+    "cs.IT",
+    "math.CO",
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/1108.0679v4",
+    "code_repo_urls": [],
+    "doi": "10.1109/TIT.2013.2247461",
+    "pdf_url": "https://arxiv.org/pdf/1108.0679v4"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "cs.IT",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2011-08-02",
+  "title": "A characterization of entanglement-assisted quantum low-density parity-check codes",
+  "updated_date": "2012-10-07"
+}

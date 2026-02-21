@@ -1,0 +1,33 @@
+{
+  "abstract": "A quantum stabilizer code over GF$(q)$ corresponds to a classical additive code over GF$(q^2)$ that is self-orthogonal with respect to a symplectic inner product. We study the decoding of quantum low-density parity-check (LDPC) codes over binary finite fields GF$(q=2^l)$ by the sum-product algorithm, also known as belief propagation (BP). Conventionally, a message in a nonbinary BP for quantum codes over GF$(2^l)$ represents a probability vector over GF$(2^{2l})$, inducing high decoding complexity. In this paper, we explore the property of the symplectic inner product and show that scalar messages suffice for BP decoding of nonbinary quantum codes, rather than vector messages necessary for the conventional BP. Consequently, we propose a BP decoding algorithm for quantum codes over GF$(2^l)$ by passing scalar messages so that it has low computation complexity. The algorithm is specified in log domain by using log-likelihood ratios (LLRs) of the channel statistics to have a low implementation cost. Moreover, techniques such as message normalization or offset can be naturally applied in this algorithm to mitigate the effects of short cycles to improve BP performance. This is important for nonbinary quantum codes since they may have more short cycles compared to binary quantum codes. Several computer simulations are provided to demonstrate these advantages. The scalar-based strategy can also be used to improve the BP decoding of classical linear codes over GF$(2^l)$ with many short cycles.",
+  "arxiv_id": "2104.00304",
+  "arxiv_version": "v3",
+  "authors": [
+    "Ching-Yi Lai",
+    "Kao-Yueh Kuo"
+  ],
+  "categories": [
+    "cs.IT",
+    "quant-ph"
+  ],
+  "extraction_hash": "45da554927dba57b94e99db79ba9b72ea7d905e0dbab1e5a35f4e6bd52916389",
+  "last_processed_at": "2026-02-21T12:31:38.592391+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2104.00304v3",
+    "code_repo_urls": [],
+    "doi": "10.1109/TQE.2021.3113936",
+    "pdf_url": "https://arxiv.org/pdf/2104.00304v3"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "393f05071c907788bbdc1fc32f1f2e207eff1acf9fbab8547b08861e49888a15",
+  "submitted_date": "2021-04-01",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Log-domain decoding of quantum LDPC codes over binary finite fields",
+  "updated_date": "2021-10-26"
+}

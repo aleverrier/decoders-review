@@ -1,0 +1,32 @@
+{
+  "abstract": "The development and use of large-scale quantum computers relies on integrating quantum error-correcting (QEC) schemes into the quantum computing pipeline. A fundamental part of the QEC protocol is the decoding of the syndrome to identify a recovery operation with a high success rate. In this work, we implement a decoder that finds the recovery operation with the highest success probability by mapping the decoding problem to a spin system and using Population Annealing to estimate the free energy of the different error classes. We study the decoder performance on a 4.8.8 color code lattice under different noise models, including code capacity with bit-flip and depolarizing noise, and phenomenological noise, which considers noisy measurements, with performance reaching near-optimal thresholds. This decoding algorithm can be applied to a wide variety of stabilizer codes, including surface codes and quantum low-density parity-check (qLDPC) codes.",
+  "arxiv_id": "2405.03776",
+  "arxiv_version": "v1",
+  "authors": [
+    "Fernando Martínez-García",
+    "Francisco Revson F. Pereira",
+    "Pedro Parrado-Rodríguez"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "fed5a4415c49918e5e5c6449f3267e89a845d2e5f087da5e06ed14ff0546b74a",
+  "last_processed_at": "2026-02-21T12:31:38.523057+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2405.03776v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2405.03776v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "87af1e28c9e22924b83f9be60b8edbbef2bd5727f594b58637976189c2d3e887",
+  "submitted_date": "2024-05-06",
+  "tags": [
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Near-optimal decoding algorithm for color codes using Population Annealing",
+  "updated_date": "2024-05-06"
+}

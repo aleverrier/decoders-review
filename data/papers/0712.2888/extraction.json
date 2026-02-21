@@ -1,0 +1,60 @@
+{
+  "abstract": "We present a theory of quantum serial turbo-codes, describe their iterative decoding algorithm, and study their performances numerically on a depolarization channel. Our construction offers several advantages over quantum LDPC codes. First, the Tanner graph used for decoding is free of 4-cycles that deteriorate the performances of iterative decoding. Secondly, the iterative decoder makes explicit use of the code's degeneracy. Finally, there is complete freedom in the code design in terms of length, rate, memory size, and interleaver choice. We define a quantum analogue of a state diagram that provides an efficient way to verify the properties of a quantum convolutional code, and in particular its recursiveness and the presence of catastrophic error propagation. We prove that all recursive quantum convolutional encoder have catastrophic error propagation. In our constructions, the convolutional codes have thus been chosen to be non-catastrophic and non-recursive. While the resulting families of turbo-codes have bounded minimum distance, from a pragmatic point of view the effective minimum distances of the codes that we have simulated are large enough not to degrade the iterative decoding performance up to reasonable word error rates and block sizes. With well chosen constituent convolutional codes, we observe an important reduction of the word error rate as the code length increases.",
+  "arxiv_id": "0712.2888",
+  "arxiv_version": "v2",
+  "authors": [
+    "David Poulin",
+    "Jean-Pierre Tillich",
+    "Harold Ollivier"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/0712.2888v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/0712.2888v2"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoder",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2007-12-18",
+  "title": "Quantum serial turbo-codes",
+  "updated_date": "2009-06-10"
+}

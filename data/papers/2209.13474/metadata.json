@@ -1,0 +1,38 @@
+{
+  "abstract": "Several notions of code products are known in quantum error correction, such as hyper-graph products, homological products, lifted products, balanced products, to name a few. In this paper we introduce a new product code construction which is a natural generalisation of classical product codes to quantum codes: starting from a set of component Calderbank-Shor-Steane (CSS) codes, a larger CSS code is obtained where both $X$ parity checks and $Z$ parity checks are associated to classical product codes. We deduce several properties of product CSS codes from the properties of the component codes, including bounds to the code distance, and show that built-in redundancies in the parity checks result in so-called meta-checks which can be exploited to correct syndrome read-out errors. We then specialise to the case of single-parity-check (SPC) product codes which in the classical domain are a common choice for constructing product codes. Logical error rate simulations of a SPC $3$-fold product CSS code having parameters $[[512,174,8]]$ are shown under both a maximum likelihood decoder for the erasure channel and belief propagation decoding for depolarising noise. We compare the results with other codes of comparable length and dimension, including a code from the family of asymptotically good Tanner codes. We observe that our reference product CSS code outperforms all the other examined codes.",
+  "arxiv_id": "2209.13474",
+  "arxiv_version": "v2",
+  "authors": [
+    "Dimiter Ostrev",
+    "Davide Orsucci",
+    "Francisco Lázaro",
+    "Balazs Matuz"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "6af089db5c2f155271c5f9bfebb5e90cb7333a686eae677796059e307f6ff873",
+  "last_processed_at": "2026-02-21T12:31:38.507350+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2209.13474v2",
+    "code_repo_urls": [],
+    "doi": "10.22331/q-2024-07-22-1420",
+    "pdf_url": "https://arxiv.org/pdf/2209.13474v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "85a317aebeadc6f0d62cb4a222cd14de608177e34b681ac02080ed7030658487",
+  "submitted_date": "2022-09-27",
+  "tags": [
+    "balanced product",
+    "belief propagation",
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "lifted product",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Classical product code constructions for quantum Calderbank-Shor-Steane codes",
+  "updated_date": "2024-07-18"
+}

@@ -1,0 +1,31 @@
+{
+  "abstract": "While quantum low-density parity check (qLDPC) codes are a low-overhead means of quantum information storage, it is valuable for quantum codes to possess fault-tolerant features beyond this resource efficiency. In this work, we introduce trivariate tricycle (TT) codes, qLDPC codes that combine several desirable features: high thresholds under a circuit-level noise model, partial single-shot decodability for low-time-overhead decoding, a large set of transversal Clifford gates and automorphisms within and between code blocks, and (for several sub-constructions) constant-depth implementations of a (non-Clifford) $CCZ$ gate. TT codes are CSS codes based on a length-3 chain complex, and are defined from three trivariate polynomials, with the 3D toric code (3DTC) belonging to this construction. We numerically search for TT codes and find several candidates with improved parameters relative to the 3DTC, using up to 48$\\times$ fewer data qubits as equivalent 3DTC encodings. We construct syndrome-extraction circuits for these codes and numerically demonstrate single-shot decoding in the X error channel in both phenomenological and circuit-level noise models. Under circuit-level noise, TT codes have a threshold of $0.3\\%$ in the Z error channel and $1\\%$ in the X error channel (with single-shot decoding). All TT codes possess several transversal $CZ$ gates that can partially address logical qubits between two code blocks. Additionally, the codes possess a large set of automorphisms that can perform Clifford gates within a code block. Finally, we establish several TT code polynomial constructions that allows for a constant-depth implementation of logical $CCZ$ gates. We find examples of error-correcting and error-detecting codes using these constructions whose parameters out-perform those of the 3DTC, using up to $4\\times$ fewer data qubits for equivalent-distance 3DTC encodings.",
+  "arxiv_id": "2508.08191",
+  "arxiv_version": "v2",
+  "authors": [
+    "Abraham Jacob",
+    "Campbell McLauchlan",
+    "Dan E. Browne"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "0c62f34269f63050db28fd9955791a5dc452b14fb20bee930a3e2e75537384c2",
+  "last_processed_at": "2026-02-21T12:31:38.311241+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2508.08191v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2508.08191v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "78051a992460c828e2791cc7e52fd3fd6c6cf135a43c9e3d5938a96d91d88613",
+  "submitted_date": "2025-08-11",
+  "tags": [
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Single-Shot Decoding and Fault-tolerant Gates with Trivariate Tricycle Codes",
+  "updated_date": "2026-01-29"
+}

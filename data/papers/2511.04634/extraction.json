@@ -1,0 +1,59 @@
+{
+  "abstract": "We propose a method for modifying orthogonal sparse matrix pairs used in CSS codes while preserving their matrix row and column weight distributions, which play a crucial role in determining the performance of belief-propagation decoding. Unlike simple row or column permutations that merely reorder existing elements, the proposed local modification introduces genuine structural randomness through small $2\\times2$ cross-swap operations followed by integer-linear-program-based local repairs that restore orthogonality. By applying this procedure repeatedly in a random manner, ensembles of randomized quantum LDPC codes can be constructed. The computational complexity of each repair depends only on the maximum row and column weights and is independent of the overall matrix size, ensuring scalability to large code blocks.",
+  "arxiv_id": "2511.04634",
+  "arxiv_version": "v1",
+  "authors": [
+    "Koki Okada",
+    "Kenta Kasai"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2511.04634v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2511.04634v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2025-11-06",
+  "title": "Random Construction of Quantum LDPC Codes",
+  "updated_date": "2025-11-06"
+}

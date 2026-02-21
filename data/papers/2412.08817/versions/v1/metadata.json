@@ -1,0 +1,36 @@
+{
+  "abstract": "We introduce a new erasure decoder that applies to arbitrary quantum LDPC codes. Dubbed the cluster decoder, it generalizes the decomposition idea of Vertical-Horizontal (VH) decoding introduced by Connelly et al. in 2022. Like the VH decoder, the idea is to first run the peeling decoder and then post-process the resulting stopping set. The cluster decoder breaks the stopping set into a tree of clusters which can be solved sequentially via Gaussian Elimination (GE). By allowing clusters of unconstrained size, this decoder achieves maximum-likelihood (ML) performance with reduced complexity compared with full GE. When GE is applied only to clusters whose sizes are less than a constant, the performance is degraded but the complexity becomes linear in the block length. Our simulation results show that, for hypergraph product codes, the cluster decoder with constant cluster size achieves near-ML performance similar to VH decoding in the low-erasure-rate regime. For the general quantum LDPC codes we studied, the cluster decoder can be used to estimate the ML performance curve with reduced complexity over a wide range of erasure rates.",
+  "arxiv_id": "2412.08817",
+  "arxiv_version": "v1",
+  "authors": [
+    "Hanwen Yao",
+    "Mert Gökduman",
+    "Henry D. Pfister"
+  ],
+  "categories": [
+    "cs.IT",
+    "quant-ph"
+  ],
+  "extraction_hash": "f0fb42587e4299546a58b863ebf520e137b565f47422fda2a1997d3a6ba11bde",
+  "last_processed_at": "2026-02-21T12:31:38.463268+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2412.08817v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2412.08817v1"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "3fa66104e1e32621d2a0f126369369f8524ec4ca794705db2b4ac49ceb110026",
+  "submitted_date": "2024-12-11",
+  "tags": [
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "hypergraph product",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Cluster Decomposition for Improved Erasure Decoding of Quantum LDPC Codes",
+  "updated_date": "2024-12-11"
+}

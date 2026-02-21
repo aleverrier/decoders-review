@@ -1,0 +1,36 @@
+{
+  "abstract": "Quantum low-density parity-check (QLDPC) codes are promising candidates for error correction in quantum computers. One of the major challenges in implementing QLDPC codes in quantum computers is the lack of a universal decoder. In this work, we first propose to decode QLDPC codes with a belief propagation (BP) decoder operating on overcomplete check matrices. Then, we extend the neural BP (NBP) decoder, which was originally studied for suboptimal binary BP decoding of QLPDC codes, to quaternary BP decoders. Numerical simulation results demonstrate that both approaches as well as their combination yield a low-latency, high-performance decoder for several short to moderate length QLDPC codes.",
+  "arxiv_id": "2308.08208",
+  "arxiv_version": "v2",
+  "authors": [
+    "Sisi Miao",
+    "Alexander Schnerring",
+    "Haizheng Li",
+    "Laurent Schmalen"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "05ce22d9a8feee70975f3403755f670e9cacc567ff3c02cce5c7a859e448e214",
+  "last_processed_at": "2026-02-21T12:31:38.451582+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2308.08208v2",
+    "code_repo_urls": [],
+    "doi": "10.1109/ACCESS.2025.3539475",
+    "pdf_url": "https://arxiv.org/pdf/2308.08208v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "21fb46e9100f75b43a378c78a396d822713418519381771322a86dc668c68086",
+  "submitted_date": "2023-08-16",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Quaternary Neural Belief Propagation Decoding of Quantum LDPC Codes with Overcomplete Check Matrices",
+  "updated_date": "2025-02-15"
+}

@@ -1,0 +1,63 @@
+{
+  "abstract": "This paper develops a general method for constructing entanglement-assisted quantum low-density parity-check (LDPC) codes, which is based on combinatorial design theory. Explicit constructions are given for entanglement-assisted quantum error-correcting codes (EAQECCs) with many desirable properties. These properties include the requirement of only one initial entanglement bit, high error correction performance, high rates, and low decoding complexity. The proposed method produces infinitely many new codes with a wide variety of parameters and entanglement requirements. Our framework encompasses various codes including the previously known entanglement-assisted quantum LDPC codes having the best error correction performance and many new codes with better block error rates in simulations over the depolarizing channel. We also determine important parameters of several well-known classes of quantum and classical LDPC codes for previously unsettled cases.",
+  "arxiv_id": "1008.4747",
+  "arxiv_version": "v4",
+  "authors": [
+    "Yuichiro Fujiwara",
+    "David Clark",
+    "Peter Vandendriessche",
+    "Maarten De Boeck",
+    "Vladimir D. Tonchev"
+  ],
+  "categories": [
+    "cs.IT",
+    "math.CO",
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/1008.4747v4",
+    "code_repo_urls": [],
+    "doi": "10.1103/PhysRevA.82.042338",
+    "pdf_url": "https://arxiv.org/pdf/1008.4747v4"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "cs.IT",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2010-08-27",
+  "title": "Entanglement-assisted quantum low-density parity-check codes",
+  "updated_date": "2010-11-01"
+}

@@ -1,0 +1,32 @@
+{
+  "abstract": "We introduce Decision Tree Decoders (DTDs), which rely only on the sparsity of the binary check matrix, making them broadly applicable for decoding any quantum low-density parity-check (qLDPC) code and fault-tolerant quantum circuits. DTDs construct corrections incrementally by adding faults one-by-one, forming a path through a Decision Tree (DT). Each DTD algorithm is defined by its strategy for exploring the tree, with well-designed algorithms typically needing to explore only a small portion before finding a correction. We propose two explicit DTD algorithms that can be applied to any qLDPC code: (1) A provable decoder: Guaranteed to find a minimum-weight correction. While it can be slow in the worst case, numerical results show surprisingly fast median-case runtime, exploring only $w$ DT nodes to find a correction for weight-$w$ errors in notable qLDPC codes, such as bivariate bicycle and color codes. This decoder may be useful for ensemble decoding and determining provable code distances, and can be adapted to compute all minimum-weight logical operators of a code. (2) A heuristic decoder: Achieves higher accuracy and faster performance than BP-OSD on the gross code with circuit noise in realistic parameter regimes.",
+  "arxiv_id": "2502.16408",
+  "arxiv_version": "v1",
+  "authors": [
+    "Kai R. Ott",
+    "Bence Hetényi",
+    "Michael E. Beverland"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "0542a863e7aab657dcd4bd54e91c9585eec1f225fd6d95555e03b162243d2644",
+  "last_processed_at": "2026-02-21T12:31:38.448675+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2502.16408v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2502.16408v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "a5e725faa2667dc3f7b1c6067431fbf7ae74e6c2f2196e878efedecf4ec4eac2",
+  "submitted_date": "2025-02-23",
+  "tags": [
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Decision-tree decoders for general quantum LDPC codes",
+  "updated_date": "2025-02-23"
+}

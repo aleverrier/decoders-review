@@ -1,0 +1,59 @@
+{
+  "abstract": "We propose an error correction procedure based on a cellular automaton, the sweep rule, which is applicable to a broad range of codes beyond topological quantum codes. For simplicity, however, we focus on the three-dimensional (3D) toric code on the rhombic dodecahedral lattice with boundaries and prove that the resulting local decoder has a non-zero error threshold. We also numerically benchmark the performance of the decoder in the setting with measurement errors using various noise models. We find that this error correction procedure is remarkably robust against measurement errors and is also essentially insensitive to the details of the lattice and noise model. Our work constitutes a step towards finding simple and high-performance decoding strategies for a wide range of quantum low-density parity-check codes.",
+  "arxiv_id": "2004.07247",
+  "arxiv_version": "v2",
+  "authors": [
+    "Michael Vasmer",
+    "Dan E. Browne",
+    "Aleksander Kubica"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2004.07247v2",
+    "code_repo_urls": [],
+    "doi": "10.1038/s41598-021-81138-2",
+    "pdf_url": "https://arxiv.org/pdf/2004.07247v2"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2020-04-15",
+  "title": "Cellular automaton decoders for topological quantum codes with noisy measurements and beyond",
+  "updated_date": "2021-01-25"
+}

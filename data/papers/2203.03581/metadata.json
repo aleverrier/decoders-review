@@ -1,0 +1,31 @@
+{
+  "abstract": "Quantum low-density parity-check (qLDPC) codes are quantum stabilizer codes where each stabilizer acts on a constant number of qubits and each qubit is acted on by a constant number of stabilizers. We study qLDPC codes constructed from balanced products and lossless expanders. We found that assuming the existence of 2-sided lossless expander graphs with free group action, the resulting qLDPC codes have constant rate, linear distance, and linear time decoders.",
+  "arxiv_id": "2203.03581",
+  "arxiv_version": "v1",
+  "authors": [
+    "Ting-Chun Lin",
+    "Min-Hsiu Hsieh"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "7f51fd3973995e95cc2eef91c4eff31b0b39e835cde69deadd7693d2e84004c3",
+  "last_processed_at": "2026-02-21T12:31:38.589638+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2203.03581v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2203.03581v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "f85c9ea36cf09a828527b4655c1330df6a91c72007d1c591c4d6e32040384110",
+  "submitted_date": "2022-03-07",
+  "tags": [
+    "balanced product",
+    "decoder",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Good quantum LDPC codes with linear time decoder from lossless expanders",
+  "updated_date": "2022-03-07"
+}

@@ -1,0 +1,61 @@
+{
+  "abstract": "In this work, we develop a reduced complexity maximum likelihood (ML) decoder for quantum low-density parity-check (QLDPC) codes over erasures. Our decoder combines classical inactivation decoding, which integrates peeling with symbolic guessing, with a new dual peeling procedure. In the dual peeling stage, we perform row operations on the stabilizer matrix to efficiently reveal stabilizer generators and their linear combinations whose support lies entirely on the erased set. Each such stabilizer identified allows us to freely fix a bit in its support without affecting the logical state of the decoded result. This removes one degree of freedom that would otherwise require a symbolic guess, reducing the number of inactivated variables and decreasing the size of the final linear system that must be solved. We further show that dual peeling combined with standard peeling alone, without inactivation, is sufficient to achieve ML for erasure decoding of surface codes. Simulations across several QLDPC code families confirm that our decoder matches ML logical failure performance while significantly reducing the complexity of inactivation decoding, including more than a 20% reduction in symbolic guesses for the B1 lifted product code at high erasure rates.",
+  "arxiv_id": "2601.14236",
+  "arxiv_version": "v1",
+  "authors": [
+    "Giulio Pech",
+    "Mert Gökduman",
+    "Hanwen Yao",
+    "Henry D. Pfister"
+  ],
+  "categories": [
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2601.14236v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2601.14236v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "cs.IT",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding",
+      "lifted product"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-01-20",
+  "title": "Stabilizer-Assisted Inactivation Decoding of Quantum Error-Correcting Codes with Erasures",
+  "updated_date": "2026-01-20"
+}

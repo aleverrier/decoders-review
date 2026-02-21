@@ -1,0 +1,59 @@
+{
+  "abstract": "Hypergraph product codes are a promising avenue to achieving fault-tolerant quantum computation with constant overhead. When embedding these and other constant-rate qLDPC codes into 2D, a significant number of nonlocal connections are required, posing difficulties for some quantum computing architectures. In this work, we introduce a fault-tolerance scheme that aims to alleviate the effects of implementing this nonlocality by measuring generators acting on spatially distant qubits less frequently than those which do not. We investigate the performance of a simplified version of this scheme, where the measured generators are randomly selected. When applied to hypergraph product codes and a modified small-set-flip decoding algorithm, we prove that for a sufficiently high percentage of generators being measured, a threshold still exists. We also find numerical evidence that the logical error rate is exponentially suppressed even when a large constant fraction of generators are not measured.",
+  "arxiv_id": "2306.17122",
+  "arxiv_version": "v3",
+  "authors": [
+    "Noah Berthusen",
+    "Daniel Gottesman"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2306.17122v3",
+    "code_repo_urls": [],
+    "doi": "10.22331/q-2024-05-14-1345",
+    "pdf_url": "https://arxiv.org/pdf/2306.17122v3"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoding",
+      "small-set-flip",
+      "hypergraph product"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2023-06-29",
+  "title": "Partial Syndrome Measurement for Hypergraph Product Codes",
+  "updated_date": "2024-05-01"
+}

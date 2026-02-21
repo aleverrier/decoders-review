@@ -1,0 +1,36 @@
+{
+  "abstract": "In this work we probe the impact of channel estimation on the performance of quantum LDPC codes. Our channel estimation is based on an optimal estimate of the relevant decoherence parameter via its quantum Fisher information. Using state-of-the art quantum LDPC codes designed for the quantum depolarization channel, and utilizing various quantum probes with different entanglement properties, we show how the performance of such codes can deteriorate by an order of magnitude when optimal channel identification is fed into a belief propagation decoding algorithm. Our work highlights the importance in quantum communications of a viable channel identification campaign prior to decoding, and highlights the trade-off between entanglement consumption and quantum LDPC code performance.",
+  "arxiv_id": "1202.0357",
+  "arxiv_version": "v1",
+  "authors": [
+    "Yixuan Xie",
+    "Jun Li",
+    "Robert Malaney",
+    "Jinhong Yuan"
+  ],
+  "categories": [
+    "cs.IT",
+    "quant-ph"
+  ],
+  "extraction_hash": "32bf52f45ca540fc31a996d64c4600e761222e6d1ae66dadb22568e969db0462",
+  "last_processed_at": "2026-02-21T12:31:38.629200+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/1202.0357v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/1202.0357v1"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "bb8cfb6f78a6d744b845b4215eb59bb42c2fac2f26319cde1542d3cc6a3ebafc",
+  "submitted_date": "2012-02-02",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoding",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Channel Identification and its Impact on Quantum LDPC Code Performance",
+  "updated_date": "2012-02-02"
+}

@@ -1,0 +1,59 @@
+{
+  "abstract": "Belief propagation (BP) is well-known as a low complexity decoding algorithm with a strong performance for important classes of quantum error correcting codes, e.g. notably for the quantum low-density parity check (LDPC) code class of random expander codes. However, it is also well-known that the performance of BP breaks down when facing topological codes such as the surface code, where naive BP fails entirely to reach a below-threshold regime, i.e. the regime where error correction becomes useful. Previous works have shown, that this can be remedied by resorting to post-processing decoders outside the framework of BP. In this work, we present a generalized belief propagation method with an outer re-initialization loop that successfully decodes surface codes, i.e. opposed to naive BP it recovers the sub-threshold regime known from decoders tailored to the surface code and from statistical-mechanical mappings. We report a threshold of 17% under independent bit-and phase-flip data noise (to be compared to the ideal threshold of 20.6%) and a threshold value of 14%$under depolarizing data noise (compared to the ideal threshold of 18.9%), which are on par with thresholds achieved by non-BP post-processing methods.",
+  "arxiv_id": "2212.03214",
+  "arxiv_version": "v2",
+  "authors": [
+    "Josias Old",
+    "Manuel Rispler"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2212.03214v2",
+    "code_repo_urls": [],
+    "doi": "10.22331/q-2023-06-07-1037",
+    "pdf_url": "https://arxiv.org/pdf/2212.03214v2"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding",
+      "belief propagation"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2022-12-06",
+  "title": "Generalized Belief Propagation Algorithms for Decoding of Surface Codes",
+  "updated_date": "2023-06-06"
+}

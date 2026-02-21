@@ -1,0 +1,41 @@
+{
+  "abstract": "Quantum error correction (QEC) is critical for scalable and reliable quantum computing, but existing solutions, such as surface codes, incur significant qubit overhead. Quantum low-density parity check (qLDPC) codes have recently emerged as a promising alternative, requiring fewer qubits. However, the lack of efficient decoders remains a major barrier to their practical implementation. In this work, we introduce SymBreak, a novel decoder for qLDPC codes that adaptively modifies the decoding graph to improve the performance of state-of-the-art belief propagation (BP) decoders. Our key contribution is identifying quantum degeneracy as a root cause of the convergence issues often encountered in BP decoding of quantum LDPC codes. We propose a solution that mitigates this issue at the decoding graph level, achieving both fast and accurate decoding. Our results demonstrate that SymBreak outperforms BP and BP+OSD-a more complex variant of BP-with a $16.17\\times$ reduction in logical error rate compared to BP and $3.23\\times$ compared to BP+OSD across various qLDPC code families. With only an $18.97$% time overhead compared to BP, SymBreak provides significantly faster decoding times than BP+OSD, representing a major advancement in efficient and accurate decoding for qLDPC-based QEC architectures.",
+  "arxiv_id": "2412.02885",
+  "arxiv_version": "v1",
+  "authors": [
+    "Keyi Yin",
+    "Xiang Fang",
+    "Jixuan Ruan",
+    "Hezi Zhang",
+    "Dean Tullsen",
+    "Andrew Sornborger",
+    "Chenxu Liu",
+    "Ang Li",
+    "Travis Humble",
+    "Yufei Ding"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "9d593064c4aa9b2760d8ea5fcb9a95d840925d9f77f8ef5fe6b2fdb7bf84f396",
+  "last_processed_at": "2026-02-21T12:31:38.466933+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2412.02885v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2412.02885v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "c727cc7ec2961a482aa0138ee29fdb922cc5ab41119c82faa10e97d427e69fdb",
+  "submitted_date": "2024-12-03",
+  "tags": [
+    "belief propagation",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "SymBreak: Mitigating Quantum Degeneracy Issues in QLDPC Code Decoders by Breaking Symmetry",
+  "updated_date": "2024-12-03"
+}

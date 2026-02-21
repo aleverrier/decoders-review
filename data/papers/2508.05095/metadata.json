@@ -1,0 +1,31 @@
+{
+  "abstract": "We construct several explicit instances of quantum Tanner codes, a class of asymptotically good quantum low-density parity check (qLDPC) codes. The codes are constructed using dihedral groups and random pairs of classical codes and exhibit high encoding rates, relative distances, and pseudo-thresholds. Using the BP+OSD decoder, we demonstrate good performance in the phenomenological and circuit-level noise settings, comparable to the surface code with similar distances. Finally, we conduct an analysis of the space-time overhead incurred by these codes.",
+  "arxiv_id": "2508.05095",
+  "arxiv_version": "v3",
+  "authors": [
+    "Rebecca Katharina Radebold",
+    "Stephen D. Bartlett",
+    "Andrew C. Doherty"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "0f0cf6839c014dc55d247c4c790c73984dbdc4b9456577e155d0a6e70c062e0b",
+  "last_processed_at": "2026-02-21T12:31:38.352121+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2508.05095v3",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2508.05095v3"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "2f49101b64a2ad13377477d6046c0fb5d0c563523e868ad2c1a7b9384f203780",
+  "submitted_date": "2025-08-07",
+  "tags": [
+    "decoder",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Explicit Instances of Quantum Tanner Codes",
+  "updated_date": "2025-11-14"
+}

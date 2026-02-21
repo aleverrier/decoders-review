@@ -1,0 +1,57 @@
+{
+  "abstract": "Due to their fast decoding algorithms, quantum generalizations of low-density parity check, or LDPC, codes have been investigated as a solution to the problem of decoherence in fragile quantum states. However, the additional twisted inner product requirements of quantum stabilizer codes force four-cycles and eliminate the possibility of randomly generated quantum LDPC codes. Moreover, the classes of quantum LDPC codes discovered thus far generally have unknown or small minimum distance, or a fixed rate. This paper presents several new classes of quantum LDPC codes constructed from finite projective planes. These codes have rates that increase with the block length $n$ and minimum weights proportional to $n^{1/2}$.",
+  "arxiv_id": "1207.0732",
+  "arxiv_version": "v1",
+  "authors": [
+    "Jacob Farinholt"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/1207.0732v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/1207.0732v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2012-07-03",
+  "title": "Quantum LDPC Codes Constructed from Point-Line Subsets of the Finite Projective Plane",
+  "updated_date": "2012-07-03"
+}

@@ -1,0 +1,60 @@
+{
+  "abstract": "It is a major challenge to perform addressable and parallel logical operations on constant-rate quantum LDPC (qLDPC) codes. Indeed, the overhead of targeting specific logical qubits represents a crucial bottleneck in many quantum fault-tolerance schemes. We introduce fault-tolerant protocols for performing various addressable as well as parallel logical operations with constant space-time overhead, on a family of constant-rate and polynomial-distance qLDPC codes. Specifically, we construct gadgets for a large class of permutations of logical qubits. We apply these logical permutations to construct gadgets for applying a targeted Hadamard (or $CNOT$) gate on any chosen logical qubit (pair). We also construct gadgets for preparing logical code states, and for applying Hadamard gates on all logical qubits in a codeblock. All of our gadgets use constant quantum space-time overhead along with polynomially bounded classical computation. Prior protocols for such operations required larger overhead, or else relied on codes with certain symmetries that lack known asymptotic constructions. Our codes are given by tensor products of classical codes constructed from lossless expander graphs. Our core technical contribution is a constant-overhead code-switching procedure between 2- and 3-dimensional product codes, which generalizes Bombin's dimensional jump (arXiv:1412.5079). We prove that all of our gadgets exhibit a constant threshold under locally stochastic noise. Along the way, we develop a small-set flip decoder for high-dimensional product codes from lossless expanders. Our techniques yield additional interesting consequences, such as single-shot state preparation of 2-dimensional product codes with constant space-time overhead. We also propose a method for performing parallel non-Clifford gates by extending our techniques to codes supporting transversal application of such gates.",
+  "arxiv_id": "2510.06760",
+  "arxiv_version": "v1",
+  "authors": [
+    "Louis Golowich",
+    "Kathleen Chang",
+    "Guanyu Zhu"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2510.06760v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2510.06760v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoder"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2025-10-08",
+  "title": "Constant-Overhead Addressable Gates via Single-Shot Code Switching",
+  "updated_date": "2025-10-08"
+}

@@ -1,0 +1,59 @@
+{
+  "abstract": "We introduce sequential and parallel decoders for quantum Tanner codes. When the Tanner code construction is applied to a sufficiently expanding square complex with robust local codes, we obtain a family of asymptotically good quantum low-density parity-check codes. In this case, our decoders provably correct arbitrary errors of weight linear in the code length, respectively in linear or logarithmic time. The same decoders are easily adapted to the expander lifted product codes of Panteleev and Kalachev. Along the way, we exploit recently established bounds on the robustness of random tensor codes to give a tighter bound on the minimum distance of quantum Tanner codes.",
+  "arxiv_id": "2208.05537",
+  "arxiv_version": "v3",
+  "authors": [
+    "Anthony Leverrier",
+    "Gilles Zémor"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2208.05537v3",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2208.05537v3"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "lifted product"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2022-08-10",
+  "title": "Decoding quantum Tanner codes",
+  "updated_date": "2022-12-08"
+}

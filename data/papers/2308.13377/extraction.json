@@ -1,0 +1,63 @@
+{
+  "abstract": "We address the problem of performing message-passing-based decoding of quantum LDPC codes under hardware latency limitations. We propose a novel way to do layered decoding that suits quantum constraints and outperforms flooded scheduling, the usual scheduling on parallel architectures. A generic construction is given to construct layers of hypergraph product codes. In the process, we introduce two new notions, t-covering layers which is a generalization of the usual layer decomposition, and a new scheduling called random order scheduling. Numerical simulations show that the random ordering is of independent interest as it helps relieve the high error floor typical of message-passing decoders on quantum codes for both layered and serial decoding without the need for post-processing.",
+  "arxiv_id": "2308.13377",
+  "arxiv_version": "v1",
+  "authors": [
+    "Julien Du Crest",
+    "Francisco Garcia-Herrero",
+    "Mehdi Mhalla",
+    "Valentin Savin",
+    "Javier Valls"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2308.13377v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2308.13377v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoder",
+      "decoding",
+      "hypergraph product"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2023-08-25",
+  "title": "Layered Decoding of Quantum LDPC Codes",
+  "updated_date": "2023-08-25"
+}

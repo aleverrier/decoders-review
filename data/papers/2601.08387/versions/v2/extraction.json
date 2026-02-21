@@ -1,0 +1,56 @@
+{
+  "abstract": "In this paper, we present an efficient algorithm to sample random sparse matrices to be used as check matrices for quantum Low-Density Parity-Check (LDPC) codes. To ease the treatment, we mainly describe our algorithm as a technique to sample a dual-containing binary LDPC code, hence, a sparse matrix $\\mathbf H\\in\\mathbb F_2^{r\\times n}$ such that $\\mathbf H\\mathbf H^\\top = \\mathbf 0$. However, as we show, the algorithm can be easily generalized to sample dual-containing LDPC codes over non binary finite fields as well as more general quantum stabilizer LDPC codes. While several constructions already exist, all of them are somewhat algebraic as they impose some specific property (e.g., the matrix being quasi-cyclic). Instead, our algorithm is purely combinatorial as we do not require anything apart from the rows of $\\mathbf H$ being sparse enough. In this sense, we can think of our algorithm as a way to sample sparse, self-orthogonal matrices that are as random as possible. Our algorithm is conceptually very simple and, as a key ingredient, uses Information Set Decoding (ISD) to sample the rows of $\\mathbf H$, one at a time. The use of ISD is fundamental as, without it, efficient sampling would not be feasible. We give a theoretical characterization of our algorithm, determining which ranges of parameters can be sampled as well as the expected computational complexity. Numerical simulations and benchmarks confirm the feasibility and efficiency of our approach.",
+  "arxiv_id": "2601.08387",
+  "arxiv_version": "v2",
+  "authors": [
+    "Paolo Santini"
+  ],
+  "categories": [
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2601.08387v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2601.08387v2"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "cs.IT",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-01-13",
+  "title": "An Efficient Algorithm to Sample Quantum Low-Density Parity-Check Codes",
+  "updated_date": "2026-01-26"
+}

@@ -1,0 +1,61 @@
+{
+  "abstract": "Generalized bicycle (GB) codes have emerged as a promising class of quantum error-correcting codes with practical decoding capabilities. While numerous asymptotically good quantum codes and quantum low-density parity-check code constructions have been proposed, their finite block-length performance often remains unquantified. In this work, we demonstrate that GB codes exhibit comparable or superior error correction performance in finite-length settings, particularly when designed with higher or unrestricted row weights. Leveraging their flexible construction, GB codes can be tailored to achieve high rates while maintaining efficient decoding. We evaluate GB codes against other leading quantum code families, such as quantum Tanner codes and single-parity-check product codes, highlighting their versatility in practical finite-length applications.",
+  "arxiv_id": "2505.06157",
+  "arxiv_version": "v1",
+  "authors": [
+    "Olai Å. Mostad",
+    "Hsuan-Yin Lin",
+    "Eirik Rosnes",
+    "De-Shih Lee",
+    "Ching-Yi Lai"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2505.06157v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2505.06157v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2025-05-09",
+  "title": "Advancing Finite-Length Quantum Error Correction Using Generalized Bicycle Codes",
+  "updated_date": "2025-05-09"
+}

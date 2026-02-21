@@ -1,0 +1,32 @@
+{
+  "abstract": "A fault-tolerant approach to reliable quantum memory is essential for scalable quantum computing, as physical qubits are susceptible to noise. Quantum error correction (QEC) must be continuously performed to prolong the memory lifetime. In QEC, error syndromes are generated rapidly, often within the execution time of a few quantum gates, requiring decoders to process this error data with equal speed. A typical QEC cycle involves multiple rounds of syndrome measurements, causing potential error locations to scale rapidly with the code size and the number of measurement rounds. However, no such decoders currently exist for general quantum low-density parity-check codes. In this paper, we propose a fault-tolerant belief propagation (FTBP) decoder that utilizes a space-time Tanner graph across multiple rounds of syndrome extraction with mixed-alphabet error variables. To enhance FTBP, we introduce a technique of probabilistic error consolidation to mitigate degeneracy effects and short cycles. Additionally, we propose an adaptive sliding window procedure that captures long error events across window boundaries and adjusts the decoding in real time. Our simulations demonstrate high error thresholds of 0.4%-0.87% and strong error-floor performance for topological code families, including rotated toric, toric color, and twisted XZZX toric codes.",
+  "arxiv_id": "2409.18689",
+  "arxiv_version": "v1",
+  "authors": [
+    "Kao-Yueh Kuo",
+    "Ching-Yi Lai"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "3ae9625912c09fa5508ae21c515825638ed250d09798a181be64acc731519d3c",
+  "last_processed_at": "2026-02-21T12:31:38.484544+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2409.18689v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2409.18689v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "52246a17cd37079a5823a44ef06c2c2a6d180dd58c7f340cf27791a3a4fbe3fc",
+  "submitted_date": "2024-09-27",
+  "tags": [
+    "belief propagation",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Fault-Tolerant Belief Propagation for Practical Quantum Memory",
+  "updated_date": "2024-09-27"
+}

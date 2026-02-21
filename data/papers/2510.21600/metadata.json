@@ -1,0 +1,37 @@
+{
+  "abstract": "We introduce a prototype FPGA decoder implementing the recently discovered Relay-BP algorithm and targeting memory experiments on the $[[144,12,12]]$ bivariate bicycle quantum low-density parity check code. The decoder is both fast and accurate, achieving a belief propagation iteration time of 24ns. It matches the logical error performance of a floating-point implementation despite using reduced precision arithmetic. This speed is sufficient for an average per cycle decoding time under $1\\,\\mathrm{μs}$ assuming circuit model error probabilities are less than $3 \\times 10^{-3}$. This prototype decoder offers useful insights on the path toward decoding solutions for scalable fault-tolerant quantum computers.",
+  "arxiv_id": "2510.21600",
+  "arxiv_version": "v1",
+  "authors": [
+    "Thilo Maurer",
+    "Markus Bühler",
+    "Michael Kröner",
+    "Frank Haverkamp",
+    "Tristan Müller",
+    "Drew Vandeth",
+    "Blake R. Johnson"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "37fc801c2d92e9d3948b4477b761d0fd71a4a68023997578fe316953d6f59c81",
+  "last_processed_at": "2026-02-21T12:31:38.365329+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2510.21600v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2510.21600v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "9ed76060b470b0427c25d8dc0cb7a40ff6215f09b5a23a20342dbd5164343fb6",
+  "submitted_date": "2025-10-24",
+  "tags": [
+    "belief propagation",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Real-time decoding of the gross code memory with FPGAs",
+  "updated_date": "2025-10-24"
+}

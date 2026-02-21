@@ -1,0 +1,32 @@
+{
+  "abstract": "Quantum error correction is the building block for constructing fault-tolerant quantum processors that can operate reliably even if its constituting elements are corrupted by decoherence. In this context, real-time decoding is a necessity for implementing arbitrary quantum computations on the logical level. In this work, we present a new decoder for Quantum Low Density Parity Check (QLDPC) codes, named the closed-branch decoder, with a worst-case complexity loosely upper bounded by $\\mathcal{O}(n\\text{max}_{\\text{gr}}\\text{max}_{\\text{br}})$, where $\\text{max}_{\\text{gr}}$ and $\\text{max}_{\\text{br}}$ are tunable parameters that pose the accuracy versus speed trade-off of decoding algorithms. For the best precision, the $\\text{max}_{\\text{gr}}\\text{max}_{\\text{br}}$ product increases exponentially as $\\propto dj^d$, where $d$ indicates the distance of the code and $j$ indicates the average row weight of its parity check matrix. Nevertheless, we numerically show that considering small values that are polynomials of the code distance are enough for good error correction performance. The decoder is described to great extent and compared with the Belief Propagation Ordered Statistics Decoder (BPOSD) operating over data qubit, phenomenological and circuit-level noise models for the class of Bivariate Bicycle (BB) codes. The results showcase a promising performance of the decoder, obtaining similar results with much lower complexity than BPOSD when considering the smallest distance codes, but experiencing some logical error probability degradation for the larger ones. Ultimately, the performance and complexity of the decoder depends on the product $\\text{max}_{\\text{gr}}\\text{max}_{\\text{br}}$, which can be considered taking into account benefiting one of the two aspects at the expense of the other.",
+  "arxiv_id": "2402.01532",
+  "arxiv_version": "v2",
+  "authors": [
+    "Antonio deMarti iOlius",
+    "Josu Etxezarreta Martinez"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "8625bedb047b651c28a9d9817d3b568bc638cc87ea37d6a413904e46ad527acf",
+  "last_processed_at": "2026-02-21T12:31:38.536892+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2402.01532v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2402.01532v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "eaadb12a078b723c32bcd34b11cb5a9dca2198088e2f95de41703e1fb2c035cc",
+  "submitted_date": "2024-02-02",
+  "tags": [
+    "belief propagation",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "The closed-branch decoder for quantum LDPC codes",
+  "updated_date": "2024-02-14"
+}

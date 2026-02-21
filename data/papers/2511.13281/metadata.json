@@ -1,0 +1,36 @@
+{
+  "abstract": "Hardware-friendly quantum low-density parity-check (QLDPC) decoders are commonly built upon belief propagation (BP) processing. Yet, quantum degeneracy often prevents BP from achieving reliable convergence. To overcome this fundamental limitation, we propose the restart belief (RB) decoder, an iterative BP-based algorithm inspired by branch-and-bound optimization principles. From our analysis we find that the RB decoder represents both the fastest and most accurate decoding algorithm applicable to QLDPC codes to date, conceived with the explicit goal of approaching error correction up to the code distance.",
+  "arxiv_id": "2511.13281",
+  "arxiv_version": "v1",
+  "authors": [
+    "Lorenzo Valentini",
+    "Diego Forlivesi",
+    "Andrea Talarico",
+    "Marco Chiani"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "0a65b9839a0041b30955bfba4449e137ac2c4e360dd0ef140392440a5041b3f4",
+  "last_processed_at": "2026-02-21T12:31:38.350351+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2511.13281v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2511.13281v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "ee737a3ebd081f4cdf0dfbea89d4d2c1550525c035876142baa66d62953b3994",
+  "submitted_date": "2025-11-17",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Restart Belief: A General Quantum LDPC Decoder",
+  "updated_date": "2025-11-17"
+}

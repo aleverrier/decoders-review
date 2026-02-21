@@ -1,0 +1,38 @@
+{
+  "abstract": "Fast and accurate quantum error correction (QEC) decoding is crucial for scalable fault-tolerant quantum computation. Most-Likely-Error (MLE) decoding, while being near-optimal, is intractable on general quantum Low-Density Parity-Check (qLDPC) codes and typically relies on approximation and heuristics. We propose HyperBlossom, a unified framework that formulates MLE decoding as a Minimum-Weight Parity Factor (MWPF) problem and generalizes the blossom algorithm to hypergraphs via a similar primal-dual linear programming model with certifiable proximity bounds. HyperBlossom unifies all the existing graph-based decoders like (Hypergraph) Union-Find decoders and Minimum-Weight Perfect Matching (MWPM) decoder, thus bridging the gap between heuristic and certifying decoders. We implement HyperBlossom in software, namely Hyperion. Hyperion achieves a 4.8x lower logical error rate compared to the MWPM decoder on the distance-11 surface code and 1.6x lower logical error rate compared to a fine-tuned BPOSD decoder on the $[[90, 8, 10]]$ bivariate bicycle code under code-capacity noise. It also achieves an almost-linear average runtime scaling on both the surface code and the color code, with numerical results up to sufficiently large code distances of 99 and 31 for code-capacity noise and circuit-level noise, respectively.",
+  "arxiv_id": "2508.04969",
+  "arxiv_version": "v2",
+  "authors": [
+    "Yue Wu",
+    "Binghong Li",
+    "Kathleen Chang",
+    "Shruti Puri",
+    "Lin Zhong"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.DS"
+  ],
+  "extraction_hash": "35251ad7346ab30749ee9bb5aa45d2f87228ab86f18d024139f2a3c382398d35",
+  "last_processed_at": "2026-02-21T12:31:38.385807+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2508.04969v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2508.04969v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "cafe900083f730ffefa56ce513b6324df79ac7549ccd7d7c88bbc8c726fed66b",
+  "submitted_date": "2025-08-07",
+  "tags": [
+    "cs.DS",
+    "decoder",
+    "decoding",
+    "mwpm",
+    "quant-ph",
+    "relevance:maybe",
+    "union-find"
+  ],
+  "title": "Minimum-Weight Parity Factor Decoder for Quantum Error Correction",
+  "updated_date": "2025-10-02"
+}

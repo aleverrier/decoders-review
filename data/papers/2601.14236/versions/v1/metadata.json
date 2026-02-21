@@ -1,0 +1,34 @@
+{
+  "abstract": "In this work, we develop a reduced complexity maximum likelihood (ML) decoder for quantum low-density parity-check (QLDPC) codes over erasures. Our decoder combines classical inactivation decoding, which integrates peeling with symbolic guessing, with a new dual peeling procedure. In the dual peeling stage, we perform row operations on the stabilizer matrix to efficiently reveal stabilizer generators and their linear combinations whose support lies entirely on the erased set. Each such stabilizer identified allows us to freely fix a bit in its support without affecting the logical state of the decoded result. This removes one degree of freedom that would otherwise require a symbolic guess, reducing the number of inactivated variables and decreasing the size of the final linear system that must be solved. We further show that dual peeling combined with standard peeling alone, without inactivation, is sufficient to achieve ML for erasure decoding of surface codes. Simulations across several QLDPC code families confirm that our decoder matches ML logical failure performance while significantly reducing the complexity of inactivation decoding, including more than a 20% reduction in symbolic guesses for the B1 lifted product code at high erasure rates.",
+  "arxiv_id": "2601.14236",
+  "arxiv_version": "v1",
+  "authors": [
+    "Giulio Pech",
+    "Mert Gökduman",
+    "Hanwen Yao",
+    "Henry D. Pfister"
+  ],
+  "categories": [
+    "cs.IT"
+  ],
+  "extraction_hash": "555d8a212464294a98907b61c64bc29f55a059fb4b12182d73ccb070e4f98096",
+  "last_processed_at": "2026-02-21T12:31:38.319964+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2601.14236v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2601.14236v1"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "b7966ae105c5f0d3b2a876c9bc277ad781e8ba582a89884a541cb87b370d3dc2",
+  "submitted_date": "2026-01-20",
+  "tags": [
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "lifted product",
+    "relevance:maybe"
+  ],
+  "title": "Stabilizer-Assisted Inactivation Decoding of Quantum Error-Correcting Codes with Erasures",
+  "updated_date": "2026-01-20"
+}

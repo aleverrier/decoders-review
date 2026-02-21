@@ -1,0 +1,60 @@
+{
+  "abstract": "We show that quantum expander codes, a constant-rate family of quantum LDPC codes, with the quasi-linear time decoding algorithm of Leverrier, Tillich and Zémor can correct a constant fraction of random errors with very high probability. This is the first construction of a constant-rate quantum LDPC code with an efficient decoding algorithm that can correct a linear number of random errors with a negligible failure probability. Finding codes with these properties is also motivated by Gottesman's construction of fault tolerant schemes with constant space overhead. In order to obtain this result, we study a notion of $α$-percolation: for a random subset $W$ of vertices of a given graph, we consider the size of the largest connected $α$-subset of $W$, where $X$ is an $α$-subset of $W$ if $|X \\cap W| \\geq α|X|$.",
+  "arxiv_id": "1711.08351",
+  "arxiv_version": "v2",
+  "authors": [
+    "Omar Fawzi",
+    "Antoine Grospellier",
+    "Anthony Leverrier"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/1711.08351v2",
+    "code_repo_urls": [],
+    "doi": "10.1145/3188745.3188886",
+    "pdf_url": "https://arxiv.org/pdf/1711.08351v2"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2017-11-22",
+  "title": "Efficient decoding of random errors for quantum expander codes",
+  "updated_date": "2018-03-25"
+}

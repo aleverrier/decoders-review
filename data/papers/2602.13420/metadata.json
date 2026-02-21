@@ -1,0 +1,34 @@
+{
+  "abstract": "Quantum low-density parity-check (QLDPC) codes are a leading approach to quantum error correction, yet conventional belief propagation (BP) decoders often perform poorly, primarily due to non-convergence exacerbated by stabilizer constraints, which induce short cycles and degeneracy. We propose two scheduling variants, sequential check node scheduling (SCNS) and sequential variable node scheduling (SVNS), that improve BP's error-correction ability by processing check nodes (CNs) or variable nodes (VNs), respectively, in a fixed order, stabilizing message updates and reducing stalls. We also employ this technique to an improved BP-variant called BP guided decimation (BPGD), where symbols are progressively fixed during decoding iterations. Here, we demonstrate that the sequential BPGD (SBPGD) decoder can further improve the convergence properties and performance of the decoder. On standard QLDPC benchmarks under a Pauli-X noise model, our sequential schedules are shown to lower the block error rate relative to conventional BP, and SBPGD outperforms BPGD while using significantly fewer decimation rounds, translating to lower computational cost. These results demonstrate that changing the update schedule, without altering the code, can improve both the reliability and efficiency of BP-based decoding for QLDPC codes. For the [[1922,50,16]] C2 hypergraph-product code with independent X errors, SVNS-BP surpasses BP-OSD-0 in error correction at roughly the same complexity as standard BP.",
+  "arxiv_id": "2602.13420",
+  "arxiv_version": "v1",
+  "authors": [
+    "Mohsen Moradi",
+    "Salman Habib",
+    "Vahid Nourozi",
+    "David G. M. Mitchell"
+  ],
+  "categories": [
+    "cs.IT"
+  ],
+  "extraction_hash": "ca9a7b618fb18a90fdebbc5d08d473e692ea7f81d3e14f8a2bdf176e249d4b71",
+  "last_processed_at": "2026-02-21T12:31:38.306969+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2602.13420v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2602.13420v1"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "ca6a476fcb52d6be78c8e89c969accbe151329444bb0561a91565d79e3aec393",
+  "submitted_date": "2026-02-13",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "relevance:maybe"
+  ],
+  "title": "Sequential BP-based Decoding of QLDPC Codes",
+  "updated_date": "2026-02-13"
+}

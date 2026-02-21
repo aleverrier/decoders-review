@@ -1,0 +1,34 @@
+{
+  "abstract": "Efficient and accurate decoding of quantum error-correcting codes is essential for fault-tolerant quantum computation, however, it is challenging due to the degeneracy of errors, the complex code topology, and the large space for logical operators in high-rate codes. In this work, we propose a decoding algorithm utilizing generative modeling in machine learning. We employ autoregressive neural networks to learn the joint probability of logical operators and syndromes in an unsupervised manner, eliminating the need for labeled training data. The learned model can approximately perform maximum likelihood decoding by directly generating the most likely logical operators for $k$ logical qubits with $\\mathcal O(2k)$ computational complexity. Thus, it is particularly efficient for decoding high-rate codes with many logical qubits. The proposed approach is general and applies to a wide spectrum of quantum error-correcting codes including surface codes and quantum low-density parity-check codes (qLDPC), under noise models ranging from code capacity noise to circuit level noise. We conducted extensive numerical experiments to demonstrate that our approach achieves significantly higher decoding accuracy compared to the minimum weight perfect matching and belief propagation with ordered statistics on the surface codes and high-rate quantum low-density parity-check codes. Our approach highlights generative artificial intelligence as a potential solution for the real-time decoding of realistic and high-rate quantum error correction codes.",
+  "arxiv_id": "2503.21374",
+  "arxiv_version": "v1",
+  "authors": [
+    "Hanyan Cao",
+    "Feng Pan",
+    "Dongyang Feng",
+    "Yijia Wang",
+    "Pan Zhang"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "30cc912a05828891af9ed2e47271c789078979921eae9dbfaa151c71b4f90fc1",
+  "last_processed_at": "2026-02-21T12:31:38.441942+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2503.21374v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2503.21374v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "bea95bb1c3946f7c6dd6cda9ec300311f420c7ada03d4b98f52b81a124b74f8b",
+  "submitted_date": "2025-03-27",
+  "tags": [
+    "belief propagation",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Generative Decoding for Quantum Error-correcting Codes",
+  "updated_date": "2025-03-27"
+}

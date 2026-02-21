@@ -1,0 +1,34 @@
+{
+  "abstract": "We generalize a construction of non-binary quantum LDPC codes over $\\F_{2^m}$ due to \\cite{KHIS11a} and apply it in particular to toric codes. We obtain in this way not only codes with better rates than toric codes but also improve dramatically the performance of standard iterative decoding. Moreover, the new codes obtained in this fashion inherit the distance properties of the underlying toric codes and have therefore a minimum distance which grows as the square root of the length of the code for fixed $m$.",
+  "arxiv_id": "1202.3338",
+  "arxiv_version": "v1",
+  "authors": [
+    "Iryna Andriyanova",
+    "Denise Maurice",
+    "Jean-Pierre Tillich"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "73c70e32b7061b2bb839ef7496c3bad808ab75d864df61dba399a5d6df0622c2",
+  "last_processed_at": "2026-02-21T12:31:38.627731+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/1202.3338v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/1202.3338v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "aba8eea4d5fcd77242b3860ece392787f2fbee974fed24faae167686cc28d79d",
+  "submitted_date": "2012-02-15",
+  "tags": [
+    "cs.IT",
+    "decoding",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "New constructions of CSS codes obtained by moving to higher alphabets",
+  "updated_date": "2012-02-15"
+}

@@ -1,0 +1,36 @@
+{
+  "abstract": "Quantum Tanner codes constitute a family of quantum low-density parity-check (LDPC) codes with good parameters, i.e., constant encoding rate and relative distance. In this article, we prove that quantum Tanner codes also facilitate single-shot quantum error correction (QEC) of adversarial noise, where one measurement round (consisting of constant-weight parity checks) suffices to perform reliable QEC even in the presence of measurement errors. We establish this result for both the sequential and parallel decoding algorithms introduced by Leverrier and Zémor. Furthermore, we show that in order to suppress errors over multiple repeated rounds of QEC, it suffices to run the parallel decoding algorithm for constant time in each round. Combined with good code parameters, the resulting constant-time overhead of QEC and robustness to (possibly time-correlated) adversarial noise make quantum Tanner codes alluring from the perspective of quantum fault-tolerant protocols.",
+  "arxiv_id": "2306.12470",
+  "arxiv_version": "v2",
+  "authors": [
+    "Shouzhen Gu",
+    "Eugene Tang",
+    "Libor Caha",
+    "Shin Ho Choe",
+    "Zhiyang He",
+    "Aleksander Kubica"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "15c0be0284077ac91859392842067204c9dc8e782c8eb1b0fe8392a2349fa39c",
+  "last_processed_at": "2026-02-21T12:31:38.531403+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2306.12470v2",
+    "code_repo_urls": [],
+    "doi": "10.1007/s00220-024-04951-6",
+    "pdf_url": "https://arxiv.org/pdf/2306.12470v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "d9b5bc5ac6319fad92c221e5a89bc43caecc02b139f525f86c88654943fb1ddb",
+  "submitted_date": "2023-06-21",
+  "tags": [
+    "cs.IT",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Single-shot decoding of good quantum LDPC codes",
+  "updated_date": "2024-04-11"
+}

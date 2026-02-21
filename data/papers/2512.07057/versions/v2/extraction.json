@@ -1,0 +1,61 @@
+{
+  "abstract": "We propose a decoder for quantum low density parity check (LDPC) codes based on a beam search heuristic guided by belief propagation (BP). Our beam search decoder applies to all quantum LDPC codes and achieves different speed-accuracy tradeoffs by tuning its parameters such as the beam width. We perform numerical simulations under circuit level noise for the $[[144, 12, 12]]$ bivariate bicycle (BB) code at noise rate $p=10^{-3}$ to estimate the logical error rate and the 99.9 percentile runtime and we compare with the BP-OSD decoder which has been the default quantum LDPC decoder for the past six years. A variant of our beam search decoder with a beam width of 64 achieves a $17\\times$ reduction in logical error rate. With a beam width of 8, we reach the same logical error rate as BP-OSD with a $26.2\\times$ reduction in the 99.9 percentile runtime. We identify the beam search decoder with beam width of 32 as a promising candidate for trapped ion architectures because it achieves a $5.6\\times$ reduction in logical error rate with a 99.9 percentile runtime per syndrome extraction round below 1ms at $p=5 \\times10^{-4}$. Remarkably, this is achieved in software on a single core, without any parallelization or specialized hardware (FPGA, ASIC), suggesting one might only need three 32-core CPUs to decode a trapped ion quantum computer with 1000 logical qubits.",
+  "arxiv_id": "2512.07057",
+  "arxiv_version": "v2",
+  "authors": [
+    "Min Ye",
+    "Dave Wecker",
+    "Nicolas Delfosse"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2512.07057v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2512.07057v2"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoder",
+      "belief propagation"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2025-12-08",
+  "title": "Beam search decoder for quantum LDPC codes",
+  "updated_date": "2025-12-17"
+}

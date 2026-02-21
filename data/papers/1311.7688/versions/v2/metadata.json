@@ -1,0 +1,33 @@
+{
+  "abstract": "We study the decoding transition for quantum error correcting codes with the help of a mapping to random-bond Wegner spin models. Families of quantum low density parity-check (LDPC) codes with a finite decoding threshold lead to both known models (e.g., random bond Ising and random plaquette $\\Z2$ gauge models) as well as unexplored earlier generally non-local disordered spin models with non-trivial phase diagrams. The decoding transition corresponds to a transition from the ordered phase by proliferation of extended defects which generalize the notion of domain walls to non-local spin models. In recently discovered quantum LDPC code families with finite rates the number of distinct classes of such extended defects is exponentially large, corresponding to extensive ground state entropy of these codes. Here, the transition can be driven by the entropy of the extended defects, a mechanism distinct from that in the local spin models where the number of defect types (domain walls) is always finite.",
+  "arxiv_id": "1311.7688",
+  "arxiv_version": "v2",
+  "authors": [
+    "Alexey A. Kovalev",
+    "Leonid P. Pryadko"
+  ],
+  "categories": [
+    "quant-ph",
+    "cond-mat.stat-mech"
+  ],
+  "extraction_hash": "16c9f3ed37b93f59c5a112f772bceaf078ee872d7035fb1ab7ab7a0e571b5d99",
+  "last_processed_at": "2026-02-21T12:31:38.623820+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/1311.7688v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/1311.7688v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "7fe722dbd0628e6a3f59f2fb1c93317894e54d9cf7acb16195a9ea0cd98e2e50",
+  "submitted_date": "2013-11-29",
+  "tags": [
+    "cond-mat.stat-mech",
+    "decoding",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Spin glass reflection of the decoding transition for quantum error correcting codes",
+  "updated_date": "2014-02-10"
+}

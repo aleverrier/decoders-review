@@ -1,0 +1,57 @@
+{
+  "abstract": "Quantum error correction (QEC) with single-shot decoding enables reduction of errors after every single round of noisy stabilizer measurement, easing the time-overhead requirements for fault tolerance. Notably, several classes of quantum low-density-parity-check (qLDPC) codes are known which facilitate single-shot decoding, potentially giving them an additional overhead advantage. However, the perceived advantage of single-shot decoding is limited because it can significantly degrade the effective code distance. This degradation may be compensated for by using a much larger code size to achieve the desired target logical error rate, at the cost of increasing the amount of syndrome information to be processed, as well as, increasing complexity of logical operations. Alternatively, in this work we study sliding-window decoding, which corrects errors from previous syndrome measurement rounds while leaving the most recent errors for future correction. We observe that sliding-window decoding significantly improves the logical memory lifetime and hence the effective distance compared to single-shot decoding on hypergraph-product codes and lifted-product codes. Remarkably, we find that this improvement may not cost a larger decoding complexity. Thus, the sliding-window strategy can be more desirable for fast and accurate decoding for fault-tolerant quantum computing with qLDPC codes.",
+  "arxiv_id": "2311.03307",
+  "arxiv_version": "v1",
+  "authors": [
+    "Shilin Huang",
+    "Shruti Puri"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2311.03307v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2311.03307v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2023-11-06",
+  "title": "Improved Noisy Syndrome Decoding of Quantum LDPC Codes with Sliding Window",
+  "updated_date": "2023-11-06"
+}

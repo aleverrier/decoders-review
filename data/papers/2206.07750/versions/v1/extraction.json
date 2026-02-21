@@ -1,0 +1,59 @@
+{
+  "abstract": "We construct a new explicit family of good quantum low-density parity-check codes which additionally have linear time decoders. Our codes are based on a three-term chain $(\\mathbb{F}_2^{m\\times m})^V \\quad \\xrightarrow{δ^0}\\quad (\\mathbb{F}_2^{m})^{E} \\quad\\xrightarrow{δ^1} \\quad \\mathbb{F}_2^F$ where $V$ ($X$-checks) are the vertices, $E$ (qubits) are the edges, and $F$ ($Z$-checks) are the squares of a left-right Cayley complex, and where the maps are defined based on a pair of constant-size random codes $C_A,C_B:\\mathbb{F}_2^m\\to\\mathbb{F}_2^Δ$ where $Δ$ is the regularity of the underlying Cayley graphs. One of the main ingredients in the analysis is a proof of an essentially-optimal robustness property for the tensor product of two random codes.",
+  "arxiv_id": "2206.07750",
+  "arxiv_version": "v1",
+  "authors": [
+    "Irit Dinur",
+    "Min-Hsiu Hsieh",
+    "Ting-Chun Lin",
+    "Thomas Vidick"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2206.07750v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2206.07750v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2022-06-15",
+  "title": "Good Quantum LDPC Codes with Linear Time Decoders",
+  "updated_date": "2022-06-15"
+}

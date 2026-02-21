@@ -1,0 +1,34 @@
+{
+  "abstract": "Quantum error correction (QEC) is essential for operating quantum computers in the presence of noise. Here, we accurately decode arbitrary Calderbank-Shor-Steane (CSS) codes via the maximum satisfiability (MaxSAT) problem. We show how to map quantum maximum likelihood problem of CSS codes of arbitrary geometry and parity check weight into MaxSAT problems. We incorporate the syndrome measurements as hard clauses, while qubit and measurement error probabilities, including biased and non-uniform, are encoded as soft MaxSAT clauses. For the code capacity of color codes on a hexagonal lattice, our decoder has a higher threshold and superior scaling in noise suppression compared to belief propagation with ordered statistics post-processing (BP-OSD), while showing similar scaling in computational cost. Further, we decode surface codes and recently proposed bivariate quantum low-density parity check (QLDPC) codes where we find lower error rates than BP-OSD. Finally, we connect the complexity of MaxSAT decoding to a computational phase transition controlled by the clause density of the MaxSAT problem, where we show that our mapping is always in the computationally ''easy`` phase. Our MaxSAT decoder can be further parallelised or implemented on ASICs and FPGAs, promising potential further speedups of several orders of magnitude. Our work provides a flexible platform towards practical applications on quantum computers.",
+  "arxiv_id": "2410.01673",
+  "arxiv_version": "v1",
+  "authors": [
+    "Mohammadreza Noormandipour",
+    "Tobias Haug"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "45633c86765432296d74a7efe9ddab36ae02e6bcec475c50d56919c89453d188",
+  "last_processed_at": "2026-02-21T12:31:38.481342+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2410.01673v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2410.01673v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "856fce5e02d698e9ebc33f1e919e03903a00e04319fe4ebae1f74beeeb5f0c3b",
+  "submitted_date": "2024-10-02",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "MaxSAT decoders for arbitrary CSS codes",
+  "updated_date": "2024-10-02"
+}

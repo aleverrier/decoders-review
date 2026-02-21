@@ -1,0 +1,35 @@
+{
+  "abstract": "We propose a decoder for quantum low density parity check (LDPC) codes based on a beam search heuristic guided by belief propagation (BP). Our beam search decoder applies to all quantum LDPC codes and achieves different speed-accuracy tradeoffs by tuning its parameters such as the beam width. We perform numerical simulations under circuit level noise for the $[[144, 12, 12]]$ bivariate bicycle (BB) code at noise rate $p=10^{-3}$ to estimate the logical error rate and the 99.9 percentile runtime and we compare with the BP-OSD decoder which has been the default quantum LDPC decoder for the past six years. A variant of our beam search decoder with a beam width of 64 achieves a $17\\times$ reduction in logical error rate. With a beam width of 8, we reach the same logical error rate as BP-OSD with a $26.2\\times$ reduction in the 99.9 percentile runtime. We identify the beam search decoder with beam width of 32 as a promising candidate for trapped ion architectures because it achieves a $5.6\\times$ reduction in logical error rate with a 99.9 percentile runtime per syndrome extraction round below 1ms at $p=5 \\times10^{-4}$. Remarkably, this is achieved in software on a single core, without any parallelization or specialized hardware (FPGA, ASIC), suggesting one might only need three 32-core CPUs to decode a trapped ion quantum computer with 1000 logical qubits.",
+  "arxiv_id": "2512.07057",
+  "arxiv_version": "v2",
+  "authors": [
+    "Min Ye",
+    "Dave Wecker",
+    "Nicolas Delfosse"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "c41504f743a8fefde9131f14091a43e445aa75dc1ffc321d93e55c33dbf84ce7",
+  "last_processed_at": "2026-02-21T12:31:38.339735+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2512.07057v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2512.07057v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "54c6d9f97e18fab5071fb97bdd2fa40b04d941d9e4b0ca4fa01b8df90c87432d",
+  "submitted_date": "2025-12-08",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoder",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Beam search decoder for quantum LDPC codes",
+  "updated_date": "2025-12-17"
+}

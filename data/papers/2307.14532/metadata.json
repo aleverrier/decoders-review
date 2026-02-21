@@ -1,0 +1,32 @@
+{
+  "abstract": "Iterative decoder failures of quantum low density parity check (QLDPC) codes are attributed to substructures in the code's graph, known as trapping sets, as well as degenerate errors that can arise in quantum codes. Failure inducing sets are subsets of codeword coordinates that, when initially in error, lead to decoding failure in a trapping set. The purpose of this paper is to examine failure inducing sets of QLDPC codes under syndrome-based iterative decoding. As for classical LDPC codes, we show that absorbing sets play a central role in understanding decoder failures. Raveendran and Vasic initiated the study of quantum trapping sets, where beyond the classical-type trapping sets, they identified rigid symmetric structures (a.k.a symmetric stabilizers) responsible for degenerate errors. In this paper, we show that this behavior is part of a much more general phenomenon that can be described by the absorbing set framework.",
+  "arxiv_id": "2307.14532",
+  "arxiv_version": "v2",
+  "authors": [
+    "Kirsten D. Morris",
+    "Tefjol Pllaha",
+    "Christine A. Kelley"
+  ],
+  "categories": [
+    "cs.IT"
+  ],
+  "extraction_hash": "302a473437bad2b5c25e7d6ab9c31d39d488fc71802f1ff833509a20123792b4",
+  "last_processed_at": "2026-02-21T12:31:38.516855+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2307.14532v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2307.14532v2"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "3f03af1c51ea98b814d6ea1fb1b2948abf8469a41e30d96fcfc1aa7442240928",
+  "submitted_date": "2023-07-26",
+  "tags": [
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "relevance:maybe"
+  ],
+  "title": "Absorbing Sets in Quantum LDPC Codes",
+  "updated_date": "2024-05-10"
+}

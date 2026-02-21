@@ -1,0 +1,32 @@
+{
+  "abstract": "Quantum repeater is the key technology enabler for long-distance quantum communication. To date, most of the existing quantum repeater protocols are designed based on specific quantum codes or graph states. In this paper, we propose a general framework for all-photonic one-way quantum repeaters based on the measurement-based error correction, which can be adapted to any Calderbank-Shor-Steane codes including the recently discovered quantum low density parity check (QLDPC) codes. We present a novel decoding scheme, where the error correction process is carried out at the destination based on the accumulated data from the measurements made across the network. This procedure not only outperforms the conventional protocols with independent repeaters but also simplifies the local quantum operations at repeaters. As an example, we numerically show that the [[48,6,8]] generalized bicycle code (as a small but efficient QLDPC code) has an equally good performance while reducing the resources by at least an order of magnitude.",
+  "arxiv_id": "2210.10071",
+  "arxiv_version": "v1",
+  "authors": [
+    "Daoheng Niu",
+    "Yuxuan Zhang",
+    "Alireza Shabani",
+    "Hassan Shapourian"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "537a41b7bf715a5a0fc1a51f048eed0bf95a2b7777f2ca24bedfa5213c332be5",
+  "last_processed_at": "2026-02-21T12:31:38.576077+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2210.10071v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2210.10071v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "29ea0d58052248f302c9f83cd65dc41028dbf81ea09bc3b9f097e1924bfcee2a",
+  "submitted_date": "2022-10-18",
+  "tags": [
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "All-photonic one-way quantum repeaters",
+  "updated_date": "2022-10-18"
+}

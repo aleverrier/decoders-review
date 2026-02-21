@@ -1,0 +1,32 @@
+{
+  "abstract": "Low-density parity check (LDPC) codes are a significant class of classical codes with many applications. Several good LDPC codes have been constructed using random, algebraic, and finite geometries approaches, with containing cycles of length at least six in their Tanner graphs. However, it is impossible to design a self-orthogonal parity check matrix of an LDPC code without introducing cycles of length four. In this paper, a new class of quantum LDPC codes based on lines and points of finite geometries is constructed. The parity check matrices of these codes are adapted to be self-orthogonal with containing only one cycle of length four. Also, the column and row weights, and bounds on the minimum distance of these codes are given. As a consequence, the encoding and decoding algorithms of these codes as well as their performance over various quantum depolarizing channels will be investigated.",
+  "arxiv_id": "0712.4115",
+  "arxiv_version": "v3",
+  "authors": [
+    "Salah A. Aly"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "069c0c5d0fc3e4349b5f0e82429e7b8c2823cc9e3ef16c5ce9d34a1f1cc4418d",
+  "last_processed_at": "2026-02-21T12:31:38.633417+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/0712.4115v3",
+    "code_repo_urls": [],
+    "doi": "10.1109/GLOCOM.2008.ECP.217",
+    "pdf_url": "https://arxiv.org/pdf/0712.4115v3"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "f29463e792ce8db767d8a9fbc0fd61155f326562780cd9aa9bba46536bdd2511",
+  "submitted_date": "2007-12-26",
+  "tags": [
+    "cs.IT",
+    "decoding",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "A Class of Quantum LDPC Codes Constructed From Finite Geometries",
+  "updated_date": "2009-11-11"
+}

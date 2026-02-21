@@ -1,0 +1,33 @@
+{
+  "abstract": "Hypergraph product codes are a prototypical family of quantum codes with state-of-the-art decodability properties. Recently, Golowich and Guruswami (FOCS 2024) showed a reduction from quantum decoding to syndrome decoding for a general class of codes, which includes hypergraph product codes. In this work we consider the \"noisy\" syndrome decoding problem for hypergraph product codes, and show a similar reduction in the noisy setting, addressing a question posed by Golowich and Guruswami. Our results hold for a general family of codes wherein the code and the dual code are \"simultaneously nice\"; in particular, for codes admitting good syndrome decodability and whose duals look \"similar\". These include expander codes, Reed-Solomon codes, and variants.",
+  "arxiv_id": "2510.07602",
+  "arxiv_version": "v1",
+  "authors": [
+    "Venkata Gandikota",
+    "Elena Grigorescu",
+    "Vatsal Jha",
+    "S. Venkitesh"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "12ecd37226db778e0b969aa59f041dce169518e637bf0f1934f2175459c922d8",
+  "last_processed_at": "2026-02-21T12:31:38.377288+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2510.07602v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2510.07602v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "b9657288832a0a1f4c28272844987835468927ce658d3e1eb7dea2e4ef1f1d9a",
+  "submitted_date": "2025-10-08",
+  "tags": [
+    "decoding",
+    "hypergraph product",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Noisy-Syndrome Decoding of Hypergraph Product Codes",
+  "updated_date": "2025-10-08"
+}

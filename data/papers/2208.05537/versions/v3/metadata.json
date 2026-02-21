@@ -1,0 +1,33 @@
+{
+  "abstract": "We introduce sequential and parallel decoders for quantum Tanner codes. When the Tanner code construction is applied to a sufficiently expanding square complex with robust local codes, we obtain a family of asymptotically good quantum low-density parity-check codes. In this case, our decoders provably correct arbitrary errors of weight linear in the code length, respectively in linear or logarithmic time. The same decoders are easily adapted to the expander lifted product codes of Panteleev and Kalachev. Along the way, we exploit recently established bounds on the robustness of random tensor codes to give a tighter bound on the minimum distance of quantum Tanner codes.",
+  "arxiv_id": "2208.05537",
+  "arxiv_version": "v3",
+  "authors": [
+    "Anthony Leverrier",
+    "Gilles Zémor"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "5a40fb23aa19a44f362f6884f58ecb26932237a14e7117c59658d40bcd267ceb",
+  "last_processed_at": "2026-02-21T12:31:38.568061+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2208.05537v3",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2208.05537v3"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "6206073ac04a88f265bb5946a2dd6d33b87ad4c529d9299944439947b817a683",
+  "submitted_date": "2022-08-10",
+  "tags": [
+    "cs.IT",
+    "decoder",
+    "lifted product",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Decoding quantum Tanner codes",
+  "updated_date": "2022-12-08"
+}

@@ -1,0 +1,37 @@
+{
+  "abstract": "Quantum low-density parity-check (QLDPC) codes provide a practical balance between error-correction capability and implementation complexity in quantum error correction (QEC). In this paper, we propose an algebraic construction based on dyadic matrices for designing both classical and quantum LDPC codes. The method first generates classical binary quasi-dyadic LDPC codes whose Tanner graphs have girth 6. It is then extended to the Calderbank-Shor-Steane (CSS) framework, where the two component parity-check matrices are built to satisfy the compatibility condition required by the recently introduced CAMEL-ensemble quaternary belief propagation decoder. This compatibility condition ensures that all unavoidable cycles of length 4 are assembled in a single variable node, allowing the mitigation of their detrimental effects by decimating that variable node.",
+  "arxiv_id": "2601.08636",
+  "arxiv_version": "v1",
+  "authors": [
+    "Alessio Baldelli",
+    "Massimo Battaglioni",
+    "Jonathan Mandelbaum",
+    "Sisi Miao",
+    "Laurent Schmalen"
+  ],
+  "categories": [
+    "cs.IT",
+    "quant-ph"
+  ],
+  "extraction_hash": "81f747fde54e5fb174b52df0bd330dd2b07d48ea3580641fad158386d53f727b",
+  "last_processed_at": "2026-02-21T12:31:38.329884+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2601.08636v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2601.08636v1"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "8985991fb38e1cd5219c1eb4b67570cf3f8400ff2ed228b879ac1aa6bc71b069",
+  "submitted_date": "2026-01-13",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoder",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Quantum CSS LDPC Codes based on Dyadic Matrices for Belief Propagation-based Decoding",
+  "updated_date": "2026-01-13"
+}

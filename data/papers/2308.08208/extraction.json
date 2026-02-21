@@ -1,0 +1,62 @@
+{
+  "abstract": "Quantum low-density parity-check (QLDPC) codes are promising candidates for error correction in quantum computers. One of the major challenges in implementing QLDPC codes in quantum computers is the lack of a universal decoder. In this work, we first propose to decode QLDPC codes with a belief propagation (BP) decoder operating on overcomplete check matrices. Then, we extend the neural BP (NBP) decoder, which was originally studied for suboptimal binary BP decoding of QLPDC codes, to quaternary BP decoders. Numerical simulation results demonstrate that both approaches as well as their combination yield a low-latency, high-performance decoder for several short to moderate length QLDPC codes.",
+  "arxiv_id": "2308.08208",
+  "arxiv_version": "v2",
+  "authors": [
+    "Sisi Miao",
+    "Alexander Schnerring",
+    "Haizheng Li",
+    "Laurent Schmalen"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2308.08208v2",
+    "code_repo_urls": [],
+    "doi": "10.1109/ACCESS.2025.3539475",
+    "pdf_url": "https://arxiv.org/pdf/2308.08208v2"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding",
+      "belief propagation"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2023-08-16",
+  "title": "Quaternary Neural Belief Propagation Decoding of Quantum LDPC Codes with Overcomplete Check Matrices",
+  "updated_date": "2025-02-15"
+}

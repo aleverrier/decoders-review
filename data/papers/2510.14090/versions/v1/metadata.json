@@ -1,0 +1,37 @@
+{
+  "abstract": "Quantum error correction (QEC) is a cornerstone of quantum computing, enabling reliable information processing in the presence of noise. Sparse stabilizer codes -- referred to generally as quantum low-density parity-check (QLDPC) codes -- have risen to the forefront of QEC research in recent years. This can be attributed to several key factors. First, classical LDPC codes admit low-complexity belief propagation iterative decoding and near-capacity performance, which contributed to the early interest in QLDPC codes. Then, the result promising constant overhead fault tolerance using QLDPC codes led to the search for code families that go beyond the long-holding $\\sqrt{n}$ scaling barrier of minimum distance for codelength $n$. This resulted in recent breakthroughs in the construction of QLDPC codes, which, combined with efficient decoding algorithms and the development of fault-tolerant protocols operating on QLDPC-encoded quantum information, provide a promising pathway to low-overhead, fault-tolerant quantum computation. However, despite their potential, challenges remain, particularly in constructing and decoding finite-length codes that account for, or efficiently leverage, specific characteristics of quantum hardware, such as connectivity, topology, native gate sets, and noise models. This article provides an in-depth examination of QLDPC codes and their iterative decoders, catering to an information theory audience with no or limited background in quantum mechanics. We discuss the theoretical underpinnings, explore unique characteristics of quantum channels, and delineate key code constructions and decoding algorithms, ultimately highlighting the impact and future prospects of QLDPC codes in quantum information science.",
+  "arxiv_id": "2510.14090",
+  "arxiv_version": "v1",
+  "authors": [
+    "Bane Vasic",
+    "Valentin Savin",
+    "Michele Pacenti",
+    "Shantom Borah",
+    "Nithin Raveendran"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "b92e409a0fb6444b22bee3ff3d217bb7cdf3e4b4620a844fa4028520dc29e90b",
+  "last_processed_at": "2026-02-21T12:31:38.367607+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2510.14090v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2510.14090v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "2b28a69e2605ac6c1bec918b36a08e7c60445877eec572789e5b38ef2829e12c",
+  "submitted_date": "2025-10-15",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Quantum Low-Density Parity-Check Codes",
+  "updated_date": "2025-10-15"
+}

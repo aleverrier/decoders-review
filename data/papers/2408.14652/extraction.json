@@ -1,0 +1,59 @@
+{
+  "abstract": "Error-correcting codes are one of the most fundamental objects in pseudorandomness, with applications in communication, complexity theory, and beyond. Codes are useful because of their ability to support decoding, which is the task of recovering a codeword from its noisy copy. List decoding is a relaxation where the decoder is allowed to output a list of codewords, and has seen tremendous progress over the last 25 years. In this thesis, we prove new algorithmic and combinatorial results about list decoding. We describe a list decoding framework that reduces the task of efficient decoding to proving distance in certain restricted proof systems. We then instantiate this framework for Tanner codes of Sipser and Spielman [IEEE Trans. Inf. Theory 1996] and Alon-Edmonds-Luby (AEL) distance amplification [FOCS 1995] of unique decodable base codes to get the first polynomial time list decoding algorithms for these codes. We also show extensions to the quantum version of AEL distance amplification to get polynomial-time list decodable quantum LDPC codes. We next give an alternate viewpoint of the above framework based on abstract regularity lemmas. We show how to efficiently implement the regularity lemma for the case of Ta-Shma's explicit codes near the Gilbert-Varshamov bound [STOC 2017]. This leads to a near-linear time algorithm for unique decoding of Ta-Shma's code. We also give new combinatorial results that improve known list sizes beyond the Johnson bound. Firstly, we adapt the AEL amplification to construct a new family of explicit codes that can be combinatorially list decoded to the optimal error correction radius. This is the first example of such a code that does not use significant algebraic ingredients. Secondly, we present list size improvements for Folded Reed-Solomon codes, improving the state of the art list size for explicit list decoding capacity achieving codes.",
+  "arxiv_id": "2408.14652",
+  "arxiv_version": "v1",
+  "authors": [
+    "Shashank Srivastava"
+  ],
+  "categories": [
+    "cs.IT",
+    "cs.DS"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2408.14652v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2408.14652v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "cs.IT",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoder",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2024-08-26",
+  "title": "Continuous Optimization for Decoding Errors",
+  "updated_date": "2024-08-26"
+}

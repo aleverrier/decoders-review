@@ -1,0 +1,35 @@
+{
+  "abstract": "Bias-tailoring allows quantum error correction codes to exploit qubit noise asymmetry. Recently, it was shown that a modified form of the surface code, the XZZX code, exhibits considerably improved performance under biased noise. In this work, we demonstrate that quantum low density parity check codes can be similarly bias-tailored. We introduce a bias-tailored lifted product code construction that provides the framework to expand bias-tailoring methods beyond the family of 2D topological codes. We present examples of bias-tailored lifted product codes based on classical quasi-cyclic codes and numerically assess their performance using a belief propagation plus ordered statistics decoder. Our Monte Carlo simulations, performed under asymmetric noise, show that bias-tailored codes achieve several orders of magnitude improvement in their error suppression relative to depolarising noise.",
+  "arxiv_id": "2202.01702",
+  "arxiv_version": "v3",
+  "authors": [
+    "Joschka Roffe",
+    "Lawrence Z. Cohen",
+    "Armanda O. Quintavalle",
+    "Daryus Chandra",
+    "Earl T. Campbell"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "4b9d1fe048935ab49f404eca93879fd52bbbde3aad6ad564689b14fc12e359e3",
+  "last_processed_at": "2026-02-21T12:31:38.560581+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2202.01702v3",
+    "code_repo_urls": [],
+    "doi": "10.22331/q-2023-05-15-1005",
+    "pdf_url": "https://arxiv.org/pdf/2202.01702v3"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "0da2f14e292af96f311de65c63c57f18a271a939750e2d273a4d582175cbf541",
+  "submitted_date": "2022-02-03",
+  "tags": [
+    "belief propagation",
+    "decoder",
+    "lifted product",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Bias-tailored quantum LDPC codes",
+  "updated_date": "2023-05-05"
+}

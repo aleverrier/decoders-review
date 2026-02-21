@@ -1,0 +1,34 @@
+{
+  "abstract": "We propose a post-processing method for message-passing (MP) decoding of CSS quantum LDPC codes, called stabilizer-inactivation (SI). It relies on inactivating a set of qubits, supporting a check in the dual code, and then running the MP decoding again. This allows MP decoding to converge outside the inactivated set of qubits, while the error on these is determined by solving a small, constant size, linear system. Compared to the state of the art post-processing method based on ordered statistics decoding (OSD), we show through numerical simulations that MP-SI outperforms MP-OSD for different quantum LDPC code constructions, different MP decoding algorithms, and different MP scheduling strategies, while having a significantly reduced complexity.",
+  "arxiv_id": "2205.06125",
+  "arxiv_version": "v3",
+  "authors": [
+    "Julien du Crest",
+    "Mehdi Mhalla",
+    "Valentin Savin"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "38ceb3441614677ba7f7386e1c99c6a166d05ad346fde5141159e9a922a5d2ed",
+  "last_processed_at": "2026-02-21T12:31:38.566643+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2205.06125v3",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2205.06125v3"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "8471e55fa71544643cf724f86f179ee90ebfd271dc8fb995d305584303ed0aae",
+  "submitted_date": "2022-05-12",
+  "tags": [
+    "cs.IT",
+    "decoding",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Stabilizer Inactivation for Message-Passing Decoding of Quantum LDPC Codes",
+  "updated_date": "2023-03-14"
+}

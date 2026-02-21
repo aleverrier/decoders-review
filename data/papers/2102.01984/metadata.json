@@ -1,0 +1,34 @@
+{
+  "abstract": "Quantum error correction is necessary to protect logical quantum states and operations. However, no meaningful data protection can be made when the syndrome extraction is erroneous due to faulty measurement gates. Quantum data-syndrome (DS) codes are designed to protect the data qubits and syndrome bits concurrently. In this paper, we propose an efficient decoding algorithm for quantum DS codes with sparse check matrices. Based on a refined belief propagation (BP) decoding for stabilizer codes, we propose a DS-BP algorithm to handle the quaternary quantum data errors and binary syndrome bit errors. Moreover, a sparse quantum code may inherently be able to handle minor syndrome errors so that fewer redundant syndrome measurements are necessary. We demonstrate this with simulations on a quantum hypergraph-product code.",
+  "arxiv_id": "2102.01984",
+  "arxiv_version": "v1",
+  "authors": [
+    "Kao-Yueh Kuo",
+    "I-Chun Chern",
+    "Ching-Yi Lai"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "5e06aaec269590dc31122e00be66ef98301617e8903b9699db44859e20eb2027",
+  "last_processed_at": "2026-02-21T12:31:38.598600+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2102.01984v1",
+    "code_repo_urls": [],
+    "doi": "10.1109/ISIT45174.2021.9518018",
+    "pdf_url": "https://arxiv.org/pdf/2102.01984v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "6d9ffe2904006187d245f2aa9c05e6a22c788bb3cce3c864fa5fb4f988a35982",
+  "submitted_date": "2021-02-03",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Decoding of Quantum Data-Syndrome Codes via Belief Propagation",
+  "updated_date": "2021-02-03"
+}

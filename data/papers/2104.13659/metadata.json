@@ -1,0 +1,33 @@
+{
+  "abstract": "Quantum information needs to be protected by quantum error-correcting codes due to imperfect physical devices and operations. One would like to have an efficient and high-performance decoding procedure for the class of quantum stabilizer codes. A potential candidate is Pearl's belief propagation (BP), but its performance suffers from the many short cycles inherent in a quantum stabilizer code, especially highly-degenerate codes. A general impression exists that BP is not effective for topological codes. In this paper, we propose a decoding algorithm for quantum codes based on quaternary BP with additional memory effects (called MBP). This MBP is like a recursive neural network with inhibitions between neurons (edges with negative weights), which enhance the perception capability of a network. Moreover, MBP exploits the degeneracy of a quantum code so that the most probable error or its degenerate errors can be found with high probability. The decoding performance is significantly improved over the conventional BP for various quantum codes, including quantum bicycle, hypergraph-product, surface and toric codes. For MBP on the surface and toric codes over depolarizing errors, we observe error thresholds of 16% and 17.5%, respectively.",
+  "arxiv_id": "2104.13659",
+  "arxiv_version": "v2",
+  "authors": [
+    "Kao-Yueh Kuo",
+    "Ching-Yi Lai"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "b7018ab7fbf161941010408b73662ea17df1d096879561fafbbb2f05eb637c3c",
+  "last_processed_at": "2026-02-21T12:31:38.561918+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2104.13659v2",
+    "code_repo_urls": [],
+    "doi": "10.1038/s41534-022-00623-2",
+    "pdf_url": "https://arxiv.org/pdf/2104.13659v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "92ef2ed8daafa3371cd85d7d9dec0e6bf385464cb3a80ad0e0e104839316be56",
+  "submitted_date": "2021-04-28",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Exploiting Degeneracy in Belief Propagation Decoding of Quantum Codes",
+  "updated_date": "2023-04-02"
+}

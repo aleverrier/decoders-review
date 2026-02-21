@@ -1,0 +1,34 @@
+{
+  "abstract": "Concatenated bosonic-stabilizer codes have recently gained prominence as promising candidates for achieving low-overhead fault-tolerant quantum computing in the long term. In such systems, analog information obtained from the syndrome measurements of an inner bosonic code is used to inform decoding for an outer code layer consisting of a discrete-variable stabilizer code such as a surface code. The use of Quantum Low-Density Parity Check (QLDPC) codes as an outer code is of particular interest due to the significantly higher encoding rates offered by these code families, leading to a further reduction in overhead for large-scale quantum computing. Recent works have investigated the performance of QLDPC-GKP codes in detail, and the use of analog information from the inner code significantly boosts decoder performance. However, the noise models assumed in these works are typically limited to depolarizing or phenomenological noise. In this paper, we investigate the performance of QLDPC-GKP concatenated codes under circuit-level noise, based on a model introduced by Noh et al. in the context of the surface-GKP code. To demonstrate the performance boost from analog information, we investigate three scenarios: (a) decoding without soft information, (b) decoding with precomputed error probabilities but without real-time soft information, and (c) decoding with real-time soft information obtained from round-to-round decoding of the inner GKP code. Results show minimal improvement between (a) and (b), but a significant boost in (c), indicating that real-time soft information is critical for concatenated decoding under circuit-level noise. We also study the effect of measurement schedules with varying depths and show that using a schedule with minimum depth is essential for obtaining reliable soft information from the inner code.",
+  "arxiv_id": "2505.06385",
+  "arxiv_version": "v1",
+  "authors": [
+    "Shantom K. Borah",
+    "Asit K. Pradhan",
+    "Nithin Raveendran",
+    "Michele Pacenti",
+    "Bane Vasic"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "2ac64cc34c040b1a148a81f9f5329ebea95dfce1743f79a0e02ae63123624d9f",
+  "last_processed_at": "2026-02-21T12:31:38.419158+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2505.06385v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2505.06385v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "0f2348bdf33dd48fde577b9c4578d28d4750f33f4c357c49954fda19a7e51674",
+  "submitted_date": "2025-05-09",
+  "tags": [
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Fault Tolerant Decoding of QLDPC-GKP Codes with Circuit Level Soft Information",
+  "updated_date": "2025-05-09"
+}

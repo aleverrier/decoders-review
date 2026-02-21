@@ -1,0 +1,32 @@
+{
+  "abstract": "We construct a new explicit family of good quantum low-density parity-check codes which additionally have linear time decoders. Our codes are based on a three-term chain $(\\mathbb{F}_2^{m\\times m})^V \\quad \\xrightarrow{δ^0}\\quad (\\mathbb{F}_2^{m})^{E} \\quad\\xrightarrow{δ^1} \\quad \\mathbb{F}_2^F$ where $V$ ($X$-checks) are the vertices, $E$ (qubits) are the edges, and $F$ ($Z$-checks) are the squares of a left-right Cayley complex, and where the maps are defined based on a pair of constant-size random codes $C_A,C_B:\\mathbb{F}_2^m\\to\\mathbb{F}_2^Δ$ where $Δ$ is the regularity of the underlying Cayley graphs. One of the main ingredients in the analysis is a proof of an essentially-optimal robustness property for the tensor product of two random codes.",
+  "arxiv_id": "2206.07750",
+  "arxiv_version": "v1",
+  "authors": [
+    "Irit Dinur",
+    "Min-Hsiu Hsieh",
+    "Ting-Chun Lin",
+    "Thomas Vidick"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "2016c3bb383484073e514d11a5c56e39c7925e89054c9164a87ee0688819f3ff",
+  "last_processed_at": "2026-02-21T12:31:38.583692+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2206.07750v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2206.07750v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "e6976ff2064d268024004e6483e34582dae6a9917dce4ba6fe6dcf53a22f1fe8",
+  "submitted_date": "2022-06-15",
+  "tags": [
+    "decoder",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Good Quantum LDPC Codes with Linear Time Decoders",
+  "updated_date": "2022-06-15"
+}

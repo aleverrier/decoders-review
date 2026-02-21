@@ -1,0 +1,33 @@
+{
+  "abstract": "Decoders for quantum LDPC codes generally rely on solving a parity-check equation with Gaussian elimination, with the generalised union-find decoder performing this repeatedly on growing clusters. We present an online variant of the Gaussian elimination algorithm which maintains an LUP decomposition in order to process only new rows and columns as they are added to a system of equations. This is equivalent to performing Gaussian elimination once on the final system of equations, in contrast to the multiple rounds of Gaussian elimination employed by the generalised union-find decoder. It thus significantly reduces the number of operations performed by the decoder. We consider the generalised union-find decoder as an example use case and present a complexity analysis demonstrating that both variants take time cubic in the number of qubits in the general case, but that the number of operations performed by the online variant is lower by an amount which itself scales cubically. This analysis is also extended to the regime of 'well-behaved' codes in which the number of growth iterations required is bounded logarithmically in error weight. Finally, we show empirically that our online variant outperforms the original offline decoder in average-case time complexity on codes with sparser parity-check matrices or greater covering radius.",
+  "arxiv_id": "2504.05080",
+  "arxiv_version": "v2",
+  "authors": [
+    "Sam J. Griffiths",
+    "Asmae Benhemou",
+    "Dan E. Browne"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "1a2f558f4cc4bf6bbf8ff8cbf72f030e520c46411df69867975557940ddc0240",
+  "last_processed_at": "2026-02-21T12:31:38.433995+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2504.05080v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2504.05080v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "91bdf6b87a552c4022c19a1e5b344829363a13a9562e6fc7d098640799506ebe",
+  "submitted_date": "2025-04-07",
+  "tags": [
+    "decoder",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant",
+    "union-find"
+  ],
+  "title": "Online Gaussian elimination for quantum LDPC decoding",
+  "updated_date": "2025-04-09"
+}

@@ -1,0 +1,35 @@
+{
+  "abstract": "Real-time decoding is crucial for fault-tolerant quantum computing but likely requires specialized hardware such as field-programmable gate arrays (FPGAs), whose parallelism can alter relative algorithmic performance. We analyze FPGA-tailored versions of three decoder classes for quantum low-density parity-check (qLDPC) codes: message passing, ordered statistics, and clustering. For message passing, we analyze the recently introduced Relay decoder and its FPGA implementation; for ordered statistics decoding (OSD), we introduce a filtered variant that concentrates computation on high-likelihood fault locations; and for clustering, we design an FPGA-adapted generalized union-find decoder. We design a systolic algorithm for Gaussian elimination on rank-deficient systems that runs in linear parallel time, enabling fast validity checks and local corrections in clustering and eliminating costly full-rank inversion in filtered-OSD. Despite these improvements, both remain far slower and less accurate than Relay, suggesting message passing is the most viable route to real-time qLDPC decoding.",
+  "arxiv_id": "2511.21660",
+  "arxiv_version": "v2",
+  "authors": [
+    "Satvik Maurya",
+    "Thilo Maurer",
+    "Markus Bühler",
+    "Drew Vandeth",
+    "Michael E. Beverland"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "de85c0cb1a2041e168a3ae08d1091dda1db8e672e5f6856b498c1154b7e534e3",
+  "last_processed_at": "2026-02-21T12:31:38.317044+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2511.21660v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2511.21660v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "795dd0cbd10571318dcca6ba90f0fa14f3ed75b244aa2c920525158b5659ea9a",
+  "submitted_date": "2025-11-26",
+  "tags": [
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe",
+    "union-find"
+  ],
+  "title": "FPGA-tailored algorithms for real-time decoding of quantum LDPC codes",
+  "updated_date": "2026-01-26"
+}

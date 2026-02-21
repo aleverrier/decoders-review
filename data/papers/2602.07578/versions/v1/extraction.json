@@ -1,0 +1,59 @@
+{
+  "abstract": "Erasure qubits reduce overhead in fault-tolerant quantum error correction (QEC) by converting dominant faults into detectable errors known as erasures. They have demonstrated notable improvements in thresholds and scaling in surface and Floquet code memories. In this work, we use erasure qubits on Bivariate Bicycle (BB) codes from the quantum low-density parity-check (QLDPC) regime. Owing to their sparse structure and favorable rate-distance trade-offs, BB codes are practical candidates for QEC. We introduce BiBiEQ, a novel framework that compiles a given BB code into an erasure-aware memory circuit C_E. This erasure circuit C_E comprises erasure checks (ECs), resets, and erasures spread over a user-specified erasure check schedule (2EC, 4EC). BiBiEQ converts this erasure circuit C_E into the stabilizer circuit C for general-purpose decoding. BiBiEQ provides two engines for this conversion, BiBiEQ-Exact and BiBiEQ-Approx. BiBiEQ-Exact preserves the joint-erasure correlations and serves as our accuracy benchmark, while BiBiEQ-Approx uses an independence approximation to accelerate large sweeps and expose accuracy-throughput trade-offs. Using BiBiEQ, we decode the stabilizer circuits to get a per-round logical error rate (LER) for the BB codes and quantify the effect of the EC schedules on the correctable operating region below the pseudo-threshold. The 4EC schedule keeps the accuracy of both engines close to one another, making BiBiEQ-Approx a reliable proxy for BiBiEQ-Exact for faster sweeps. Below the pseudo-threshold, the code distance (d) hop from distance (d) 6 to 10 yields a drop in LER by 10-17x larger than distance (d) 10 to 12, showing that most gains are realized by d=10.",
+  "arxiv_id": "2602.07578",
+  "arxiv_version": "v1",
+  "authors": [
+    "Ameya S. Bhave",
+    "Navnil Choudhury",
+    "Andrew Nemec",
+    "Kanad Basu"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2602.07578v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2602.07578v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-02-07",
+  "title": "BiBiEQ: Bivariate Bicycle Codes on Erasure Qubits",
+  "updated_date": "2026-02-07"
+}

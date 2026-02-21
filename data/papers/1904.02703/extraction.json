@@ -1,0 +1,61 @@
+{
+  "abstract": "We study the performance of medium-length quantum LDPC (QLDPC) codes in the depolarizing channel. Only degenerate codes with the maximal stabilizer weight much smaller than their minimum distance are considered. It is shown that with the help of OSD-like post-processing the performance of the standard belief propagation (BP) decoder on many QLDPC codes can be improved by several orders of magnitude. Using this new BP-OSD decoder we study the performance of several known classes of degenerate QLDPC codes including hypergraph product codes, hyperbicycle codes, homological product codes, and Haah's cubic codes. We also construct several interesting examples of short generalized bicycle codes. Some of them have an additional property that their syndromes are protected by small BCH codes, which may be useful for the fault-tolerant syndrome measurement. We also propose a new large family of QLDPC codes that contains the class of hypergraph product codes, where one of the used parity-check matrices is square. It is shown that in some cases such codes have better performance than hypergraph product codes. Finally, we demonstrate that the performance of the proposed BP-OSD decoder for some of the constructed codes is better than for a relatively large surface code decoded by a near-optimal decoder.",
+  "arxiv_id": "1904.02703",
+  "arxiv_version": "v3",
+  "authors": [
+    "Pavel Panteleev",
+    "Gleb Kalachev"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/1904.02703v3",
+    "code_repo_urls": [],
+    "doi": "10.22331/q-2021-11-22-585",
+    "pdf_url": "https://arxiv.org/pdf/1904.02703v3"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoder",
+      "belief propagation",
+      "hypergraph product"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2019-04-04",
+  "title": "Degenerate Quantum LDPC Codes With Good Finite Length Performance",
+  "updated_date": "2021-11-12"
+}

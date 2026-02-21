@@ -1,0 +1,59 @@
+{
+  "abstract": "The ultimate goal of quantum error correction is to create logical qubits with very low error rates (e.g. 1e-12) and assemble them into large-scale quantum computers capable of performing many (e.g. billions) of logical gates on many (e.g. thousands) of logical qubits. However, it is necessarily difficult to directly assess the performance of such high-quality logical qubits using standard Monte Carlo sampling because logical failure events become very rare. Building on existing approaches to this problem, we develop three complementary techniques to characterize the rare-event regime for general quantum low-density parity-check (qLDPC) codes under circuit noise. (I) We propose a well-motivated, low-parameter ansatz for the failure spectrum (the fraction of fault sets of each size that fail) that empirically fits all the QEC systems we studied and predicts logical error rates at all physical error rates. (II) We find min-weight logical operators of syndrome measurement circuits and exactly compute the number of min-weight failing configurations. (III) We generalize the splitting method to qLDPC codes using multi-seeded Metropolis sampling to improve convergence for systems with many inequivalent logical operators. We apply these tools to distance-6, -12, and -18 bivariate bicycle codes under circuit noise, observing strong low-error-rate performance with the recently proposed Relay decoder but also considerable scope for further improvement.",
+  "arxiv_id": "2511.15177",
+  "arxiv_version": "v1",
+  "authors": [
+    "Michael E. Beverland",
+    "Malcolm Carroll",
+    "Andrew W. Cross",
+    "Theodore J. Yoder"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2511.15177v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2511.15177v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2025-11-19",
+  "title": "Fail fast: techniques to probe rare events in quantum error correction",
+  "updated_date": "2025-11-19"
+}

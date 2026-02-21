@@ -1,0 +1,34 @@
+{
+  "abstract": "We show that quantum expander codes, a constant-rate family of quantum LDPC codes, with the quasi-linear time decoding algorithm of Leverrier, Tillich and Zémor can correct a constant fraction of random errors with very high probability. This is the first construction of a constant-rate quantum LDPC code with an efficient decoding algorithm that can correct a linear number of random errors with a negligible failure probability. Finding codes with these properties is also motivated by Gottesman's construction of fault tolerant schemes with constant space overhead. In order to obtain this result, we study a notion of $α$-percolation: for a random subset $W$ of vertices of a given graph, we consider the size of the largest connected $α$-subset of $W$, where $X$ is an $α$-subset of $W$ if $|X \\cap W| \\geq α|X|$.",
+  "arxiv_id": "1711.08351",
+  "arxiv_version": "v2",
+  "authors": [
+    "Omar Fawzi",
+    "Antoine Grospellier",
+    "Anthony Leverrier"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "9d9f91735cf23d045b82552d4811237310d9956e808ce65b15146e69ca7d949b",
+  "last_processed_at": "2026-02-21T12:31:38.618978+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/1711.08351v2",
+    "code_repo_urls": [],
+    "doi": "10.1145/3188745.3188886",
+    "pdf_url": "https://arxiv.org/pdf/1711.08351v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "b06512593a183e25a4fb1ff89ecb05548b02882d429b84ce37afaf13ee5da35d",
+  "submitted_date": "2017-11-22",
+  "tags": [
+    "cs.IT",
+    "decoding",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Efficient decoding of random errors for quantum expander codes",
+  "updated_date": "2018-03-25"
+}

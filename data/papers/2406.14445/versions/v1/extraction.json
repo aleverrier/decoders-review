@@ -1,0 +1,59 @@
+{
+  "abstract": "We present a new family of quantum low-density parity-check codes, which we call radial codes, obtained from the lifted product of a specific subset of classical quasi-cyclic codes. The codes are defined using a pair of integers $(r,s)$ and have parameters $[\\![2r^2s,2(r-1)^2,\\leq2s]\\!]$, with numerical studies suggesting average-case distance linear in $s$. In simulations of circuit-level noise, we observe comparable error suppression to surface codes of similar distance while using approximately five times fewer physical qubits. This is true even when radial codes are decoded using a single-shot approach, which can allow for faster logical clock speeds and reduced decoding complexity. We describe an intuitive visual representation, canonical basis of logical operators and optimal-length stabiliser measurement circuits for these codes, and argue that their error correction capabilities, tunable parameters and small size make them promising candidates for implementation on near-term quantum devices.",
+  "arxiv_id": "2406.14445",
+  "arxiv_version": "v1",
+  "authors": [
+    "Thomas R. Scruby",
+    "Timo Hillmann",
+    "Joschka Roffe"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2406.14445v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2406.14445v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoding",
+      "lifted product"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2024-06-20",
+  "title": "High-threshold, low-overhead and single-shot decodable fault-tolerant quantum memory",
+  "updated_date": "2024-06-20"
+}

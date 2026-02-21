@@ -1,0 +1,34 @@
+{
+  "abstract": "We introduce a decoding framework for correlated errors in quantum LDPC codes under circuit-level noise. The core of our approach is a graph augmentation and rewiring for interference (GARI) method, which modifies the correlated detector error model by eliminating 4-cycles involving Y-type errors, while preserving the equivalence of the decoding problem. We test our approach on the bivariate bicycle codes of distances 6, 10, and 12. A normalized min-sum decoder with a hybrid serial-layered schedule is applied on the transformed graph, achieving high accuracy with low latency. Performance is further enhanced through ensemble decoding, where 24 randomized normalized min-sum decoders run in parallel on the transformed graph, yielding the highest reported accuracy (on par with XYZ-Relay-BP) with unprecedented speed for the tested codes under uniform depolarizing circuit level noise. For the distance 12 (gross) code, our approach yields a logical error rate of $(6.70 \\pm 1.93) \\times 10^{-9}$ at a practical physical error rate of $10^{-3}$. Furthermore, preliminary FPGA implementation results show that such high accuracy can be achieved in real time, with a per-round average decoding latency of 273 ns and sub-microsecond latency in 99.99% of the decoding instances.",
+  "arxiv_id": "2510.14060",
+  "arxiv_version": "v1",
+  "authors": [
+    "Arshpreet Singh Maan",
+    "Francisco-Garcia Herrero",
+    "Alexandru Paler",
+    "Valentin Savin"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "bd260f3c2530416b7f8a5e3dc238f4beb8a2a538e2a2ab2fc2ec57d880d4e03f",
+  "last_processed_at": "2026-02-21T12:31:38.370377+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2510.14060v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2510.14060v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "419ff9ad65c6e8cffda8b71c27d30651d2f559346acaee8de19b197f1b307a94",
+  "submitted_date": "2025-10-15",
+  "tags": [
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Decoding Correlated Errors in Quantum LDPC Codes",
+  "updated_date": "2025-10-15"
+}

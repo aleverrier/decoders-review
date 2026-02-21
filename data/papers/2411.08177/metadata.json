@@ -1,0 +1,35 @@
+{
+  "abstract": "Quantum low-density parity-check (LDPC) codes are a promising family of quantum error-correcting codes for fault tolerant quantum computing with low overhead. Decoding quantum LDPC codes on quantum erasure channels has received more attention recently due to advances in erasure conversion for various types of qubits including neutral atoms, trapped ions, and superconducting qubits. Belief propagation with guided decimation (BPGD) decoding of quantum LDPC codes has demonstrated good performance in bit-flip and depolarizing noise. In this work, we apply BPGD decoding to quantum erasure channels. Using a natural modification, we show that BPGD offers competitive performance on quantum erasure channels for multiple families of quantum LDPC codes. Furthermore, we show that the performance of BPGD decoding on erasure channels can sometimes be improved significantly by either adding damping or adjusting the initial channel log-likelihood ratio for bits that are not erased. More generally, our results demonstrate BPGD is an effective general-purpose solution for erasure decoding across the quantum LDPC landscape.",
+  "arxiv_id": "2411.08177",
+  "arxiv_version": "v2",
+  "authors": [
+    "Mert Gökduman",
+    "Hanwen Yao",
+    "Henry D. Pfister"
+  ],
+  "categories": [
+    "cs.IT",
+    "quant-ph"
+  ],
+  "extraction_hash": "36955f8462fb15e04ffcfd7e9a695256ec6f499777ddb1d95cbf0a86728e6f55",
+  "last_processed_at": "2026-02-21T12:31:38.473140+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2411.08177v2",
+    "code_repo_urls": [],
+    "doi": "10.1109/Allerton63246.2024.10735275",
+    "pdf_url": "https://arxiv.org/pdf/2411.08177v2"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "40703ac7e5aed3118a1f28ef697b1a1414c8f22709255e53dbaa63869e7c141d",
+  "submitted_date": "2024-11-12",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoding",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Erasure Decoding for Quantum LDPC Codes via Belief Propagation with Guided Decimation",
+  "updated_date": "2024-11-15"
+}

@@ -1,0 +1,38 @@
+{
+  "abstract": "To achieve quantum fault tolerance with lower overhead, quantum low-density parity-check (QLDPC) codes have emerged as a promising alternative to topological codes such as the surface code, offering higher code rates. To support their study, an end-to-end framework for simulating QLDPC codes at the circuit level is needed. In this work, we present QUITS, a modular and flexible circuit-level simulator for QLDPC codes. Its design allows users to freely combine LDPC code constructions, syndrome extraction circuits, decoding algorithms, and noise models, enabling comprehensive and customizable studies of the performance of QLDPC codes under circuit-level noise. QUITS supports several leading QLDPC families, including hypergraph product codes, lifted product codes, and balanced product codes. As part of the framework, we introduce a syndrome extraction circuit improved from Tremblay, Delfosse, and Beverland [Phys. Rev. Lett. 129, 050504 (2022)] that applies to all three code families. In particular, for a small hypergraph product code, our circuit achieves lower depth than the conventional method, resulting in improved logical performance. Using QUITS, we evaluate the performance of state-of-the-art QLDPC codes and decoders under various settings, revealing trade-offs between the decoding runtime and the logical failure rate. The source code of QUITS is available online.",
+  "arxiv_id": "2504.02673",
+  "arxiv_version": "v2",
+  "authors": [
+    "Mingyu Kang",
+    "Yingjia Lin",
+    "Hanwen Yao",
+    "Mert Gökduman",
+    "Arianna Meinking",
+    "Kenneth R. Brown"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "9dd0414c7e63d76deaec308e94bd4feb464246d6dea36ce835c4ba84ad4d7360",
+  "last_processed_at": "2026-02-21T12:31:38.343328+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2504.02673v2",
+    "code_repo_urls": [],
+    "doi": "10.22331/q-2025-12-05-1931",
+    "pdf_url": "https://arxiv.org/pdf/2504.02673v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "ea14dc452653b6ca5f14cb01d1960b16c6286ca75b42cb2c0eebacc62b59564a",
+  "submitted_date": "2025-04-03",
+  "tags": [
+    "balanced product",
+    "decoder",
+    "decoding",
+    "hypergraph product",
+    "lifted product",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "QUITS: A modular Qldpc code circUIT Simulator",
+  "updated_date": "2025-12-01"
+}

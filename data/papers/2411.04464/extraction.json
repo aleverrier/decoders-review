@@ -1,0 +1,61 @@
+{
+  "abstract": "Quantum low-density parity-check (qLDPC) codes are an important component in the quest for quantum fault tolerance. Dramatic recent progress on qLDPC codes has led to constructions which are asymptotically good, and which admit linear-time decoders to correct errors affecting a constant fraction of codeword qubits. These constructions, while theoretically explicit, rely on inner codes with strong properties only shown to exist by probabilistic arguments, resulting in lengths that are too large to be practically relevant. In practice, the surface/toric codes, which are the product of two repetition codes, are still often the qLDPC codes of choice. A previous construction based on the lifted product of an expander-based classical LDPC code with a repetition code (Panteleev & Kalachev, 2020) achieved a near-linear distance (of $Ω(N/\\log N)$ where $N$ is the number of codeword qubits), and avoids the need for such intractable inner codes. Our main result is an efficient decoding algorithm for these codes that corrects $Θ(N/\\log N)$ adversarial errors. En route, we give such an algorithm for the hypergraph product version these codes, which have weaker $Θ(\\sqrt{N})$ distance (but are simpler). Our decoding algorithms leverage the fact that the codes we consider are quasi-cyclic, meaning that they respect a cyclic group symmetry. Since the repetition code is not based on expanders, previous approaches to decoding expander-based qLDPC codes, which typically worked by greedily flipping code bits to reduce some potential function, do not apply in our setting. Instead, we reduce our decoding problem (in a black-box manner) to that of decoding classical expander-based LDPC codes under noisy parity-check syndromes. For completeness, we also include a treatment of such classical noisy-syndrome decoding that is sufficient for our application to the quantum setting.",
+  "arxiv_id": "2411.04464",
+  "arxiv_version": "v1",
+  "authors": [
+    "Louis Golowich",
+    "Venkatesan Guruswami"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2411.04464v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2411.04464v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding",
+      "hypergraph product",
+      "lifted product"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2024-11-07",
+  "title": "Decoding Quasi-Cyclic Quantum LDPC Codes",
+  "updated_date": "2024-11-07"
+}

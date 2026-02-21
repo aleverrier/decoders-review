@@ -1,0 +1,38 @@
+{
+  "abstract": "This paper presents a GPU-accelerated decoder for quantum low-density parity-check (QLDPC) codes that achieves sub-$63$ $μ$s latency, below the surface code decoder's real-time threshold demonstrated on Google's Willow quantum processor. While surface codes have demonstrated below-threshold performance, the encoding rates approach zero as code distances increase, posing challenges for scalability. Recently proposed QLDPC codes, such as those by Panteleev and Kalachev, offer constant-rate encoding and asymptotic goodness but introduce higher decoding complexity. To address such limitation, this work presents a parallelized belief propagation decoder leveraging syndrome information on commodity GPU hardware. Parallelism was exploited to maximize performance within the limits of target latency, allowing decoding latencies under $50$ $μ$s for [[$784$, $24$, $24$]] codes and as low as $23.3$ $μ$s for smaller codes, meeting the tight timing constraints of superconducting qubit cycles. These results show that real-time, scalable decoding of asymptotically good quantum codes is achievable using widely available commodity hardware, advancing the feasibility of fault-tolerant quantum computation beyond surface codes.",
+  "arxiv_id": "2508.07879",
+  "arxiv_version": "v1",
+  "authors": [
+    "Oscar Ferraz",
+    "Bruno Coutinho",
+    "Gabriel Falcao",
+    "Marco Gomes",
+    "Francisco A. Monteiro",
+    "Vitor Silva"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.DC"
+  ],
+  "extraction_hash": "27d3c109b783e0e65e2d5b4576d831f114bb6c4dfedba8f38bde51d0fcb61374",
+  "last_processed_at": "2026-02-21T12:31:38.400096+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2508.07879v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2508.07879v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "5d6104bbc15552f3585028b7492d93ae9c1136a26530dae4aaeffba306f8c08b",
+  "submitted_date": "2025-08-11",
+  "tags": [
+    "belief propagation",
+    "cs.DC",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "GPU-Accelerated Syndrome Decoding for Quantum LDPC Codes below the 63 $μ$s Latency Threshold",
+  "updated_date": "2025-08-11"
+}

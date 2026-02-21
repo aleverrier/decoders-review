@@ -1,0 +1,59 @@
+{
+  "abstract": "Entanglement is essential for quantum information processing, but is limited by noise. We address this by developing high-yield entanglement distillation protocols with several advancements. (1) We extend the 2-to-1 recurrence entanglement distillation protocol to higher-rate n-to-(n-1) protocols that can correct any single-qubit errors. These protocols are evaluated through numerical simulations focusing on fidelity and yield. We also outline a method to adapt any classical error-correcting code for entanglement distillation, where the code can correct both bit-flip and phase-flip errors by incorporating Hadamard gates. (2) We propose a constant-depth decoder for stabilizer codes that transforms logical states into physical ones using single-qubit measurements. This decoder is applied to entanglement distillation protocols, reducing circuit depth and enabling protocols derived from high-performance quantum error-correcting codes. We demonstrate this by evaluating the circuit complexity for entanglement distillation protocols based on surface codes and quantum convolutional codes. (3) Our stabilizer entanglement distillation techniques advance quantum computing. We propose a fault-tolerant protocol for constant-depth encoding and decoding of arbitrary states in surface codes, with potential extensions to more general quantum low-density parity-check codes. This protocol is feasible with state-of-the-art reconfigurable atom arrays and surpasses the limits of conventional logarithmic depth encoders. Overall, our study integrates stabilizer formalism, measurement-based quantum computing, and entanglement distillation, advancing both quantum communication and computing.",
+  "arxiv_id": "2408.06299",
+  "arxiv_version": "v2",
+  "authors": [
+    "Yu Shi",
+    "Ashlesha Patil",
+    "Saikat Guha"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2408.06299v2",
+    "code_repo_urls": [],
+    "doi": "10.1103/PRXQuantum.6.010339",
+    "pdf_url": "https://arxiv.org/pdf/2408.06299v2"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2024-08-12",
+  "title": "Stabilizer Entanglement Distillation and Efficient Fault-Tolerant Encoders",
+  "updated_date": "2025-03-07"
+}

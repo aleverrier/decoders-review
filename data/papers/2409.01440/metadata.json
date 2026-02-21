@@ -1,0 +1,34 @@
+{
+  "abstract": "Fault-tolerant quantum computers must be designed in conjunction with classical co-processors that decode quantum error correction measurement information in real-time. In this work, we introduce the belief propagation plus ordered Tanner forest (BP+OTF) algorithm as an almost-linear time decoder for quantum low-density parity-check codes. The OTF post-processing stage removes qubits from the decoding graph until it has a tree-like structure. Provided that the resultant loop-free OTF graph supports a subset of qubits that can generate the syndrome, BP decoding is then guaranteed to converge. To enhance performance under circuit-level noise, we introduce a technique for sparsifying detector error models. This method uses a transfer matrix to map soft information from the full detector graph to the sparsified graph, preserving critical error propagation information from the syndrome extraction circuit. Our BP+OTF implementation first applies standard BP to the full detector graph, followed by BP+OTF post-processing on the sparsified graph. Numerical simulations show that the BP+OTF decoder achieves similar logical error suppression compared to state-of-the-art inversion-based and matching decoders for bivariate bicycle and surface codes, respectively, while maintaining almost-linear runtime complexity across all stages.",
+  "arxiv_id": "2409.01440",
+  "arxiv_version": "v2",
+  "authors": [
+    "Antonio deMarti iOlius",
+    "Imanol Etxezarreta Martinez",
+    "Joschka Roffe",
+    "Josu Etxezarreta Martinez"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "5bda739bef85692001bb15011e5b336c89f567cf0e7d441389c0fccf6b6597b2",
+  "last_processed_at": "2026-02-21T12:31:38.402566+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2409.01440v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2409.01440v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "b4f89f7c7eb6378dfa65df7f41354ecea8eee3877babbe115ca6e240a8ad5a30",
+  "submitted_date": "2024-09-02",
+  "tags": [
+    "belief propagation",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "An almost-linear time decoding algorithm for quantum LDPC codes under circuit-level noise",
+  "updated_date": "2025-08-05"
+}

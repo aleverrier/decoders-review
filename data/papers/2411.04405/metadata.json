@@ -1,0 +1,33 @@
+{
+  "abstract": "Preparing encoded logical states is the first step in a fault-tolerant quantum computation. Standard approaches based on concatenation or repeated measurement incur a significant time overhead. The Raussendorf-Bravyi-Harrington cluster state offers an alternative: a single-shot preparation of encoded states of the surface code, by means of a constant depth quantum circuit, followed by a single round of measurement and classical feedforward. In this work we generalize this approach and prove that single-shot logical state preparation can be achieved for arbitrary quantum LDPC codes. Our proof relies on a minimum-weight decoder and is based on a generalization of Gottesman's clustering-of-errors argument. As an application, we also prove single-shot preparation of the encoded GHZ state in arbitrary quantum LDPC codes. This shows that adaptive noisy constant depth quantum circuits are capable of generating generic robust long-range entanglement.",
+  "arxiv_id": "2411.04405",
+  "arxiv_version": "v1",
+  "authors": [
+    "Thiago Bergamaschi",
+    "Yunchao Liu"
+  ],
+  "categories": [
+    "quant-ph",
+    "cond-mat.str-el"
+  ],
+  "extraction_hash": "46c90bce2b90d04ff5c452f5ee10a2bcdaaeb05a23e9dfadb4ec4eb296aadb17",
+  "last_processed_at": "2026-02-21T12:31:38.477491+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2411.04405v1",
+    "code_repo_urls": [],
+    "doi": "10.4230/LIPIcs.ITCS.2025.16",
+    "pdf_url": "https://arxiv.org/pdf/2411.04405v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "ea00474280f9bb587fbe3350f23fc6fb43b1171e90a87955c338e20017167a35",
+  "submitted_date": "2024-11-07",
+  "tags": [
+    "cond-mat.str-el",
+    "decoder",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "On fault tolerant single-shot logical state preparation and robust long-range entanglement",
+  "updated_date": "2024-11-07"
+}

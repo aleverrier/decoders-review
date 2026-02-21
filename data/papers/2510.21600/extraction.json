@@ -1,0 +1,64 @@
+{
+  "abstract": "We introduce a prototype FPGA decoder implementing the recently discovered Relay-BP algorithm and targeting memory experiments on the $[[144,12,12]]$ bivariate bicycle quantum low-density parity check code. The decoder is both fast and accurate, achieving a belief propagation iteration time of 24ns. It matches the logical error performance of a floating-point implementation despite using reduced precision arithmetic. This speed is sufficient for an average per cycle decoding time under $1\\,\\mathrm{μs}$ assuming circuit model error probabilities are less than $3 \\times 10^{-3}$. This prototype decoder offers useful insights on the path toward decoding solutions for scalable fault-tolerant quantum computers.",
+  "arxiv_id": "2510.21600",
+  "arxiv_version": "v1",
+  "authors": [
+    "Thilo Maurer",
+    "Markus Bühler",
+    "Michael Kröner",
+    "Frank Haverkamp",
+    "Tristan Müller",
+    "Drew Vandeth",
+    "Blake R. Johnson"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2510.21600v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2510.21600v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding",
+      "belief propagation"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2025-10-24",
+  "title": "Real-time decoding of the gross code memory with FPGAs",
+  "updated_date": "2025-10-24"
+}

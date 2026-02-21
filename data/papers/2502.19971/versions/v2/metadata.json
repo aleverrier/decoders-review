@@ -1,0 +1,36 @@
+{
+  "abstract": "Scaling quantum computing to practical applications necessitates reliable quantum error correction. Although numerous correction codes have been proposed, the overall correction efficiency critically limited by the decode algorithms. We introduce GraphQEC, a code-agnostic decoder leveraging machine-learning on the graph structure of stabilizer codes with linear time complexity. GraphQEC demonstrates unprecedented accuracy and efficiency across all tested code families, including surface codes, color codes, and quantum low-density parity-check (QLDPC) codes. For instance, on a distance-12 QLDPC code, GraphQEC achieves a logical error rate of $9.55 \\times 10^{-5}$, an 18-fold improvement over the previous best specialized decoder's $1.74 \\times 10^{-3}$ under $p=0.005$ physical error rates, while maintaining $157μ$s/cycle decoding speed. Our approach represents the first universal solution for real-time quantum error correction across arbitrary stabilizer codes.",
+  "arxiv_id": "2502.19971",
+  "arxiv_version": "v2",
+  "authors": [
+    "Gengyuan Hu",
+    "Wanli Ouyang",
+    "Chao-Yang Lu",
+    "Chen Lin",
+    "Han-Sen Zhong"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.AI"
+  ],
+  "extraction_hash": "cc12f4d589102b92aa4df0f0d7db8c8a84d856f36ee58f7cf921bae2166855e5",
+  "last_processed_at": "2026-02-21T12:31:38.412572+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2502.19971v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2502.19971v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "9e354135f4937511b48e88f70f436233de31086dad0d37677736bbb9ad82570a",
+  "submitted_date": "2025-02-27",
+  "tags": [
+    "cs.AI",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Efficient and Universal Neural-Network Decoder for Stabilizer-Based Quantum Error Correction",
+  "updated_date": "2025-06-03"
+}

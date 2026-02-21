@@ -1,0 +1,38 @@
+{
+  "abstract": "Quantum error correction has recently been shown to benefit greatly from specific physical encodings of the code qubits. In particular, several researchers have considered the individual code qubits being encoded with the continuous variable GottesmanKitaev-Preskill (GKP) code, and then imposed an outer discrete-variable code such as the surface code on these GKP qubits. Under such a concatenation scheme, the analog information from the inner GKP error correction improves the noise threshold of the outer code. However, the surface code has vanishing rate and demands a lot of resources with growing distance. In this work, we concatenate the GKP code with generic quantum low-density parity-check (QLDPC) codes and demonstrate a natural way to exploit the GKP analog information in iterative decoding algorithms. We first show the noise thresholds for two lifted product QLDPC code families, and then show the improvements of noise thresholds when the iterative decoder - a hardware-friendly min-sum algorithm (MSA) - utilizes the GKP analog information. We also show that, when the GKP analog information is combined with a sequential update schedule for MSA, the scheme surpasses the well-known CSS Hamming bound for these code families. Furthermore, we observe that the GKP analog information helps the iterative decoder in escaping harmful trapping sets in the Tanner graph of the QLDPC code, thereby eliminating or significantly lowering the error floor of the logical error rate curves. Finally, we discuss new fundamental and practical questions that arise from this work on channel capacity under GKP analog information, and on improving decoder design and analysis.",
+  "arxiv_id": "2111.07029",
+  "arxiv_version": "v2",
+  "authors": [
+    "Nithin Raveendran",
+    "Narayanan Rengaswamy",
+    "Filip Rozpędek",
+    "Ankur Raina",
+    "Liang Jiang",
+    "Bane Vasić"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "5d8898550e9224704ba9411141e358bb1700b9de7647c244d3d060a3816c628c",
+  "last_processed_at": "2026-02-21T12:31:38.582121+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2111.07029v2",
+    "code_repo_urls": [],
+    "doi": "10.22331/q-2022-07-20-767",
+    "pdf_url": "https://arxiv.org/pdf/2111.07029v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "b560f6c53028dd40e0a0e921047fa4be3b7d0c2f53e39061cb0b107902ebfa6d",
+  "submitted_date": "2021-11-13",
+  "tags": [
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "lifted product",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Finite Rate QLDPC-GKP Coding Scheme that Surpasses the CSS Hamming Bound",
+  "updated_date": "2022-07-11"
+}

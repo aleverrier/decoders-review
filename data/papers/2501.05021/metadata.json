@@ -1,0 +1,33 @@
+{
+  "abstract": "In this paper, we propose a novel message-passing decoding approach that leverages the degeneracy of quantum low-density parity-check codes to enhance decoding performance, eliminating the need for serial scheduling or post-processing. Our focus is on two-block Calderbank-Shor-Steane (CSS) codes, which are composed of symmetric stabilizers that hinder the performance of conventional iterative decoders with uniform update rules. Specifically, our analysis shows that, under the isolation assumption, the min-sum decoder fails to converge when constant-weight errors are applied to symmetric stabilizers, as variable-to-check messages oscillate in every iteration. To address this, we introduce a decoding technique that exploits this oscillatory property by applying distinct update rules: variable nodes in one block utilize messages from previous iterations, while those in the other block are updated conventionally. Logical error-rate results demonstrate that the proposed decoder significantly outperforms the normalized min-sum decoder and achieves competitive performance with belief propagation enhanced by order-zero ordered statistics decoding, all while maintaining linear complexity in the code's block length.",
+  "arxiv_id": "2501.05021",
+  "arxiv_version": "v1",
+  "authors": [
+    "Dimitris Chytas",
+    "Nithin Raveendran",
+    "Bane Vasic"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "9c035c49ee32cc7279ac59b1e928376b674b0de99c4229bc131b3b4dfcf04847",
+  "last_processed_at": "2026-02-21T12:31:38.457627+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2501.05021v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2501.05021v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "ad86bc79ffc2db47372870e7923b8664efed52ba5b2c37cfbdcfbbb38672de10",
+  "submitted_date": "2025-01-09",
+  "tags": [
+    "belief propagation",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Enhanced Min-Sum Decoding of Quantum Codes Using Previous Iteration Dynamics",
+  "updated_date": "2025-01-09"
+}

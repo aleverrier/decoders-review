@@ -1,0 +1,65 @@
+{
+  "abstract": "We give the first construction of explicit constant-degree lossless vertex expanders. Specifically, for any $\\varepsilon > 0$ and sufficiently large $d$, we give an explicit construction of an infinite family of $d$-regular graphs where every small set $S$ of vertices has $(1-\\varepsilon)d|S|$ neighbors (which implies $(1-2\\varepsilon)d|S|$ unique-neighbors). Our results also extend naturally to construct biregular bipartite graphs of any constant imbalance, where small sets on each side have strong expansion guarantees. The graphs we construct admit a free group action, and hence realize new families of quantum LDPC codes of Lin and M. Hsieh with a linear time decoding algorithm. Our construction is based on taking an appropriate product of a constant-sized lossless expander with a base graph constructed from Ramanujan Cayley cubical complexes.",
+  "arxiv_id": "2504.15087",
+  "arxiv_version": "v1",
+  "authors": [
+    "Jun-Ting Hsieh",
+    "Alexander Lubotzky",
+    "Sidhanth Mohanty",
+    "Assaf Reiner",
+    "Rachel Yun Zhang"
+  ],
+  "categories": [
+    "math.CO",
+    "cs.CC",
+    "cs.DM",
+    "cs.DS",
+    "math.GR"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2504.15087v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2504.15087v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "math.CO",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2025-04-21",
+  "title": "Explicit Lossless Vertex Expanders",
+  "updated_date": "2025-04-21"
+}

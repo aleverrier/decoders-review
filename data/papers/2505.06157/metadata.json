@@ -1,0 +1,35 @@
+{
+  "abstract": "Generalized bicycle (GB) codes have emerged as a promising class of quantum error-correcting codes with practical decoding capabilities. While numerous asymptotically good quantum codes and quantum low-density parity-check code constructions have been proposed, their finite block-length performance often remains unquantified. In this work, we demonstrate that GB codes exhibit comparable or superior error correction performance in finite-length settings, particularly when designed with higher or unrestricted row weights. Leveraging their flexible construction, GB codes can be tailored to achieve high rates while maintaining efficient decoding. We evaluate GB codes against other leading quantum code families, such as quantum Tanner codes and single-parity-check product codes, highlighting their versatility in practical finite-length applications.",
+  "arxiv_id": "2505.06157",
+  "arxiv_version": "v1",
+  "authors": [
+    "Olai Å. Mostad",
+    "Hsuan-Yin Lin",
+    "Eirik Rosnes",
+    "De-Shih Lee",
+    "Ching-Yi Lai"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "a310267c70c8853647989459a630a755c455133a4146d315841b6ddac7a4bf11",
+  "last_processed_at": "2026-02-21T12:31:38.423069+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2505.06157v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2505.06157v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "488164e22151aa9b3025eb44b089aafcd334c21a2eac2e5fa69dfd88e4120f6d",
+  "submitted_date": "2025-05-09",
+  "tags": [
+    "cs.IT",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Advancing Finite-Length Quantum Error Correction Using Generalized Bicycle Codes",
+  "updated_date": "2025-05-09"
+}

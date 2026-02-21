@@ -1,0 +1,31 @@
+{
+  "abstract": "In this paper, we propose a new decoder, called the Multiple-Bases Belief-Propagation List Decoder (MBBP-LD), for Quantum Low-Density Parity-Check (QLDPC) codes. It extends the Multiple-Bases Belief-Propagation (MBBP) framework, originally developed for classical cyclic LDPC codes. The proposed method preserves the linear-time complexity of standard BP decoder while improving the logical error rate. To further reduce the logical error rate, a new decision rule is introduced for the post-processing list decoder, outperforming the conventional least-metric selector (LMS) criterion. For the recently developed and implemented bivariate bicycle (BB) code with parameters \\([[144,12,12]]\\), our proposed MBBP-LD decoder achieves up to 40\\% lower logical error rate compared to the state-of-the-art decoder for short QLDPC codes, i.e., BP with ordered-statistics decoding (BP-OSD), while retaining the linear-time complexity of the plain BP decoder. In addition, we explore a new subclass of BB codes, that we refer to as the univariate bicycle (UB) codes, specifically with lower-weight parity checks (\\(w=6,8\\)). This reduces the polynomial search space for the code compared to general BB codes, i.e., by reducing the search space over two polynomial components in BB codes to just a single polynomial component in UB codes. Simulations demonstrate the promising performance of these codes under various types of BP decoders.",
+  "arxiv_id": "2511.02951",
+  "arxiv_version": "v1",
+  "authors": [
+    "Sheida Rabeti",
+    "Hessam Mahdavifar"
+  ],
+  "categories": [
+    "cs.IT"
+  ],
+  "extraction_hash": "a91088ccf34bf5e849fda1698bbc35b05144461e8963b43bd654c9143f6a0598",
+  "last_processed_at": "2026-02-21T12:31:38.356698+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2511.02951v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2511.02951v1"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "7bbc78dfc8be3fa25d9d5d381363e7c54043102096f5229b20e9841feb2670e8",
+  "submitted_date": "2025-11-04",
+  "tags": [
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "relevance:maybe"
+  ],
+  "title": "List Decoding and New Bicycle Code Constructions for Quantum LDPC Codes",
+  "updated_date": "2025-11-04"
+}

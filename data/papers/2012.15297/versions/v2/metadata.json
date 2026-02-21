@@ -1,0 +1,33 @@
+{
+  "abstract": "Iterative decoders for finite length quantum low-density parity-check (QLDPC) codes are attractive because their hardware complexity scales only linearly with the number of physical qubits. However, they are impacted by short cycles, detrimental graphical configurations known as trapping sets (TSs) present in a code graph as well as symmetric degeneracy of errors. These factors significantly degrade the decoder decoding probability performance and cause so-called error floor. In this paper, we establish a systematic methodology by which one can identify and classify quantum trapping sets (QTSs) according to their topological structure and decoder used. The conventional definition of a TS from classical error correction is generalized to address the syndrome decoding scenario for QLDPC codes. We show that the knowledge of QTSs can be used to design better QLDPC codes and decoders. Frame error rate improvements of two orders of magnitude in the error floor regime are demonstrated for some practical finite-length QLDPC codes without requiring any post-processing.",
+  "arxiv_id": "2012.15297",
+  "arxiv_version": "v2",
+  "authors": [
+    "Nithin Raveendran",
+    "Bane Vasić"
+  ],
+  "categories": [
+    "cs.IT",
+    "quant-ph"
+  ],
+  "extraction_hash": "0b5ba659dd4f8f515d26d79a34b4e0f520b2b2792a60591537bcbbbb5e7f24e5",
+  "last_processed_at": "2026-02-21T12:31:38.593777+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2012.15297v2",
+    "code_repo_urls": [],
+    "doi": "10.22331/q-2021-10-14-562",
+    "pdf_url": "https://arxiv.org/pdf/2012.15297v2"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "d4257b196153edb9d36cc8e6312169e20a9d4cbb5a413b7f0821c3fbb020c580",
+  "submitted_date": "2020-12-30",
+  "tags": [
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Trapping Sets of Quantum LDPC Codes",
+  "updated_date": "2021-10-07"
+}

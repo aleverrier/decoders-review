@@ -1,0 +1,36 @@
+{
+  "abstract": "We address the problem of performing message-passing-based decoding of quantum LDPC codes under hardware latency limitations. We propose a novel way to do layered decoding that suits quantum constraints and outperforms flooded scheduling, the usual scheduling on parallel architectures. A generic construction is given to construct layers of hypergraph product codes. In the process, we introduce two new notions, t-covering layers which is a generalization of the usual layer decomposition, and a new scheduling called random order scheduling. Numerical simulations show that the random ordering is of independent interest as it helps relieve the high error floor typical of message-passing decoders on quantum codes for both layered and serial decoding without the need for post-processing.",
+  "arxiv_id": "2308.13377",
+  "arxiv_version": "v1",
+  "authors": [
+    "Julien Du Crest",
+    "Francisco Garcia-Herrero",
+    "Mehdi Mhalla",
+    "Valentin Savin",
+    "Javier Valls"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "cd2f23df4cbb8f862003416d4d26e9721874593eee6116acc4fb84f4b39b48c2",
+  "last_processed_at": "2026-02-21T12:31:38.552397+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2308.13377v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2308.13377v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "f6cc2346f3a5180de9f0d87a70ecd7b8fbac3c6e92a7b0c7b25319c287d03b8f",
+  "submitted_date": "2023-08-25",
+  "tags": [
+    "decoder",
+    "decoding",
+    "hypergraph product",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Layered Decoding of Quantum LDPC Codes",
+  "updated_date": "2023-08-25"
+}

@@ -1,0 +1,62 @@
+{
+  "abstract": "For a quantum error correcting code to be used in practice, it needs to be equipped with an efficient decoding algorithm, which identifies corrections given the observed syndrome of errors.Hypergraph product codes are a promising family of constant-rate quantum LDPC codes that have a linear-time decoding algorithm called Small-Set-Flip ($\\texttt{SSF}$) (Leverrier, Tillich, Zémor FOCS 2015). The algorithm proceeds by iteratively applying small corrections which reduce the syndrome weight. Together, these small corrections can provably correct large errors for sufficiently large codes with sufficiently large (but constant) stabilizer weight. However, this guarantee does not hold for small codes with low stabilizer weight. In this case, $\\texttt{SSF}$ can terminate with stopping failures, meaning it encounters an error for which it is unable to identify a small correction. We find that the structure of errors that cause stopping failures have a simple form for sufficiently small qubit failure rates. We propose a new decoding algorithm called the Projection-Along-a-Line ($\\texttt{PAL}$) decoder to supplement $\\texttt{SSF}$ after stopping failures. Using $\\texttt{SSF}+\\texttt{PAL}$ as a combined decoder, we find an order-of-magnitude improvement in the logical error rate.",
+  "arxiv_id": "2311.00877",
+  "arxiv_version": "v1",
+  "authors": [
+    "Lev Stambler",
+    "Anirudh Krishna",
+    "Michael E. Beverland"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2311.00877v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2311.00877v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoder",
+      "decoding",
+      "small-set-flip",
+      "hypergraph product"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2023-11-01",
+  "title": "Addressing Stopping Failures for Small Set Flip Decoding of Hypergraph Product Codes",
+  "updated_date": "2023-11-01"
+}

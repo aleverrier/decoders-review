@@ -1,0 +1,60 @@
+{
+  "abstract": "Belief-propagation (BP) decoders play a vital role in modern coding theory, but they are not suitable to decode quantum error-correcting codes because of a unique quantum feature called error degeneracy. Inspired by an exact mapping between BP and deep neural networks, we train neural BP decoders for quantum low-density parity-check (LDPC) codes with a loss function tailored to error degeneracy. Training substantially improves the performance of BP decoders for all families of codes we tested and may solve the degeneracy problem which plagues the decoding of quantum LDPC codes.",
+  "arxiv_id": "1811.07835",
+  "arxiv_version": "v2",
+  "authors": [
+    "Ye-Hua Liu",
+    "David Poulin"
+  ],
+  "categories": [
+    "quant-ph",
+    "cond-mat.stat-mech"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/1811.07835v2",
+    "code_repo_urls": [],
+    "doi": "10.1103/PhysRevLett.122.200501",
+    "pdf_url": "https://arxiv.org/pdf/1811.07835v2"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoder",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2018-11-19",
+  "title": "Neural Belief-Propagation Decoders for Quantum Error-Correcting Codes",
+  "updated_date": "2019-05-07"
+}

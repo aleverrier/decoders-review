@@ -1,0 +1,62 @@
+{
+  "abstract": "We introduce a new erasure decoder that applies to arbitrary quantum LDPC codes. Dubbed the cluster decoder, it generalizes the decomposition idea of Vertical-Horizontal (VH) decoding introduced by Connelly et al. in 2022. Like the VH decoder, the idea is to first run the peeling decoder and then post-process the resulting stopping set. The cluster decoder breaks the stopping set into a tree of clusters which can be solved sequentially via Gaussian Elimination (GE). By allowing clusters of unconstrained size, this decoder achieves maximum-likelihood (ML) performance with reduced complexity compared with full GE. When GE is applied only to clusters whose sizes are less than a constant, the performance is degraded but the complexity becomes linear in the block length. Our simulation results show that, for hypergraph product codes, the cluster decoder with constant cluster size achieves near-ML performance similar to VH decoding in the low-erasure-rate regime. For the general quantum LDPC codes we studied, the cluster decoder can be used to estimate the ML performance curve with reduced complexity over a wide range of erasure rates.",
+  "arxiv_id": "2412.08817",
+  "arxiv_version": "v1",
+  "authors": [
+    "Hanwen Yao",
+    "Mert Gökduman",
+    "Henry D. Pfister"
+  ],
+  "categories": [
+    "cs.IT",
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2412.08817v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2412.08817v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "cs.IT",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoder",
+      "decoding",
+      "hypergraph product"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2024-12-11",
+  "title": "Cluster Decomposition for Improved Erasure Decoding of Quantum LDPC Codes",
+  "updated_date": "2024-12-11"
+}

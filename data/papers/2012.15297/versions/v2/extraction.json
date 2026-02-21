@@ -1,0 +1,59 @@
+{
+  "abstract": "Iterative decoders for finite length quantum low-density parity-check (QLDPC) codes are attractive because their hardware complexity scales only linearly with the number of physical qubits. However, they are impacted by short cycles, detrimental graphical configurations known as trapping sets (TSs) present in a code graph as well as symmetric degeneracy of errors. These factors significantly degrade the decoder decoding probability performance and cause so-called error floor. In this paper, we establish a systematic methodology by which one can identify and classify quantum trapping sets (QTSs) according to their topological structure and decoder used. The conventional definition of a TS from classical error correction is generalized to address the syndrome decoding scenario for QLDPC codes. We show that the knowledge of QTSs can be used to design better QLDPC codes and decoders. Frame error rate improvements of two orders of magnitude in the error floor regime are demonstrated for some practical finite-length QLDPC codes without requiring any post-processing.",
+  "arxiv_id": "2012.15297",
+  "arxiv_version": "v2",
+  "authors": [
+    "Nithin Raveendran",
+    "Bane Vasić"
+  ],
+  "categories": [
+    "cs.IT",
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2012.15297v2",
+    "code_repo_urls": [],
+    "doi": "10.22331/q-2021-10-14-562",
+    "pdf_url": "https://arxiv.org/pdf/2012.15297v2"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "cs.IT",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2020-12-30",
+  "title": "Trapping Sets of Quantum LDPC Codes",
+  "updated_date": "2021-10-07"
+}

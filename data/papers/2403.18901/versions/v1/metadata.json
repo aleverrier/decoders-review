@@ -1,0 +1,35 @@
+{
+  "abstract": "We introduce a sliding window decoder based on belief propagation (BP) with guided decimation for the purposes of decoding quantum low-density parity-check codes in the presence of circuit-level noise. Windowed decoding keeps the decoding complexity reasonable when, as is typically the case, repeated rounds of syndrome extraction are required to decode. Within each window, we employ several rounds of BP with decimation of the variable node that we expect to be the most likely to flip in each round, Furthermore, we employ ensemble decoding to keep both decimation options (guesses) open in a small number of chosen rounds. We term the resulting decoder BP with guided decimation guessing (GDG). Applied to bivariate bicycle codes, GDG achieves a similar logical error rate as BP with an additional OSD post-processing stage (BP+OSD) and combination-sweep of order 10. For a window size of three syndrome cycles, a multi-threaded CPU implementation of GDG achieves a worst-case decoding latency of 3ms per window for the [[144,12,12]] code.",
+  "arxiv_id": "2403.18901",
+  "arxiv_version": "v1",
+  "authors": [
+    "Anqi Gong",
+    "Sebastian Cammerer",
+    "Joseph M. Renes"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "754063ccc937090302681790b6ee90fe69decc97b9df5f1a9fb734e47e6578db",
+  "last_processed_at": "2026-02-21T12:31:38.532777+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2403.18901v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2403.18901v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "2d46ba87f23f9d75d6a86febb5029831f5090e560a89e570253f06ecbe12f10b",
+  "submitted_date": "2024-03-27",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Toward Low-latency Iterative Decoding of QLDPC Codes Under Circuit-Level Noise",
+  "updated_date": "2024-03-27"
+}

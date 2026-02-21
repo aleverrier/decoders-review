@@ -1,0 +1,60 @@
+{
+  "abstract": "We generalize a construction of non-binary quantum LDPC codes over $\\F_{2^m}$ due to \\cite{KHIS11a} and apply it in particular to toric codes. We obtain in this way not only codes with better rates than toric codes but also improve dramatically the performance of standard iterative decoding. Moreover, the new codes obtained in this fashion inherit the distance properties of the underlying toric codes and have therefore a minimum distance which grows as the square root of the length of the code for fixed $m$.",
+  "arxiv_id": "1202.3338",
+  "arxiv_version": "v1",
+  "authors": [
+    "Iryna Andriyanova",
+    "Denise Maurice",
+    "Jean-Pierre Tillich"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/1202.3338v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/1202.3338v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2012-02-15",
+  "title": "New constructions of CSS codes obtained by moving to higher alphabets",
+  "updated_date": "2012-02-15"
+}

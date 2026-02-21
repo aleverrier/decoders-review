@@ -1,0 +1,31 @@
+{
+  "abstract": "(Abridged.) This thesis investigates scalable fault-tolerant quantum computation through the development of bosonic quantum codes, quantum LDPC codes, and decoding protocols that connect continuous-variable and discrete-variable error correction. We investigate superconducting microwave implementations of continuous-variable quantum computing, including the deterministic generation of cubic phase states, and introduce the dissipatively stabilized squeezed cat qubit, a noise-biased bosonic encoding with enhanced error suppression and faster gates. The performance of rotation-symmetric and GKP codes is analyzed under realistic noise and measurement models, revealing key trade-offs in measurement-based schemes. To integrate bosonic codes into larger architectures, we develop decoding methods that exploit analog syndrome information, enabling quasi-single-shot decoding in concatenated systems. On the discrete-variable side, we introduce localized statistics decoding, a highly parallelizable decoder for quantum LDPC codes, and propose quantum radial codes, a new family of single-shot LDPC codes with low overhead and strong circuit-level performance. Finally, we present fault complexes, a homological framework for analyzing faults in dynamic quantum error correction protocols. Extending the role of homology in static CSS codes, fault complexes provide a general language for the design and analysis of fault-tolerant schemes.",
+  "arxiv_id": "2512.15063",
+  "arxiv_version": "v1",
+  "authors": [
+    "Timo Hillmann"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "1016178fd6a9ffd4afd2e48b7a393487f63de64192d7c9bc928ad59a66437976",
+  "last_processed_at": "2026-02-21T12:31:38.338166+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2512.15063v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2512.15063v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "534cb3d3519a89ec24f1fdb8b086e79454f43968502acb3e4c54ae5380d38aa1",
+  "submitted_date": "2025-12-17",
+  "tags": [
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Bosonic quantum computing with near-term devices and beyond",
+  "updated_date": "2025-12-17"
+}

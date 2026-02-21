@@ -1,0 +1,61 @@
+{
+  "abstract": "Decoding quantum error-correcting codes is a key challenge in enabling fault-tolerant quantum computation. In the classical setting, linear programming (LP) decoders offer provable performance guarantees and can leverage fast practical optimization algorithms. Although LP decoders have been proposed for quantum codes, their performance and limitations remain relatively underexplored. In this work, we uncover a key limitation of LP decoding for quantum low-density parity-check (LDPC) codes: certain constant-weight error patterns lead to ambiguous fractional solutions that cannot be resolved through independent rounding. To address this issue, we incorporate a post-processing technique known as ordered statistics decoding (OSD), which significantly enhances LP decoding performance in practice. Our results show that LP decoding, when augmented with OSD, can outperform belief propagation with the same post-processing for intermediate code sizes of up to hundreds of qubits. These findings suggest that LP-based decoders, equipped with effective post-processing, offer a promising approach for decoding near-term quantum LDPC codes.",
+  "arxiv_id": "2508.04769",
+  "arxiv_version": "v1",
+  "authors": [
+    "Shouzhen Gu",
+    "Mehdi Soleimanifar"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2508.04769v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2508.04769v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoder",
+      "decoding",
+      "belief propagation"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2025-08-06",
+  "title": "Power and Limitations of Linear Programming Decoder for Quantum LDPC Codes",
+  "updated_date": "2025-08-06"
+}

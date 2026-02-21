@@ -1,0 +1,36 @@
+{
+  "abstract": "Quantum cryptography via key distribution mechanisms that utilize quantum entanglement between sender-receiver pairs will form the basis of future large-scale quantum networks. A key engineering challenge in such networks will be the ability to correct for decoherence effects in the distributed entanglement resources. It is widely believed that sophisticated quantum error correction codes, such as quantum low-density parity-check (LDPC) codes, will be pivotal in such a role. However, recently the importance of the channel mismatch effect in degrading the performance of deployed quantum LDPC codes has been pointed out. In this work we help remedy this situation by proposing new quantum LDPC decoding strategies that can significantly reduce performance degradation by as much as $50\\%$. Our new strategies for the quantum LDPC decoder are based on previous insights from classical LDPC decoders in mismatched channels, where an asymmetry in performance is known as a function of the estimated channel noise. We show how similar asymmetries carry over to the quantum depolarizing channel, and how an estimate of the depolarization flip parameter weighted to larger values leads to significant performance improvement.",
+  "arxiv_id": "1204.4223",
+  "arxiv_version": "v2",
+  "authors": [
+    "Yixuan Xie",
+    "Jun Li",
+    "Robert Malaney",
+    "Jinhong Yuan"
+  ],
+  "categories": [
+    "cs.IT",
+    "quant-ph"
+  ],
+  "extraction_hash": "b602bc71a93fa6e25db8b7843d7d6c67e958a1faa90eacd567313914f19342b3",
+  "last_processed_at": "2026-02-21T12:31:38.620916+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/1204.4223v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/1204.4223v2"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "e055e4029603ef641a94b5771587e4b861b5b0e2ffa1c13b19b46b029dde546c",
+  "submitted_date": "2012-04-18",
+  "tags": [
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Improved Quantum LDPC Decoding Strategies For The Misidentified Quantum Depolarizing Channel",
+  "updated_date": "2015-05-13"
+}

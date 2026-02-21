@@ -1,0 +1,35 @@
+{
+  "abstract": "Quantum low-density parity-check (QLDPC) codes have been proven to achieve higher minimum distances at higher code rates than surface codes. However, this family of codes imposes stringent latency requirements and poor performance under iterative decoding, especially when the variable degree is low. In this work, we improve both the error correction performance and decoding latency of variable degree-3 (dv-3) QLDPC codes under iterative decoding. Firstly, we perform a detailed analysis of the structure of a well-known family of QLDPC codes, i.e., hypergraph product-based codes. Then, we propose a decoding approach that stems from the knowledge of harmful configurations apparent in these codes. Our decoding scheme is based on applying a modified version of bit flipping (BF) decoding, namely two-bit bit flipping (TBF) decoding, which adds more degrees of freedom to BF decoding. The granularity offered by TBF decoding helps us design sets of decoders that operate in parallel and can collectively decode error patterns appearing in harmful configurations of the code, thus addressing both the latency and performance requirements. Finally, simulation results demonstrate that the proposed decoding scheme surpasses other iterative decoding approaches for various dv-3 QLDPC codes.",
+  "arxiv_id": "2406.17070",
+  "arxiv_version": "v1",
+  "authors": [
+    "Dimitris Chytas",
+    "Nithin Raveendran",
+    "Bane Vasić"
+  ],
+  "categories": [
+    "cs.IT",
+    "quant-ph"
+  ],
+  "extraction_hash": "5f5fa0a076dcaf6276fa684a5333e92ec46f1d44751e54148e8c989135e00eab",
+  "last_processed_at": "2026-02-21T12:31:38.509131+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2406.17070v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2406.17070v1"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "6d49c703714f93496897347fd5128fe546064c136a32d4d49569512382b3e45b",
+  "submitted_date": "2024-06-24",
+  "tags": [
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "hypergraph product",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Collective Bit Flipping-Based Decoding of Quantum LDPC Codes",
+  "updated_date": "2024-06-24"
+}

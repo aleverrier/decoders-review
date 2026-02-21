@@ -1,0 +1,35 @@
+{
+  "abstract": "Fault tolerance of quantum protocols require on-par contributions from error-correcting codes and its suitable decoders. One of the most explored error-correcting codes is the family of Quantum Low-Density Parity Check (QLDPC) codes. Although faster than many of the reported decoders for QLDPC codes, iterative decoders fails to produce suitable success rates due to the colossal degeneracy and short cycles intrinsic to these codes. We present a strategy to improve the performance of the iterative decoders based on a collaborative way to use the message passing of the iterative decoders and stabilizer check node removal from the quantum code's Tanner graph. We particularly introduce a notion of qubit separation, which gives us a metric to analyze and improve the min-sum Belief Propagation (BP) based iterative decoder's performance towards harmful configurations of QLDPC codes. We further show that an integration of information measurements (IM) for qubits and it's adjacent stabilizer checks, can be exploited to extract far better performing results from the collaborative decoding architecture compared to its classical predecessor. We analyze the performance of the proposed collaborative decoding architecture, in the context of Generalized Hypergraph Product (GHP) codes. We discuss that the collaborative decoding architecture overcomes iterative decoding failures regarding the harmful trapping set configurations by increasing the separation of trapped qubits without incurring any significant overhead.",
+  "arxiv_id": "2501.08036",
+  "arxiv_version": "v2",
+  "authors": [
+    "Mainak Bhattacharyya",
+    "Ankur Raina"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "ec1d9b4adf5a61da3983b6a523f49b37aa41624a47579ba6307db643878d6fe5",
+  "last_processed_at": "2026-02-21T12:31:38.405463+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2501.08036v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2501.08036v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "02d5642e0d17591563e5ba11b15e4da3ead752582859720d7ef88bfa6f78fd8a",
+  "submitted_date": "2025-01-14",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "hypergraph product",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Decoding Quantum LDPC Codes using Collaborative Check Node Removal",
+  "updated_date": "2025-06-30"
+}

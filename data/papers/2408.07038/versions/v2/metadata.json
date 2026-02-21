@@ -1,0 +1,32 @@
+{
+  "abstract": "We present Astra, a novel and scalable decoder using graph neural networks. Our decoder works similarly to solving a Sudoku puzzle of constraints represented by the Tanner graph. In general, Quantum Low Density Parity Check (QLDPC) decoding is based on Belief Propagation (BP, a variant of message-passing) and requires time intensive post-processing methods such as Ordered Statistics Decoding (OSD). Without using any post-processing, Astra achieves higher thresholds and better logical error rates when compared to BP+OSD, both for surface codes trained up to distance 11 and Bivariate Bicycle (BB) codes trained up to distance 18. Moreover, we can successfully extrapolate the decoding functionality: we decode high distances (surface code up to distance 25 and BB code up to distance 34) by using decoders trained on lower distances. Astra+OSD is faster than BP+OSD. We show that with decreasing physical error rates, Astra+OSD makes progressively fewer calls to OSD when compared to BP+OSD, even in the context of extrapolated decoding. Astra(+OSD) achieves orders of magnitude lower logical error rates for BB codes compared to BP(+OSD). The source code is open-sourced at \\url{https://github.com/arshpreetmaan/astra}.",
+  "arxiv_id": "2408.07038",
+  "arxiv_version": "v2",
+  "authors": [
+    "Arshpreet Singh Maan",
+    "Alexandru Paler"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "e2ffe32e99c28b321a885adc00d520a2bc9a0ed47744ec519c719f365dfddcc9",
+  "last_processed_at": "2026-02-21T12:31:38.498217+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2408.07038v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2408.07038v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "be71449abab97686a8d6e628e308bc49691ce7519baa577fd2bdacaf1c17065d",
+  "submitted_date": "2024-08-13",
+  "tags": [
+    "belief propagation",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Machine Learning Message-Passing for the Scalable Decoding of QLDPC Codes",
+  "updated_date": "2024-08-26"
+}

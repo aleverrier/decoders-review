@@ -1,0 +1,30 @@
+{
+  "abstract": "Due to their fast decoding algorithms, quantum generalizations of low-density parity check, or LDPC, codes have been investigated as a solution to the problem of decoherence in fragile quantum states. However, the additional twisted inner product requirements of quantum stabilizer codes force four-cycles and eliminate the possibility of randomly generated quantum LDPC codes. Moreover, the classes of quantum LDPC codes discovered thus far generally have unknown or small minimum distance, or a fixed rate. This paper presents several new classes of quantum LDPC codes constructed from finite projective planes. These codes have rates that increase with the block length $n$ and minimum weights proportional to $n^{1/2}$.",
+  "arxiv_id": "1207.0732",
+  "arxiv_version": "v1",
+  "authors": [
+    "Jacob Farinholt"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "09de30d254b369130186b01a717ade891b6aff3817be2840747f353b9ff9ce18",
+  "last_processed_at": "2026-02-21T12:31:38.626420+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/1207.0732v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/1207.0732v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "b6c0e09ee0ab0f0d9cfa5e26e0ff64fbe3284131d26cf42c8f1e9dace9fd94aa",
+  "submitted_date": "2012-07-03",
+  "tags": [
+    "decoding",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Quantum LDPC Codes Constructed from Point-Line Subsets of the Finite Projective Plane",
+  "updated_date": "2012-07-03"
+}

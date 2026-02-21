@@ -1,0 +1,32 @@
+{
+  "abstract": "We construct a family of quantum low-density parity-check codes locally equivalent to higher-dimensional quantum hypergraph-product (QHP) codes. Similarly to QHP codes, the proposed codes have highly redundant sets of low-weight stabilizer generators, which improves decoding accuracy in a fault-tolerant regime and gives them single-shot properties. The advantage of the new construction is that it gives shorter codes. We derive simple expressions for the dimension of the proposed codes in two important special cases, give bounds on the distances, and explicitly construct some relatively short codes. Circuit simulations for codes locally equivalent to 4-dimensional toric codes show a (pseudo)threshold close to 1.1%, better than for toric or surface codes with a similar noise model.",
+  "arxiv_id": "2506.16910",
+  "arxiv_version": "v2",
+  "authors": [
+    "Hsiang-Ku Lin",
+    "Pak Kau Lim",
+    "Alexey A. Kovalev",
+    "Leonid P. Pryadko"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "1dd3eac6b15cf45e5b9d07fd894eee9013c94743ca59cbf14a0f151c1926be08",
+  "last_processed_at": "2026-02-21T12:31:38.397654+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2506.16910v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2506.16910v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "4550fc4fc5fe830b2380e72dd5c6ec7eed67e8313cdd4c043e1c4361787a4da5",
+  "submitted_date": "2025-06-20",
+  "tags": [
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Abelian multi-cycle codes for single-shot error correction",
+  "updated_date": "2025-08-26"
+}

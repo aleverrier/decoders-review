@@ -1,0 +1,35 @@
+{
+  "abstract": "We study the performance of medium-length quantum LDPC (QLDPC) codes in the depolarizing channel. Only degenerate codes with the maximal stabilizer weight much smaller than their minimum distance are considered. It is shown that with the help of OSD-like post-processing the performance of the standard belief propagation (BP) decoder on many QLDPC codes can be improved by several orders of magnitude. Using this new BP-OSD decoder we study the performance of several known classes of degenerate QLDPC codes including hypergraph product codes, hyperbicycle codes, homological product codes, and Haah's cubic codes. We also construct several interesting examples of short generalized bicycle codes. Some of them have an additional property that their syndromes are protected by small BCH codes, which may be useful for the fault-tolerant syndrome measurement. We also propose a new large family of QLDPC codes that contains the class of hypergraph product codes, where one of the used parity-check matrices is square. It is shown that in some cases such codes have better performance than hypergraph product codes. Finally, we demonstrate that the performance of the proposed BP-OSD decoder for some of the constructed codes is better than for a relatively large surface code decoded by a near-optimal decoder.",
+  "arxiv_id": "1904.02703",
+  "arxiv_version": "v3",
+  "authors": [
+    "Pavel Panteleev",
+    "Gleb Kalachev"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "64fc7a37e73cadabb919ca684eba4a0877c9d99eac6be240331e9975c3a859d9",
+  "last_processed_at": "2026-02-21T12:31:38.590989+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/1904.02703v3",
+    "code_repo_urls": [],
+    "doi": "10.22331/q-2021-11-22-585",
+    "pdf_url": "https://arxiv.org/pdf/1904.02703v3"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "e4394edbcfc405e0a089303f9f6b2eeacbcbb1ff81ddad1f8a04a2e172677a84",
+  "submitted_date": "2019-04-04",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoder",
+    "hypergraph product",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Degenerate Quantum LDPC Codes With Good Finite Length Performance",
+  "updated_date": "2021-11-12"
+}
