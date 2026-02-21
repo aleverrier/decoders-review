@@ -13,7 +13,7 @@
     "cs.IT"
   ],
   "extraction_hash": "e2ca759d704efa51c100cdcec7aed4a877f05131c4d7aba2cdc2374ec034572c",
-  "last_processed_at": "2026-02-21T12:31:38.499683+00:00",
+  "last_processed_at": "2026-02-21T13:38:44.391196+00:00",
   "links": {
     "abs_url": "https://arxiv.org/abs/2208.01002v3",
     "code_repo_urls": [],
@@ -21,7 +21,7 @@
     "pdf_url": "https://arxiv.org/pdf/2208.01002v3"
   },
   "primary_category": "quant-ph",
-  "source_hash": "6615c3129b65faf9cbdd230333552b89e2c2a566f0280d4994b925f35a1a4edf",
+  "source_hash": "8a066891929a457b4b5698f5d1d591678c49e3f124d40578345ffabc70073e4f",
   "submitted_date": "2022-08-01",
   "tags": [
     "cs.IT",

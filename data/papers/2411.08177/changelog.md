@@ -1,3 +1,4 @@
 # Changelog
 
 - 2026-02-21T12:31:38.475544+00:00: `2411.08177v2` processed (fresh extraction; pdf_text=no).
+- 2026-02-21T13:38:28.770721+00:00: `2411.08177v2` processed (fresh extraction; pdf_text=yes).

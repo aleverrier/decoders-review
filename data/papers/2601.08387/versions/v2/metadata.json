@@ -9,7 +9,7 @@
     "cs.IT"
   ],
   "extraction_hash": "4d9d2e908551b51203d0ab78eee09e45e5307f9be05a5398953aab117e9ce995",
-  "last_processed_at": "2026-02-21T12:31:38.315551+00:00",
+  "last_processed_at": "2026-02-21T13:36:38.587668+00:00",
   "links": {
     "abs_url": "https://arxiv.org/abs/2601.08387v2",
     "code_repo_urls": [],
@@ -17,7 +17,7 @@
     "pdf_url": "https://arxiv.org/pdf/2601.08387v2"
   },
   "primary_category": "cs.IT",
-  "source_hash": "85003c1f8df43070235f7ba6c7cbdb4ef2c874af7424c4ead53d624c3967cf37",
+  "source_hash": "358e3d2e520fe368692ab7c870a0c1df9ab3e34be08b7460f9cdf33302311636",
   "submitted_date": "2026-01-13",
   "tags": [
     "cs.IT",

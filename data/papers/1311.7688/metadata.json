@@ -11,7 +11,7 @@
     "cond-mat.stat-mech"
   ],
   "extraction_hash": "16c9f3ed37b93f59c5a112f772bceaf078ee872d7035fb1ab7ab7a0e571b5d99",
-  "last_processed_at": "2026-02-21T12:31:38.623820+00:00",
+  "last_processed_at": "2026-02-21T13:39:53.040126+00:00",
   "links": {
     "abs_url": "https://arxiv.org/abs/1311.7688v2",
     "code_repo_urls": [],
@@ -19,7 +19,7 @@
     "pdf_url": "https://arxiv.org/pdf/1311.7688v2"
   },
   "primary_category": "quant-ph",
-  "source_hash": "7fe722dbd0628e6a3f59f2fb1c93317894e54d9cf7acb16195a9ea0cd98e2e50",
+  "source_hash": "66383006040d5fbb81770aee992d1062e386334c4b21b3eb7f0bbdd5bf595b2f",
   "submitted_date": "2013-11-29",
   "tags": [
     "cond-mat.stat-mech",

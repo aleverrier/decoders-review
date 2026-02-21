@@ -14,7 +14,7 @@
     "cs.AR"
   ],
   "extraction_hash": "5a786de468140db027a5b5207d8eab3342ab70ff9053e9e71aa87dc4cbe9c1ac",
-  "last_processed_at": "2026-02-21T12:31:38.486252+00:00",
+  "last_processed_at": "2026-02-21T13:38:36.186237+00:00",
   "links": {
     "abs_url": "https://arxiv.org/abs/2409.14283v1",
     "code_repo_urls": [],
@@ -22,7 +22,7 @@
     "pdf_url": "https://arxiv.org/pdf/2409.14283v1"
   },
   "primary_category": "quant-ph",
-  "source_hash": "2efec0cd1c13add9ee9a910704519822e50af845a401c66094eb8801f2fa5fc9",
+  "source_hash": "6bb6bcfb616f4f7a17c3e4aad2966636a8394150b300096d9e71592b94252578",
   "submitted_date": "2024-09-22",
   "tags": [
     "cs.AR",

@@ -12,7 +12,7 @@
     "quant-ph"
   ],
   "extraction_hash": "f340afc34fbae42c798af9e37afc949cfac9fb1b019127f6813845d785d8b858",
-  "last_processed_at": "2026-02-21T12:31:38.346909+00:00",
+  "last_processed_at": "2026-02-21T13:37:06.550000+00:00",
   "links": {
     "abs_url": "https://arxiv.org/abs/2511.15177v1",
     "code_repo_urls": [],
@@ -20,7 +20,7 @@
     "pdf_url": "https://arxiv.org/pdf/2511.15177v1"
   },
   "primary_category": "quant-ph",
-  "source_hash": "23e04e8748455bef4528cfa8d813a7b69c59f12e0700782f9944fb9408c259a5",
+  "source_hash": "99c6e25783c2507fce8105cd836dade1a1413c5c830235f75c74cc2e16c81a2f",
   "submitted_date": "2025-11-19",
   "tags": [
     "decoder",

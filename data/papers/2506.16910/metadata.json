@@ -12,7 +12,7 @@
     "quant-ph"
   ],
   "extraction_hash": "1dd3eac6b15cf45e5b9d07fd894eee9013c94743ca59cbf14a0f151c1926be08",
-  "last_processed_at": "2026-02-21T12:31:38.397654+00:00",
+  "last_processed_at": "2026-02-21T13:37:41.564699+00:00",
   "links": {
     "abs_url": "https://arxiv.org/abs/2506.16910v2",
     "code_repo_urls": [],
@@ -20,7 +20,7 @@
     "pdf_url": "https://arxiv.org/pdf/2506.16910v2"
   },
   "primary_category": "quant-ph",
-  "source_hash": "4550fc4fc5fe830b2380e72dd5c6ec7eed67e8313cdd4c043e1c4361787a4da5",
+  "source_hash": "13fbb8fb21047699e5bab550e7d00bc116033161484d8b13285336797d783261",
   "submitted_date": "2025-06-20",
   "tags": [
     "decoding",

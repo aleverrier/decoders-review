@@ -10,7 +10,7 @@
     "cs.DS"
   ],
   "extraction_hash": "3a5c72285b94ffc1dace8418940fca53b8252817d5d3f148c070c6e04cc053d6",
-  "last_processed_at": "2026-02-21T12:31:38.495053+00:00",
+  "last_processed_at": "2026-02-21T13:38:41.927653+00:00",
   "links": {
     "abs_url": "https://arxiv.org/abs/2408.14652v1",
     "code_repo_urls": [],
@@ -18,7 +18,7 @@
     "pdf_url": "https://arxiv.org/pdf/2408.14652v1"
   },
   "primary_category": "cs.IT",
-  "source_hash": "4bfaf6bbedf3091dc637d9e7a3944ff0be5f548eb7aa81ff594249b7f1f55a09",
+  "source_hash": "cc1143b2c30ed6a44bd787f2e07cada3b6eb783eb9832871481e2d3e80fba41f",
   "submitted_date": "2024-08-26",
   "tags": [
     "cs.DS",

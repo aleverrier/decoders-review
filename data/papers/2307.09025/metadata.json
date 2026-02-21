@@ -15,7 +15,7 @@
     "stat.ML"
   ],
   "extraction_hash": "b66aa313793dcf5b7c817d25d0ae0bea56fd54d4f461550f5647d7fdb05c68b7",
-  "last_processed_at": "2026-02-21T12:31:38.553802+00:00",
+  "last_processed_at": "2026-02-21T13:39:18.279717+00:00",
   "links": {
     "abs_url": "https://arxiv.org/abs/2307.09025v1",
     "code_repo_urls": [],
@@ -23,7 +23,7 @@
     "pdf_url": "https://arxiv.org/pdf/2307.09025v1"
   },
   "primary_category": "quant-ph",
-  "source_hash": "3aabad42dfc343b8f9439b564cfef4d8312578ec97664a565cc4633ce38fb1ff",
+  "source_hash": "d60de6790772ab87f5aa7e32adc7ff0319fa4cbb9692bab72b2612ba669aec98",
   "submitted_date": "2023-07-18",
   "tags": [
     "cond-mat.stat-mech",

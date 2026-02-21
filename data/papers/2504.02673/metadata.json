@@ -14,7 +14,7 @@
     "quant-ph"
   ],
   "extraction_hash": "9dd0414c7e63d76deaec308e94bd4feb464246d6dea36ce835c4ba84ad4d7360",
-  "last_processed_at": "2026-02-21T12:31:38.343328+00:00",
+  "last_processed_at": "2026-02-21T13:37:01.244058+00:00",
   "links": {
     "abs_url": "https://arxiv.org/abs/2504.02673v2",
     "code_repo_urls": [],
@@ -22,7 +22,7 @@
     "pdf_url": "https://arxiv.org/pdf/2504.02673v2"
   },
   "primary_category": "quant-ph",
-  "source_hash": "ea14dc452653b6ca5f14cb01d1960b16c6286ca75b42cb2c0eebacc62b59564a",
+  "source_hash": "44e5333c62ddf6b8bae2ee7d0a10e3b4bdb7bc2eb9bb4baca49392f4b4ab0d78",
   "submitted_date": "2025-04-03",
   "tags": [
     "balanced product",

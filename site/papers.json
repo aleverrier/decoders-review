@@ -21,7 +21,7 @@
       "name": null
     },
     "extraction_hash": "655edf5a562866dbe7be423f97acf1f461967e245d1ad668819b980477f87681",
-    "last_processed_at": "2026-02-21T11:21:09.322471+00:00",
+    "last_processed_at": "2026-02-21T13:36:28.778799+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2602.16948v1",
       "code_repo_urls": [],
@@ -47,7 +47,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "5c7df8e92ba78800b5217eab5d20f1642c289605522dac0ceb095e23c129c575",
+    "source_hash": "f764778a747e04bd78cce7d7f73dcd9abbead2fa9532766f94c68ecf01e7060b",
     "submitted_date": "2026-02-18",
     "tags": [
       "decoder",
@@ -84,7 +84,7 @@
       "name": null
     },
     "extraction_hash": "431912174070b9555ba08241edc4925f45d339b87a54cd7fe6af805cf47d1129",
-    "last_processed_at": "2026-02-21T11:21:09.324731+00:00",
+    "last_processed_at": "2026-02-21T13:36:29.974158+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2510.07179v2",
       "code_repo_urls": [],
@@ -111,7 +111,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "5fae4b5c92566beb3fb9bb9b2a620df0a8320187bbf8606614425c14d6fad73f",
+    "source_hash": "3b08a01534f137f1c7fc48da7f631c71d9a6d96073c556f4ac0e0955cf8b376f",
     "submitted_date": "2025-10-08",
     "tags": [
       "cond-mat.dis-nn",
@@ -150,7 +150,7 @@
       "name": null
     },
     "extraction_hash": "ca9a7b618fb18a90fdebbc5d08d473e692ea7f81d3e14f8a2bdf176e249d4b71",
-    "last_processed_at": "2026-02-21T12:31:38.306969+00:00",
+    "last_processed_at": "2026-02-21T13:36:30.238825+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2602.13420v1",
       "code_repo_urls": [],
@@ -177,7 +177,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "ca6a476fcb52d6be78c8e89c969accbe151329444bb0561a91565d79e3aec393",
+    "source_hash": "ef1da5a3e2936d41408218578817c6aff6b0c89d4522f9f811fe7b0ee739f09e",
     "submitted_date": "2026-02-13",
     "tags": [
       "belief propagation",
@@ -212,7 +212,7 @@
       "name": null
     },
     "extraction_hash": "818c2fb83c7c2fb05b9f7782ece22e59523a809ca46113588360cde3fa18a8cc",
-    "last_processed_at": "2026-02-21T11:21:09.327660+00:00",
+    "last_processed_at": "2026-02-21T13:36:32.852230+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2507.00254v3",
       "code_repo_urls": [],
@@ -240,7 +240,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "aaa1c2412c51dd5def3d7ffdef6c111fdca937488b19370101a12eb96d9a99e4",
+    "source_hash": "89442873cbda85223d5e8403dfbc5522eb4ad9fd691f7b740c058b24f540ce3e",
     "submitted_date": "2025-06-30",
     "tags": [
       "belief propagation",
@@ -277,7 +277,7 @@
       "name": null
     },
     "extraction_hash": "b09972c96bb956a48e68b023e5a3ab28df24dcc3550ac9c91c4c194c0793537c",
-    "last_processed_at": "2026-02-21T12:31:38.309014+00:00",
+    "last_processed_at": "2026-02-21T13:36:35.421433+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2602.07578v1",
       "code_repo_urls": [],
@@ -302,7 +302,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "8a330ae075053917a3bf081af6587992dbabcf50e91f4e67a52b97054ccbcac5",
+    "source_hash": "691f4ac4e9ecf39fac61e5fa2468f23e07df31bda9510c888e423c12abd88c5b",
     "submitted_date": "2026-02-07",
     "tags": [
       "decoding",
@@ -334,7 +334,7 @@
       "name": null
     },
     "extraction_hash": "0c62f34269f63050db28fd9955791a5dc452b14fb20bee930a3e2e75537384c2",
-    "last_processed_at": "2026-02-21T12:31:38.311241+00:00",
+    "last_processed_at": "2026-02-21T13:36:36.450640+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2508.08191v2",
       "code_repo_urls": [],
@@ -359,7 +359,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "78051a992460c828e2791cc7e52fd3fd6c6cf135a43c9e3d5938a96d91d88613",
+    "source_hash": "42352192598e680ec587012d5658d92ff05b26d6ebb6c7733843d476b632a147",
     "submitted_date": "2025-08-11",
     "tags": [
       "decoding",
@@ -393,7 +393,7 @@
       "name": null
     },
     "extraction_hash": "75a1d59ef62c0f75caafe618c84c0ec5698ac59438fdaad08917ea72af8dae6f",
-    "last_processed_at": "2026-02-21T12:31:38.313891+00:00",
+    "last_processed_at": "2026-02-21T13:36:38.162855+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2601.18562v1",
       "code_repo_urls": [],
@@ -419,7 +419,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "61c7e69400d9d40f471565c0db8e4b5b179ad54e667856c9afe32ba09a37ef18",
+    "source_hash": "b604ca743dd1baccbace8646d3d3c2c5d6dd55862e7d32b7311c8367ce84040e",
     "submitted_date": "2026-01-26",
     "tags": [
       "decoder",
@@ -450,7 +450,7 @@
       "name": null
     },
     "extraction_hash": "4d9d2e908551b51203d0ab78eee09e45e5307f9be05a5398953aab117e9ce995",
-    "last_processed_at": "2026-02-21T12:31:38.315551+00:00",
+    "last_processed_at": "2026-02-21T13:36:38.587668+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2601.08387v2",
       "code_repo_urls": [],
@@ -475,7 +475,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "85003c1f8df43070235f7ba6c7cbdb4ef2c874af7424c4ead53d624c3967cf37",
+    "source_hash": "358e3d2e520fe368692ab7c870a0c1df9ab3e34be08b7460f9cdf33302311636",
     "submitted_date": "2026-01-13",
     "tags": [
       "cs.IT",
@@ -509,7 +509,7 @@
       "name": null
     },
     "extraction_hash": "de85c0cb1a2041e168a3ae08d1091dda1db8e672e5f6856b498c1154b7e534e3",
-    "last_processed_at": "2026-02-21T12:31:38.317044+00:00",
+    "last_processed_at": "2026-02-21T13:36:40.881224+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2511.21660v2",
       "code_repo_urls": [],
@@ -536,7 +536,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "795dd0cbd10571318dcca6ba90f0fa14f3ed75b244aa2c920525158b5659ea9a",
+    "source_hash": "9e8cd8bacb2f1f4d01dffdb1e57ad9f277a164b89b4eb7804d2af60ad39404c3",
     "submitted_date": "2025-11-26",
     "tags": [
       "decoder",
@@ -570,7 +570,7 @@
       "name": null
     },
     "extraction_hash": "8c4c5e30d7d02ac907adc231f78a7101c2c1056f29d05cdeb8185b52446aba66",
-    "last_processed_at": "2026-02-21T12:31:38.318592+00:00",
+    "last_processed_at": "2026-02-21T13:36:43.447347+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2510.05795v4",
       "code_repo_urls": [],
@@ -597,7 +597,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "e110952609cbb1625950cc2d8db5a44472a37865e7441a267e82ba3279e4a753",
+    "source_hash": "d1a0e08485e0073385d8b5068915753ecc7733952e37dc9b0f33e2d639726bf3",
     "submitted_date": "2025-10-07",
     "tags": [
       "decoder",
@@ -632,7 +632,7 @@
       "name": null
     },
     "extraction_hash": "555d8a212464294a98907b61c64bc29f55a059fb4b12182d73ccb070e4f98096",
-    "last_processed_at": "2026-02-21T12:31:38.319964+00:00",
+    "last_processed_at": "2026-02-21T13:36:43.761762+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2601.14236v1",
       "code_repo_urls": [],
@@ -659,7 +659,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "b7966ae105c5f0d3b2a876c9bc277ad781e8ba582a89884a541cb87b370d3dc2",
+    "source_hash": "4f1739d2c22bfa2d2465542e0e0a1f3e5f43f07002dbd0fe211995e9ff9108b2",
     "submitted_date": "2026-01-20",
     "tags": [
       "cs.IT",
@@ -692,7 +692,7 @@
       "name": null
     },
     "extraction_hash": "d1bd6935315d63bc3e328b5b0cc3b4ed4998862e1b880942a4e27d78ce75a517",
-    "last_processed_at": "2026-02-21T12:31:38.321403+00:00",
+    "last_processed_at": "2026-02-21T13:36:44.218061+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2601.08824v3",
       "code_repo_urls": [],
@@ -718,7 +718,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "d93fb25a016142bd3593fd5ead153960ff72741587a55096d6348a21a5cd7e45",
+    "source_hash": "b9e398d8638363f4451d87c8e012f62c6692e59beadf72eee557ff73148b11f4",
     "submitted_date": "2026-01-13",
     "tags": [
       "cs.IT",
@@ -753,7 +753,7 @@
       "name": null
     },
     "extraction_hash": "80b6304a4e94d94033d7c21b161be27c9a961c3c2a9cde16e3eec1b14c73ed8b",
-    "last_processed_at": "2026-02-21T12:31:38.322921+00:00",
+    "last_processed_at": "2026-02-21T13:36:44.748869+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2601.10713v1",
       "code_repo_urls": [],
@@ -779,7 +779,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "5786a3ee90c5ddd54a4e104376927aba4f00835afa1ac2b431c1a3c23c3543f9",
+    "source_hash": "c6845061250f951edfeaeab20b87eeb3660e5a15251307b1d7677d2d7b4ba26a",
     "submitted_date": "2026-01-15",
     "tags": [
       "cs.IT",
@@ -814,7 +814,7 @@
       "name": null
     },
     "extraction_hash": "a1c6ca142280884ebb6326ea9443aeee750b62181f3d5fe5cb220916f72693d7",
-    "last_processed_at": "2026-02-21T12:31:38.327793+00:00",
+    "last_processed_at": "2026-02-21T13:36:51.228470+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2601.09911v1",
       "code_repo_urls": [],
@@ -839,7 +839,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "1dbdd2a9f94dbc881a0d8bc4786e130f61482b7f61b93c72a8eafa6ab22357ec",
+    "source_hash": "c9a0d54bfdde98944b48d7613422b1ade6ea550c0430b9fc99b9ee09318a6dc6",
     "submitted_date": "2026-01-14",
     "tags": [
       "decoder",
@@ -874,7 +874,7 @@
       "name": null
     },
     "extraction_hash": "81f747fde54e5fb174b52df0bd330dd2b07d48ea3580641fad158386d53f727b",
-    "last_processed_at": "2026-02-21T12:31:38.329884+00:00",
+    "last_processed_at": "2026-02-21T13:36:51.512892+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2601.08636v1",
       "code_repo_urls": [],
@@ -901,7 +901,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "8985991fb38e1cd5219c1eb4b67570cf3f8400ff2ed228b879ac1aa6bc71b069",
+    "source_hash": "03bd06925134a298587fc2f67459810f28676587240019fff3face8a1fa2bbb6",
     "submitted_date": "2026-01-13",
     "tags": [
       "belief propagation",
@@ -935,7 +935,7 @@
       "name": null
     },
     "extraction_hash": "e54d3453e80159819874337cc67ad39a938b6dd7c81adeffbd163b1e22e4423f",
-    "last_processed_at": "2026-02-21T12:31:38.331418+00:00",
+    "last_processed_at": "2026-02-21T13:36:52.275668+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2410.01197v2",
       "code_repo_urls": [],
@@ -960,7 +960,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "66b147003343f7a9c6e4aba3c40459c295d5534b88aadb4021d5c6201986ddd6",
+    "source_hash": "aaa6cc965e0214f9f2fb15eaf95a7a1ebe167e484e2f766968c1d21c71c05670",
     "submitted_date": "2024-10-02",
     "tags": [
       "belief propagation",
@@ -991,7 +991,7 @@
       "name": null
     },
     "extraction_hash": "0f7c2f5aa75212b959f4fa0cd5d8584fd66e96a70c3b0384513e5c207d503e5e",
-    "last_processed_at": "2026-02-21T12:31:38.333068+00:00",
+    "last_processed_at": "2026-02-21T13:36:52.707998+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2601.01137v1",
       "code_repo_urls": [],
@@ -1017,7 +1017,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "77b9e084fcd3b49cc7b31cb62597158c5547db97f047443167fbb60334eab244",
+    "source_hash": "d5e5822e7829bc3f5a45a8653afcbcc7ac457ba76bcb5886180883a250dd4ed3",
     "submitted_date": "2026-01-03",
     "tags": [
       "cs.IT",
@@ -1055,7 +1055,7 @@
       "name": null
     },
     "extraction_hash": "ebb12aeab9fcaec08b01e4bafb8ec5dee3bade09d5ebf6094ae6088cc96ff9c7",
-    "last_processed_at": "2026-02-21T12:31:38.334504+00:00",
+    "last_processed_at": "2026-02-21T13:36:53.228401+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2512.21922v2",
       "code_repo_urls": [],
@@ -1081,7 +1081,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "48c986c22e8a7758333ca011118b010a08e41a85a9ec0f86a6ce78350805c82f",
+    "source_hash": "205c7d1fb3c3285eb7b0b133b52c026a4570535e038d71c33cde8d5b7e989250",
     "submitted_date": "2025-12-26",
     "tags": [
       "cs.CC",
@@ -1120,7 +1120,7 @@
       "name": null
     },
     "extraction_hash": "81220bac9cc9fc0bc96cafe8e450e0efbc65efbdf04356f14c9aae2128fc3786",
-    "last_processed_at": "2026-02-21T12:31:38.336163+00:00",
+    "last_processed_at": "2026-02-21T13:36:54.082864+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2512.18273v1",
       "code_repo_urls": [],
@@ -1147,7 +1147,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "fa5bded8b3c31f7454e76925450f57ce17ea44cc36cc3d423cdb6b99df44175a",
+    "source_hash": "5fcfdd8af00457eecb1d3382d598570811684f8b668594e1cbc0c218b48ca4ca",
     "submitted_date": "2025-12-20",
     "tags": [
       "belief propagation",
@@ -1180,7 +1180,7 @@
       "name": null
     },
     "extraction_hash": "1016178fd6a9ffd4afd2e48b7a393487f63de64192d7c9bc928ad59a66437976",
-    "last_processed_at": "2026-02-21T12:31:38.338166+00:00",
+    "last_processed_at": "2026-02-21T13:37:00.161344+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2512.15063v1",
       "code_repo_urls": [],
@@ -1207,7 +1207,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "534cb3d3519a89ec24f1fdb8b086e79454f43968502acb3e4c54ae5380d38aa1",
+    "source_hash": "5aec537db4e50c199cb25103276c30b012d42d8e74bbcd76d8d9a7c298a1db7d",
     "submitted_date": "2025-12-17",
     "tags": [
       "decoder",
@@ -1242,7 +1242,7 @@
       "name": null
     },
     "extraction_hash": "c41504f743a8fefde9131f14091a43e445aa75dc1ffc321d93e55c33dbf84ce7",
-    "last_processed_at": "2026-02-21T12:31:38.339735+00:00",
+    "last_processed_at": "2026-02-21T13:37:00.665820+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2512.07057v2",
       "code_repo_urls": [],
@@ -1269,7 +1269,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "54c6d9f97e18fab5071fb97bdd2fa40b04d941d9e4b0ca4fa01b8df90c87432d",
+    "source_hash": "dd5772adaaa9a01427a837df39add81857cac1023b005788e78252b366b7fd5b",
     "submitted_date": "2025-12-08",
     "tags": [
       "belief propagation",
@@ -1307,7 +1307,7 @@
       "name": null
     },
     "extraction_hash": "9dd0414c7e63d76deaec308e94bd4feb464246d6dea36ce835c4ba84ad4d7360",
-    "last_processed_at": "2026-02-21T12:31:38.343328+00:00",
+    "last_processed_at": "2026-02-21T13:37:01.244058+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2504.02673v2",
       "code_repo_urls": [],
@@ -1336,7 +1336,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "ea14dc452653b6ca5f14cb01d1960b16c6286ca75b42cb2c0eebacc62b59564a",
+    "source_hash": "44e5333c62ddf6b8bae2ee7d0a10e3b4bdb7bc2eb9bb4baca49392f4b4ab0d78",
     "submitted_date": "2025-04-03",
     "tags": [
       "balanced product",
@@ -1370,7 +1370,7 @@
       "name": null
     },
     "extraction_hash": "9e8da0aad72e432fbf6e7d67533322c491a161bb7241e059a3829b8caaa11c7d",
-    "last_processed_at": "2026-02-21T12:31:38.344794+00:00",
+    "last_processed_at": "2026-02-21T13:37:01.913354+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2506.19219v3",
       "code_repo_urls": [],
@@ -1396,7 +1396,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "e0fe7d0ff82ae4f161c93669bb4f76b261d26de8a6ff8e8a3f2422dce007fbf6",
+    "source_hash": "7f68cfc48de98b9767185aec374dd1ec49ea990abd19a8d8ed4abf988320b7d6",
     "submitted_date": "2025-06-24",
     "tags": [
       "decoding",
@@ -1430,7 +1430,7 @@
       "name": null
     },
     "extraction_hash": "f340afc34fbae42c798af9e37afc949cfac9fb1b019127f6813845d785d8b858",
-    "last_processed_at": "2026-02-21T12:31:38.346909+00:00",
+    "last_processed_at": "2026-02-21T13:37:06.550000+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2511.15177v1",
       "code_repo_urls": [],
@@ -1455,7 +1455,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "23e04e8748455bef4528cfa8d813a7b69c59f12e0700782f9944fb9408c259a5",
+    "source_hash": "99c6e25783c2507fce8105cd836dade1a1413c5c830235f75c74cc2e16c81a2f",
     "submitted_date": "2025-11-19",
     "tags": [
       "decoder",
@@ -1489,7 +1489,7 @@
       "name": null
     },
     "extraction_hash": "0a65b9839a0041b30955bfba4449e137ac2c4e360dd0ef140392440a5041b3f4",
-    "last_processed_at": "2026-02-21T12:31:38.350351+00:00",
+    "last_processed_at": "2026-02-21T13:37:07.474272+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2511.13281v1",
       "code_repo_urls": [],
@@ -1516,7 +1516,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "ee737a3ebd081f4cdf0dfbea89d4d2c1550525c035876142baa66d62953b3994",
+    "source_hash": "3618d5856ec5ff99fcc2ab5f6e9815661e80a0d096b7e6b4f341ff270e1ab84c",
     "submitted_date": "2025-11-17",
     "tags": [
       "belief propagation",
@@ -1551,7 +1551,7 @@
       "name": null
     },
     "extraction_hash": "0f0cf6839c014dc55d247c4c790c73984dbdc4b9456577e155d0a6e70c062e0b",
-    "last_processed_at": "2026-02-21T12:31:38.352121+00:00",
+    "last_processed_at": "2026-02-21T13:37:08.388485+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2508.05095v3",
       "code_repo_urls": [],
@@ -1576,7 +1576,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "2f49101b64a2ad13377477d6046c0fb5d0c563523e868ad2c1a7b9384f203780",
+    "source_hash": "fc206737f3c44edc1bfc85677bf03cb919335011c8781316957c0cd7ff45f883",
     "submitted_date": "2025-08-07",
     "tags": [
       "decoder",
@@ -1608,7 +1608,7 @@
       "name": null
     },
     "extraction_hash": "8d4e07f0c00060d8a66557c9ad35e506d9675340f39bfdd639497146d408d9b6",
-    "last_processed_at": "2026-02-21T12:31:38.353667+00:00",
+    "last_processed_at": "2026-02-21T13:37:08.781683+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2511.04634v1",
       "code_repo_urls": [],
@@ -1634,7 +1634,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "bc16a94dd74d4723e9472dbd8b23b7eded14ef4b661c3debe36642f41f61754b",
+    "source_hash": "6d668525bd0552c4fb2be7678dc6e436c0c772b0673c031ab4ca43c7079689c4",
     "submitted_date": "2025-11-06",
     "tags": [
       "cs.IT",
@@ -1667,7 +1667,7 @@
       "name": null
     },
     "extraction_hash": "a91088ccf34bf5e849fda1698bbc35b05144461e8963b43bd654c9143f6a0598",
-    "last_processed_at": "2026-02-21T12:31:38.356698+00:00",
+    "last_processed_at": "2026-02-21T13:37:09.429950+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2511.02951v1",
       "code_repo_urls": [],
@@ -1693,7 +1693,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "7bbc78dfc8be3fa25d9d5d381363e7c54043102096f5229b20e9841feb2670e8",
+    "source_hash": "bcbfc9737c5bb7c693d3bfcbf745f9670e968877cab23499383ca2596faf6a33",
     "submitted_date": "2025-11-04",
     "tags": [
       "cs.IT",
@@ -1728,7 +1728,7 @@
       "name": null
     },
     "extraction_hash": "75d8270fa5f4e59e629c9696dd9dfb6f0cd789c32e3a18703f0e7098568b3319",
-    "last_processed_at": "2026-02-21T12:31:38.359855+00:00",
+    "last_processed_at": "2026-02-21T13:37:12.059269+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2511.01741v1",
       "code_repo_urls": [],
@@ -1755,7 +1755,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "5c233b31977a366e2d6c1947d1f7a690b029a5c8911805d8158fba51cb18c606",
+    "source_hash": "0f33f79996c2c3218440f83ae831cbac2775736305900b160f719ac9500b325a",
     "submitted_date": "2025-11-03",
     "tags": [
       "belief propagation",
@@ -1791,7 +1791,7 @@
       "name": null
     },
     "extraction_hash": "5d30762ba6ef6862059183d85f3ed61f3858cacbc0c9740eed7195933306dde9",
-    "last_processed_at": "2026-02-21T12:31:38.361539+00:00",
+    "last_processed_at": "2026-02-21T13:37:14.220348+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2501.07363v2",
       "code_repo_urls": [],
@@ -1818,7 +1818,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "caf98c05a03ae5022e43e66c201c1f50517b1be3aac8e7a7d1788b146b520e69",
+    "source_hash": "1098e36505f31e0315f99f84f1f8ef5808efb355c873641bf7dd8f31d23c2ef1",
     "submitted_date": "2025-01-13",
     "tags": [
       "cs.IT",
@@ -1856,7 +1856,7 @@
       "name": null
     },
     "extraction_hash": "37fc801c2d92e9d3948b4477b761d0fd71a4a68023997578fe316953d6f59c81",
-    "last_processed_at": "2026-02-21T12:31:38.365329+00:00",
+    "last_processed_at": "2026-02-21T13:37:15.595755+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2510.21600v1",
       "code_repo_urls": [],
@@ -1883,7 +1883,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "9ed76060b470b0427c25d8dc0cb7a40ff6215f09b5a23a20342dbd5164343fb6",
+    "source_hash": "d9b880b487d1d003746f42fb27b5368810f8d133e9634118ae6f90071f1d88d5",
     "submitted_date": "2025-10-24",
     "tags": [
       "belief propagation",
@@ -1920,7 +1920,7 @@
       "name": null
     },
     "extraction_hash": "b92e409a0fb6444b22bee3ff3d217bb7cdf3e4b4620a844fa4028520dc29e90b",
-    "last_processed_at": "2026-02-21T12:31:38.367607+00:00",
+    "last_processed_at": "2026-02-21T13:37:20.964416+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2510.14090v1",
       "code_repo_urls": [],
@@ -1947,7 +1947,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "2b28a69e2605ac6c1bec918b36a08e7c60445877eec572789e5b38ef2829e12c",
+    "source_hash": "ae329d0cb6c351bf5c8c25f88fdad803625d8166624a52ab93799241f08cf769",
     "submitted_date": "2025-10-15",
     "tags": [
       "belief propagation",
@@ -1983,7 +1983,7 @@
       "name": null
     },
     "extraction_hash": "bd260f3c2530416b7f8a5e3dc238f4beb8a2a538e2a2ab2fc2ec57d880d4e03f",
-    "last_processed_at": "2026-02-21T12:31:38.370377+00:00",
+    "last_processed_at": "2026-02-21T13:37:21.413060+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2510.14060v1",
       "code_repo_urls": [],
@@ -2010,7 +2010,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "419ff9ad65c6e8cffda8b71c27d30651d2f559346acaee8de19b197f1b307a94",
+    "source_hash": "7537888daaef6262da62c563055f44a1ffdda83b461039ff77b12d2edff393ca",
     "submitted_date": "2025-10-15",
     "tags": [
       "decoder",
@@ -2044,7 +2044,7 @@
       "name": null
     },
     "extraction_hash": "419403335afa166469a731f12e3147c423907a46916a96c5e790bcce318b60cd",
-    "last_processed_at": "2026-02-21T12:31:38.372765+00:00",
+    "last_processed_at": "2026-02-21T13:37:22.793761+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2510.08695v1",
       "code_repo_urls": [],
@@ -2071,7 +2071,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "cbcf747fc235df78bca2ac816257da5f9069251fb155e9bbf255df29021b6216",
+    "source_hash": "ec189c713077c6a66a5caa4f2578c4b875d901ed0f110062daf9e09a52a654cb",
     "submitted_date": "2025-10-09",
     "tags": [
       "belief propagation",
@@ -2106,7 +2106,7 @@
       "name": null
     },
     "extraction_hash": "12ecd37226db778e0b969aa59f041dce169518e637bf0f1934f2175459c922d8",
-    "last_processed_at": "2026-02-21T12:31:38.377288+00:00",
+    "last_processed_at": "2026-02-21T13:37:23.054943+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2510.07602v1",
       "code_repo_urls": [],
@@ -2132,7 +2132,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "b9657288832a0a1f4c28272844987835468927ce658d3e1eb7dea2e4ef1f1d9a",
+    "source_hash": "0405f12cd9d38ef7e878b68e33c1fa24cac14c88ec99d30ac85e5e27cd5aa96b",
     "submitted_date": "2025-10-08",
     "tags": [
       "decoding",
@@ -2166,7 +2166,7 @@
       "name": null
     },
     "extraction_hash": "4f94bf029b9ced6b42aea3d1483047c1a942e89038c3355ed54031443e49095c",
-    "last_processed_at": "2026-02-21T12:31:38.381372+00:00",
+    "last_processed_at": "2026-02-21T13:37:24.523731+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2510.06760v1",
       "code_repo_urls": [],
@@ -2192,7 +2192,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "9c3e53bf3984dc8de9b7f547f94a13aa4ee52667b7173da2bff336094b35bddb",
+    "source_hash": "b9eb65fa79804f073d20f6c5e9f201ce290639c616518725df8dcb2c1d326bd8",
     "submitted_date": "2025-10-08",
     "tags": [
       "cs.IT",
@@ -2228,7 +2228,7 @@
       "name": null
     },
     "extraction_hash": "f2b30547ea99b8855b4bd890b2a53a929bdf37844bb020796a425a94774a34fc",
-    "last_processed_at": "2026-02-21T12:31:38.383048+00:00",
+    "last_processed_at": "2026-02-21T13:37:25.704759+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2510.06495v1",
       "code_repo_urls": [],
@@ -2253,7 +2253,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "fa7e312243a7eb8957a2616c5dae67acb35b41881536f89d910f53bf5df4706f",
+    "source_hash": "239940ea1e46ea41accba6a15d468af1169e5b0ef7554dd4125f001e7ec94cb1",
     "submitted_date": "2025-10-07",
     "tags": [
       "hypergraph product",
@@ -2288,7 +2288,7 @@
       "name": null
     },
     "extraction_hash": "35251ad7346ab30749ee9bb5aa45d2f87228ab86f18d024139f2a3c382398d35",
-    "last_processed_at": "2026-02-21T12:31:38.385807+00:00",
+    "last_processed_at": "2026-02-21T13:37:33.376611+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2508.04969v2",
       "code_repo_urls": [],
@@ -2316,7 +2316,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "cafe900083f730ffefa56ce513b6324df79ac7549ccd7d7c88bbc8c726fed66b",
+    "source_hash": "e2d0fa9f28efa40527a8020d0fde8d2ae5a45160320beb0f99ac65e4a76d43e0",
     "submitted_date": "2025-08-07",
     "tags": [
       "cs.DS",
@@ -2352,7 +2352,7 @@
       "name": null
     },
     "extraction_hash": "09cd0c94b109ff898577fcda3b226f9e692059f3c72cee7746cedbb3e46a9385",
-    "last_processed_at": "2026-02-21T12:31:38.387489+00:00",
+    "last_processed_at": "2026-02-21T13:37:34.996482+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2509.22347v1",
       "code_repo_urls": [],
@@ -2379,7 +2379,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "d4e9f403b629ff38c426e0452d64472fbb296aa5c4cb4b05e3f4fa001826a8a8",
+    "source_hash": "75b5e32fb73225cbf9c83d04283766c71eb89258f8debb12afac2553c9480b00",
     "submitted_date": "2025-09-26",
     "tags": [
       "belief propagation",
@@ -2412,7 +2412,7 @@
       "name": null
     },
     "extraction_hash": "b77b796605ce2b78dfb4d9d5cca68baa965a8ee5293589d2c6be1f0456313163",
-    "last_processed_at": "2026-02-21T12:31:38.390286+00:00",
+    "last_processed_at": "2026-02-21T13:37:35.674958+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2509.06316v1",
       "code_repo_urls": [],
@@ -2438,7 +2438,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "e0bfca98bf0bda12edbfb1b36c91f4c3f1897088787795b877a49c3a16b31c48",
+    "source_hash": "97d98d2a226382fa355bbe107ab9573580b82fba6eceb3f325ca6df0f9647ea0",
     "submitted_date": "2025-09-08",
     "tags": [
       "cs.IT",
@@ -2472,7 +2472,7 @@
       "name": null
     },
     "extraction_hash": "8a9de958007bb714ad5503b24d934e6e62f39c47de218edfbc5a3b6153a8185d",
-    "last_processed_at": "2026-02-21T12:31:38.391683+00:00",
+    "last_processed_at": "2026-02-21T13:37:36.255360+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2412.21171v4",
       "code_repo_urls": [],
@@ -2498,7 +2498,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "3649ae104aef70fc7a6846faf92033868f6844165c61c181723fe712d097cf5b",
+    "source_hash": "43e7ac214bbbdcc4735cc1455992a0210fde06622150e1ed174f97b0ae6d6c74",
     "submitted_date": "2024-12-30",
     "tags": [
       "cs.IT",
@@ -2536,7 +2536,7 @@
       "name": null
     },
     "extraction_hash": "5b81bfb858ab026aad08c6a4ae551f1b98ceacbb2373c2bad78edab22aef9d41",
-    "last_processed_at": "2026-02-21T12:31:38.393844+00:00",
+    "last_processed_at": "2026-02-21T13:37:39.400632+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2406.18655v2",
       "code_repo_urls": [],
@@ -2562,7 +2562,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "c5bdfb0bd2988c13ff4881eb12dd81d095f8061beb33bc37c58c91b392b504c4",
+    "source_hash": "34caf31416242f9ee6b8b6c5e5db0ffe992813a799bb6dd59977ebd222e1fb93",
     "submitted_date": "2024-06-26",
     "tags": [
       "cs.IT",
@@ -2599,7 +2599,7 @@
       "name": null
     },
     "extraction_hash": "2a796eb5f973d42014e18b182e4526b7d688f262f9e9853b4f018a046a02be43",
-    "last_processed_at": "2026-02-21T12:31:38.395179+00:00",
+    "last_processed_at": "2026-02-21T13:37:40.738028+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2509.01892v1",
       "code_repo_urls": [],
@@ -2626,7 +2626,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "57c31ff33ce965e4646fecd3a6d6e6e37b135227aa0be0c5d5e315b726122c24",
+    "source_hash": "acd693fdc03bc97028643b393d027770ea136faad83d9c7318b429fa475234b7",
     "submitted_date": "2025-09-02",
     "tags": [
       "belief propagation",
@@ -2661,7 +2661,7 @@
       "name": null
     },
     "extraction_hash": "1dd3eac6b15cf45e5b9d07fd894eee9013c94743ca59cbf14a0f151c1926be08",
-    "last_processed_at": "2026-02-21T12:31:38.397654+00:00",
+    "last_processed_at": "2026-02-21T13:37:41.564699+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2506.16910v2",
       "code_repo_urls": [],
@@ -2686,7 +2686,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "4550fc4fc5fe830b2380e72dd5c6ec7eed67e8313cdd4c043e1c4361787a4da5",
+    "source_hash": "13fbb8fb21047699e5bab550e7d00bc116033161484d8b13285336797d783261",
     "submitted_date": "2025-06-20",
     "tags": [
       "decoding",
@@ -2722,7 +2722,7 @@
       "name": null
     },
     "extraction_hash": "27d3c109b783e0e65e2d5b4576d831f114bb6c4dfedba8f38bde51d0fcb61374",
-    "last_processed_at": "2026-02-21T12:31:38.400096+00:00",
+    "last_processed_at": "2026-02-21T13:37:42.077102+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2508.07879v1",
       "code_repo_urls": [],
@@ -2749,7 +2749,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "5d6104bbc15552f3585028b7492d93ae9c1136a26530dae4aaeffba306f8c08b",
+    "source_hash": "5705ca461b4e416b87c883895471e3aa2d407173953a35f32eb52b3aba5fbd0a",
     "submitted_date": "2025-08-11",
     "tags": [
       "belief propagation",
@@ -2784,7 +2784,7 @@
       "name": null
     },
     "extraction_hash": "b882a39a22cf42aa782f3b09f8b223f81026026784b431fac61997de1f085601",
-    "last_processed_at": "2026-02-21T12:31:38.401343+00:00",
+    "last_processed_at": "2026-02-21T13:37:42.984752+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2508.04769v1",
       "code_repo_urls": [],
@@ -2812,7 +2812,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "5bce364222bdde443c8f431a3a5a095355721234d8e0d1007b6a0d9b4791b062",
+    "source_hash": "017e36a7e561c33cd45e74f23e240b2185281523c75f2a187d0e4c8f650c2d61",
     "submitted_date": "2025-08-06",
     "tags": [
       "belief propagation",
@@ -2849,7 +2849,7 @@
       "name": null
     },
     "extraction_hash": "5bda739bef85692001bb15011e5b336c89f567cf0e7d441389c0fccf6b6597b2",
-    "last_processed_at": "2026-02-21T12:31:38.402566+00:00",
+    "last_processed_at": "2026-02-21T13:37:43.576670+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2409.01440v2",
       "code_repo_urls": [],
@@ -2876,7 +2876,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "b4f89f7c7eb6378dfa65df7f41354ecea8eee3877babbe115ca6e240a8ad5a30",
+    "source_hash": "b0d114d53a78435a615037f9daa3bc5f4e2e601a60d948f0fde1b21c7608e14e",
     "submitted_date": "2024-09-02",
     "tags": [
       "belief propagation",
@@ -2910,7 +2910,7 @@
       "name": null
     },
     "extraction_hash": "1ec9b1045242f8929cae9e68473321a83adb995055980cc57a8a352316eafa85",
-    "last_processed_at": "2026-02-21T12:31:38.403778+00:00",
+    "last_processed_at": "2026-02-21T13:37:44.241809+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2507.11534v2",
       "code_repo_urls": [],
@@ -2937,7 +2937,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "73222cec7fd8f30902c7ce76996e890e2a9923d74bd37c9d19fab404060db603",
+    "source_hash": "489012a433463eb90d9410d8e8e300f17b744273c3157b4322d06a551160ea32",
     "submitted_date": "2025-07-15",
     "tags": [
       "belief propagation",
@@ -2972,7 +2972,7 @@
       "name": null
     },
     "extraction_hash": "ec1d9b4adf5a61da3983b6a523f49b37aa41624a47579ba6307db643878d6fe5",
-    "last_processed_at": "2026-02-21T12:31:38.405463+00:00",
+    "last_processed_at": "2026-02-21T13:37:45.887326+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2501.08036v2",
       "code_repo_urls": [],
@@ -3000,7 +3000,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "02d5642e0d17591563e5ba11b15e4da3ead752582859720d7ef88bfa6f78fd8a",
+    "source_hash": "ceac6465242ada71c557d608bb756f337d34560545c2e214610b75bb1e81c7ba",
     "submitted_date": "2025-01-14",
     "tags": [
       "belief propagation",
@@ -3035,7 +3035,7 @@
       "name": null
     },
     "extraction_hash": "2352675d035d37901be522ce8ae11ec8ab5fa7bd4eb653055ff8385e526bd403",
-    "last_processed_at": "2026-02-21T12:31:38.406940+00:00",
+    "last_processed_at": "2026-02-21T13:37:47.266063+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2505.18592v2",
       "code_repo_urls": [],
@@ -3062,7 +3062,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "1d560fb1febb4906a0ecd2516657849ab967d5c3268cf91a262be00528f395d6",
+    "source_hash": "aa9fb99cbd61d7bbe224664c041eff3cb2d202a492076ebda90efd56bbadbbda",
     "submitted_date": "2025-05-24",
     "tags": [
       "belief propagation",
@@ -3097,7 +3097,7 @@
       "name": null
     },
     "extraction_hash": "20c926f288951e4370f9c659a1f7b6b0b79ec3aeed153b08723f461745990c5a",
-    "last_processed_at": "2026-02-21T12:31:38.411077+00:00",
+    "last_processed_at": "2026-02-21T13:37:47.802679+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2501.09622v3",
       "code_repo_urls": [],
@@ -3124,7 +3124,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "01cf9b3d12378a677f6a23335a43d27287a9d6068f83d1223be3bd27ce326240",
+    "source_hash": "cdb3d7415a4d2478c4ef6a4cf5d0891a239f7dca6732bcb1f57235628b31a634",
     "submitted_date": "2025-01-16",
     "tags": [
       "cs.IT",
@@ -3162,7 +3162,7 @@
       "name": null
     },
     "extraction_hash": "cc12f4d589102b92aa4df0f0d7db8c8a84d856f36ee58f7cf921bae2166855e5",
-    "last_processed_at": "2026-02-21T12:31:38.412572+00:00",
+    "last_processed_at": "2026-02-21T13:37:48.394952+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2502.19971v2",
       "code_repo_urls": [],
@@ -3188,7 +3188,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "9e354135f4937511b48e88f70f436233de31086dad0d37677736bbb9ad82570a",
+    "source_hash": "17becbf031b92f369b74eeef36421d71d34a9010ab3d5451ccde90e8090822a5",
     "submitted_date": "2025-02-27",
     "tags": [
       "cs.AI",
@@ -3226,7 +3226,7 @@
       "name": null
     },
     "extraction_hash": "8a331ff10bb3fd972c2221d0e7ff79b14e82ed58d6810bb6b2af847e45f26a1b",
-    "last_processed_at": "2026-02-21T12:31:38.414103+00:00",
+    "last_processed_at": "2026-02-21T13:37:49.071533+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2504.21845v2",
       "code_repo_urls": [],
@@ -3254,7 +3254,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "7e423c086a1f055863a23019259e4c1f34729a78c396a9e8197a2f49b4e843cd",
+    "source_hash": "7b9c700722a30a575cac578858d2b7cc3fe18947ba2d34f9526867d1acb09442",
     "submitted_date": "2025-04-30",
     "tags": [
       "cs.IT",
@@ -3292,7 +3292,7 @@
       "name": null
     },
     "extraction_hash": "2ac64cc34c040b1a148a81f9f5329ebea95dfce1743f79a0e02ae63123624d9f",
-    "last_processed_at": "2026-02-21T12:31:38.419158+00:00",
+    "last_processed_at": "2026-02-21T13:37:49.566633+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2505.06385v1",
       "code_repo_urls": [],
@@ -3318,7 +3318,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "0f2348bdf33dd48fde577b9c4578d28d4750f33f4c357c49954fda19a7e51674",
+    "source_hash": "8c74225567f7198e6451754dc6bd36b59604c73e9251ce87b074add27ac46dc1",
     "submitted_date": "2025-05-09",
     "tags": [
       "decoder",
@@ -3354,7 +3354,7 @@
       "name": null
     },
     "extraction_hash": "a310267c70c8853647989459a630a755c455133a4146d315841b6ddac7a4bf11",
-    "last_processed_at": "2026-02-21T12:31:38.423069+00:00",
+    "last_processed_at": "2026-02-21T13:37:50.081998+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2505.06157v1",
       "code_repo_urls": [],
@@ -3379,7 +3379,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "488164e22151aa9b3025eb44b089aafcd334c21a2eac2e5fa69dfd88e4120f6d",
+    "source_hash": "98b4cede1648879e7ba7e5a4a0a54d82e3e0018d818d59ef96231920628cdf89",
     "submitted_date": "2025-05-09",
     "tags": [
       "cs.IT",
@@ -3413,7 +3413,7 @@
       "name": null
     },
     "extraction_hash": "03c51e4f9dc72b389d1e73befbafe21d9d3e449a82397bdb1770d26ef7e4e27f",
-    "last_processed_at": "2026-02-21T12:31:38.425559+00:00",
+    "last_processed_at": "2026-02-21T13:37:50.376446+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2504.21200v1",
       "code_repo_urls": [],
@@ -3441,7 +3441,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "93851c9a865fee8e5320b9ea99eede32443c0783562a39cf2237f6ad4179ef01",
+    "source_hash": "7be88164c0bb10dcf9466a8e922158d175b45692aca76e1cf2957161c4c56e35",
     "submitted_date": "2025-04-29",
     "tags": [
       "belief propagation",
@@ -3482,7 +3482,7 @@
       "name": null
     },
     "extraction_hash": "bae58bc6aae61f44212830afe0dde19a8ec3c497e46ac310d49a0ce7ae67eecf",
-    "last_processed_at": "2026-02-21T12:31:38.429896+00:00",
+    "last_processed_at": "2026-02-21T13:37:51.663131+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2504.15087v1",
       "code_repo_urls": [],
@@ -3508,7 +3508,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "4873159dd0e1b29ed3b8a88cbf78479772f4c1dbed95ab547f76022edc3d4528",
+    "source_hash": "0adfd4cffdb16b86d8171b753198806244767f2e74116927b4b9d0362d4bd2b1",
     "submitted_date": "2025-04-21",
     "tags": [
       "cs.CC",
@@ -3547,7 +3547,7 @@
       "name": null
     },
     "extraction_hash": "208ea6c924ad931728273d7587603e94cb9770580675ce2cccd4dc2bdbab5f74",
-    "last_processed_at": "2026-02-21T12:31:38.431336+00:00",
+    "last_processed_at": "2026-02-21T13:37:52.727360+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2504.13043v1",
       "code_repo_urls": [],
@@ -3574,7 +3574,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "f22e521b8277fa8afdcaee15986d6b21298b51257399a81eb038a09ab5f956fc",
+    "source_hash": "0c362758ea2c08ef78c448b21faa9f5ccb6d818f1981dab0f27e689b68eda77e",
     "submitted_date": "2025-04-17",
     "tags": [
       "belief propagation",
@@ -3608,7 +3608,7 @@
       "name": null
     },
     "extraction_hash": "75baaaf88b54bfa41df228340602238cc3f96028e092a7476a5f9a6cb1cfa724",
-    "last_processed_at": "2026-02-21T12:31:38.432656+00:00",
+    "last_processed_at": "2026-02-21T13:38:05.996812+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2409.05818v2",
       "code_repo_urls": [],
@@ -3635,7 +3635,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "50197ebe50e563dbf3008a103d0bb44d288316e6dd58c4e77d139a8ec32ccedb",
+    "source_hash": "1fe38d51db0c987486968044650981a7631da7da20b9b51076314937d7a613b6",
     "submitted_date": "2024-09-09",
     "tags": [
       "decoding",
@@ -3669,7 +3669,7 @@
       "name": null
     },
     "extraction_hash": "1a2f558f4cc4bf6bbf8ff8cbf72f030e520c46411df69867975557940ddc0240",
-    "last_processed_at": "2026-02-21T12:31:38.433995+00:00",
+    "last_processed_at": "2026-02-21T13:38:06.574523+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2504.05080v2",
       "code_repo_urls": [],
@@ -3696,7 +3696,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "91bdf6b87a552c4022c19a1e5b344829363a13a9562e6fc7d098640799506ebe",
+    "source_hash": "3b756643e0a763f1453c2ba8c8a19097412f1e7fd2ab6d9c5407802cdcbf788f",
     "submitted_date": "2025-04-07",
     "tags": [
       "decoder",
@@ -3732,7 +3732,7 @@
       "name": null
     },
     "extraction_hash": "f183fb413d23a68652aa7d1e7217dbe46293b36d55def1a7e5c66cde22adbda6",
-    "last_processed_at": "2026-02-21T12:31:38.435412+00:00",
+    "last_processed_at": "2026-02-21T13:38:07.567538+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2504.01728v1",
       "code_repo_urls": [],
@@ -3760,7 +3760,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "ae42ac0e7c9316a0631d31ae41d4d5317df3806458d07bce3ed5e0b3c67c7fef",
+    "source_hash": "89300f6f789e99a27aa4e794024904796997a08c6cd59884c4f6ff87dd2db718",
     "submitted_date": "2025-04-02",
     "tags": [
       "cs.IT",
@@ -3796,7 +3796,7 @@
       "name": null
     },
     "extraction_hash": "2b1434935f33dc5ff40b202248ff814cbb7629b8b4cdaca8f74c5494468a25ef",
-    "last_processed_at": "2026-02-21T12:31:38.437115+00:00",
+    "last_processed_at": "2026-02-21T13:38:09.219636+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2305.00137v6",
       "code_repo_urls": [],
@@ -3824,7 +3824,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "020ecb7ee3fc4aaa474cd5eb47351a79b6880a3f48120bebbccc59d865455f4d",
+    "source_hash": "e0dd1e37e18eae62f3519667cc9ffabf8893cd40528a4fd0dc3350f092acb2a9",
     "submitted_date": "2023-04-29",
     "tags": [
       "cs.IT",
@@ -3861,7 +3861,7 @@
       "name": null
     },
     "extraction_hash": "7eb414f3abb0231f012b9bb86aa4c30a9ccdd95770eb0fc44c3047d1304814be",
-    "last_processed_at": "2026-02-21T12:31:38.440547+00:00",
+    "last_processed_at": "2026-02-21T13:38:09.924134+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2504.01164v1",
       "code_repo_urls": [],
@@ -3889,7 +3889,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "7399a01fc2976915fbb7a32a532a3d9e2506cdca2636ddeaf0f4b2838363a4bf",
+    "source_hash": "876296c1d94205b6b779a2172ebb58569b5069aa1510e215c285b1ead1561162",
     "submitted_date": "2025-04-01",
     "tags": [
       "belief propagation",
@@ -3926,7 +3926,7 @@
       "name": null
     },
     "extraction_hash": "30cc912a05828891af9ed2e47271c789078979921eae9dbfaa151c71b4f90fc1",
-    "last_processed_at": "2026-02-21T12:31:38.441942+00:00",
+    "last_processed_at": "2026-02-21T13:38:10.883724+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2503.21374v1",
       "code_repo_urls": [],
@@ -3952,7 +3952,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "bea95bb1c3946f7c6dd6cda9ec300311f420c7ada03d4b98f52b81a124b74f8b",
+    "source_hash": "85259f58f53445930164f97eab38b6b90f70c96178f4aafc1e387de8036901fc",
     "submitted_date": "2025-03-27",
     "tags": [
       "belief propagation",
@@ -3985,7 +3985,7 @@
       "name": null
     },
     "extraction_hash": "7c1bc7593222f1c3f825d20dcfe84f5ee3a4b3caa561fba3e40dec300a095c8b",
-    "last_processed_at": "2026-02-21T12:31:38.443287+00:00",
+    "last_processed_at": "2026-02-21T13:38:12.247944+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2408.06299v2",
       "code_repo_urls": [],
@@ -4011,7 +4011,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "2dd28a5ab6f7396d6059a25106d9a6be63ed5d6744fc29760f24ae41ff7a376c",
+    "source_hash": "85a3cc191d0a06d5558b24e48ca3f317d99f71f5d509d15a16f108a782b91aa3",
     "submitted_date": "2024-08-12",
     "tags": [
       "decoder",
@@ -4045,7 +4045,7 @@
       "name": null
     },
     "extraction_hash": "9141599f12d15c4834b7fdbbc2d6d058ee1b69d6690d1ed682f9d5f27d0a2447",
-    "last_processed_at": "2026-02-21T12:31:38.445494+00:00",
+    "last_processed_at": "2026-02-21T13:38:12.762535+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2503.03936v1",
       "code_repo_urls": [],
@@ -4071,7 +4071,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "b3c5fe610258d4ced41f0c4bbfc19b4d932c4e254cf38932df3f45deaa0e4211",
+    "source_hash": "0049079832b7cfb65a71ceb76f7b9a86263180261d3028b60f3152870182b627",
     "submitted_date": "2025-03-05",
     "tags": [
       "cs.IT",
@@ -4105,7 +4105,7 @@
       "name": null
     },
     "extraction_hash": "0542a863e7aab657dcd4bd54e91c9585eec1f225fd6d95555e03b162243d2644",
-    "last_processed_at": "2026-02-21T12:31:38.448675+00:00",
+    "last_processed_at": "2026-02-21T13:38:14.476583+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2502.16408v1",
       "code_repo_urls": [],
@@ -4131,7 +4131,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "a5e725faa2667dc3f7b1c6067431fbf7ae74e6c2f2196e878efedecf4ec4eac2",
+    "source_hash": "08ec4aad3afc7aa95c009c479a318a91cbe06130d9bd2b6524053bb5ce005a52",
     "submitted_date": "2025-02-23",
     "tags": [
       "decoder",
@@ -4166,7 +4166,7 @@
       "name": null
     },
     "extraction_hash": "05ce22d9a8feee70975f3403755f670e9cacc567ff3c02cce5c7a859e448e214",
-    "last_processed_at": "2026-02-21T12:31:38.451582+00:00",
+    "last_processed_at": "2026-02-21T13:38:23.071339+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2308.08208v2",
       "code_repo_urls": [],
@@ -4193,7 +4193,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "21fb46e9100f75b43a378c78a396d822713418519381771322a86dc668c68086",
+    "source_hash": "89825431c1e61dc38b7da44d1c52c4581ce01f389325a8ef6938360b6859646a",
     "submitted_date": "2023-08-16",
     "tags": [
       "belief propagation",
@@ -4227,7 +4227,7 @@
       "name": null
     },
     "extraction_hash": "0509cd3e25829dffa34880b386e4a287e40f493799cbc69c56cc6c04e105f0c2",
-    "last_processed_at": "2026-02-21T12:31:38.452969+00:00",
+    "last_processed_at": "2026-02-21T13:38:24.102987+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2207.08826v3",
       "code_repo_urls": [],
@@ -4252,7 +4252,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "63140e254ffeee5e730f58ba034b72c8f50df6f6dc85ae5c903fa47b91a86069",
+    "source_hash": "3b710e66f70dc33a92dff6502d899bcd41d44fe3fa8d1a263dfaff9ffc01190e",
     "submitted_date": "2022-07-18",
     "tags": [
       "decoder",
@@ -4284,7 +4284,7 @@
       "name": null
     },
     "extraction_hash": "9c035c49ee32cc7279ac59b1e928376b674b0de99c4229bc131b3b4dfcf04847",
-    "last_processed_at": "2026-02-21T12:31:38.457627+00:00",
+    "last_processed_at": "2026-02-21T13:38:24.717373+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2501.05021v1",
       "code_repo_urls": [],
@@ -4311,7 +4311,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "ad86bc79ffc2db47372870e7923b8664efed52ba5b2c37cfbdcfbbb38672de10",
+    "source_hash": "051ba547b0f4aa75127116df0284a190cc73be3c760b6505261e903fd6903a50",
     "submitted_date": "2025-01-09",
     "tags": [
       "belief propagation",
@@ -4344,7 +4344,7 @@
       "name": null
     },
     "extraction_hash": "5e5b44bd6cd824c782d142256d13a4325cbee7f42c3558b4f2bf7a5eb93cdae4",
-    "last_processed_at": "2026-02-21T12:31:38.461306+00:00",
+    "last_processed_at": "2026-02-21T13:38:25.532310+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2406.14527v2",
       "code_repo_urls": [],
@@ -4371,7 +4371,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "2159b6eead509f9a22be8885d762792181bccbdbfd5d574ea52bafe1a2b05fed",
+    "source_hash": "6374e1ac683a7719902ec0b7cb98fa6bc222890dbe63255d0078542c6e673caf",
     "submitted_date": "2024-06-20",
     "tags": [
       "belief propagation",
@@ -4406,7 +4406,7 @@
       "name": null
     },
     "extraction_hash": "f0fb42587e4299546a58b863ebf520e137b565f47422fda2a1997d3a6ba11bde",
-    "last_processed_at": "2026-02-21T12:31:38.463268+00:00",
+    "last_processed_at": "2026-02-21T13:38:26.323201+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2412.08817v1",
       "code_repo_urls": [],
@@ -4434,7 +4434,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "3fa66104e1e32621d2a0f126369369f8524ec4ca794705db2b4ac49ceb110026",
+    "source_hash": "bb75470f22c18f45883409a55f2bbb00d2393991053deb0511d8c7d0ecc6c096",
     "submitted_date": "2024-12-11",
     "tags": [
       "cs.IT",
@@ -4477,7 +4477,7 @@
       "name": null
     },
     "extraction_hash": "9d593064c4aa9b2760d8ea5fcb9a95d840925d9f77f8ef5fe6b2fdb7bf84f396",
-    "last_processed_at": "2026-02-21T12:31:38.466933+00:00",
+    "last_processed_at": "2026-02-21T13:38:28.469759+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2412.02885v1",
       "code_repo_urls": [],
@@ -4505,7 +4505,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "c727cc7ec2961a482aa0138ee29fdb922cc5ab41119c82faa10e97d427e69fdb",
+    "source_hash": "72bda2ee737026a2d20c685a7d001d2ece6d9a81b0c82b20c00ed30f5529b615",
     "submitted_date": "2024-12-03",
     "tags": [
       "belief propagation",
@@ -4541,7 +4541,7 @@
       "name": null
     },
     "extraction_hash": "36955f8462fb15e04ffcfd7e9a695256ec6f499777ddb1d95cbf0a86728e6f55",
-    "last_processed_at": "2026-02-21T12:31:38.473140+00:00",
+    "last_processed_at": "2026-02-21T13:38:28.769166+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2411.08177v2",
       "code_repo_urls": [],
@@ -4568,7 +4568,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "40703ac7e5aed3118a1f28ef697b1a1414c8f22709255e53dbaa63869e7c141d",
+    "source_hash": "5191e4486e9f8378904dda0eb11027624f7c8f8bbf0ebcedd4ae21f1a97d099a",
     "submitted_date": "2024-11-12",
     "tags": [
       "belief propagation",
@@ -4603,7 +4603,7 @@
       "name": null
     },
     "extraction_hash": "e094faf8f5e9b93365e9693225b499e6de1e88a053ec65df210cd8bfddfa7627",
-    "last_processed_at": "2026-02-21T12:31:38.475903+00:00",
+    "last_processed_at": "2026-02-21T13:38:30.204388+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2411.04464v1",
       "code_repo_urls": [],
@@ -4631,7 +4631,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "6bec9f834022dd28ddcd903a566e1420505b7750b2c410738fb0ca3d5921dfe3",
+    "source_hash": "eb9fe87ef8dad8e379b7d458aafbb867af7f908d6e2b2b2c0657c3c8222e3b8f",
     "submitted_date": "2024-11-07",
     "tags": [
       "cs.IT",
@@ -4667,7 +4667,7 @@
       "name": null
     },
     "extraction_hash": "46c90bce2b90d04ff5c452f5ee10a2bcdaaeb05a23e9dfadb4ec4eb296aadb17",
-    "last_processed_at": "2026-02-21T12:31:38.477491+00:00",
+    "last_processed_at": "2026-02-21T13:38:31.039802+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2411.04405v1",
       "code_repo_urls": [],
@@ -4693,7 +4693,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "ea00474280f9bb587fbe3350f23fc6fb43b1171e90a87955c338e20017167a35",
+    "source_hash": "5c45252e571298f9639e87b9f691f7fd35a1ca4dc38988de8a47fe9347fc5af3",
     "submitted_date": "2024-11-07",
     "tags": [
       "cond-mat.str-el",
@@ -4730,7 +4730,7 @@
       "name": null
     },
     "extraction_hash": "a77dbf423ea1c4cafa484ed4759754d254cd9989356d145a5f3b036c8e0e1663",
-    "last_processed_at": "2026-02-21T12:31:38.480079+00:00",
+    "last_processed_at": "2026-02-21T13:38:31.580702+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2411.04306v1",
       "code_repo_urls": [],
@@ -4756,7 +4756,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "ad98509235c477dc7b7ec5c8d8313fa2f03d1d42837a2947bd437cfdebd0e2e4",
+    "source_hash": "f417db78c512d72d009a2e37541c2bc5359daca2dcaaad33f5dc8fa0f1afb46b",
     "submitted_date": "2024-11-06",
     "tags": [
       "cs.IT",
@@ -4790,7 +4790,7 @@
       "name": null
     },
     "extraction_hash": "45633c86765432296d74a7efe9ddab36ae02e6bcec475c50d56919c89453d188",
-    "last_processed_at": "2026-02-21T12:31:38.481342+00:00",
+    "last_processed_at": "2026-02-21T13:38:32.378957+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2410.01673v1",
       "code_repo_urls": [],
@@ -4817,7 +4817,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "856fce5e02d698e9ebc33f1e919e03903a00e04319fe4ebae1f74beeeb5f0c3b",
+    "source_hash": "25e0c1f20f4179e3ff207934fcf919e0512940badaed0555eb3c63210c4b8b93",
     "submitted_date": "2024-10-02",
     "tags": [
       "belief propagation",
@@ -4851,7 +4851,7 @@
       "name": null
     },
     "extraction_hash": "3ae9625912c09fa5508ae21c515825638ed250d09798a181be64acc731519d3c",
-    "last_processed_at": "2026-02-21T12:31:38.484544+00:00",
+    "last_processed_at": "2026-02-21T13:38:35.541832+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2409.18689v1",
       "code_repo_urls": [],
@@ -4878,7 +4878,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "52246a17cd37079a5823a44ef06c2c2a6d180dd58c7f340cf27791a3a4fbe3fc",
+    "source_hash": "3944590d1eecb41b875981a22b0a0abaa7aa166da5914e55a767a2cd6fbf311d",
     "submitted_date": "2024-09-27",
     "tags": [
       "belief propagation",
@@ -4915,7 +4915,7 @@
       "name": null
     },
     "extraction_hash": "5a786de468140db027a5b5207d8eab3342ab70ff9053e9e71aa87dc4cbe9c1ac",
-    "last_processed_at": "2026-02-21T12:31:38.486252+00:00",
+    "last_processed_at": "2026-02-21T13:38:36.186237+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2409.14283v1",
       "code_repo_urls": [],
@@ -4941,7 +4941,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "2efec0cd1c13add9ee9a910704519822e50af845a401c66094eb8801f2fa5fc9",
+    "source_hash": "6bb6bcfb616f4f7a17c3e4aad2966636a8394150b300096d9e71592b94252578",
     "submitted_date": "2024-09-22",
     "tags": [
       "cs.AR",
@@ -4974,7 +4974,7 @@
       "name": null
     },
     "extraction_hash": "72b96f367aac889bbe4d18170b4c788b529eade791eb806ff9b52dd2d81d4149",
-    "last_processed_at": "2026-02-21T12:31:38.487836+00:00",
+    "last_processed_at": "2026-02-21T13:38:38.847053+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2402.13958v2",
       "code_repo_urls": [],
@@ -4999,7 +4999,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "8bb0a575d75b3ca61bea6def1658913b7dfa944f6b48d10b970276aaad1cc74d",
+    "source_hash": "6c1cbc3472893d57cbfd9acb87bccb5e8a948eb0e5bb6fd01600d3ff90409c8f",
     "submitted_date": "2024-02-21",
     "tags": [
       "decoder",
@@ -5029,7 +5029,7 @@
       "name": null
     },
     "extraction_hash": "ef4272389b00c2b986fd13552cc481aa7d50604108e4b30ef440650669b8520e",
-    "last_processed_at": "2026-02-21T12:31:38.491499+00:00",
+    "last_processed_at": "2026-02-21T13:38:40.001303+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2403.16054v3",
       "code_repo_urls": [],
@@ -5054,7 +5054,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "6988f1fe13aeb7528d003a62e73602ab41b854d7dbeb1b95474959dcd1a66546",
+    "source_hash": "677c84b73ccef712130882aa0bf4576e299cb7162a9b0361206fd18d8c433fa8",
     "submitted_date": "2024-03-24",
     "tags": [
       "decoder",
@@ -5085,7 +5085,7 @@
       "name": null
     },
     "extraction_hash": "3a5c72285b94ffc1dace8418940fca53b8252817d5d3f148c070c6e04cc053d6",
-    "last_processed_at": "2026-02-21T12:31:38.495053+00:00",
+    "last_processed_at": "2026-02-21T13:38:41.927653+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2408.14652v1",
       "code_repo_urls": [],
@@ -5112,7 +5112,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "4bfaf6bbedf3091dc637d9e7a3944ff0be5f548eb7aa81ff594249b7f1f55a09",
+    "source_hash": "cc1143b2c30ed6a44bd787f2e07cada3b6eb783eb9832871481e2d3e80fba41f",
     "submitted_date": "2024-08-26",
     "tags": [
       "cs.DS",
@@ -5146,7 +5146,7 @@
       "name": null
     },
     "extraction_hash": "e2ffe32e99c28b321a885adc00d520a2bc9a0ed47744ec519c719f365dfddcc9",
-    "last_processed_at": "2026-02-21T12:31:38.498217+00:00",
+    "last_processed_at": "2026-02-21T13:38:43.514679+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2408.07038v2",
       "code_repo_urls": [],
@@ -5173,7 +5173,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "be71449abab97686a8d6e628e308bc49691ce7519baa577fd2bdacaf1c17065d",
+    "source_hash": "0a7550db2cd793c3d6eac3bc5f61dd37733c8361b06563a8d9386e6483f0f476",
     "submitted_date": "2024-08-13",
     "tags": [
       "belief propagation",
@@ -5209,7 +5209,7 @@
       "name": null
     },
     "extraction_hash": "e2ca759d704efa51c100cdcec7aed4a877f05131c4d7aba2cdc2374ec034572c",
-    "last_processed_at": "2026-02-21T12:31:38.499683+00:00",
+    "last_processed_at": "2026-02-21T13:38:44.391196+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2208.01002v3",
       "code_repo_urls": [],
@@ -5236,7 +5236,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "6615c3129b65faf9cbdd230333552b89e2c2a566f0280d4994b925f35a1a4edf",
+    "source_hash": "8a066891929a457b4b5698f5d1d591678c49e3f124d40578345ffabc70073e4f",
     "submitted_date": "2022-08-01",
     "tags": [
       "cs.IT",
@@ -5275,7 +5275,7 @@
       "name": null
     },
     "extraction_hash": "d79407f938a8728a7a288e4924ed0745f47d97d76fa7db616597fb9e30531e33",
-    "last_processed_at": "2026-02-21T12:31:38.502085+00:00",
+    "last_processed_at": "2026-02-21T13:38:44.985236+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2408.05170v1",
       "code_repo_urls": [],
@@ -5302,7 +5302,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "4035cf5f08047d4513f280a634bff33c9a4b6f2a996640ae26bc543703a2953f",
+    "source_hash": "c3d80613a10f0830b668061d125769c3bb7ad929e387bd5a6eacca15ae2c2e50",
     "submitted_date": "2024-08-09",
     "tags": [
       "belief propagation",
@@ -5339,7 +5339,7 @@
       "name": null
     },
     "extraction_hash": "baee298457623ef9248c75c8972c84a795ad163b3b8490a00b8ed649464b6e54",
-    "last_processed_at": "2026-02-21T12:31:38.505382+00:00",
+    "last_processed_at": "2026-02-21T13:38:46.004560+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2407.15988v1",
       "code_repo_urls": [],
@@ -5366,7 +5366,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "626f00adc5ad2cf9c3994f7010f777d267362a4d71a6d3c2a5e33f2b064f8f44",
+    "source_hash": "b06c6b4762f630bbecd016a3c5e220042aafe99b7c4c3a8b5305094bfa7058a0",
     "submitted_date": "2024-07-22",
     "tags": [
       "decoder",
@@ -5402,7 +5402,7 @@
       "name": null
     },
     "extraction_hash": "6af089db5c2f155271c5f9bfebb5e90cb7333a686eae677796059e307f6ff873",
-    "last_processed_at": "2026-02-21T12:31:38.507350+00:00",
+    "last_processed_at": "2026-02-21T13:38:47.373445+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2209.13474v2",
       "code_repo_urls": [],
@@ -5431,7 +5431,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "85a317aebeadc6f0d62cb4a222cd14de608177e34b681ac02080ed7030658487",
+    "source_hash": "e7c2992ab04fc711fce5ea9667d752c3f97ae126977902b7a7dfe4bdd113f32a",
     "submitted_date": "2022-09-27",
     "tags": [
       "balanced product",
@@ -5469,7 +5469,7 @@
       "name": null
     },
     "extraction_hash": "5f5fa0a076dcaf6276fa684a5333e92ec46f1d44751e54148e8c989135e00eab",
-    "last_processed_at": "2026-02-21T12:31:38.509131+00:00",
+    "last_processed_at": "2026-02-21T13:38:48.129890+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2406.17070v1",
       "code_repo_urls": [],
@@ -5496,7 +5496,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "6d49c703714f93496897347fd5128fe546064c136a32d4d49569512382b3e45b",
+    "source_hash": "5c3bde32fee05785e2d26e793be5db872c86adc55fbe493a8ffb0b4c5b5a59df",
     "submitted_date": "2024-06-24",
     "tags": [
       "cs.IT",
@@ -5534,7 +5534,7 @@
       "name": null
     },
     "extraction_hash": "6720054622cb88e6b148743a3f2057c7bdce6697702f0814892a3c3afdb8fc0e",
-    "last_processed_at": "2026-02-21T12:31:38.510451+00:00",
+    "last_processed_at": "2026-02-21T13:38:48.751925+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2312.10950v2",
       "code_repo_urls": [],
@@ -5561,7 +5561,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "de8d61bf3aea58219eea2bd8e6ae7594b9caa0cf445d5b872874e11f15c453d5",
+    "source_hash": "2614757446a14a8de14e7adbb246734390f9bae193aa3e4c94676facd756034e",
     "submitted_date": "2023-12-18",
     "tags": [
       "belief propagation",
@@ -5596,7 +5596,7 @@
       "name": null
     },
     "extraction_hash": "1ceb6e481af2b7fafcc367b14756f7e4b65d93b062b1ba81c028dd9a25208ef5",
-    "last_processed_at": "2026-02-21T12:31:38.511706+00:00",
+    "last_processed_at": "2026-02-21T13:38:50.056818+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2406.14445v1",
       "code_repo_urls": [],
@@ -5622,7 +5622,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "bd9e8463798793475c8d88c0f7fa563c7e92def42f5b75328fde2b102b5fa52d",
+    "source_hash": "503d299d210ec6b6d138b68fd6af92c024f2ee55f24c0dff0a1d204c95615da7",
     "submitted_date": "2024-06-20",
     "tags": [
       "decoding",
@@ -5658,7 +5658,7 @@
       "name": null
     },
     "extraction_hash": "20be5090719659dc48bc633153d5d2dc79511b391069c0d1f25acb0470301c26",
-    "last_processed_at": "2026-02-21T12:31:38.513002+00:00",
+    "last_processed_at": "2026-02-21T13:39:00.501472+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2311.01328v2",
       "code_repo_urls": [],
@@ -5683,7 +5683,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "ced5f9799d267dd0fe46a97187da3b1aef3a7a45f0974f063294998fbc8d77c1",
+    "source_hash": "daaabd3e03f01d7893da5ddbf7551cdb027bc7a3899649c641163a29e97657c8",
     "submitted_date": "2023-11-02",
     "tags": [
       "cs.IT",
@@ -5716,7 +5716,7 @@
       "name": null
     },
     "extraction_hash": "ebbbda60deba4adbd6f24c5c041925627cbf4e065a9e5eacb070bd2dd26f7ee7",
-    "last_processed_at": "2026-02-21T12:31:38.515491+00:00",
+    "last_processed_at": "2026-02-21T13:39:01.389697+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2405.07433v2",
       "code_repo_urls": [],
@@ -5743,7 +5743,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "d337f6431165efc5159395b0126f0e0bcd43e3fefad2f8d7c7c6eefa4bdac541",
+    "source_hash": "c2776d9396b8d23785405ce272108512d304723430da41b679f7ee2bb166a9d8",
     "submitted_date": "2024-05-13",
     "tags": [
       "decoder",
@@ -5777,7 +5777,7 @@
       "name": null
     },
     "extraction_hash": "302a473437bad2b5c25e7d6ab9c31d39d488fc71802f1ff833509a20123792b4",
-    "last_processed_at": "2026-02-21T12:31:38.516855+00:00",
+    "last_processed_at": "2026-02-21T13:39:01.798138+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2307.14532v2",
       "code_repo_urls": [],
@@ -5803,7 +5803,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "3f03af1c51ea98b814d6ea1fb1b2948abf8469a41e30d96fcfc1aa7442240928",
+    "source_hash": "20c76fb7c2227207cb676b21d39359d492379c6a5c60d140e7368dfd8325241d",
     "submitted_date": "2023-07-26",
     "tags": [
       "cs.IT",
@@ -5836,7 +5836,7 @@
       "name": null
     },
     "extraction_hash": "fed5a4415c49918e5e5c6449f3267e89a845d2e5f087da5e06ed14ff0546b74a",
-    "last_processed_at": "2026-02-21T12:31:38.523057+00:00",
+    "last_processed_at": "2026-02-21T13:39:03.025276+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2405.03776v1",
       "code_repo_urls": [],
@@ -5862,7 +5862,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "87af1e28c9e22924b83f9be60b8edbbef2bd5727f594b58637976189c2d3e887",
+    "source_hash": "9c1416244036f62ae746a82f06535af29fa0b83870f12e57e75082a4b78162c7",
     "submitted_date": "2024-05-06",
     "tags": [
       "decoder",
@@ -5897,7 +5897,7 @@
       "name": null
     },
     "extraction_hash": "db551987e7f5709ebb96c22dc02e4f46432ce0dc4e3ab40b89cb3dcbf35c6094",
-    "last_processed_at": "2026-02-21T12:31:38.525953+00:00",
+    "last_processed_at": "2026-02-21T13:39:03.504232+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2401.06874v3",
       "code_repo_urls": [],
@@ -5924,7 +5924,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "7603d60ab4441ad746408e6bfe9e4b26cbf9f794f6bcff868a898dfd654fa686",
+    "source_hash": "c7b878d081ff8286b8608de0f1b9042f012d09aa4e865287c3135f1694d27d11",
     "submitted_date": "2024-01-12",
     "tags": [
       "belief propagation",
@@ -5958,7 +5958,7 @@
       "name": null
     },
     "extraction_hash": "f77a49c4ea01c182fb8834f315bede2ad2967d9e2d641f91b3d7b360b4d58959",
-    "last_processed_at": "2026-02-21T12:31:38.527354+00:00",
+    "last_processed_at": "2026-02-21T13:39:04.737354+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2306.17122v3",
       "code_repo_urls": [],
@@ -5985,7 +5985,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "40c9c292610224980c9e92b24f6420ebd3fdb2f1cc2b5ed6ed9591eab71a3b46",
+    "source_hash": "78a57d32e47d2680442ef4dece30b18dbd4966095c3784b675f6a9036bc30d30",
     "submitted_date": "2023-06-29",
     "tags": [
       "decoding",
@@ -6021,7 +6021,7 @@
       "name": null
     },
     "extraction_hash": "4dde2d04b062e720dbc5afcf9f18ffbbfab818bf1f56de36649840a5bef2b5d2",
-    "last_processed_at": "2026-02-21T12:31:38.530056+00:00",
+    "last_processed_at": "2026-02-21T13:39:05.539397+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2310.15000v3",
       "code_repo_urls": [],
@@ -6047,7 +6047,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "09f9d2c0394ed627e874e10c9d849efeb2c1c95f0c8de31368239b8f9b06b490",
+    "source_hash": "e4a1898333f6170f06b735c5bc7f627eb25f9d8b2185aa9ef619ad8d34adc280",
     "submitted_date": "2023-10-23",
     "tags": [
       "decoder",
@@ -6084,7 +6084,7 @@
       "name": null
     },
     "extraction_hash": "15c0be0284077ac91859392842067204c9dc8e782c8eb1b0fe8392a2349fa39c",
-    "last_processed_at": "2026-02-21T12:31:38.531403+00:00",
+    "last_processed_at": "2026-02-21T13:39:06.036102+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2306.12470v2",
       "code_repo_urls": [],
@@ -6109,7 +6109,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "d9b5bc5ac6319fad92c221e5a89bc43caecc02b139f525f86c88654943fb1ddb",
+    "source_hash": "84d5d22faafd3ad20a7cee8563fd4990aa07d6c61d97808a3549feec3a313a8d",
     "submitted_date": "2023-06-21",
     "tags": [
       "cs.IT",
@@ -6143,7 +6143,7 @@
       "name": null
     },
     "extraction_hash": "754063ccc937090302681790b6ee90fe69decc97b9df5f1a9fb734e47e6578db",
-    "last_processed_at": "2026-02-21T12:31:38.532777+00:00",
+    "last_processed_at": "2026-02-21T13:39:06.598589+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2403.18901v1",
       "code_repo_urls": [],
@@ -6170,7 +6170,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "2d46ba87f23f9d75d6a86febb5029831f5090e560a89e570253f06ecbe12f10b",
+    "source_hash": "045b904395c2cfe78422351ea5661382de8078b251d348617d7f074146f1ba25",
     "submitted_date": "2024-03-27",
     "tags": [
       "belief propagation",
@@ -6205,7 +6205,7 @@
       "name": null
     },
     "extraction_hash": "c6e41e9bf25768ba1fb51d617ffc8c3b074aae57bc7dea2ba2a92c0aab19bb1d",
-    "last_processed_at": "2026-02-21T12:31:38.534259+00:00",
+    "last_processed_at": "2026-02-21T13:39:07.183803+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2207.06428v2",
       "code_repo_urls": [],
@@ -6231,7 +6231,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "3d0768e8f02c6cc86c9e966d4e6a15f0a6efe23e633e3f3d4deabc70fc90bcf6",
+    "source_hash": "371f4158cd924827ff9c9e2d7bb7921741c81697490b531cc384c01b5059fd2c",
     "submitted_date": "2022-07-13",
     "tags": [
       "cond-mat.stat-mech",
@@ -6265,7 +6265,7 @@
       "name": null
     },
     "extraction_hash": "8625bedb047b651c28a9d9817d3b568bc638cc87ea37d6a413904e46ad527acf",
-    "last_processed_at": "2026-02-21T12:31:38.536892+00:00",
+    "last_processed_at": "2026-02-21T13:39:07.731718+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2402.01532v2",
       "code_repo_urls": [],
@@ -6292,7 +6292,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "eaadb12a078b723c32bcd34b11cb5a9dca2198088e2f95de41703e1fb2c035cc",
+    "source_hash": "04c55131f00cb4d5a89fad2de1ec5289fb74e8741f7ea352de8625ac4c6c65c7",
     "submitted_date": "2024-02-02",
     "tags": [
       "belief propagation",
@@ -6327,7 +6327,7 @@
       "name": null
     },
     "extraction_hash": "572874f25d98ddb07c426b020300dc0fbc0c6e968c1572848be05aa43000c36e",
-    "last_processed_at": "2026-02-21T12:31:38.540745+00:00",
+    "last_processed_at": "2026-02-21T13:39:08.916530+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2311.18488v2",
       "code_repo_urls": [],
@@ -6354,7 +6354,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "0c772af3438b65563059d9727a0ed2cdce398fbd1a241b5daf14b7815d1d6e82",
+    "source_hash": "93755c719372e7cc32e83ca5767eaad5561de8dabfb73ecf715b5b28a3cd6baf",
     "submitted_date": "2023-11-30",
     "tags": [
       "belief propagation",
@@ -6390,7 +6390,7 @@
       "name": null
     },
     "extraction_hash": "85cfe738d6b7910f259fb36881b5c66fbd3e9d16491bfd3aa362f8839db8a958",
-    "last_processed_at": "2026-02-21T12:31:38.542063+00:00",
+    "last_processed_at": "2026-02-21T13:39:10.554892+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2210.14143v2",
       "code_repo_urls": [],
@@ -6416,7 +6416,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "03c5c890ab11eb21f5bd547ff13cc27a79962452100989fbcabec117a3cc4641",
+    "source_hash": "7781e46b61a9dac23bffa14938b1f07fa8f3984b47bb02062b7ec0e484ff8b7a",
     "submitted_date": "2022-10-25",
     "tags": [
       "cs.IT",
@@ -6453,7 +6453,7 @@
       "name": null
     },
     "extraction_hash": "18adbb239438f819a3adff2320edb7fe7008f92835bad26b5ac1255b0d5713cf",
-    "last_processed_at": "2026-02-21T12:31:38.543476+00:00",
+    "last_processed_at": "2026-02-21T13:39:13.765519+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2305.17505v4",
       "code_repo_urls": [],
@@ -6479,7 +6479,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "79d0570bf6cc32aea934ddeba193cbf40be919c74fa397440b7f14a828f8241b",
+    "source_hash": "f5aa632acdb2faf8d45b1a57daad9712c08839250ba6990407245e8ba91d8cf7",
     "submitted_date": "2023-05-27",
     "tags": [
       "belief propagation",
@@ -6512,7 +6512,7 @@
       "name": null
     },
     "extraction_hash": "cbcf8ce8b6ba3bdd3f1ccc556c1fac29f47efab03611da32838e0c747149986b",
-    "last_processed_at": "2026-02-21T12:31:38.544715+00:00",
+    "last_processed_at": "2026-02-21T13:39:14.378716+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2311.08653v1",
       "code_repo_urls": [],
@@ -6538,7 +6538,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "9bafe13628f4af9352ab302dbdc03a82ec64ef74012d0f2bc9659f679f6ae021",
+    "source_hash": "cb7166dc7b38ffdd38272f2e1f4d7af33ceb819f8bc0bd71908768a24d8957e0",
     "submitted_date": "2023-11-15",
     "tags": [
       "cs.IT",
@@ -6571,7 +6571,7 @@
       "name": null
     },
     "extraction_hash": "d93daa77623faf4d4aa51db5734186b35fc55282146cf7bc363e163cc26eae36",
-    "last_processed_at": "2026-02-21T12:31:38.546108+00:00",
+    "last_processed_at": "2026-02-21T13:39:15.251101+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2311.03307v1",
       "code_repo_urls": [],
@@ -6596,7 +6596,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "8d293131c1f5802c5208063fa9000b4ccf8010529ef2b27e5123c591c7127aa5",
+    "source_hash": "49759b07102cae60a784a0c542c0c99e8846da4a61e50f9c44d1cbe08adb425b",
     "submitted_date": "2023-11-06",
     "tags": [
       "decoding",
@@ -6628,7 +6628,7 @@
       "name": null
     },
     "extraction_hash": "88d6ce3489adc7af5bd3437decb0df1b5417c5ee78e7bf6218b8d15e7c07dda2",
-    "last_processed_at": "2026-02-21T12:31:38.547488+00:00",
+    "last_processed_at": "2026-02-21T13:39:15.510735+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2310.17758v2",
       "code_repo_urls": [],
@@ -6656,7 +6656,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "24a73061a5ac61d5bb4198f74a18738113fbc9c0c951243a8bbc16900c3ac126",
+    "source_hash": "39374f3e25917cbab6065adaf312d769317f7ef6e46172f250ef2886de940c04",
     "submitted_date": "2023-10-26",
     "tags": [
       "belief propagation",
@@ -6691,7 +6691,7 @@
       "name": null
     },
     "extraction_hash": "b9e609bfea57627dc6a9998737084268f3511198a71532331e9c8b8636003e25",
-    "last_processed_at": "2026-02-21T12:31:38.548808+00:00",
+    "last_processed_at": "2026-02-21T13:39:16.772969+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2311.00877v1",
       "code_repo_urls": [],
@@ -6720,7 +6720,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "9d49cfe526cce79656e243bff4039c6637dafff82751bf0661e15a579f9dbb64",
+    "source_hash": "e4c68c37a1569284a885c42c69e3aa62a10f5eeac0a4e12643f6f91558f07da4",
     "submitted_date": "2023-11-01",
     "tags": [
       "decoder",
@@ -6756,7 +6756,7 @@
       "name": null
     },
     "extraction_hash": "c6425d90a9ea122e42785b618cd3338cc4ac8c25afc7624935a74cd85a1e393e",
-    "last_processed_at": "2026-02-21T12:31:38.550717+00:00",
+    "last_processed_at": "2026-02-21T13:39:17.305965+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2310.07868v1",
       "code_repo_urls": [],
@@ -6784,7 +6784,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "4b69186f18aa35e5bafdb2c3cdec24c299b48dbed22194830616af51695d8bc8",
+    "source_hash": "9cc4221dae04e33e6622319727ea55a390be709eaf8f2e9d6bd8d55112cb0dc3",
     "submitted_date": "2023-10-11",
     "tags": [
       "decoding",
@@ -6821,7 +6821,7 @@
       "name": null
     },
     "extraction_hash": "cd2f23df4cbb8f862003416d4d26e9721874593eee6116acc4fb84f4b39b48c2",
-    "last_processed_at": "2026-02-21T12:31:38.552397+00:00",
+    "last_processed_at": "2026-02-21T13:39:17.789952+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2308.13377v1",
       "code_repo_urls": [],
@@ -6849,7 +6849,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "f6cc2346f3a5180de9f0d87a70ecd7b8fbac3c6e92a7b0c7b25319c287d03b8f",
+    "source_hash": "634a644d80389fa6bb80e7c9c315d12be6ec27f8cd7528d5813128840b551225",
     "submitted_date": "2023-08-25",
     "tags": [
       "decoder",
@@ -6888,7 +6888,7 @@
       "name": null
     },
     "extraction_hash": "b66aa313793dcf5b7c817d25d0ae0bea56fd54d4f461550f5647d7fdb05c68b7",
-    "last_processed_at": "2026-02-21T12:31:38.553802+00:00",
+    "last_processed_at": "2026-02-21T13:39:18.279717+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2307.09025v1",
       "code_repo_urls": [],
@@ -6914,7 +6914,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "3aabad42dfc343b8f9439b564cfef4d8312578ec97664a565cc4633ce38fb1ff",
+    "source_hash": "d60de6790772ab87f5aa7e32adc7ff0319fa4cbb9692bab72b2612ba669aec98",
     "submitted_date": "2023-07-18",
     "tags": [
       "cond-mat.stat-mech",
@@ -6949,7 +6949,7 @@
       "name": null
     },
     "extraction_hash": "664a9bf5eeb6d6285bc00ff1e090ef75d9c8bfd7105f29f69db4eac612deba16",
-    "last_processed_at": "2026-02-21T12:31:38.555098+00:00",
+    "last_processed_at": "2026-02-21T13:39:18.957100+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2206.03122v2",
       "code_repo_urls": [],
@@ -6977,7 +6977,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "86df2be3c2fac0fd43896c68293844060d414c5cb329c20d9f400ca4fe90e877",
+    "source_hash": "9f1b27ee5216ad2ea912ddacfd04b2e7a5942585ec7f395ef84825505b83e102",
     "submitted_date": "2022-06-07",
     "tags": [
       "balanced product",
@@ -7011,7 +7011,7 @@
       "name": null
     },
     "extraction_hash": "6a396410290fb292bd43f2a64b1db30295b7327e9a0e7877b80a6a557a78c757",
-    "last_processed_at": "2026-02-21T12:31:38.559124+00:00",
+    "last_processed_at": "2026-02-21T13:39:20.483333+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2212.03214v2",
       "code_repo_urls": [],
@@ -7038,7 +7038,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "081455013486d20c664cd02acea78271075a90619883ccb0c3361ac676a70c7b",
+    "source_hash": "d2dfff9092c673f5ef7c90e1435a1ad58710afcbc5d6479bf40c8c017badd98e",
     "submitted_date": "2022-12-06",
     "tags": [
       "belief propagation",
@@ -7074,7 +7074,7 @@
       "name": null
     },
     "extraction_hash": "4b9d1fe048935ab49f404eca93879fd52bbbde3aad6ad564689b14fc12e359e3",
-    "last_processed_at": "2026-02-21T12:31:38.560581+00:00",
+    "last_processed_at": "2026-02-21T13:39:21.201617+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2202.01702v3",
       "code_repo_urls": [],
@@ -7101,7 +7101,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "0da2f14e292af96f311de65c63c57f18a271a939750e2d273a4d582175cbf541",
+    "source_hash": "5a50e9345468303477d064ec5591941979866848ae65bbd1f1f4dc2d5bc453eb",
     "submitted_date": "2022-02-03",
     "tags": [
       "belief propagation",
@@ -7135,7 +7135,7 @@
       "name": null
     },
     "extraction_hash": "b7018ab7fbf161941010408b73662ea17df1d096879561fafbbb2f05eb637c3c",
-    "last_processed_at": "2026-02-21T12:31:38.561918+00:00",
+    "last_processed_at": "2026-02-21T13:39:24.377186+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2104.13659v2",
       "code_repo_urls": [],
@@ -7161,7 +7161,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "92ef2ed8daafa3371cd85d7d9dec0e6bf385464cb3a80ad0e0e104839316be56",
+    "source_hash": "b1f67d66d6ca4e730fa071cf253e6b775cd0c3a009fcb843417e56ca0126422c",
     "submitted_date": "2021-04-28",
     "tags": [
       "belief propagation",
@@ -7197,7 +7197,7 @@
       "name": null
     },
     "extraction_hash": "1670d0d40881cff22ceec39945427939ccb8d16f2ff4d4300fb5a3e6968d1fe2",
-    "last_processed_at": "2026-02-21T12:31:38.563309+00:00",
+    "last_processed_at": "2026-02-21T13:39:24.590983+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2212.10245v2",
       "code_repo_urls": [],
@@ -7224,7 +7224,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "07d0fd2e69ac02454489b42cdccaafb3a8a25471ec4c6df13eafc64469c213db",
+    "source_hash": "0f7701368d84b917f3e6d641cdd3a7d2e8931d66caccc77858b9e0524022b307",
     "submitted_date": "2022-12-20",
     "tags": [
       "belief propagation",
@@ -7260,7 +7260,7 @@
       "name": null
     },
     "extraction_hash": "38ceb3441614677ba7f7386e1c99c6a166d05ad346fde5141159e9a922a5d2ed",
-    "last_processed_at": "2026-02-21T12:31:38.566643+00:00",
+    "last_processed_at": "2026-02-21T13:39:25.374050+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2205.06125v3",
       "code_repo_urls": [],
@@ -7286,7 +7286,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "8471e55fa71544643cf724f86f179ee90ebfd271dc8fb995d305584303ed0aae",
+    "source_hash": "7c7f4ccb2964c143eec6f9185a477e54ea2d96dbe2b789a5fdc27b3549e4754f",
     "submitted_date": "2022-05-12",
     "tags": [
       "cs.IT",
@@ -7320,7 +7320,7 @@
       "name": null
     },
     "extraction_hash": "5a40fb23aa19a44f362f6884f58ecb26932237a14e7117c59658d40bcd267ceb",
-    "last_processed_at": "2026-02-21T12:31:38.568061+00:00",
+    "last_processed_at": "2026-02-21T13:39:25.912520+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2208.05537v3",
       "code_repo_urls": [],
@@ -7346,7 +7346,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "6206073ac04a88f265bb5946a2dd6d33b87ad4c529d9299944439947b817a683",
+    "source_hash": "1fcfabc90365aaf71edf4af1829362ab423ac825dee58e2180a4301ce9fe846f",
     "submitted_date": "2022-08-10",
     "tags": [
       "cs.IT",
@@ -7380,7 +7380,7 @@
       "name": null
     },
     "extraction_hash": "f55dec91dea5048060406e606b9303e6898c2c7835606c45b2059f9ee4166ffc",
-    "last_processed_at": "2026-02-21T12:31:38.569408+00:00",
+    "last_processed_at": "2026-02-21T13:39:28.023976+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2211.03625v2",
       "code_repo_urls": [],
@@ -7405,7 +7405,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "0f35f2b3d7635cd691fffb129a036600aae56188ff14035682793a4f7facfc66",
+    "source_hash": "be97aeaede4bb8840539c21180de881b07c28f22816d5af4d2d9898999934a28",
     "submitted_date": "2022-11-07",
     "tags": [
       "decoder",
@@ -7438,7 +7438,7 @@
       "name": null
     },
     "extraction_hash": "4d592133133ee57e12418432e5fd8c12db9cf146ba1d89e92d1b5b5c6c962021",
-    "last_processed_at": "2026-02-21T12:31:38.570882+00:00",
+    "last_processed_at": "2026-02-21T13:39:29.014701+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2206.07571v2",
       "code_repo_urls": [],
@@ -7465,7 +7465,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "b16ede319939ae3d9cff4302f51ce718739cb16ea31179b019bec32f5ec75d86",
+    "source_hash": "86c0eb06705696ea2c11203d7c3310cd3d67ba8093f71eb5a297f35db634275d",
     "submitted_date": "2022-06-15",
     "tags": [
       "cs.CC",
@@ -7502,7 +7502,7 @@
       "name": null
     },
     "extraction_hash": "537a41b7bf715a5a0fc1a51f048eed0bf95a2b7777f2ca24bedfa5213c332be5",
-    "last_processed_at": "2026-02-21T12:31:38.576077+00:00",
+    "last_processed_at": "2026-02-21T13:39:30.904325+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2210.10071v1",
       "code_repo_urls": [],
@@ -7527,7 +7527,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "29ea0d58052248f302c9f83cd65dc41028dbf81ea09bc3b9f097e1924bfcee2a",
+    "source_hash": "278615ee0890e175f8831f27570d057f1b1e051378d29245c66626cad8b3a010",
     "submitted_date": "2022-10-18",
     "tags": [
       "decoding",
@@ -7560,7 +7560,7 @@
       "name": null
     },
     "extraction_hash": "beb3cc10ed45663df2636bb61be1594e62726d15ff00ba332473daed3f4073fe",
-    "last_processed_at": "2026-02-21T12:31:38.577786+00:00",
+    "last_processed_at": "2026-02-21T13:39:31.827459+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2209.01180v1",
       "code_repo_urls": [],
@@ -7586,7 +7586,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "1d8dee7be4bf8ddb42c9fb53107b96e2e1d3e750821f522c25f30f1a2cf28f1b",
+    "source_hash": "002e1f72d6b3c2e611e9ebeec5c10649ee0762f1821f29ec9d62c2c05141d858",
     "submitted_date": "2022-09-02",
     "tags": [
       "cs.IT",
@@ -7619,7 +7619,7 @@
       "name": null
     },
     "extraction_hash": "6460c8a5595b0c726843ffcc03837c3d6147dfd8937ef23855919555503cc5a9",
-    "last_processed_at": "2026-02-21T12:31:38.580503+00:00",
+    "last_processed_at": "2026-02-21T13:39:32.992151+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2105.02370v2",
       "code_repo_urls": [],
@@ -7646,7 +7646,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "f6dd10bb736a48452f1d92ca40a9178131d94b0ed8fc5ec51e3214cbc691c6ad",
+    "source_hash": "8c8c661b5eb3c6e7aa60ab15461c04624b44cfbdfce488e14aa985c5d94d8b99",
     "submitted_date": "2021-05-05",
     "tags": [
       "decoder",
@@ -7684,7 +7684,7 @@
       "name": null
     },
     "extraction_hash": "5d8898550e9224704ba9411141e358bb1700b9de7647c244d3d060a3816c628c",
-    "last_processed_at": "2026-02-21T12:31:38.582121+00:00",
+    "last_processed_at": "2026-02-21T13:39:34.391358+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2111.07029v2",
       "code_repo_urls": [],
@@ -7711,7 +7711,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "b560f6c53028dd40e0a0e921047fa4be3b7d0c2f53e39061cb0b107902ebfa6d",
+    "source_hash": "fe73eabe209c9eb5d4e35cdcd5fa5754b8c769979c0a985c0f0fb366a71c29e7",
     "submitted_date": "2021-11-13",
     "tags": [
       "cs.IT",
@@ -7747,7 +7747,7 @@
       "name": null
     },
     "extraction_hash": "2016c3bb383484073e514d11a5c56e39c7925e89054c9164a87ee0688819f3ff",
-    "last_processed_at": "2026-02-21T12:31:38.583692+00:00",
+    "last_processed_at": "2026-02-21T13:39:35.228094+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2206.07750v1",
       "code_repo_urls": [],
@@ -7772,7 +7772,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "e6976ff2064d268024004e6483e34582dae6a9917dce4ba6fe6dcf53a22f1fe8",
+    "source_hash": "4124d16fc1769fb62b926e64a750a6353d02aa53f8fc4439c13235c4f1c9f0e0",
     "submitted_date": "2022-06-15",
     "tags": [
       "decoder",
@@ -7805,7 +7805,7 @@
       "name": null
     },
     "extraction_hash": "6c3b2c565973129da3acbbc32767fab02e2c97c13cc1eea94bd207ceb0e10299",
-    "last_processed_at": "2026-02-21T12:31:38.586023+00:00",
+    "last_processed_at": "2026-02-21T13:39:35.935904+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2206.06557v1",
       "code_repo_urls": [],
@@ -7830,7 +7830,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "49be79a3476a65868d3bf1ccdff523274a268b78211d5abe83c1ef2f1de4b141",
+    "source_hash": "306c3d15fd18a80d8b7ff7c495579dbddbbf66281a3110d6dc6c79c9a8f892fd",
     "submitted_date": "2022-06-14",
     "tags": [
       "cs.IT",
@@ -7865,7 +7865,7 @@
       "name": null
     },
     "extraction_hash": "8b3d2d36ec49131763a7a3b0e3bd8e9d9d20583b0e0ad69fdbedc63b65fdb9bc",
-    "last_processed_at": "2026-02-21T12:31:38.587821+00:00",
+    "last_processed_at": "2026-02-21T13:39:36.434446+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2205.02341v1",
       "code_repo_urls": [],
@@ -7892,7 +7892,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "1953a67bf893938c371c9201171860db1a4c50ccb1774fc95ad451cd284556d0",
+    "source_hash": "2fa7614f52e491b82d0470429bfe478b65543c41270b2d2ee8a078fc7e57897f",
     "submitted_date": "2022-05-04",
     "tags": [
       "belief propagation",
@@ -7926,7 +7926,7 @@
       "name": null
     },
     "extraction_hash": "7f51fd3973995e95cc2eef91c4eff31b0b39e835cde69deadd7693d2e84004c3",
-    "last_processed_at": "2026-02-21T12:31:38.589638+00:00",
+    "last_processed_at": "2026-02-21T13:39:37.027333+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2203.03581v1",
       "code_repo_urls": [],
@@ -7952,7 +7952,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "f85c9ea36cf09a828527b4655c1330df6a91c72007d1c591c4d6e32040384110",
+    "source_hash": "0662aa9755b45f0994cbfab7fd85fe12fcac81567f041e889c053ed2b7aea93a",
     "submitted_date": "2022-03-07",
     "tags": [
       "balanced product",
@@ -7985,7 +7985,7 @@
       "name": null
     },
     "extraction_hash": "64fc7a37e73cadabb919ca684eba4a0877c9d99eac6be240331e9975c3a859d9",
-    "last_processed_at": "2026-02-21T12:31:38.590989+00:00",
+    "last_processed_at": "2026-02-21T13:39:37.655252+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/1904.02703v3",
       "code_repo_urls": [],
@@ -8013,7 +8013,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "e4394edbcfc405e0a089303f9f6b2eeacbcbb1ff81ddad1f8a04a2e172677a84",
+    "source_hash": "59c6422b172c200f4b5218b73563b1fec74106c5af579829cb504ef0bbb15204",
     "submitted_date": "2019-04-04",
     "tags": [
       "belief propagation",
@@ -8049,7 +8049,7 @@
       "name": null
     },
     "extraction_hash": "45da554927dba57b94e99db79ba9b72ea7d905e0dbab1e5a35f4e6bd52916389",
-    "last_processed_at": "2026-02-21T12:31:38.592391+00:00",
+    "last_processed_at": "2026-02-21T13:39:39.456219+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2104.00304v3",
       "code_repo_urls": [],
@@ -8075,7 +8075,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "393f05071c907788bbdc1fc32f1f2e207eff1acf9fbab8547b08861e49888a15",
+    "source_hash": "38af9d7a0a16d457b2a8e97a2078b551392c85425bd807195909ceedfb8b9702",
     "submitted_date": "2021-04-01",
     "tags": [
       "belief propagation",
@@ -8109,7 +8109,7 @@
       "name": null
     },
     "extraction_hash": "0b5ba659dd4f8f515d26d79a34b4e0f520b2b2792a60591537bcbbbb5e7f24e5",
-    "last_processed_at": "2026-02-21T12:31:38.593777+00:00",
+    "last_processed_at": "2026-02-21T13:39:40.970961+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2012.15297v2",
       "code_repo_urls": [],
@@ -8135,7 +8135,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "d4257b196153edb9d36cc8e6312169e20a9d4cbb5a413b7f0821c3fbb020c580",
+    "source_hash": "2d4a02e8f50e56d65965ce6fe8c25ddd8507d065b002a4f8741ef65f13b93637",
     "submitted_date": "2020-12-30",
     "tags": [
       "cs.IT",
@@ -8171,7 +8171,7 @@
       "name": null
     },
     "extraction_hash": "d62d50ce98dd58217e141c08c24ff5dc1cca4cdd5c2f91347ef29ba484fc9b0a",
-    "last_processed_at": "2026-02-21T12:31:38.595345+00:00",
+    "last_processed_at": "2026-02-21T13:39:41.828758+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2004.11199v2",
       "code_repo_urls": [],
@@ -8200,7 +8200,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "b28d2b1303fb7cee2ec5283a942eb7f7a5d563fdf33d6070e9bb837f85377c0c",
+    "source_hash": "28fef810b53168e9a51d786b58772aec5559e6dcf0c2c877d66c13ab475b670c",
     "submitted_date": "2020-04-23",
     "tags": [
       "belief propagation",
@@ -8238,7 +8238,7 @@
       "name": null
     },
     "extraction_hash": "f7bba94545e913d14d98793a453caec59a69148db1eafdec63a8eea0cd389cf7",
-    "last_processed_at": "2026-02-21T12:31:38.597031+00:00",
+    "last_processed_at": "2026-02-21T13:39:42.598885+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2103.08049v1",
       "code_repo_urls": [],
@@ -8267,7 +8267,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "093491cd473a5557f4f6d652845cba5134321bd52677492ecc01350b4a3d0532",
+    "source_hash": "a289a288377206d793a95bf51284f638716ab4a732230f2ffa77d77df1b3ee93",
     "submitted_date": "2021-03-14",
     "tags": [
       "belief propagation",
@@ -8305,7 +8305,7 @@
       "name": null
     },
     "extraction_hash": "5e06aaec269590dc31122e00be66ef98301617e8903b9699db44859e20eb2027",
-    "last_processed_at": "2026-02-21T12:31:38.598600+00:00",
+    "last_processed_at": "2026-02-21T13:39:43.272623+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2102.01984v1",
       "code_repo_urls": [],
@@ -8331,7 +8331,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "6d9ffe2904006187d245f2aa9c05e6a22c788bb3cce3c864fa5fb4f988a35982",
+    "source_hash": "3a7c9e17ec781753ee96e121e6988c33492e842bc022f1f9e0f5c1478b889b5f",
     "submitted_date": "2021-02-03",
     "tags": [
       "belief propagation",
@@ -8365,7 +8365,7 @@
       "name": null
     },
     "extraction_hash": "22ccb08983d421fe11fd675a6976900efbb678d7313fc8ef6655ed934b57e8ed",
-    "last_processed_at": "2026-02-21T12:31:38.599996+00:00",
+    "last_processed_at": "2026-02-21T13:39:45.803044+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2004.07247v2",
       "code_repo_urls": [],
@@ -8391,7 +8391,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "0852950c5c878702bbfe011957d39ced741e7e9520431cac5d1a9a0123190c46",
+    "source_hash": "66e1ae963d5fbf43b984f8c9638d29533dcda98dfe26578417ceeee8839b4dda",
     "submitted_date": "2020-04-15",
     "tags": [
       "decoder",
@@ -8425,7 +8425,7 @@
       "name": null
     },
     "extraction_hash": "dcad0fc7c51f8715e46c042507e0ff2074534159f860dfaa5fb6a64a5dfb28ff",
-    "last_processed_at": "2026-02-21T12:31:38.601365+00:00",
+    "last_processed_at": "2026-02-21T13:39:46.157527+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2005.07016v2",
       "code_repo_urls": [],
@@ -8452,7 +8452,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "902465c53deab31c807cf297d129a1cc1904e8739a1df7d31cf366fa0fd802d4",
+    "source_hash": "9202d3b475ac3cfef694facdd52941f1afb7c3f2e48f31521ec72799842f2fe9",
     "submitted_date": "2020-05-14",
     "tags": [
       "belief propagation",
@@ -8488,7 +8488,7 @@
       "name": null
     },
     "extraction_hash": "b3f10f583a49a438d8f441a616f86c92c5ce96141911a7f391ecbc8f6698b168",
-    "last_processed_at": "2026-02-21T12:31:38.605102+00:00",
+    "last_processed_at": "2026-02-21T13:39:46.736845+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/2004.07935v1",
       "code_repo_urls": [],
@@ -8513,7 +8513,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "d56538159fd47c123548f51b3560a8c114bdcb0f6c56f71644d10959f0e20959",
+    "source_hash": "c814dcc0b4a0898c0d7154384e91d2f871e6914dea96443951454f5b6aa97bb8",
     "submitted_date": "2020-04-16",
     "tags": [
       "cs.IT",
@@ -8547,7 +8547,7 @@
       "name": null
     },
     "extraction_hash": "a9cdce241f32d1d41936c2e33334891f725dfce4922c3b3f4d2d50411959b31c",
-    "last_processed_at": "2026-02-21T12:31:38.606690+00:00",
+    "last_processed_at": "2026-02-21T13:39:47.788986+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/1712.08578v2",
       "code_repo_urls": [],
@@ -8573,7 +8573,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "cc58d47da1a1a2bded2adee4af83290cf3a2ed410f69bbb0e7064c45f212eae7",
+    "source_hash": "c484aeff47edb4bbc49c53e3fb79fc8647f463e0119960defb917bfc55b86136",
     "submitted_date": "2017-12-22",
     "tags": [
       "cs.IT",
@@ -8607,7 +8607,7 @@
       "name": null
     },
     "extraction_hash": "cc1ea628d237d49ab98c92f565aabfdb730776c48af5a4ba7fe3cb28d21e2050",
-    "last_processed_at": "2026-02-21T12:31:38.609798+00:00",
+    "last_processed_at": "2026-02-21T13:39:48.216177+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/1903.07404v2",
       "code_repo_urls": [],
@@ -8634,7 +8634,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "286bcc5738dda5b5573e9f4d6896730e1e8df0ffe38b551cba72bf5aaa972b56",
+    "source_hash": "cc0b4dbb4e0c54956740ce077de8b2ba5508762b25da4ad188c949fa14e1f6d9",
     "submitted_date": "2019-03-18",
     "tags": [
       "belief propagation",
@@ -8666,7 +8666,7 @@
       "name": null
     },
     "extraction_hash": "f09b845de34230b34d6f25d5af93d996d7abe4c7e9f091e98bc811e052723768",
-    "last_processed_at": "2026-02-21T12:31:38.611138+00:00",
+    "last_processed_at": "2026-02-21T13:39:48.691685+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/1901.06319v3",
       "code_repo_urls": [],
@@ -8692,7 +8692,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "2a7e3b5a715a56a6fbdb7934ed00f5e9891d0305d6513067d3fc67a1ba1dda88",
+    "source_hash": "4980efe080c382f41256d236d3526c9a1c2341722d7e8ace9f2ec61aa66266dd",
     "submitted_date": "2019-01-18",
     "tags": [
       "decoder",
@@ -8725,7 +8725,7 @@
       "name": null
     },
     "extraction_hash": "11eeec4db208a8e30cb9df711ec2176bac173033f582525e3b2f11050b47e7ac",
-    "last_processed_at": "2026-02-21T12:31:38.614028+00:00",
+    "last_processed_at": "2026-02-21T13:39:49.889856+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/1811.07835v2",
       "code_repo_urls": [],
@@ -8752,7 +8752,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "61bf3c6388497a8d78a4e6b67acc2507e5f6a8d25e650e8546cda50db60562e2",
+    "source_hash": "4b61ea1428b31391a236b48660ec2de3207c3bc73177fc1f7aa6fb1c2182e0d4",
     "submitted_date": "2018-11-19",
     "tags": [
       "cond-mat.stat-mech",
@@ -8786,7 +8786,7 @@
       "name": null
     },
     "extraction_hash": "f1e6a83060f71beb876e927bc07e34b4ff88231cfa3bd62acdd0487f5747b277",
-    "last_processed_at": "2026-02-21T12:31:38.616091+00:00",
+    "last_processed_at": "2026-02-21T13:39:50.919529+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/1810.03681v2",
       "code_repo_urls": [],
@@ -8814,7 +8814,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "971d4b52e1d9b48de39ab51c78be7c4ca77a93a057dfce221590ed68667e6b3a",
+    "source_hash": "0364ed0fdfe09c936aaa0c07b3e1b49d64dc019bc9817068cc6e70f3f1c55348",
     "submitted_date": "2018-10-08",
     "tags": [
       "decoder",
@@ -8851,7 +8851,7 @@
       "name": null
     },
     "extraction_hash": "b674cb48244976e11cf2ac0af3dfc28aac18cd1c7df5eb2f50a3d31bdf947361",
-    "last_processed_at": "2026-02-21T12:31:38.617517+00:00",
+    "last_processed_at": "2026-02-21T13:39:51.613541+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/1804.01950v2",
       "code_repo_urls": [],
@@ -8877,7 +8877,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "20b817be0c4097284f3ea19cb246806ff1bfefd80b12e907e92d854ee9745648",
+    "source_hash": "d93d57ec920e805c52773b2690b51da4f915ed74f3be26624614e31622382cb1",
     "submitted_date": "2018-04-05",
     "tags": [
       "cs.IT",
@@ -8912,7 +8912,7 @@
       "name": null
     },
     "extraction_hash": "9d9f91735cf23d045b82552d4811237310d9956e808ce65b15146e69ca7d949b",
-    "last_processed_at": "2026-02-21T12:31:38.618978+00:00",
+    "last_processed_at": "2026-02-21T13:39:51.969337+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/1711.08351v2",
       "code_repo_urls": [],
@@ -8938,7 +8938,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "b06512593a183e25a4fb1ff89ecb05548b02882d429b84ce37afaf13ee5da35d",
+    "source_hash": "33ecde0bc34ac47d874d08b7f78787655df4a214839fd1860566e9fc9fc00315",
     "submitted_date": "2017-11-22",
     "tags": [
       "cs.IT",
@@ -8974,7 +8974,7 @@
       "name": null
     },
     "extraction_hash": "b602bc71a93fa6e25db8b7843d7d6c67e958a1faa90eacd567313914f19342b3",
-    "last_processed_at": "2026-02-21T12:31:38.620916+00:00",
+    "last_processed_at": "2026-02-21T13:39:52.221452+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/1204.4223v2",
       "code_repo_urls": [],
@@ -9001,7 +9001,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "e055e4029603ef641a94b5771587e4b861b5b0e2ffa1c13b19b46b029dde546c",
+    "source_hash": "354aea7928fbf4bab81b8f23869b3701d7c6876309167a33e672450a4565e8f0",
     "submitted_date": "2012-04-18",
     "tags": [
       "cs.IT",
@@ -9037,7 +9037,7 @@
       "name": null
     },
     "extraction_hash": "61ebc9351495d5464923f6469bfa9dc068f94e4c190719e428a06bb0ee73b20f",
-    "last_processed_at": "2026-02-21T12:31:38.622270+00:00",
+    "last_processed_at": "2026-02-21T13:39:52.565093+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/1504.00822v1",
       "code_repo_urls": [],
@@ -9062,7 +9062,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "34f8351cb2a2d10efa9afad465bab82dc22aa4bb3acf2744153e4f9f5a4ee7e4",
+    "source_hash": "cce9ec44e8201a3525d6d54d929781c94b32e95d874fd630dd2798de53dca8b1",
     "submitted_date": "2015-04-03",
     "tags": [
       "cs.IT",
@@ -9095,7 +9095,7 @@
       "name": null
     },
     "extraction_hash": "16c9f3ed37b93f59c5a112f772bceaf078ee872d7035fb1ab7ab7a0e571b5d99",
-    "last_processed_at": "2026-02-21T12:31:38.623820+00:00",
+    "last_processed_at": "2026-02-21T13:39:53.040126+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/1311.7688v2",
       "code_repo_urls": [],
@@ -9121,7 +9121,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "7fe722dbd0628e6a3f59f2fb1c93317894e54d9cf7acb16195a9ea0cd98e2e50",
+    "source_hash": "66383006040d5fbb81770aee992d1062e386334c4b21b3eb7f0bbdd5bf595b2f",
     "submitted_date": "2013-11-29",
     "tags": [
       "cond-mat.stat-mech",
@@ -9156,7 +9156,7 @@
       "name": null
     },
     "extraction_hash": "b3e2d4c8abf52206e93714eeeeb2b2816cf02e5fc8960cee8960e07647f311ed",
-    "last_processed_at": "2026-02-21T12:31:38.625069+00:00",
+    "last_processed_at": "2026-02-21T13:39:53.262049+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/1108.0679v4",
       "code_repo_urls": [],
@@ -9182,7 +9182,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "cc27f1786227f85c78e18571b93360dd5ac760f2c60ef5175c01dfe69af6c7a7",
+    "source_hash": "b477bb615dd4bb043c43c23ab201a4cf17d31ea0f12b6c28c312b0de5553046e",
     "submitted_date": "2011-08-02",
     "tags": [
       "cs.IT",
@@ -9215,7 +9215,7 @@
       "name": null
     },
     "extraction_hash": "09de30d254b369130186b01a717ade891b6aff3817be2840747f353b9ff9ce18",
-    "last_processed_at": "2026-02-21T12:31:38.626420+00:00",
+    "last_processed_at": "2026-02-21T13:39:53.549013+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/1207.0732v1",
       "code_repo_urls": [],
@@ -9241,7 +9241,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "b6c0e09ee0ab0f0d9cfa5e26e0ff64fbe3284131d26cf42c8f1e9dace9fd94aa",
+    "source_hash": "752efa77c35f4bb6a3bad55787f11b5b9d00c074796a17fca465ccffcd2389ec",
     "submitted_date": "2012-07-03",
     "tags": [
       "decoding",
@@ -9275,7 +9275,7 @@
       "name": null
     },
     "extraction_hash": "73c70e32b7061b2bb839ef7496c3bad808ab75d864df61dba399a5d6df0622c2",
-    "last_processed_at": "2026-02-21T12:31:38.627731+00:00",
+    "last_processed_at": "2026-02-21T13:39:54.172655+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/1202.3338v1",
       "code_repo_urls": [],
@@ -9301,7 +9301,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "aba8eea4d5fcd77242b3860ece392787f2fbee974fed24faae167686cc28d79d",
+    "source_hash": "e7c0d78a1ae165dfce6e88740edcc090ef26c646d0bc4e0be9c1ae4aad4c64c7",
     "submitted_date": "2012-02-15",
     "tags": [
       "cs.IT",
@@ -9337,7 +9337,7 @@
       "name": null
     },
     "extraction_hash": "32bf52f45ca540fc31a996d64c4600e761222e6d1ae66dadb22568e969db0462",
-    "last_processed_at": "2026-02-21T12:31:38.629200+00:00",
+    "last_processed_at": "2026-02-21T13:39:54.524958+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/1202.0357v1",
       "code_repo_urls": [],
@@ -9364,7 +9364,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "bb8cfb6f78a6d744b845b4215eb59bb42c2fac2f26319cde1542d3cc6a3ebafc",
+    "source_hash": "9b95ce740395af962474ceddcbfdc7168e92f795d929dd713bd0a6d528593626",
     "submitted_date": "2012-02-02",
     "tags": [
       "belief propagation",
@@ -9403,7 +9403,7 @@
       "name": null
     },
     "extraction_hash": "0741ef8de47742ff870f2375924e58dd39a899d20375939a091adef6da60a19f",
-    "last_processed_at": "2026-02-21T12:31:38.630711+00:00",
+    "last_processed_at": "2026-02-21T13:39:54.917577+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/1008.4747v4",
       "code_repo_urls": [],
@@ -9429,7 +9429,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "08e7fddd44ea923021b4350ffbbaee74a3943ac1c65bea435eeefa3fbc2a4d7c",
+    "source_hash": "9730661db31f80d8adee3551c73a487c7cb56e935f3efec619d9171335042b8f",
     "submitted_date": "2010-08-27",
     "tags": [
       "cs.IT",
@@ -9463,7 +9463,7 @@
       "name": null
     },
     "extraction_hash": "069c0c5d0fc3e4349b5f0e82429e7b8c2823cc9e3ef16c5ce9d34a1f1cc4418d",
-    "last_processed_at": "2026-02-21T12:31:38.633417+00:00",
+    "last_processed_at": "2026-02-21T13:39:55.460974+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/0712.4115v3",
       "code_repo_urls": [],
@@ -9489,7 +9489,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "f29463e792ce8db767d8a9fbc0fd61155f326562780cd9aa9bba46536bdd2511",
+    "source_hash": "7bd9b9d5a41205cf5ab5f35e30b83cb011aab3f8f7fa72a8b961d660acfe7018",
     "submitted_date": "2007-12-26",
     "tags": [
       "cs.IT",
@@ -9523,7 +9523,7 @@
       "name": null
     },
     "extraction_hash": "592550eb22062e5cfba76c4adaf45da23bf63cdd34ad76c12f08bbbbfaf36311",
-    "last_processed_at": "2026-02-21T12:31:38.634839+00:00",
+    "last_processed_at": "2026-02-21T13:39:58.110392+00:00",
     "links": {
       "abs_url": "https://arxiv.org/abs/0712.2888v2",
       "code_repo_urls": [],
@@ -9550,7 +9550,7 @@
       ],
       "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
     },
-    "source_hash": "6afe9085f1d0dfae2ee2102bfd1cef0193c9457b75117f1f7b9f81aea41cf306",
+    "source_hash": "5172503d4d3699a119050548c64f2d5efaa1ede57b8d3ab7cff9f03d02712c00",
     "submitted_date": "2007-12-18",
     "tags": [
       "decoder",

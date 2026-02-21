@@ -15,7 +15,7 @@
     "math-ph"
   ],
   "extraction_hash": "ebb12aeab9fcaec08b01e4bafb8ec5dee3bade09d5ebf6094ae6088cc96ff9c7",
-  "last_processed_at": "2026-02-21T12:31:38.334504+00:00",
+  "last_processed_at": "2026-02-21T13:36:53.228401+00:00",
   "links": {
     "abs_url": "https://arxiv.org/abs/2512.21922v2",
     "code_repo_urls": [],
@@ -23,7 +23,7 @@
     "pdf_url": "https://arxiv.org/pdf/2512.21922v2"
   },
   "primary_category": "quant-ph",
-  "source_hash": "48c986c22e8a7758333ca011118b010a08e41a85a9ec0f86a6ce78350805c82f",
+  "source_hash": "205c7d1fb3c3285eb7b0b133b52c026a4570535e038d71c33cde8d5b7e989250",
   "submitted_date": "2025-12-26",
   "tags": [
     "cs.CC",

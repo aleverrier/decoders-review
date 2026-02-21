@@ -13,7 +13,7 @@
     "cs.IT"
   ],
   "extraction_hash": "0a65b9839a0041b30955bfba4449e137ac2c4e360dd0ef140392440a5041b3f4",
-  "last_processed_at": "2026-02-21T12:31:38.350351+00:00",
+  "last_processed_at": "2026-02-21T13:37:07.474272+00:00",
   "links": {
     "abs_url": "https://arxiv.org/abs/2511.13281v1",
     "code_repo_urls": [],
@@ -21,7 +21,7 @@
     "pdf_url": "https://arxiv.org/pdf/2511.13281v1"
   },
   "primary_category": "quant-ph",
-  "source_hash": "ee737a3ebd081f4cdf0dfbea89d4d2c1550525c035876142baa66d62953b3994",
+  "source_hash": "3618d5856ec5ff99fcc2ab5f6e9815661e80a0d096b7e6b4f341ff270e1ab84c",
   "submitted_date": "2025-11-17",
   "tags": [
     "belief propagation",

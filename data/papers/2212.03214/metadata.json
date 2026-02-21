@@ -10,7 +10,7 @@
     "quant-ph"
   ],
   "extraction_hash": "6a396410290fb292bd43f2a64b1db30295b7327e9a0e7877b80a6a557a78c757",
-  "last_processed_at": "2026-02-21T12:31:38.559124+00:00",
+  "last_processed_at": "2026-02-21T13:39:20.483333+00:00",
   "links": {
     "abs_url": "https://arxiv.org/abs/2212.03214v2",
     "code_repo_urls": [],
@@ -18,7 +18,7 @@
     "pdf_url": "https://arxiv.org/pdf/2212.03214v2"
   },
   "primary_category": "quant-ph",
-  "source_hash": "081455013486d20c664cd02acea78271075a90619883ccb0c3361ac676a70c7b",
+  "source_hash": "d2dfff9092c673f5ef7c90e1435a1ad58710afcbc5d6479bf40c8c017badd98e",
   "submitted_date": "2022-12-06",
   "tags": [
     "belief propagation",

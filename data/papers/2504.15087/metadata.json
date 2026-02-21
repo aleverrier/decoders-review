@@ -17,7 +17,7 @@
     "math.GR"
   ],
   "extraction_hash": "bae58bc6aae61f44212830afe0dde19a8ec3c497e46ac310d49a0ce7ae67eecf",
-  "last_processed_at": "2026-02-21T12:31:38.429896+00:00",
+  "last_processed_at": "2026-02-21T13:37:51.663131+00:00",
   "links": {
     "abs_url": "https://arxiv.org/abs/2504.15087v1",
     "code_repo_urls": [],
@@ -25,7 +25,7 @@
     "pdf_url": "https://arxiv.org/pdf/2504.15087v1"
   },
   "primary_category": "math.CO",
-  "source_hash": "4873159dd0e1b29ed3b8a88cbf78479772f4c1dbed95ab547f76022edc3d4528",
+  "source_hash": "0adfd4cffdb16b86d8171b753198806244767f2e74116927b4b9d0362d4bd2b1",
   "submitted_date": "2025-04-21",
   "tags": [
     "cs.CC",

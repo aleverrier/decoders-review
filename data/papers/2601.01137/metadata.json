@@ -10,7 +10,7 @@
     "quant-ph"
   ],
   "extraction_hash": "0f7c2f5aa75212b959f4fa0cd5d8584fd66e96a70c3b0384513e5c207d503e5e",
-  "last_processed_at": "2026-02-21T12:31:38.333068+00:00",
+  "last_processed_at": "2026-02-21T13:36:52.707998+00:00",
   "links": {
     "abs_url": "https://arxiv.org/abs/2601.01137v1",
     "code_repo_urls": [],
@@ -18,7 +18,7 @@
     "pdf_url": "https://arxiv.org/pdf/2601.01137v1"
   },
   "primary_category": "cs.IT",
-  "source_hash": "77b9e084fcd3b49cc7b31cb62597158c5547db97f047443167fbb60334eab244",
+  "source_hash": "d5e5822e7829bc3f5a45a8653afcbcc7ac457ba76bcb5886180883a250dd4ed3",
   "submitted_date": "2026-01-03",
   "tags": [
     "cs.IT",

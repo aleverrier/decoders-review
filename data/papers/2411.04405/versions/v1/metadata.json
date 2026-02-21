@@ -11,7 +11,7 @@
     "cond-mat.str-el"
   ],
   "extraction_hash": "46c90bce2b90d04ff5c452f5ee10a2bcdaaeb05a23e9dfadb4ec4eb296aadb17",
-  "last_processed_at": "2026-02-21T12:31:38.477491+00:00",
+  "last_processed_at": "2026-02-21T13:38:31.039802+00:00",
   "links": {
     "abs_url": "https://arxiv.org/abs/2411.04405v1",
     "code_repo_urls": [],
@@ -19,7 +19,7 @@
     "pdf_url": "https://arxiv.org/pdf/2411.04405v1"
   },
   "primary_category": "quant-ph",
-  "source_hash": "ea00474280f9bb587fbe3350f23fc6fb43b1171e90a87955c338e20017167a35",
+  "source_hash": "5c45252e571298f9639e87b9f691f7fd35a1ca4dc38988de8a47fe9347fc5af3",
   "submitted_date": "2024-11-07",
   "tags": [
     "cond-mat.str-el",

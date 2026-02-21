@@ -12,7 +12,7 @@
     "cs.IT"
   ],
   "extraction_hash": "555d8a212464294a98907b61c64bc29f55a059fb4b12182d73ccb070e4f98096",
-  "last_processed_at": "2026-02-21T12:31:38.319964+00:00",
+  "last_processed_at": "2026-02-21T13:36:43.761762+00:00",
   "links": {
     "abs_url": "https://arxiv.org/abs/2601.14236v1",
     "code_repo_urls": [],
@@ -20,7 +20,7 @@
     "pdf_url": "https://arxiv.org/pdf/2601.14236v1"
   },
   "primary_category": "cs.IT",
-  "source_hash": "b7966ae105c5f0d3b2a876c9bc277ad781e8ba582a89884a541cb87b370d3dc2",
+  "source_hash": "4f1739d2c22bfa2d2465542e0e0a1f3e5f43f07002dbd0fe211995e9ff9108b2",
   "submitted_date": "2026-01-20",
   "tags": [
     "cs.IT",

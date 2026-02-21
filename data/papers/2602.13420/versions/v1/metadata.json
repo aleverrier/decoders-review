@@ -12,7 +12,7 @@
     "cs.IT"
   ],
   "extraction_hash": "ca9a7b618fb18a90fdebbc5d08d473e692ea7f81d3e14f8a2bdf176e249d4b71",
-  "last_processed_at": "2026-02-21T12:31:38.306969+00:00",
+  "last_processed_at": "2026-02-21T13:36:30.238825+00:00",
   "links": {
     "abs_url": "https://arxiv.org/abs/2602.13420v1",
     "code_repo_urls": [],
@@ -20,7 +20,7 @@
     "pdf_url": "https://arxiv.org/pdf/2602.13420v1"
   },
   "primary_category": "cs.IT",
-  "source_hash": "ca6a476fcb52d6be78c8e89c969accbe151329444bb0561a91565d79e3aec393",
+  "source_hash": "ef1da5a3e2936d41408218578817c6aff6b0c89d4522f9f811fe7b0ee739f09e",
   "submitted_date": "2026-02-13",
   "tags": [
     "belief propagation",

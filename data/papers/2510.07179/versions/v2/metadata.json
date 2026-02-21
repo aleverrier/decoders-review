@@ -15,7 +15,7 @@
     "math.CO"
   ],
   "extraction_hash": "431912174070b9555ba08241edc4925f45d339b87a54cd7fe6af805cf47d1129",
-  "last_processed_at": "2026-02-21T11:21:09.324731+00:00",
+  "last_processed_at": "2026-02-21T13:36:29.974158+00:00",
   "links": {
     "abs_url": "https://arxiv.org/abs/2510.07179v2",
     "code_repo_urls": [],
@@ -23,7 +23,7 @@
     "pdf_url": "https://arxiv.org/pdf/2510.07179v2"
   },
   "primary_category": "quant-ph",
-  "source_hash": "5fae4b5c92566beb3fb9bb9b2a620df0a8320187bbf8606614425c14d6fad73f",
+  "source_hash": "3b08a01534f137f1c7fc48da7f631c71d9a6d96073c556f4ac0e0955cf8b376f",
   "submitted_date": "2025-10-08",
   "tags": [
     "cond-mat.dis-nn",

@@ -13,7 +13,7 @@
     "quant-ph"
   ],
   "extraction_hash": "f2b30547ea99b8855b4bd890b2a53a929bdf37844bb020796a425a94774a34fc",
-  "last_processed_at": "2026-02-21T12:31:38.383048+00:00",
+  "last_processed_at": "2026-02-21T13:37:25.704759+00:00",
   "links": {
     "abs_url": "https://arxiv.org/abs/2510.06495v1",
     "code_repo_urls": [],
@@ -21,7 +21,7 @@
     "pdf_url": "https://arxiv.org/pdf/2510.06495v1"
   },
   "primary_category": "quant-ph",
-  "source_hash": "fa7e312243a7eb8957a2616c5dae67acb35b41881536f89d910f53bf5df4706f",
+  "source_hash": "239940ea1e46ea41accba6a15d468af1169e5b0ef7554dd4125f001e7ec94cb1",
   "submitted_date": "2025-10-07",
   "tags": [
     "hypergraph product",

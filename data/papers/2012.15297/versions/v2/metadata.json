@@ -11,7 +11,7 @@
     "quant-ph"
   ],
   "extraction_hash": "0b5ba659dd4f8f515d26d79a34b4e0f520b2b2792a60591537bcbbbb5e7f24e5",
-  "last_processed_at": "2026-02-21T12:31:38.593777+00:00",
+  "last_processed_at": "2026-02-21T13:39:40.970961+00:00",
   "links": {
     "abs_url": "https://arxiv.org/abs/2012.15297v2",
     "code_repo_urls": [],
@@ -19,7 +19,7 @@
     "pdf_url": "https://arxiv.org/pdf/2012.15297v2"
   },
   "primary_category": "cs.IT",
-  "source_hash": "d4257b196153edb9d36cc8e6312169e20a9d4cbb5a413b7f0821c3fbb020c580",
+  "source_hash": "2d4a02e8f50e56d65965ce6fe8c25ddd8507d065b002a4f8741ef65f13b93637",
   "submitted_date": "2020-12-30",
   "tags": [
     "cs.IT",

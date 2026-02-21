@@ -14,7 +14,7 @@
     "cs.DS"
   ],
   "extraction_hash": "35251ad7346ab30749ee9bb5aa45d2f87228ab86f18d024139f2a3c382398d35",
-  "last_processed_at": "2026-02-21T12:31:38.385807+00:00",
+  "last_processed_at": "2026-02-21T13:37:33.376611+00:00",
   "links": {
     "abs_url": "https://arxiv.org/abs/2508.04969v2",
     "code_repo_urls": [],
@@ -22,7 +22,7 @@
     "pdf_url": "https://arxiv.org/pdf/2508.04969v2"
   },
   "primary_category": "quant-ph",
-  "source_hash": "cafe900083f730ffefa56ce513b6324df79ac7549ccd7d7c88bbc8c726fed66b",
+  "source_hash": "e2d0fa9f28efa40527a8020d0fde8d2ae5a45160320beb0f99ac65e4a76d43e0",
   "submitted_date": "2025-08-07",
   "tags": [
     "cs.DS",
