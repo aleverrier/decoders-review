@@ -77,7 +77,8 @@ If `OPENAI_API_KEY` is not set, update still runs with conservative fallback ext
 
 Edit `config.yaml`:
 
-- `queries`: list of arXiv query expressions.
+- `queries`: list of arXiv query expressions. Default strategy is abstract-first (`abs:`), with
+  `quantum ldpc` + decoder terms for higher-recall corpus collection.
 - `filters.categories`: default category allowlist (`quant-ph`, `cs.IT`, `math.IT`, optional `cs.DS`).
 - `arxiv.rate_limit_seconds`: keep `>= 3.0`.
 

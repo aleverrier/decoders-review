@@ -6,13 +6,13 @@ arxiv:
   user_agent: "qldpcwatch/0.1 (+https://github.com/your-org/your-repo)"
 
 queries:
-  - expression: 'all:"quantum LDPC" AND (all:decode OR all:decoding OR all:decoder)'
-  - expression: 'all:"hypergraph product" AND all:decoder'
-  - expression: 'all:"balanced product" AND all:decoder'
-  - expression: 'all:"lifted product code" AND all:decoding'
-  - expression: 'all:"belief propagation" AND all:"quantum LDPC"'
-  - expression: 'all:"union-find" AND all:"quantum LDPC"'
-  - expression: '(all:"small-set-flip" OR all:SSF) AND all:"quantum LDPC"'
+  - expression: 'abs:"quantum ldpc" AND (abs:decode OR abs:decoding OR abs:decoder)'
+  - expression: 'abs:"quantum low-density parity-check" AND (abs:decode OR abs:decoding OR abs:decoder)'
+  - expression: 'abs:"hypergraph product" AND (abs:decode OR abs:decoding OR abs:decoder)'
+  - expression: 'abs:"balanced product" AND (abs:decode OR abs:decoding OR abs:decoder)'
+  - expression: 'abs:"lifted product" AND (abs:decode OR abs:decoding OR abs:decoder)'
+  - expression: 'abs:"belief propagation" AND (abs:"quantum ldpc" OR abs:"quantum low-density parity-check")'
+  - expression: '(abs:"small-set-flip" OR abs:SSF OR abs:"union-find" OR abs:MWPM) AND (abs:"quantum ldpc" OR abs:"quantum low-density parity-check")'
 
 filters:
   categories:

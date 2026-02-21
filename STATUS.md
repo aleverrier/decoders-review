@@ -19,6 +19,7 @@ Last updated: 2026-02-21
 - Added unit tests for arXiv parsing, DB state operations, and schema validation.
 - Ran formatter/linter/tests successfully (`ruff format`, `ruff check`, `pytest`).
 - Ran end-to-end update smoke run and generated 3 paper folders plus indexes/digest/site.
+- Updated arXiv retrieval defaults to abstract-targeted (`abs:`) quantum-LDPC decoder queries.
 
 ## In Progress
 

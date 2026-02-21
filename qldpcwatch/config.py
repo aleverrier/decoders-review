@@ -47,13 +47,32 @@ class AppConfig(BaseModel):
 
 
 DEFAULT_QUERIES = [
-    QueryConfig(expression='all:"quantum LDPC" AND (all:decode OR all:decoding OR all:decoder)'),
-    QueryConfig(expression='all:"hypergraph product" AND all:decoder'),
-    QueryConfig(expression='all:"balanced product" AND all:decoder'),
-    QueryConfig(expression='all:"lifted product code" AND all:decoding'),
-    QueryConfig(expression='all:"belief propagation" AND all:"quantum LDPC"'),
-    QueryConfig(expression='all:"union-find" AND all:"quantum LDPC"'),
-    QueryConfig(expression='(all:"small-set-flip" OR all:SSF) AND all:"quantum LDPC"'),
+    QueryConfig(expression='abs:"quantum ldpc" AND (abs:decode OR abs:decoding OR abs:decoder)'),
+    QueryConfig(
+        expression=(
+            'abs:"quantum low-density parity-check" '
+            "AND (abs:decode OR abs:decoding OR abs:decoder)"
+        )
+    ),
+    QueryConfig(
+        expression='abs:"hypergraph product" AND (abs:decode OR abs:decoding OR abs:decoder)'
+    ),
+    QueryConfig(
+        expression='abs:"balanced product" AND (abs:decode OR abs:decoding OR abs:decoder)'
+    ),
+    QueryConfig(expression='abs:"lifted product" AND (abs:decode OR abs:decoding OR abs:decoder)'),
+    QueryConfig(
+        expression=(
+            'abs:"belief propagation" '
+            'AND (abs:"quantum ldpc" OR abs:"quantum low-density parity-check")'
+        )
+    ),
+    QueryConfig(
+        expression=(
+            '(abs:"small-set-flip" OR abs:SSF OR abs:"union-find" OR abs:MWPM) '
+            'AND (abs:"quantum ldpc" OR abs:"quantum low-density parity-check")'
+        )
+    ),
 ]
 
 
