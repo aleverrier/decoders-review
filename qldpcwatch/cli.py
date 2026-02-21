@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import logging
+import os
 from pathlib import Path
 from typing import Annotated
 
@@ -51,6 +52,13 @@ def update(
 ) -> None:
     """Fetch new/updated arXiv papers, extract structured data, and refresh local indexes."""
     _setup_logging(verbose)
+    if refresh_fallback and not os.getenv("OPENAI_API_KEY"):
+        console.print(
+            "Error: --refresh-fallback requires OPENAI_API_KEY to be set; "
+            "otherwise extraction remains abstract-only fallback."
+        )
+        raise typer.Exit(2)
+
     cfg = load_config(config)
     paths = resolve_paths()
 

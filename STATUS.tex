@@ -24,12 +24,14 @@ Last updated: 2026-02-21
   \\item Default arXiv retrieval updated to abstract-targeted (\\texttt{abs:}) quantum-LDPC decoder queries.
   \\item Added \\texttt{qldpcwatch update --refresh-fallback} to re-extract existing fallback entries.
   \\item Added \\texttt{qldpcwatch report} to emit cross-paper decoder/error-model/performance/repo reports.
+  \\item Full-corpus update run executed on 155 papers; index/digest/site and per-paper metadata refreshed.
+  \\item Added fail-fast guard: \\texttt{--refresh-fallback} now requires \\texttt{OPENAI\\_API\\_KEY}.
 \\end{itemize}
 
 \\subsection*{In Progress}
 \\begin{itemize}[leftmargin=*]
   \\item Routine updates and future paper refresh runs.
-  \\item Full-detail corpus re-extraction with PDFs + OpenAI key (needed to replace fallback-only details).
+  \\item Full-detail corpus re-extraction with PDFs + valid OpenAI key (current corpus remains fallback-only: 155/155).
 \\end{itemize}
 
 \\subsection*{Completed (Deployment)}
@@ -42,7 +44,7 @@ Last updated: 2026-02-21
 
 \\subsection*{Pending}
 \\begin{itemize}[leftmargin=*]
-  \\item Repository remote verification/configuration if missing.
+  \\item Re-run full fallback refresh with a valid OpenAI key loaded in the same shell.
 \\end{itemize}
 
 \\end{document}

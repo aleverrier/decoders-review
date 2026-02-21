@@ -97,6 +97,8 @@ To refresh existing abstract-only fallback entries with full extraction:
 qldpcwatch update --since 2000-01-01T00:00:00+00:00 --download-pdfs --refresh-fallback --rebuild-site
 ```
 
+`--refresh-fallback` requires `OPENAI_API_KEY` to be set in the current shell.
+
 Or incremental:
 
 ```bash
