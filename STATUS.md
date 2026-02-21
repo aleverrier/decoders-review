@@ -22,7 +22,14 @@ Last updated: 2026-02-21
 
 ## In Progress
 
-- Pushing commits to dedicated GitHub remote (blocked: no git remote configured in this repo).
+- Routine updates and future paper refresh runs.
+
+## Completed (Deployment)
+
+- Initialized git history in small logical commits.
+- Created GitHub repository `aleverrier/decoders-review`.
+- Connected local `origin` to `git@github.com:aleverrier/decoders-review.git`.
+- Pushed `main` and set branch tracking (`main...origin/main`).
 
 ## Pending
 
