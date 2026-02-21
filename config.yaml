@@ -1,0 +1,29 @@
+arxiv:
+  base_url: "http://export.arxiv.org/api/query"
+  rate_limit_seconds: 3.2
+  retries: 3
+  max_results_per_query: 100
+  user_agent: "qldpcwatch/0.1 (+https://github.com/your-org/your-repo)"
+
+queries:
+  - expression: 'all:"quantum LDPC" AND (all:decode OR all:decoding OR all:decoder)'
+  - expression: 'all:"hypergraph product" AND all:decoder'
+  - expression: 'all:"balanced product" AND all:decoder'
+  - expression: 'all:"lifted product code" AND all:decoding'
+  - expression: 'all:"belief propagation" AND all:"quantum LDPC"'
+  - expression: 'all:"union-find" AND all:"quantum LDPC"'
+  - expression: '(all:"small-set-flip" OR all:SSF) AND all:"quantum LDPC"'
+
+filters:
+  categories:
+    - quant-ph
+    - cs.IT
+    - math.IT
+    - cs.DS
+
+openai:
+  default_model: "gpt-5"
+  max_text_chars: 120000
+
+site:
+  enabled: true

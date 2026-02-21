@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local caches and large files
+cache/pdfs/
+cache/text/
+*.pdf
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Site build artifacts if generated externally
+site/search/
+site/assets/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,56 @@
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "qldpcwatch"
+version = "0.1.0"
+description = "Track, extract, and summarize arXiv papers on decoding quantum LDPC codes."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "QLDPC Watch" }
+]
+license = { text = "MIT" }
+dependencies = [
+  "typer>=0.12.3",
+  "rich>=13.7.1",
+  "requests>=2.32.3",
+  "feedparser>=6.0.11",
+  "tenacity>=8.5.0",
+  "pydantic>=2.9.2",
+  "jsonschema>=4.23.0",
+  "python-dateutil>=2.9.0.post0",
+  "PyYAML>=6.0.2",
+  "PyMuPDF>=1.24.10",
+  "openai>=1.51.2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3.3",
+  "pytest-cov>=5.0.0",
+  "ruff>=0.6.9",
+  "mkdocs>=1.6.1",
+  "mkdocs-material>=9.5.41",
+]
+
+[project.scripts]
+qldpcwatch = "qldpcwatch.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["qldpcwatch"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "C4", "SIM"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+pythonpath = ["."]
+
+[tool.uv]
+package = true
