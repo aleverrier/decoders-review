@@ -1,0 +1,36 @@
+\\documentclass{article}
+\\usepackage[margin=1in]{geometry}
+\\usepackage{enumitem}
+\\begin{document}
+
+\\section*{QLDPCWatch Implementation Status}
+
+Last updated: 2026-02-21
+
+\\subsection*{Completed}
+\\begin{itemize}[leftmargin=*]
+  \\item Project scaffold, package metadata, and CLI entrypoint.
+  \\item arXiv client with API rate limiting (\\textgreater{}=3s/request) and retries.
+  \\item SQLite state DB for runs, paper versions, and hash-based idempotency.
+  \\item Structured extraction schema (PaperExtraction) and strict validation.
+  \\item OpenAI Responses API integration for JSON-schema extraction.
+  \\item Per-paper artifacts: metadata, extraction, summary, bibtex, changelog.
+  \\item Global indexes (JSON/CSV), weekly digests, local search, version diffs.
+  \\item Static site generation under \\texttt{/site/}.
+  \\item GitHub Actions scheduled/manual update workflow.
+  \\item Unit tests for parser, DB state, and schema validation.
+  \\item Formatter/linter/tests executed successfully (\\texttt{ruff}, \\texttt{pytest}).
+  \\item End-to-end smoke update run completed; paper folders/index/digest/site generated.
+\\end{itemize}
+
+\\subsection*{In Progress}
+\\begin{itemize}[leftmargin=*]
+  \\item Git commit sequence and push.
+\\end{itemize}
+
+\\subsection*{Pending}
+\\begin{itemize}[leftmargin=*]
+  \\item Repository remote verification/configuration if missing.
+\\end{itemize}
+
+\\end{document}
