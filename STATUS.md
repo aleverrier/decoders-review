@@ -24,6 +24,7 @@ Last updated: 2026-02-21
 - Added `qldpcwatch report` to generate cross-paper decoder/error-model/performance/repo reports.
 - Ran full-corpus update on 155 papers; artifacts refreshed (`index`, `digest`, `site`, per-paper metadata/changelog).
 - Added a fail-fast guard: `--refresh-fallback` now exits unless `OPENAI_API_KEY` is set.
+- Fixed OpenAI strict schema compatibility: `PaperExtraction` schema now marks all object properties as required (prevents 400 `invalid_json_schema` errors).
 
 ## In Progress
 

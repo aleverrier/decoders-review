@@ -146,5 +146,35 @@ class PaperMetadata(StrictModel):
 
 def paper_extraction_json_schema() -> dict:
     schema = PaperExtraction.model_json_schema()
+    _enforce_required_properties(schema)
     schema["title"] = "PaperExtraction"
     return schema
+
+
+def _enforce_required_properties(node: object) -> None:
+    if not isinstance(node, dict):
+        return
+
+    props = node.get("properties")
+    if isinstance(props, dict):
+        node["required"] = list(props.keys())
+        node.setdefault("additionalProperties", False)
+
+    for key in ("$defs", "definitions", "properties", "patternProperties"):
+        child = node.get(key)
+        if isinstance(child, dict):
+            for value in child.values():
+                _enforce_required_properties(value)
+
+    items = node.get("items")
+    if isinstance(items, dict):
+        _enforce_required_properties(items)
+    elif isinstance(items, list):
+        for value in items:
+            _enforce_required_properties(value)
+
+    for key in ("allOf", "anyOf", "oneOf", "prefixItems"):
+        child = node.get(key)
+        if isinstance(child, list):
+            for value in child:
+                _enforce_required_properties(value)

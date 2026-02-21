@@ -1,4 +1,4 @@
-from qldpcwatch.models import PaperExtraction
+from qldpcwatch.models import PaperExtraction, paper_extraction_json_schema
 from qldpcwatch.schema import validate_extraction_payload
 
 
@@ -59,3 +59,38 @@ def test_schema_validation_failure() -> None:
     ok, err = validate_extraction_payload(payload)
     assert not ok
     assert err
+
+
+def _walk_schema_objects(node: object) -> list[dict]:
+    out: list[dict] = []
+    if not isinstance(node, dict):
+        return out
+    if isinstance(node.get("properties"), dict):
+        out.append(node)
+    for key in ("$defs", "definitions", "properties", "patternProperties"):
+        child = node.get(key)
+        if isinstance(child, dict):
+            for value in child.values():
+                out.extend(_walk_schema_objects(value))
+    items = node.get("items")
+    if isinstance(items, dict):
+        out.extend(_walk_schema_objects(items))
+    elif isinstance(items, list):
+        for value in items:
+            out.extend(_walk_schema_objects(value))
+    for key in ("allOf", "anyOf", "oneOf", "prefixItems"):
+        child = node.get(key)
+        if isinstance(child, list):
+            for value in child:
+                out.extend(_walk_schema_objects(value))
+    return out
+
+
+def test_openai_strict_schema_requires_all_properties() -> None:
+    schema = paper_extraction_json_schema()
+    objects = _walk_schema_objects(schema)
+    assert objects
+    for obj in objects:
+        props = obj.get("properties", {})
+        required = obj.get("required", [])
+        assert set(required) == set(props.keys())

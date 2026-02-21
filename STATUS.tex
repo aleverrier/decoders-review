@@ -26,6 +26,7 @@ Last updated: 2026-02-21
   \\item Added \\texttt{qldpcwatch report} to emit cross-paper decoder/error-model/performance/repo reports.
   \\item Full-corpus update run executed on 155 papers; index/digest/site and per-paper metadata refreshed.
   \\item Added fail-fast guard: \\texttt{--refresh-fallback} now requires \\texttt{OPENAI\\_API\\_KEY}.
+  \\item Fixed OpenAI strict schema compatibility by forcing all object properties into \\texttt{required} (resolves 400 \\texttt{invalid\\_json\\_schema} errors).
 \\end{itemize}
 
 \\subsection*{In Progress}

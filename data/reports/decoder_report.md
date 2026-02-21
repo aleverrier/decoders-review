@@ -1,6 +1,6 @@
 # QLDPC Decoder Literature Report
 
-Generated at: 2026-02-21T13:39:58.729956+00:00
+Generated at: 2026-02-21T14:49:55.300701+00:00
 Papers included: 155
 
 ## Relevance counts
