@@ -22,7 +22,7 @@ Last updated: 2026-02-21
 
 ## In Progress
 
-- Initializing git, making small commits, and pushing.
+- Pushing commits to dedicated GitHub remote (blocked: no git remote configured in this repo).
 
 ## Pending
 
