@@ -1,0 +1,60 @@
+{
+  "abstract": "The discovery of new quantum error-correcting codes that encode several logical qubits into relatively few physical qubits motivates the development of efficient and accurate methods of decoding these systems. Here, we adopt the minimum-weight perfect matching algorithm, a subroutine invaluable to decoding topological codes, to decode bivariate bicycle codes. Using the equivalence of bivariate bicycle codes to copies of the toric code, we propose a method we call the 'cylinder trick' to rapidly find a correction using matching on code symmetries. We benchmark our decoder on the gross code family, cyclic hypergraph-product codes, generalized toric codes, and recently proposed directional codes, demonstrating the general applicability of our protocol. For a subset of these codes, we find that our decoder can be significantly improved by augmenting matching with strategies including belief propagation and 'over-matching', thus achieving performance competitive with state-of-the-art approaches.",
+  "arxiv_id": "2602.22770",
+  "arxiv_version": "v1",
+  "authors": [
+    "Kaavya Sahay",
+    "Dominic J. Williamson",
+    "Benjamin J. Brown"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2602.22770v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2602.22770v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding",
+      "belief propagation"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-02-26",
+  "title": "A matching decoder for bivariate bicycle codes",
+  "updated_date": "2026-02-26"
+}

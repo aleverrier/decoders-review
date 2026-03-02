@@ -1,5 +1,66 @@
 [
   {
+    "abstract": "The discovery of new quantum error-correcting codes that encode several logical qubits into relatively few physical qubits motivates the development of efficient and accurate methods of decoding these systems. Here, we adopt the minimum-weight perfect matching algorithm, a subroutine invaluable to decoding topological codes, to decode bivariate bicycle codes. Using the equivalence of bivariate bicycle codes to copies of the toric code, we propose a method we call the 'cylinder trick' to rapidly find a correction using matching on code symmetries. We benchmark our decoder on the gross code family, cyclic hypergraph-product codes, generalized toric codes, and recently proposed directional codes, demonstrating the general applicability of our protocol. For a subset of these codes, we find that our decoder can be significantly improved by augmenting matching with strategies including belief propagation and 'over-matching', thus achieving performance competitive with state-of-the-art approaches.",
+    "arxiv_id": "2602.22770",
+    "arxiv_version": "v1",
+    "authors": [
+      "Kaavya Sahay",
+      "Dominic J. Williamson",
+      "Benjamin J. Brown"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "2bf77be34ee8fa6c81e7e7e844e4130be8350b0d26fc30edb1b92cbd0433aca7",
+    "last_processed_at": "2026-03-02T13:15:28.510650+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2602.22770v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2602.22770v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding",
+        "belief propagation"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "38aefc93b6e95a68d711adecd60e1c6e85eda731f83eb8c6cf71c6b54fa6ae4b",
+    "submitted_date": "2026-02-26",
+    "tags": [
+      "belief propagation",
+      "decoder",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "A matching decoder for bivariate bicycle codes",
+    "updated_date": "2026-02-26"
+  },
+  {
     "abstract": "The preparation of a quantum state using a noisy quantum computer (gate noise strength $δ$), will necessarily affect an O($δ$)-fraction of the qubits, no matter which protocol is used. Here, we show that fault-tolerant quantum state preparation can be achieved with constant space overhead improving on previous constructions requiring polylogarithmic overhead. To achieve this, we add to the toolbox of fault-tolerant schemes for circuits with quantum input and output. More specifically, we construct fault-tolerant interfaces that decrease the level of protection for quantum low-density parity-check (LDPC) codes. When information is encoded in multiple code blocks, our interfaces have constant space overhead. In our decoder construction that change the level of protection by an arbitrary amount, we circumvent bottlenecks to error pileup and overhead by gradual lowering of the level of encoding at the same time as we increase the number of blocks on which decoding is carried out simultaneously.",
     "arxiv_id": "2602.16948",
     "arxiv_version": "v1",
