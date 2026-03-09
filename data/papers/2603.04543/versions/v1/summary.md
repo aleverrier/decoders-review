@@ -1,8 +1,8 @@
-# Qudit low-density parity-check codes
+# Linear-Time Encodable and Decodable Quantum Error-Correcting Codes
 
-- arXiv: `2510.06495v2`
+- arXiv: `2603.04543v1`
 - Categories: quant-ph
-- Relevance: **maybe** (confidence 0.35)
+- Relevance: **relevant** (confidence 0.55)
 
 ## Decoder approach
 - Name: Unknown / not specified
@@ -29,6 +29,6 @@
 - links.code_repo_urls
 
 ## Links
-- Abstract: https://arxiv.org/abs/2510.06495v2
-- PDF: https://arxiv.org/pdf/2510.06495v2
+- Abstract: https://arxiv.org/abs/2603.04543v1
+- PDF: https://arxiv.org/pdf/2603.04543v1
 - DOI: Unknown / not specified

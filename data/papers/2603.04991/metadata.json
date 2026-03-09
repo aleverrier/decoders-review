@@ -1,0 +1,35 @@
+{
+  "abstract": "Belief propagation (BP) decoding of quantum low density parity check (QLDPC) codes is often implemented using overcomplete stabilizer (OS) representations, where redundant parity checks are introduced to improve finite length performance. Decoder behavior for such representations is governed primarily by finite iteration dynamics rather than asymptotic code properties. These dynamics are known to critically depend on the initialization of the decoder. In this paper, we investigate the impact of mismatched log likelihood ratios (LLRs) used for BP initialization on the performance of QLDPC codes with OS representations. Our results demonstrate that initial LLR mismatch has a strong influence on the frame error rate (FER), particularly in the low noise regime. We also show that the optimal performance is not sharply localized: the FER remains largely insensitive over an extended region of mismatched LLRs. This behavior motivates an interpretation of LLR mismatch as a regularization control parameter rather than a quantity that must be precisely matched to the quantum channel.",
+  "arxiv_id": "2603.04991",
+  "arxiv_version": "v1",
+  "authors": [
+    "Hernan Cordova",
+    "Alexios Balatsoukas-Stimming",
+    "Gabriele Liga",
+    "Yunus Can Gültekin",
+    "Alex Alvarado"
+  ],
+  "categories": [
+    "cs.IT"
+  ],
+  "extraction_hash": "d7d548b1e17035b587051fa49d17a197c9f8a26d7cdd42bc5ed579ad46eb64ff",
+  "last_processed_at": "2026-03-09T13:20:15.939616+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2603.04991v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2603.04991v1"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "f91e0b6dbc6abeb11998d62ba0cebfed1cc1e14c7c156b498a506f89d5578381",
+  "submitted_date": "2026-03-05",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "relevance:maybe"
+  ],
+  "title": "On LLR Mismatch in Belief Propagation Decoding of Overcomplete QLDPC Codes",
+  "updated_date": "2026-03-05"
+}

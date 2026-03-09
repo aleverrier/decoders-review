@@ -1,0 +1,62 @@
+{
+  "abstract": "We study the decoding problem for quantum Tanner codes and propose to exploit the underlying local code structure by grouping check nodes into more powerful generalized check nodes for enhanced iterative belief propagation (BP) decoding by decoding the generalized checks using a maximum a posteriori (MAP) decoder as part of the check node processing of each decoding iteration. We mainly study the finite-length setting and show that the proposed enhanced generalized BP decoder for quantum Tanner codes significantly outperforms the standard quaternary BP decoder with memory effects, as well as the recently proposed Relay-BP decoder, even outperforming generalized bicycle (GB) codes with comparable parameters in some cases. For other classes of quantum low-density parity-check (qLDPC) codes, we propose a greedy algorithm to combine checks for generalized BP decoding. However, for GB codes, bivariate bicycle codes, hypergraph product codes, and lifted-product codes, there seems to be limited gain by combining simple checks into more powerful ones. To back up our findings, we also provide a theoretical cycle analysis for the considered qLDPC codes.",
+  "arxiv_id": "2603.05486",
+  "arxiv_version": "v1",
+  "authors": [
+    "Olai Å. Mostad",
+    "Eirik Rosnes",
+    "Hsuan-Yin Lin"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2603.05486v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2603.05486v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding",
+      "belief propagation",
+      "hypergraph product"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-03-05",
+  "title": "Improved Decoding of Quantum Tanner Codes Using Generalized Check Nodes",
+  "updated_date": "2026-03-05"
+}

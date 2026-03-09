@@ -1,0 +1,62 @@
+{
+  "abstract": "Belief propagation (BP) decoding of quantum low density parity check (QLDPC) codes is often implemented using overcomplete stabilizer (OS) representations, where redundant parity checks are introduced to improve finite length performance. Decoder behavior for such representations is governed primarily by finite iteration dynamics rather than asymptotic code properties. These dynamics are known to critically depend on the initialization of the decoder. In this paper, we investigate the impact of mismatched log likelihood ratios (LLRs) used for BP initialization on the performance of QLDPC codes with OS representations. Our results demonstrate that initial LLR mismatch has a strong influence on the frame error rate (FER), particularly in the low noise regime. We also show that the optimal performance is not sharply localized: the FER remains largely insensitive over an extended region of mismatched LLRs. This behavior motivates an interpretation of LLR mismatch as a regularization control parameter rather than a quantity that must be precisely matched to the quantum channel.",
+  "arxiv_id": "2603.04991",
+  "arxiv_version": "v1",
+  "authors": [
+    "Hernan Cordova",
+    "Alexios Balatsoukas-Stimming",
+    "Gabriele Liga",
+    "Yunus Can Gültekin",
+    "Alex Alvarado"
+  ],
+  "categories": [
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2603.04991v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2603.04991v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "cs.IT",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding",
+      "belief propagation"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-03-05",
+  "title": "On LLR Mismatch in Belief Propagation Decoding of Overcomplete QLDPC Codes",
+  "updated_date": "2026-03-05"
+}

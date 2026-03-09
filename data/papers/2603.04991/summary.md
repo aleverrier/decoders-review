@@ -1,7 +1,7 @@
-# Qudit low-density parity-check codes
+# On LLR Mismatch in Belief Propagation Decoding of Overcomplete QLDPC Codes
 
-- arXiv: `2510.06495v2`
-- Categories: quant-ph
+- arXiv: `2603.04991v1`
+- Categories: cs.IT
 - Relevance: **maybe** (confidence 0.35)
 
 ## Decoder approach
@@ -29,6 +29,6 @@
 - links.code_repo_urls
 
 ## Links
-- Abstract: https://arxiv.org/abs/2510.06495v2
-- PDF: https://arxiv.org/pdf/2510.06495v2
+- Abstract: https://arxiv.org/abs/2603.04991v1
+- PDF: https://arxiv.org/pdf/2603.04991v1
 - DOI: Unknown / not specified

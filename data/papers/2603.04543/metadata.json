@@ -1,0 +1,33 @@
+{
+  "abstract": "Recent years have seen rapid development in the subject of quantum coding theory, with breakthroughs on many exciting classes of codes, including quantum LDPC codes, quantum locally testable codes, and quantum codes with interesting transversal gates. However, a natural class of quantum codes, which has been well-studied classically, has not yet been treated: those which can be quickly encoded and decoded. This problem concerns the channel capacity setting, where a noise channel sits between perfect encoding and unencoding/decoding operations; this is the setting that is relevant for communication between fault-tolerant quantum computers. In this work, we construct asymptotically good quantum codes that can be encoded and unencoded by quantum circuits of logarithmic depth and consisting of a linear total number of gates. The classical decoding algorithms also run in logarithmic depth and use $\\mathcal{O}(n \\log n)$ gates, or alternatively a linear number of gates but with higher depth. We further construct explicit and asymptotically good quantum codes whose encoding, unencoding and decoding all use a linear number of gates, and additionally whose encoding and unencoding may be run in logarithmic depth.",
+  "arxiv_id": "2603.04543",
+  "arxiv_version": "v1",
+  "authors": [
+    "Adam Wills",
+    "Ting-Chun Lin",
+    "Rachel Yun Zhang",
+    "Min-Hsiu Hsieh"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "c135b734fbc725a02647c656ef6360132867e53b77c1e253ed52bebcb32c4f62",
+  "last_processed_at": "2026-03-09T13:20:15.942235+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2603.04543v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2603.04543v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "f93543d4614eb48feb95556f1885c290f116e7dcd6389916eaed2449589604bf",
+  "submitted_date": "2026-03-04",
+  "tags": [
+    "decoding",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Linear-Time Encodable and Decodable Quantum Error-Correcting Codes",
+  "updated_date": "2026-03-04"
+}

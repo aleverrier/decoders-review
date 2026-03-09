@@ -1,0 +1,32 @@
+{
+  "abstract": "Quantum error correction will likely be essential for building a large-scale quantum computer, but it comes with significant requirements at the level of classical control software. In particular, a quantum error-correcting code must be supplemented with a fast and accurate classical decoding algorithm. Standard techniques for measuring the parity-check operators of a quantum error-correcting code involve repeated measurements, which both increases the amount of data that needs to be processed by the decoder, and changes the nature of the decoding problem. Knill error correction is a technique that replaces repeated syndrome measurements with a single round of measurements, but requires an auxiliary logical Bell state. Here, we provide a theoretical and numerical investigation into Knill error correction from the perspective of decoding. We give a self-contained description of the protocol, prove its fault tolerance under locally decaying (circuit-level) noise, and numerically benchmark its performance for quantum low-density parity-check codes. We show analytically and numerically that the time-constrained decoding problem for Knill error correction can be solved using the same decoder used for the simpler code-capacity noise model, illustrating that Knill error correction may alleviate the stringent requirements on classical control required for building a large-scale quantum computer.",
+  "arxiv_id": "2603.05320",
+  "arxiv_version": "v1",
+  "authors": [
+    "Ewan Murphy",
+    "Subhayan Sahu",
+    "Michael Vasmer"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "b92cb2d5b194d326d9d70d7a5425e16231829926feedeb4cd1ee536c9a48b613",
+  "last_processed_at": "2026-03-09T13:20:15.937312+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2603.05320v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2603.05320v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "f65e979b6a38f86edfa09db91a19f2085b0e824d8c807161c696e7b74ec05b50",
+  "submitted_date": "2026-03-05",
+  "tags": [
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Simplified circuit-level decoding using Knill error correction",
+  "updated_date": "2026-03-05"
+}

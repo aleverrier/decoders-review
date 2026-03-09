@@ -1,5 +1,373 @@
 [
   {
+    "abstract": "We introduce a decoding framework for correlated errors in quantum LDPC codes under circuit-level noise. The core of our approach is a graph augmentation and rewiring for interference (GARI) method, which modifies the correlated detector error model by eliminating 4-cycles involving Y-type errors, while preserving the equivalence of the decoding problem. We test our approach on the bivariate bicycle codes of distances 6, 10, and 12. A normalized min-sum decoder with a hybrid serial-layered schedule is applied on the transformed graph, achieving high accuracy with low latency. Performance is further enhanced through ensemble decoding, where 24 randomized normalized min-sum decoders run in parallel on the transformed graph, yielding the highest reported accuracy (on par with XYZ-Relay-BP) with unprecedented speed for the tested codes under uniform depolarizing circuit level noise. For the distance 12 (gross) code, our approach yields a logical error rate of $(6.70 \\pm 1.93) \\times 10^{-9}$ at a practical physical error rate of $10^{-3}$. Furthermore, preliminary FPGA implementation results show that such high accuracy can be achieved in real time, with a per-round average decoding latency of 273 ns and sub-microsecond latency in 99.99% of the decoding instances.",
+    "arxiv_id": "2510.14060",
+    "arxiv_version": "v2",
+    "authors": [
+      "Arshpreet Singh Maan",
+      "Francisco-Garcia Herrero",
+      "Alexandru Paler",
+      "Valentin Savin"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "e3fc92c974dae5b9158eb0f484cafb651a87b27618a44552a6b623b637fb0639",
+    "last_processed_at": "2026-03-09T13:20:15.931535+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2510.14060v2",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2510.14060v2"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.55,
+      "label": "relevant",
+      "matched_keywords": [
+        "quantum ldpc",
+        "decoder",
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "419ff9ad65c6e8cffda8b71c27d30651d2f559346acaee8de19b197f1b307a94",
+    "submitted_date": "2025-10-15",
+    "tags": [
+      "decoder",
+      "decoding",
+      "quant-ph",
+      "quantum ldpc",
+      "relevance:relevant"
+    ],
+    "title": "Decoding Correlated Errors in Quantum LDPC Codes",
+    "updated_date": "2026-03-06"
+  },
+  {
+    "abstract": "We study the decoding problem for quantum Tanner codes and propose to exploit the underlying local code structure by grouping check nodes into more powerful generalized check nodes for enhanced iterative belief propagation (BP) decoding by decoding the generalized checks using a maximum a posteriori (MAP) decoder as part of the check node processing of each decoding iteration. We mainly study the finite-length setting and show that the proposed enhanced generalized BP decoder for quantum Tanner codes significantly outperforms the standard quaternary BP decoder with memory effects, as well as the recently proposed Relay-BP decoder, even outperforming generalized bicycle (GB) codes with comparable parameters in some cases. For other classes of quantum low-density parity-check (qLDPC) codes, we propose a greedy algorithm to combine checks for generalized BP decoding. However, for GB codes, bivariate bicycle codes, hypergraph product codes, and lifted-product codes, there seems to be limited gain by combining simple checks into more powerful ones. To back up our findings, we also provide a theoretical cycle analysis for the considered qLDPC codes.",
+    "arxiv_id": "2603.05486",
+    "arxiv_version": "v1",
+    "authors": [
+      "Olai Å. Mostad",
+      "Eirik Rosnes",
+      "Hsuan-Yin Lin"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.IT"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "d26c7b4f64033020a3d6c76e3d6931de5c2c1eb997420a2bb28e4d3babf4571b",
+    "last_processed_at": "2026-03-09T13:20:15.934860+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2603.05486v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2603.05486v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding",
+        "belief propagation",
+        "hypergraph product"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "6a6ad8e012bb1691a9f7258e07dadf43d3e2349a536408269d3118c117ba6655",
+    "submitted_date": "2026-03-05",
+    "tags": [
+      "belief propagation",
+      "cs.IT",
+      "decoder",
+      "decoding",
+      "hypergraph product",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Improved Decoding of Quantum Tanner Codes Using Generalized Check Nodes",
+    "updated_date": "2026-03-05"
+  },
+  {
+    "abstract": "Quantum error correction will likely be essential for building a large-scale quantum computer, but it comes with significant requirements at the level of classical control software. In particular, a quantum error-correcting code must be supplemented with a fast and accurate classical decoding algorithm. Standard techniques for measuring the parity-check operators of a quantum error-correcting code involve repeated measurements, which both increases the amount of data that needs to be processed by the decoder, and changes the nature of the decoding problem. Knill error correction is a technique that replaces repeated syndrome measurements with a single round of measurements, but requires an auxiliary logical Bell state. Here, we provide a theoretical and numerical investigation into Knill error correction from the perspective of decoding. We give a self-contained description of the protocol, prove its fault tolerance under locally decaying (circuit-level) noise, and numerically benchmark its performance for quantum low-density parity-check codes. We show analytically and numerically that the time-constrained decoding problem for Knill error correction can be solved using the same decoder used for the simpler code-capacity noise model, illustrating that Knill error correction may alleviate the stringent requirements on classical control required for building a large-scale quantum computer.",
+    "arxiv_id": "2603.05320",
+    "arxiv_version": "v1",
+    "authors": [
+      "Ewan Murphy",
+      "Subhayan Sahu",
+      "Michael Vasmer"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "b92cb2d5b194d326d9d70d7a5425e16231829926feedeb4cd1ee536c9a48b613",
+    "last_processed_at": "2026-03-09T13:20:15.937312+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2603.05320v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2603.05320v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "f65e979b6a38f86edfa09db91a19f2085b0e824d8c807161c696e7b74ec05b50",
+    "submitted_date": "2026-03-05",
+    "tags": [
+      "decoder",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Simplified circuit-level decoding using Knill error correction",
+    "updated_date": "2026-03-05"
+  },
+  {
+    "abstract": "Belief propagation (BP) decoding of quantum low density parity check (QLDPC) codes is often implemented using overcomplete stabilizer (OS) representations, where redundant parity checks are introduced to improve finite length performance. Decoder behavior for such representations is governed primarily by finite iteration dynamics rather than asymptotic code properties. These dynamics are known to critically depend on the initialization of the decoder. In this paper, we investigate the impact of mismatched log likelihood ratios (LLRs) used for BP initialization on the performance of QLDPC codes with OS representations. Our results demonstrate that initial LLR mismatch has a strong influence on the frame error rate (FER), particularly in the low noise regime. We also show that the optimal performance is not sharply localized: the FER remains largely insensitive over an extended region of mismatched LLRs. This behavior motivates an interpretation of LLR mismatch as a regularization control parameter rather than a quantity that must be precisely matched to the quantum channel.",
+    "arxiv_id": "2603.04991",
+    "arxiv_version": "v1",
+    "authors": [
+      "Hernan Cordova",
+      "Alexios Balatsoukas-Stimming",
+      "Gabriele Liga",
+      "Yunus Can Gültekin",
+      "Alex Alvarado"
+    ],
+    "categories": [
+      "cs.IT"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "d7d548b1e17035b587051fa49d17a197c9f8a26d7cdd42bc5ed579ad46eb64ff",
+    "last_processed_at": "2026-03-09T13:20:15.939616+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2603.04991v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2603.04991v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "cs.IT",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding",
+        "belief propagation"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "f91e0b6dbc6abeb11998d62ba0cebfed1cc1e14c7c156b498a506f89d5578381",
+    "submitted_date": "2026-03-05",
+    "tags": [
+      "belief propagation",
+      "cs.IT",
+      "decoder",
+      "decoding",
+      "relevance:maybe"
+    ],
+    "title": "On LLR Mismatch in Belief Propagation Decoding of Overcomplete QLDPC Codes",
+    "updated_date": "2026-03-05"
+  },
+  {
+    "abstract": "Recent years have seen rapid development in the subject of quantum coding theory, with breakthroughs on many exciting classes of codes, including quantum LDPC codes, quantum locally testable codes, and quantum codes with interesting transversal gates. However, a natural class of quantum codes, which has been well-studied classically, has not yet been treated: those which can be quickly encoded and decoded. This problem concerns the channel capacity setting, where a noise channel sits between perfect encoding and unencoding/decoding operations; this is the setting that is relevant for communication between fault-tolerant quantum computers. In this work, we construct asymptotically good quantum codes that can be encoded and unencoded by quantum circuits of logarithmic depth and consisting of a linear total number of gates. The classical decoding algorithms also run in logarithmic depth and use $\\mathcal{O}(n \\log n)$ gates, or alternatively a linear number of gates but with higher depth. We further construct explicit and asymptotically good quantum codes whose encoding, unencoding and decoding all use a linear number of gates, and additionally whose encoding and unencoding may be run in logarithmic depth.",
+    "arxiv_id": "2603.04543",
+    "arxiv_version": "v1",
+    "authors": [
+      "Adam Wills",
+      "Ting-Chun Lin",
+      "Rachel Yun Zhang",
+      "Min-Hsiu Hsieh"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "c135b734fbc725a02647c656ef6360132867e53b77c1e253ed52bebcb32c4f62",
+    "last_processed_at": "2026-03-09T13:20:15.942235+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2603.04543v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2603.04543v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.55,
+      "label": "relevant",
+      "matched_keywords": [
+        "quantum ldpc",
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "f93543d4614eb48feb95556f1885c290f116e7dcd6389916eaed2449589604bf",
+    "submitted_date": "2026-03-04",
+    "tags": [
+      "decoding",
+      "quant-ph",
+      "quantum ldpc",
+      "relevance:relevant"
+    ],
+    "title": "Linear-Time Encodable and Decodable Quantum Error-Correcting Codes",
+    "updated_date": "2026-03-04"
+  },
+  {
+    "abstract": "Qudits offer significant advantages over qubit-based architectures, including more efficient gate compilation, reduced resource requirements, improved error-correction primitives, and enhanced capabilities for quantum communication and cryptography. Yet, one of the most promising families of quantum error correction codes, namely quantum low-density parity-check (LDPC) codes, have so far been mostly restricted to qubits. Here, we generalize recent advancements in LDPC codes from qubits to qudits. We introduce a general framework for finding qudit LDPC codes and apply our formalism to several promising types of LDPC codes. We generalize bivariate bicycle codes, including their coprime variant; hypergraph product codes, including the recently proposed La-cross codes; subsystem hypergraph product (SHYPS) codes; high-dimensional expander codes, which make use of Ramanujan complexes; and fiber bundle codes. Using the qudit generalization formalism, we then numerically search for and decode several novel qudit codes compatible with near-term hardware. Our results highlight the potential of qudit LDPC codes as a versatile and hardware-compatible pathway toward scalable quantum error correction.",
+    "arxiv_id": "2510.06495",
+    "arxiv_version": "v2",
+    "authors": [
+      "Daniel J. Spencer",
+      "Andrew Tanggara",
+      "Tobias Haug",
+      "Derek Khu",
+      "Kishor Bharti"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "b40e85e29781a9cfcf45447afde583f71c4fcbc8b1c5b54bbedae14461c66abf",
+    "last_processed_at": "2026-03-09T13:20:15.944683+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2510.06495v2",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2510.06495v2"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "hypergraph product"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "2d5a1dae9512d1cd0157920d44b592605bf83f69fc49b4d1148f055eca71c8e5",
+    "submitted_date": "2025-10-07",
+    "tags": [
+      "hypergraph product",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Qudit low-density parity-check codes",
+    "updated_date": "2026-03-03"
+  },
+  {
     "abstract": "The discovery of new quantum error-correcting codes that encode several logical qubits into relatively few physical qubits motivates the development of efficient and accurate methods of decoding these systems. Here, we adopt the minimum-weight perfect matching algorithm, a subroutine invaluable to decoding topological codes, to decode bivariate bicycle codes. Using the equivalence of bivariate bicycle codes to copies of the toric code, we propose a method we call the 'cylinder trick' to rapidly find a correction using matching on code symmetries. We benchmark our decoder on the gross code family, cyclic hypergraph-product codes, generalized toric codes, and recently proposed directional codes, demonstrating the general applicability of our protocol. For a subset of these codes, we find that our decoder can be significantly improved by augmenting matching with strategies including belief propagation and 'over-matching', thus achieving performance competitive with state-of-the-art approaches.",
     "arxiv_id": "2602.22770",
     "arxiv_version": "v1",
@@ -2022,68 +2390,6 @@
     "updated_date": "2025-10-15"
   },
   {
-    "abstract": "We introduce a decoding framework for correlated errors in quantum LDPC codes under circuit-level noise. The core of our approach is a graph augmentation and rewiring for interference (GARI) method, which modifies the correlated detector error model by eliminating 4-cycles involving Y-type errors, while preserving the equivalence of the decoding problem. We test our approach on the bivariate bicycle codes of distances 6, 10, and 12. A normalized min-sum decoder with a hybrid serial-layered schedule is applied on the transformed graph, achieving high accuracy with low latency. Performance is further enhanced through ensemble decoding, where 24 randomized normalized min-sum decoders run in parallel on the transformed graph, yielding the highest reported accuracy (on par with XYZ-Relay-BP) with unprecedented speed for the tested codes under uniform depolarizing circuit level noise. For the distance 12 (gross) code, our approach yields a logical error rate of $(6.70 \\pm 1.93) \\times 10^{-9}$ at a practical physical error rate of $10^{-3}$. Furthermore, preliminary FPGA implementation results show that such high accuracy can be achieved in real time, with a per-round average decoding latency of 273 ns and sub-microsecond latency in 99.99% of the decoding instances.",
-    "arxiv_id": "2510.14060",
-    "arxiv_version": "v1",
-    "authors": [
-      "Arshpreet Singh Maan",
-      "Francisco-Garcia Herrero",
-      "Alexandru Paler",
-      "Valentin Savin"
-    ],
-    "categories": [
-      "quant-ph"
-    ],
-    "decoder": {
-      "algorithm_outline": [],
-      "complexity_claims": [],
-      "decoder_family": null,
-      "high_level_description": "Unknown / not specified from available text.",
-      "implementation_notes": [],
-      "key_ideas": [],
-      "name": null
-    },
-    "extraction_hash": "bd260f3c2530416b7f8a5e3dc238f4beb8a2a538e2a2ab2fc2ec57d880d4e03f",
-    "last_processed_at": "2026-02-21T13:37:21.413060+00:00",
-    "links": {
-      "abs_url": "https://arxiv.org/abs/2510.14060v1",
-      "code_repo_urls": [],
-      "doi": null,
-      "pdf_url": "https://arxiv.org/pdf/2510.14060v1"
-    },
-    "missing_fields": [
-      "decoder.name",
-      "decoder.algorithm_outline",
-      "decoder.complexity_claims",
-      "performance_claims.thresholds",
-      "performance_claims.runtime_scaling_claims",
-      "simulations",
-      "links.code_repo_urls"
-    ],
-    "primary_category": "quant-ph",
-    "relevance": {
-      "confidence": 0.55,
-      "label": "relevant",
-      "matched_keywords": [
-        "quantum ldpc",
-        "decoder",
-        "decoding"
-      ],
-      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
-    },
-    "source_hash": "7537888daaef6262da62c563055f44a1ffdda83b461039ff77b12d2edff393ca",
-    "submitted_date": "2025-10-15",
-    "tags": [
-      "decoder",
-      "decoding",
-      "quant-ph",
-      "quantum ldpc",
-      "relevance:relevant"
-    ],
-    "title": "Decoding Correlated Errors in Quantum LDPC Codes",
-    "updated_date": "2025-10-15"
-  },
-  {
     "abstract": "Quantum low-density parity-check (qLDPC) codes are promising for realizing scalable fault-tolerant quantum computation due to their potential for low-overhead protocols. A common approach to decoding qLDPC codes is to use the belief propagation (BP) decoder, followed by a post-processing step to enhance decoding accuracy. For real-time decoding, the post-processing algorithm is desirable to have a small computational cost and rely only on local operations on the Tanner graph to facilitate parallel implementation. To address this requirement, we propose degeneracy cutting (DC), an efficient post-processing technique for the BP decoder that operates on information restricted to the support of each stabilizer generator. DC selectively removes one variable node with the lowest error probability for each stabilizer generator, significantly improving decoding performance while retaining the favorable computational scaling and structure amenable to parallelization inherent to BP. We further extend our method to realistic noise models, including phenomenological and circuit-level noise models, by introducing the detector degeneracy matrix, which generalizes the notion of stabilizer-induced degeneracy to these settings. Numerical simulations demonstrate that BP+DC achieves decoding performance approaching that of BP followed by ordered statistics decoding (BP+OSD) in several settings, while requiring significantly less computational cost. Our results present BP+DC as a promising decoder for fault-tolerant quantum computing, offering a valuable balance of accuracy, efficiency, and suitability for parallel implementation.",
     "arxiv_id": "2510.08695",
     "arxiv_version": "v1",
@@ -2264,65 +2570,6 @@
     ],
     "title": "Constant-Overhead Addressable Gates via Single-Shot Code Switching",
     "updated_date": "2025-10-08"
-  },
-  {
-    "abstract": "Qudits offer significant advantages over qubit-based architectures, including more efficient gate compilation, reduced resource requirements, improved error-correction primitives, and enhanced capabilities for quantum communication and cryptography. Yet, one of the most promising family of quantum error correction codes, namely quantum low-density parity-check (LDPC) codes, have been so far mostly restricted to qubits. Here, we generalize recent advancements in LDPC codes from qubits to qudits. We introduce a general framework for finding qudit LDPC codes and apply our formalism to several promising types of LDPC codes. We generalize bivariate bicycle codes, including their coprime variant; hypergraph product codes, including the recently proposed La-cross codes; subsystem hypergraph product (SHYPS) codes; high-dimensional expander codes, which make use of Ramanujan complexes; and fiber bundle codes. Using the qudit generalization formalism, we then numerically search for and decode several novel qudit codes compatible with near-term hardware. Our results highlight the potential of qudit LDPC codes as a versatile and hardware-compatible pathway toward scalable quantum error correction.",
-    "arxiv_id": "2510.06495",
-    "arxiv_version": "v1",
-    "authors": [
-      "Daniel J. Spencer",
-      "Andrew Tanggara",
-      "Tobias Haug",
-      "Derek Khu",
-      "Kishor Bharti"
-    ],
-    "categories": [
-      "quant-ph"
-    ],
-    "decoder": {
-      "algorithm_outline": [],
-      "complexity_claims": [],
-      "decoder_family": null,
-      "high_level_description": "Unknown / not specified from available text.",
-      "implementation_notes": [],
-      "key_ideas": [],
-      "name": null
-    },
-    "extraction_hash": "f2b30547ea99b8855b4bd890b2a53a929bdf37844bb020796a425a94774a34fc",
-    "last_processed_at": "2026-02-21T13:37:25.704759+00:00",
-    "links": {
-      "abs_url": "https://arxiv.org/abs/2510.06495v1",
-      "code_repo_urls": [],
-      "doi": null,
-      "pdf_url": "https://arxiv.org/pdf/2510.06495v1"
-    },
-    "missing_fields": [
-      "decoder.name",
-      "decoder.algorithm_outline",
-      "decoder.complexity_claims",
-      "performance_claims.thresholds",
-      "performance_claims.runtime_scaling_claims",
-      "simulations",
-      "links.code_repo_urls"
-    ],
-    "primary_category": "quant-ph",
-    "relevance": {
-      "confidence": 0.35,
-      "label": "maybe",
-      "matched_keywords": [
-        "hypergraph product"
-      ],
-      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
-    },
-    "source_hash": "239940ea1e46ea41accba6a15d468af1169e5b0ef7554dd4125f001e7ec94cb1",
-    "submitted_date": "2025-10-07",
-    "tags": [
-      "hypergraph product",
-      "quant-ph",
-      "relevance:maybe"
-    ],
-    "title": "Qudit low-density parity-check codes",
-    "updated_date": "2025-10-07"
   },
   {
     "abstract": "Fast and accurate quantum error correction (QEC) decoding is crucial for scalable fault-tolerant quantum computation. Most-Likely-Error (MLE) decoding, while being near-optimal, is intractable on general quantum Low-Density Parity-Check (qLDPC) codes and typically relies on approximation and heuristics. We propose HyperBlossom, a unified framework that formulates MLE decoding as a Minimum-Weight Parity Factor (MWPF) problem and generalizes the blossom algorithm to hypergraphs via a similar primal-dual linear programming model with certifiable proximity bounds. HyperBlossom unifies all the existing graph-based decoders like (Hypergraph) Union-Find decoders and Minimum-Weight Perfect Matching (MWPM) decoder, thus bridging the gap between heuristic and certifying decoders. We implement HyperBlossom in software, namely Hyperion. Hyperion achieves a 4.8x lower logical error rate compared to the MWPM decoder on the distance-11 surface code and 1.6x lower logical error rate compared to a fine-tuned BPOSD decoder on the $[[90, 8, 10]]$ bivariate bicycle code under code-capacity noise. It also achieves an almost-linear average runtime scaling on both the surface code and the color code, with numerical results up to sufficiently large code distances of 99 and 31 for code-capacity noise and circuit-level noise, respectively.",
