@@ -1,0 +1,33 @@
+{
+  "abstract": "Belief-propagation (BP) decoding for quantum low-density parity-check (QLDPC) codes is appealing due to its low complexity, yet it often exhibits convergence issues due to quantum degeneracy and short cycles that exist in the Tanner graph. To overcome this challenge, this paper proposes a reinforcement-learning (RL) approach that learns (offline) how to decode QLDPC codes based on sequential decoding trajectories. The decoding is formulated as a Markov decision process with a local, syndrome-driven state representation of the underlying RL agent. To enable fast inference, critical for practical implementation, we incrementally update our RL-based QLDPC decoder using second-order neighborhoods that avoid global rescans. Simulation results on representative QLDPC codes demonstrate the superiority of the proposed RL-based QLDPC decoders in terms of performance and convergence speed when compared to flooding and random sequential schedules, while achieving performance competitive with state-of-the-art BP-based decoders at comparable complexity.",
+  "arxiv_id": "2603.10192",
+  "arxiv_version": "v1",
+  "authors": [
+    "Mohsen Moradi",
+    "Vahid Nourozi",
+    "Salman Habib",
+    "David G. M. Mitchell"
+  ],
+  "categories": [
+    "cs.IT"
+  ],
+  "extraction_hash": "c9daa0e2b828d393611595fb0873627279e1b514fcbbbd2130721f190ce33633",
+  "last_processed_at": "2026-03-16T13:42:41.597757+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2603.10192v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2603.10192v1"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "911e3c44a888fc56890afa98b7dece9c5c43f66051ffe89a602e9e5f634ee60f",
+  "submitted_date": "2026-03-10",
+  "tags": [
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "relevance:maybe"
+  ],
+  "title": "Learning to Decode Quantum LDPC Codes Via Belief Propagation",
+  "updated_date": "2026-03-10"
+}

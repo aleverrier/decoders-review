@@ -1,0 +1,60 @@
+{
+  "abstract": "Belief-propagation (BP) decoding for quantum low-density parity-check (QLDPC) codes is appealing due to its low complexity, yet it often exhibits convergence issues due to quantum degeneracy and short cycles that exist in the Tanner graph. To overcome this challenge, this paper proposes a reinforcement-learning (RL) approach that learns (offline) how to decode QLDPC codes based on sequential decoding trajectories. The decoding is formulated as a Markov decision process with a local, syndrome-driven state representation of the underlying RL agent. To enable fast inference, critical for practical implementation, we incrementally update our RL-based QLDPC decoder using second-order neighborhoods that avoid global rescans. Simulation results on representative QLDPC codes demonstrate the superiority of the proposed RL-based QLDPC decoders in terms of performance and convergence speed when compared to flooding and random sequential schedules, while achieving performance competitive with state-of-the-art BP-based decoders at comparable complexity.",
+  "arxiv_id": "2603.10192",
+  "arxiv_version": "v1",
+  "authors": [
+    "Mohsen Moradi",
+    "Vahid Nourozi",
+    "Salman Habib",
+    "David G. M. Mitchell"
+  ],
+  "categories": [
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2603.10192v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2603.10192v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "cs.IT",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-03-10",
+  "title": "Learning to Decode Quantum LDPC Codes Via Belief Propagation",
+  "updated_date": "2026-03-10"
+}
