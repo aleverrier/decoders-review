@@ -1,6 +1,6 @@
 # QLDPCWatch Implementation Status
 
-Last updated: 2026-02-21
+Last updated: 2026-03-17
 
 ## Completed
 
@@ -25,6 +25,7 @@ Last updated: 2026-02-21
 - Ran full-corpus update on 155 papers; artifacts refreshed (`index`, `digest`, `site`, per-paper metadata/changelog).
 - Added a fail-fast guard: `--refresh-fallback` now exits unless `OPENAI_API_KEY` is set.
 - Fixed OpenAI strict schema compatibility: `PaperExtraction` schema now marks all object properties as required (prevents 400 `invalid_json_schema` errors).
+- Manually added a full-text-backed review entry for `2603.05481v1` ("High-performance syndrome extraction circuits for quantum codes") and refreshed the repo artifacts needed to track it.
 
 ## In Progress
 

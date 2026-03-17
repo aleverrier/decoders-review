@@ -1,14 +1,15 @@
 # QLDPC Decoder Literature Report
 
-Generated at: 2026-02-21T14:49:55.300701+00:00
-Papers included: 155
+Generated at: 2026-03-17T09:51:31.570459+00:00
+Papers included: 162
 
 ## Relevance counts
-- maybe: 104
-- relevant: 51
+- maybe: 110
+- relevant: 52
 
 ## Decoder family counts
-- Unknown / not specified: 155
+- Unknown / not specified: 161
+- other: 1
 
 ## Per-paper details
 
@@ -600,7 +601,7 @@ Papers included: 155
 - Missing fields: decoder.name; decoder.algorithm_outline; decoder.complexity_claims; performance_claims.thresholds; performance_claims.runtime_scaling_claims; simulations; links.code_repo_urls
 - arXiv abs: https://arxiv.org/abs/2510.07179v2
 
-### `2510.14060v1` - Decoding Correlated Errors in Quantum LDPC Codes
+### `2510.14060v2` - Decoding Correlated Errors in Quantum LDPC Codes
 - Relevance: relevant (confidence 0.55)
 - Decoder: Unknown / not specified (Unknown / not specified)
 - Error model(s): Unknown / not specified
@@ -612,7 +613,7 @@ Papers included: 155
 - Limitations/caveats: Full paper text not analyzed; extraction limited to metadata/abstract.
 - Code repo(s): Unknown / not specified
 - Missing fields: decoder.name; decoder.algorithm_outline; decoder.complexity_claims; performance_claims.thresholds; performance_claims.runtime_scaling_claims; simulations; links.code_repo_urls
-- arXiv abs: https://arxiv.org/abs/2510.14060v1
+- arXiv abs: https://arxiv.org/abs/2510.14060v2
 
 ### `2511.04634v1` - Random Construction of Quantum LDPC Codes
 - Relevance: relevant (confidence 0.55)
@@ -725,6 +726,34 @@ Papers included: 155
 - Code repo(s): Unknown / not specified
 - Missing fields: decoder.name; decoder.algorithm_outline; decoder.complexity_claims; performance_claims.thresholds; performance_claims.runtime_scaling_claims; simulations; links.code_repo_urls
 - arXiv abs: https://arxiv.org/abs/2601.18562v1
+
+### `2603.04543v1` - Linear-Time Encodable and Decodable Quantum Error-Correcting Codes
+- Relevance: relevant (confidence 0.55)
+- Decoder: Unknown / not specified (Unknown / not specified)
+- Error model(s): Unknown / not specified
+- Simulation level(s): Unknown / not specified
+- Codes: Unknown / not specified
+- Performance (headline): Unknown / not specified
+- Thresholds: Unknown / not specified
+- Runtime scaling: Unknown / not specified
+- Limitations/caveats: Full paper text not analyzed; extraction limited to metadata/abstract.
+- Code repo(s): Unknown / not specified
+- Missing fields: decoder.name; decoder.algorithm_outline; decoder.complexity_claims; performance_claims.thresholds; performance_claims.runtime_scaling_claims; simulations; links.code_repo_urls
+- arXiv abs: https://arxiv.org/abs/2603.04543v1
+
+### `2603.05481v1` - High-performance syndrome extraction circuits for quantum codes
+- Relevance: maybe (confidence 0.7)
+- Decoder: Left-right circuits (LRCs) (other)
+- Error model(s): Standard circuit noise with independent failures on idle operations, CNOTs, preparations, and measurements.
+- Simulation level(s): circuit_level
+- Codes: HGP625 [[625,25,8]]; Tanner200 [[200,10,10]]; Haah128 [[128,14,8]]; FB126 [[126,8,9]]; gross [[144,12,12]]
+- Performance (headline): Optimized left-right circuits reduce circuit depth and logical failure rates relative to alternative single-ancilla SEC constructions, with up to order-of-magnitude improvements in logical error rate on the benchmark set.; For the gross code, no non-interleaving SEC can achieve circuit distance 12.; For the gross code, no uniformly tiled non-interleaved SEC can achieve circuit distance 11.; An explicit three-colour depth-8 left-right schedule for the gross code is identified and conjectured to attain circuit distance 11.
+- Thresholds: Unknown / not specified
+- Runtime scaling: The ranking workflow is designed so that most candidate circuits can be screened using precomputed residual-distance information rather than expensive circuit-level simulations.; Residual-distance profiles are fast but imperfect surrogates; more comprehensive extended-code analysis is reserved for a small number of promising candidates.
+- Limitations/caveats: No threshold value is claimed.; The gross-code distance-11 result is a conjecture supported by extensive search rather than a formal proof.; The no-distance-12 proof applies to non-interleaved circuits; interleaved circuits may still achieve circuit distance 12.; Residual-distance profiles do not capture all interactions between residual errors from different checks.; For some codes, denser detector error models produced by LRCs can increase BPOSD decoding time.
+- Code repo(s): Unknown / not specified
+- Missing fields: performance_claims.thresholds; links.code_repo_urls
+- arXiv abs: https://arxiv.org/abs/2603.05481v1
 
 ### `1504.00822v1` - Quantum Expander Codes
 - Relevance: maybe (confidence 0.35)
@@ -1930,7 +1959,7 @@ Papers included: 155
 - Missing fields: decoder.name; decoder.algorithm_outline; decoder.complexity_claims; performance_claims.thresholds; performance_claims.runtime_scaling_claims; simulations; links.code_repo_urls
 - arXiv abs: https://arxiv.org/abs/2510.05795v4
 
-### `2510.06495v1` - Qudit low-density parity-check codes
+### `2510.06495v2` - Qudit low-density parity-check codes
 - Relevance: maybe (confidence 0.35)
 - Decoder: Unknown / not specified (Unknown / not specified)
 - Error model(s): Unknown / not specified
@@ -1942,7 +1971,7 @@ Papers included: 155
 - Limitations/caveats: Full paper text not analyzed; extraction limited to metadata/abstract.
 - Code repo(s): Unknown / not specified
 - Missing fields: decoder.name; decoder.algorithm_outline; decoder.complexity_claims; performance_claims.thresholds; performance_claims.runtime_scaling_claims; simulations; links.code_repo_urls
-- arXiv abs: https://arxiv.org/abs/2510.06495v1
+- arXiv abs: https://arxiv.org/abs/2510.06495v2
 
 ### `2510.07602v1` - Noisy-Syndrome Decoding of Hypergraph Product Codes
 - Relevance: maybe (confidence 0.35)
@@ -2181,3 +2210,73 @@ Papers included: 155
 - Code repo(s): Unknown / not specified
 - Missing fields: decoder.name; decoder.algorithm_outline; decoder.complexity_claims; performance_claims.thresholds; performance_claims.runtime_scaling_claims; simulations; links.code_repo_urls
 - arXiv abs: https://arxiv.org/abs/2602.16948v1
+
+### `2602.22770v1` - A matching decoder for bivariate bicycle codes
+- Relevance: maybe (confidence 0.35)
+- Decoder: Unknown / not specified (Unknown / not specified)
+- Error model(s): Unknown / not specified
+- Simulation level(s): Unknown / not specified
+- Codes: Unknown / not specified
+- Performance (headline): Unknown / not specified
+- Thresholds: Unknown / not specified
+- Runtime scaling: Unknown / not specified
+- Limitations/caveats: Full paper text not analyzed; extraction limited to metadata/abstract.
+- Code repo(s): Unknown / not specified
+- Missing fields: decoder.name; decoder.algorithm_outline; decoder.complexity_claims; performance_claims.thresholds; performance_claims.runtime_scaling_claims; simulations; links.code_repo_urls
+- arXiv abs: https://arxiv.org/abs/2602.22770v1
+
+### `2603.04991v1` - On LLR Mismatch in Belief Propagation Decoding of Overcomplete QLDPC Codes
+- Relevance: maybe (confidence 0.35)
+- Decoder: Unknown / not specified (Unknown / not specified)
+- Error model(s): Unknown / not specified
+- Simulation level(s): Unknown / not specified
+- Codes: Unknown / not specified
+- Performance (headline): Unknown / not specified
+- Thresholds: Unknown / not specified
+- Runtime scaling: Unknown / not specified
+- Limitations/caveats: Full paper text not analyzed; extraction limited to metadata/abstract.
+- Code repo(s): Unknown / not specified
+- Missing fields: decoder.name; decoder.algorithm_outline; decoder.complexity_claims; performance_claims.thresholds; performance_claims.runtime_scaling_claims; simulations; links.code_repo_urls
+- arXiv abs: https://arxiv.org/abs/2603.04991v1
+
+### `2603.05320v1` - Simplified circuit-level decoding using Knill error correction
+- Relevance: maybe (confidence 0.35)
+- Decoder: Unknown / not specified (Unknown / not specified)
+- Error model(s): Unknown / not specified
+- Simulation level(s): Unknown / not specified
+- Codes: Unknown / not specified
+- Performance (headline): Unknown / not specified
+- Thresholds: Unknown / not specified
+- Runtime scaling: Unknown / not specified
+- Limitations/caveats: Full paper text not analyzed; extraction limited to metadata/abstract.
+- Code repo(s): Unknown / not specified
+- Missing fields: decoder.name; decoder.algorithm_outline; decoder.complexity_claims; performance_claims.thresholds; performance_claims.runtime_scaling_claims; simulations; links.code_repo_urls
+- arXiv abs: https://arxiv.org/abs/2603.05320v1
+
+### `2603.05486v1` - Improved Decoding of Quantum Tanner Codes Using Generalized Check Nodes
+- Relevance: maybe (confidence 0.35)
+- Decoder: Unknown / not specified (Unknown / not specified)
+- Error model(s): Unknown / not specified
+- Simulation level(s): Unknown / not specified
+- Codes: Unknown / not specified
+- Performance (headline): Unknown / not specified
+- Thresholds: Unknown / not specified
+- Runtime scaling: Unknown / not specified
+- Limitations/caveats: Full paper text not analyzed; extraction limited to metadata/abstract.
+- Code repo(s): Unknown / not specified
+- Missing fields: decoder.name; decoder.algorithm_outline; decoder.complexity_claims; performance_claims.thresholds; performance_claims.runtime_scaling_claims; simulations; links.code_repo_urls
+- arXiv abs: https://arxiv.org/abs/2603.05486v1
+
+### `2603.10192v1` - Learning to Decode Quantum LDPC Codes Via Belief Propagation
+- Relevance: maybe (confidence 0.35)
+- Decoder: Unknown / not specified (Unknown / not specified)
+- Error model(s): Unknown / not specified
+- Simulation level(s): Unknown / not specified
+- Codes: Unknown / not specified
+- Performance (headline): Unknown / not specified
+- Thresholds: Unknown / not specified
+- Runtime scaling: Unknown / not specified
+- Limitations/caveats: Full paper text not analyzed; extraction limited to metadata/abstract.
+- Code repo(s): Unknown / not specified
+- Missing fields: decoder.name; decoder.algorithm_outline; decoder.complexity_claims; performance_claims.thresholds; performance_claims.runtime_scaling_claims; simulations; links.code_repo_urls
+- arXiv abs: https://arxiv.org/abs/2603.10192v1

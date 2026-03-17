@@ -1,0 +1,114 @@
+{
+  "arxiv_id": "2603.05481",
+  "arxiv_version": "v1",
+  "title": "High-performance syndrome extraction circuits for quantum codes",
+  "authors": [
+    "Armands Strikis",
+    "Dan E. Browne",
+    "Michael E. Beverland"
+  ],
+  "submitted_date": "2026-03-05",
+  "updated_date": "2026-03-05",
+  "categories": [
+    "quant-ph"
+  ],
+  "primary_category": "quant-ph",
+  "abstract": "We present a fast and effective framework for analysing and designing syndrome-extraction circuits (SECs). Our approach is based on left-right circuits, a general design for SECs which maintain low depth by staggering X and Z checks without interleaving gates. Initially proposed for specific classes of codes, we generalise this construction to arbitrary CSS codes and optimise the circuit structure to achieve low qubit idling time, large effective distance, and reduced minimum-weight failure mechanisms. A key component of our framework is the formal notion of residual errors and their associated distance metrics, which form lightweight tools for capturing error propagation and quantifying the potential harm of circuit-level errors. Applying our automated framework to diverse classes of codes, we observe consistent improvements in logical performance of up to an order of magnitude compared to existing single-ancilla SEC designs. We also use these tools to prove that no non-interleaving SEC can achieve circuit distance 12 for the gross code, and identify an explicit circuit that we conjecture achieves distance 11, exceeding previously known constructions.",
+  "relevance": {
+    "label": "maybe",
+    "confidence": 0.7,
+    "rationale": "The paper is primarily about syndrome-extraction circuit design rather than decoding, but it is directly relevant to practical quantum LDPC fault tolerance because it analyzes circuit-level performance, hook errors, and circuit distance for multiple QLDPC code families.",
+    "matched_keywords": [
+      "syndrome extraction",
+      "circuit distance",
+      "hook errors",
+      "gross code",
+      "quantum LDPC"
+    ]
+  },
+  "decoder": {
+    "name": "Left-right circuits (LRCs)",
+    "decoder_family": "other",
+    "high_level_description": "An automated framework for constructing low-depth, single-ancilla syndrome extraction circuits for arbitrary CSS codes via left/right data-qubit partitioning and optimized non-interleaved CNOT schedules; this is a circuit-construction method rather than a decoder.",
+    "key_ideas": [
+      "Generalize left-right syndrome-extraction circuits from structured families to arbitrary CSS codes.",
+      "Characterize hook-error propagation through residual errors and the residual-distance metric Delta(E).",
+      "Use extended-code distance d_ext(R) to cheaply upper-bound or estimate circuit distance without full circuit-noise analysis.",
+      "Rank candidate schedules by minimum residual distance, ancilla idle count, and residual-distance profile, with optional extended-code re-ranking."
+    ],
+    "algorithm_outline": [
+      "Choose or search for a left/right partition of the data qubits.",
+      "Precompute residual-distance estimates for the residual errors compatible with that partition.",
+      "Generate candidate left-right circuits from edge-colorings of the induced Tanner subgraphs and their color permutations.",
+      "Rank candidates by minimum residual distance, ancilla idle count, and residual-distance profile; optionally re-rank top candidates using extended-code distance."
+    ],
+    "complexity_claims": [
+      "Residual-distance and extended-code analyses are performed in the code-capacity model and are substantially cheaper than direct circuit-level distance evaluation.",
+      "Candidate generation uses polynomial-time edge-coloring of bipartite Tanner subgraphs, while optional extended-code re-ranking is applied only to a small set of top candidates."
+    ],
+    "implementation_notes": [
+      "The paper states that a Python package for generating left-right circuits is publicly available on GitHub and the exact Stim circuits are available on Zenodo, but no repository URL is extracted in the local review entry.",
+      "Logical-performance simulations are run by converting the circuits to Stim detector error models and decoding with BPOSD."
+    ]
+  },
+  "performance_claims": {
+    "headline_claims": [
+      "Optimized left-right circuits reduce circuit depth and logical failure rates relative to alternative single-ancilla SEC constructions, with up to order-of-magnitude improvements in logical error rate on the benchmark set.",
+      "For the gross code, no non-interleaving SEC can achieve circuit distance 12.",
+      "For the gross code, no uniformly tiled non-interleaved SEC can achieve circuit distance 11.",
+      "An explicit three-colour depth-8 left-right schedule for the gross code is identified and conjectured to attain circuit distance 11."
+    ],
+    "thresholds": [],
+    "runtime_scaling_claims": [
+      "The ranking workflow is designed so that most candidate circuits can be screened using precomputed residual-distance information rather than expensive circuit-level simulations.",
+      "Residual-distance profiles are fast but imperfect surrogates; more comprehensive extended-code analysis is reserved for a small number of promising candidates."
+    ],
+    "limitations_or_caveats": [
+      "No threshold value is claimed.",
+      "The gross-code distance-11 result is a conjecture supported by extensive search rather than a formal proof.",
+      "The no-distance-12 proof applies to non-interleaved circuits; interleaved circuits may still achieve circuit distance 12.",
+      "Residual-distance profiles do not capture all interactions between residual errors from different checks.",
+      "For some codes, denser detector error models produced by LRCs can increase BPOSD decoding time."
+    ]
+  },
+  "simulations": [
+    {
+      "simulation_level": "circuit_level",
+      "noise_model": "Standard circuit noise with independent failures on idle operations, CNOTs, preparations, and measurements.",
+      "codes_tested": [
+        "HGP625 [[625,25,8]]",
+        "Tanner200 [[200,10,10]]",
+        "Haah128 [[128,14,8]]",
+        "FB126 [[126,8,9]]",
+        "gross [[144,12,12]]"
+      ],
+      "decoder_settings": [
+        "Stim detector error models with BPOSD decoding.",
+        "d-round memory experiments followed by a perfect round, with per-round logical error rate reported."
+      ],
+      "metrics_reported": [
+        "logical error rate per round",
+        "circuit depth",
+        "circuit distance or upper bounds",
+        "minimum-weight failure multiplicity",
+        "ancilla idle count",
+        "residual-distance profiles"
+      ],
+      "main_results": [
+        "On HGP625, Tanner200, Haah128, and FB126, optimized LRCs consistently improve practical logical performance relative to baseline SEC constructors, often because lower depth and lower idling offset or dominate raw distance considerations.",
+        "On the gross code, the extended-code screening workflow rules out distance-12 non-interleaved circuits and narrows the search to an explicit depth-8 candidate conjectured to have circuit distance 11."
+      ],
+      "evidence": []
+    }
+  ],
+  "links": {
+    "pdf_url": "https://arxiv.org/pdf/2603.05481v1",
+    "abs_url": "https://arxiv.org/abs/2603.05481v1",
+    "code_repo_urls": [],
+    "doi": "https://doi.org/10.48550/arXiv.2603.05481"
+  },
+  "missing_fields": [
+    "performance_claims.thresholds",
+    "links.code_repo_urls"
+  ]
+}

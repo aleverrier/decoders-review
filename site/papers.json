@@ -187,6 +187,84 @@
     "updated_date": "2026-03-05"
   },
   {
+    "abstract": "We present a fast and effective framework for analysing and designing syndrome-extraction circuits (SECs). Our approach is based on left-right circuits, a general design for SECs which maintain low depth by staggering X and Z checks without interleaving gates. Initially proposed for specific classes of codes, we generalise this construction to arbitrary CSS codes and optimise the circuit structure to achieve low qubit idling time, large effective distance, and reduced minimum-weight failure mechanisms. A key component of our framework is the formal notion of residual errors and their associated distance metrics, which form lightweight tools for capturing error propagation and quantifying the potential harm of circuit-level errors. Applying our automated framework to diverse classes of codes, we observe consistent improvements in logical performance of up to an order of magnitude compared to existing single-ancilla SEC designs. We also use these tools to prove that no non-interleaving SEC can achieve circuit distance 12 for the gross code, and identify an explicit circuit that we conjecture achieves distance 11, exceeding previously known constructions.",
+    "arxiv_id": "2603.05481",
+    "arxiv_version": "v1",
+    "authors": [
+      "Armands Strikis",
+      "Dan E. Browne",
+      "Michael E. Beverland"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [
+        "Choose or search for a left/right partition of the data qubits.",
+        "Precompute residual-distance estimates for the residual errors compatible with that partition.",
+        "Generate candidate left-right circuits from edge-colorings of the induced Tanner subgraphs and their color permutations.",
+        "Rank candidates by minimum residual distance, ancilla idle count, and residual-distance profile; optionally re-rank top candidates using extended-code distance."
+      ],
+      "complexity_claims": [
+        "Residual-distance and extended-code analyses are performed in the code-capacity model and are substantially cheaper than direct circuit-level distance evaluation.",
+        "Candidate generation uses polynomial-time edge-coloring of bipartite Tanner subgraphs, while optional extended-code re-ranking is applied only to a small set of top candidates."
+      ],
+      "decoder_family": "other",
+      "high_level_description": "An automated framework for constructing low-depth, single-ancilla syndrome extraction circuits for arbitrary CSS codes via left/right data-qubit partitioning and optimized non-interleaved CNOT schedules; this is a circuit-construction method rather than a decoder.",
+      "implementation_notes": [
+        "The paper states that a Python package for generating left-right circuits is publicly available on GitHub and the exact Stim circuits are available on Zenodo, but no repository URL is extracted in the local review entry.",
+        "Logical-performance simulations are run by converting the circuits to Stim detector error models and decoding with BPOSD."
+      ],
+      "key_ideas": [
+        "Generalize left-right syndrome-extraction circuits from structured families to arbitrary CSS codes.",
+        "Characterize hook-error propagation through residual errors and the residual-distance metric Delta(E).",
+        "Use extended-code distance d_ext(R) to cheaply upper-bound or estimate circuit distance without full circuit-noise analysis.",
+        "Rank candidate schedules by minimum residual distance, ancilla idle count, and residual-distance profile, with optional extended-code re-ranking."
+      ],
+      "name": "Left-right circuits (LRCs)"
+    },
+    "extraction_hash": "f601a1486a87b557c8bbc9546ad7b314c0145230bd2e7e9a8d2a7bf479dff1ac",
+    "last_processed_at": "2026-03-17T09:42:26.760318+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2603.05481v1",
+      "code_repo_urls": [],
+      "doi": "https://doi.org/10.48550/arXiv.2603.05481",
+      "pdf_url": "https://arxiv.org/pdf/2603.05481v1"
+    },
+    "missing_fields": [
+      "performance_claims.thresholds",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.7,
+      "label": "maybe",
+      "matched_keywords": [
+        "syndrome extraction",
+        "circuit distance",
+        "hook errors",
+        "gross code",
+        "quantum LDPC"
+      ],
+      "rationale": "The paper is primarily about syndrome-extraction circuit design rather than decoding, but it is directly relevant to practical quantum LDPC fault tolerance because it analyzes circuit-level performance, hook errors, and circuit distance for multiple QLDPC code families."
+    },
+    "source_hash": "aebb4b0e4673714daeb1370650d62f9453d72e6ff203d14224b3867f654b0d80",
+    "submitted_date": "2026-03-05",
+    "tags": [
+      "circuit distance",
+      "decoder_family:other",
+      "gross code",
+      "hook errors",
+      "left-right circuits",
+      "quant-ph",
+      "quantum LDPC",
+      "relevance:maybe",
+      "syndrome extraction"
+    ],
+    "title": "High-performance syndrome extraction circuits for quantum codes",
+    "updated_date": "2026-03-05"
+  },
+  {
     "abstract": "Quantum error correction will likely be essential for building a large-scale quantum computer, but it comes with significant requirements at the level of classical control software. In particular, a quantum error-correcting code must be supplemented with a fast and accurate classical decoding algorithm. Standard techniques for measuring the parity-check operators of a quantum error-correcting code involve repeated measurements, which both increases the amount of data that needs to be processed by the decoder, and changes the nature of the decoding problem. Knill error correction is a technique that replaces repeated syndrome measurements with a single round of measurements, but requires an auxiliary logical Bell state. Here, we provide a theoretical and numerical investigation into Knill error correction from the perspective of decoding. We give a self-contained description of the protocol, prove its fault tolerance under locally decaying (circuit-level) noise, and numerically benchmark its performance for quantum low-density parity-check codes. We show analytically and numerically that the time-constrained decoding problem for Knill error correction can be solved using the same decoder used for the simpler code-capacity noise model, illustrating that Knill error correction may alleviate the stringent requirements on classical control required for building a large-scale quantum computer.",
     "arxiv_id": "2603.05320",
     "arxiv_version": "v1",
