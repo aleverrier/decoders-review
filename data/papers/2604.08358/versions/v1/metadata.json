@@ -1,0 +1,37 @@
+{
+  "abstract": "Quantum error correction (QEC) is essential for scalable quantum computing. However, it requires classical decoders that are fast and accurate enough to keep pace with quantum hardware. While quantum low-density parity-check codes have recently emerged as a promising route to efficient fault tolerance, current decoding algorithms do not allow one to realize the full potential of these codes in practical settings. Here, we introduce a convolutional neural network decoder that exploits the geometric structure of QEC codes, and use it to probe a novel \"waterfall\" regime of error suppression, demonstrating that the logical error rates required for large-scale fault-tolerant algorithms are attainable with modest code sizes at current physical error rates, and with latencies within the real-time budgets of several leading hardware platforms. For example, for the $[144, 12, 12]$ Gross code, the decoder achieves logical error rates up to $\\sim 17$x below existing decoders - reaching logical error rates $\\sim 10^{-10}$ at physical error $p=0.1\\%$ - with 3-5 orders of magnitude higher throughput. This decoder also produces well-calibrated confidence estimates that can significantly reduce the time overhead of repeat-until-success protocols. Taken together, these results suggest that the space-time costs associated with fault-tolerant quantum computation may be significantly lower than previously anticipated.",
+  "arxiv_id": "2604.08358",
+  "arxiv_version": "v1",
+  "authors": [
+    "Andi Gu",
+    "J. Pablo Bonilla Ataides",
+    "Mikhail D. Lukin",
+    "Susanne F. Yelin"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "extraction_hash": "8841046ffa6eca13e1bdd5b6d6286d238469ab141970384e69f2c8a78fc4b400",
+  "last_processed_at": "2026-04-13T13:56:57.603505+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2604.08358v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2604.08358v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "6bb282229507f411409ec841d29440e1e147cc5896b521d4456730e32fc66ad0",
+  "submitted_date": "2026-04-09",
+  "tags": [
+    "cs.AI",
+    "cs.LG",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Scalable Neural Decoders for Practical Fault-Tolerant Quantum Computation",
+  "updated_date": "2026-04-09"
+}

@@ -1,0 +1,59 @@
+{
+  "abstract": "Decoding Bivariate Bicycle (BB) quantum error correction codes typically requires Belief Propagation (BP) followed by Ordered Statistics Decoding (OSD) post-processing when BP fails to converge. Whether BP will converge on a given syndrome is currently determined only after running BP to completion. We show that convergence can be predicted in advance by a single modulo operation: if the syndrome defect count is divisible by the code's column weight w, BP converges with high probability (100% at p <= 0.001, degrading to 87% at p = 0.01); otherwise, BP fails with probability >= 90%. The mechanism is structural: each physical data error activates exactly w stabilizers, so a defect count not divisible by w implies the presence of measurement errors outside BP's model space. Validated on five BB codes with column weights w = 2, 3, and 4, mod-w achieves AUC = 0.995 as a convergence classifier at p = 0.001 under phenomenological noise, dominating all other syndrome features (next best: AUC = 0.52). The false positive rate scales empirically as O(p^2.05) (R^2 = 0.98), confirming the analytical bound from Proposition 2. Among BP failures on mod-w = 0 syndromes, 82% contain weight-2 data error clusters, directly confirming the dominant failure mechanism. The prediction is invariant under BP scheduling strategy and decoder variant, including Relay-BP - the strongest known BP enhancement for quantum LDPC codes. These results apply directly to IBM's Gross code [[144, 12, 12]] and Two-Gross code [[288, 12, 18]], targeted for deployment in 2026-2028.",
+  "arxiv_id": "2604.07995",
+  "arxiv_version": "v1",
+  "authors": [
+    "Anton Pakhunov"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2604.07995v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2604.07995v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoder",
+      "decoding",
+      "belief propagation"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-04-09",
+  "title": "Belief Propagation Convergence Prediction for Bivariate Bicycle Quantum Error Correction Codes",
+  "updated_date": "2026-04-09"
+}

@@ -1,5 +1,130 @@
 [
   {
+    "abstract": "Quantum error correction (QEC) is essential for scalable quantum computing. However, it requires classical decoders that are fast and accurate enough to keep pace with quantum hardware. While quantum low-density parity-check codes have recently emerged as a promising route to efficient fault tolerance, current decoding algorithms do not allow one to realize the full potential of these codes in practical settings. Here, we introduce a convolutional neural network decoder that exploits the geometric structure of QEC codes, and use it to probe a novel \"waterfall\" regime of error suppression, demonstrating that the logical error rates required for large-scale fault-tolerant algorithms are attainable with modest code sizes at current physical error rates, and with latencies within the real-time budgets of several leading hardware platforms. For example, for the $[144, 12, 12]$ Gross code, the decoder achieves logical error rates up to $\\sim 17$x below existing decoders - reaching logical error rates $\\sim 10^{-10}$ at physical error $p=0.1\\%$ - with 3-5 orders of magnitude higher throughput. This decoder also produces well-calibrated confidence estimates that can significantly reduce the time overhead of repeat-until-success protocols. Taken together, these results suggest that the space-time costs associated with fault-tolerant quantum computation may be significantly lower than previously anticipated.",
+    "arxiv_id": "2604.08358",
+    "arxiv_version": "v1",
+    "authors": [
+      "Andi Gu",
+      "J. Pablo Bonilla Ataides",
+      "Mikhail D. Lukin",
+      "Susanne F. Yelin"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "8841046ffa6eca13e1bdd5b6d6286d238469ab141970384e69f2c8a78fc4b400",
+    "last_processed_at": "2026-04-13T13:56:57.603505+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2604.08358v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2604.08358v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "6bb282229507f411409ec841d29440e1e147cc5896b521d4456730e32fc66ad0",
+    "submitted_date": "2026-04-09",
+    "tags": [
+      "cs.AI",
+      "cs.LG",
+      "decoder",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Scalable Neural Decoders for Practical Fault-Tolerant Quantum Computation",
+    "updated_date": "2026-04-09"
+  },
+  {
+    "abstract": "Decoding Bivariate Bicycle (BB) quantum error correction codes typically requires Belief Propagation (BP) followed by Ordered Statistics Decoding (OSD) post-processing when BP fails to converge. Whether BP will converge on a given syndrome is currently determined only after running BP to completion. We show that convergence can be predicted in advance by a single modulo operation: if the syndrome defect count is divisible by the code's column weight w, BP converges with high probability (100% at p <= 0.001, degrading to 87% at p = 0.01); otherwise, BP fails with probability >= 90%. The mechanism is structural: each physical data error activates exactly w stabilizers, so a defect count not divisible by w implies the presence of measurement errors outside BP's model space. Validated on five BB codes with column weights w = 2, 3, and 4, mod-w achieves AUC = 0.995 as a convergence classifier at p = 0.001 under phenomenological noise, dominating all other syndrome features (next best: AUC = 0.52). The false positive rate scales empirically as O(p^2.05) (R^2 = 0.98), confirming the analytical bound from Proposition 2. Among BP failures on mod-w = 0 syndromes, 82% contain weight-2 data error clusters, directly confirming the dominant failure mechanism. The prediction is invariant under BP scheduling strategy and decoder variant, including Relay-BP - the strongest known BP enhancement for quantum LDPC codes. These results apply directly to IBM's Gross code [[144, 12, 12]] and Two-Gross code [[288, 12, 18]], targeted for deployment in 2026-2028.",
+    "arxiv_id": "2604.07995",
+    "arxiv_version": "v1",
+    "authors": [
+      "Anton Pakhunov"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "ce25e5d4f3a2ddac4aff40e57515c3fc333a766594d299c3af29ba4b7622747c",
+    "last_processed_at": "2026-04-13T13:56:57.607784+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2604.07995v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2604.07995v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.55,
+      "label": "relevant",
+      "matched_keywords": [
+        "quantum ldpc",
+        "decoder",
+        "decoding",
+        "belief propagation"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "60bcfca993a7bb28b6d8ea1b27e2a3cf97ccc8ff1ea0e858a8c8240945215a38",
+    "submitted_date": "2026-04-09",
+    "tags": [
+      "belief propagation",
+      "decoder",
+      "decoding",
+      "quant-ph",
+      "quantum ldpc",
+      "relevance:relevant"
+    ],
+    "title": "Belief Propagation Convergence Prediction for Bivariate Bicycle Quantum Error Correction Codes",
+    "updated_date": "2026-04-09"
+  },
+  {
     "abstract": "Belief-propagation (BP) decoding for quantum low-density parity-check (QLDPC) codes is appealing due to its low complexity, yet it often exhibits convergence issues due to quantum degeneracy and short cycles that exist in the Tanner graph. To overcome this challenge, this paper proposes a reinforcement-learning (RL) approach that learns (offline) how to decode QLDPC codes based on sequential decoding trajectories. The decoding is formulated as a Markov decision process with a local, syndrome-driven state representation of the underlying RL agent. To enable fast inference, critical for practical implementation, we incrementally update our RL-based QLDPC decoder using second-order neighborhoods that avoid global rescans. Simulation results on representative QLDPC codes demonstrate the superiority of the proposed RL-based QLDPC decoders in terms of performance and convergence speed when compared to flooding and random sequential schedules, while achieving performance competitive with state-of-the-art BP-based decoders at comparable complexity.",
     "arxiv_id": "2603.10192",
     "arxiv_version": "v1",
