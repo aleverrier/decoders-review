@@ -1,8 +1,8 @@
-# Accelerating BP-based decoders for QLDPC Codes with Local Syndrome-Based Preprocessing
+# Heuristic Search for Minimum-Distance Upper-Bound Witnesses in Quantum APM-LDPC Codes
 
-- arXiv: `2509.01892v2`
-- Categories: quant-ph
-- Relevance: **maybe** (confidence 0.35)
+- arXiv: `2604.15307v1`
+- Categories: quant-ph, cs.IT
+- Relevance: **relevant** (confidence 0.55)
 
 ## Decoder approach
 - Name: Unknown / not specified
@@ -29,6 +29,6 @@
 - links.code_repo_urls
 
 ## Links
-- Abstract: https://arxiv.org/abs/2509.01892v2
-- PDF: https://arxiv.org/pdf/2509.01892v2
+- Abstract: https://arxiv.org/abs/2604.15307v1
+- PDF: https://arxiv.org/pdf/2604.15307v1
 - DOI: Unknown / not specified

@@ -1,7 +1,7 @@
-# Accelerating BP-based decoders for QLDPC Codes with Local Syndrome-Based Preprocessing
+# Towards Ultra-High-Rate Quantum Error Correction with Reconfigurable Atom Arrays
 
-- arXiv: `2509.01892v2`
-- Categories: quant-ph
+- arXiv: `2604.16209v1`
+- Categories: quant-ph, cs.IT
 - Relevance: **maybe** (confidence 0.35)
 
 ## Decoder approach
@@ -29,6 +29,6 @@
 - links.code_repo_urls
 
 ## Links
-- Abstract: https://arxiv.org/abs/2509.01892v2
-- PDF: https://arxiv.org/pdf/2509.01892v2
+- Abstract: https://arxiv.org/abs/2604.16209v1
+- PDF: https://arxiv.org/pdf/2604.16209v1
 - DOI: Unknown / not specified

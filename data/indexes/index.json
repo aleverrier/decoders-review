@@ -1,5 +1,190 @@
 [
   {
+    "abstract": "Quantum error correction is widely believed to be essential for large-scale quantum computation, but the required qubit overhead remains a central challenge. Quantum low-density parity-check codes can substantially reduce this overhead through high-rate encodings, yet finite-size instances with practical logical error rates often achieve encoding rates only around or below $1/10$. Here, building on a recent ultra-high-rate construction by Kasai, we identify new structural conditions on the underlying affine permutation matrices that make encoding rates exceeding $1/2$ compatible with efficient implementation on reconfigurable neutral atom arrays. These conditions define a co-designed family of ultra-high-rate quantum codes that supports efficient syndrome extraction and atom rearrangement under realistic parallel control constraints. Using a hierarchical decoder with high accuracy and good throughput, we study the performance under a circuit-level noise model with $p=0.1\\%$, achieving per-logical-per-round error rates of $1.3_{-0.9}^{+3.0} \\times 10^{-13}$ with a $[[2304,1156,\\leq 14]]$ code and $2.9_{-1.5}^{+3.1} \\times 10^{-11}$ with a $[[1152,580,\\leq 12]]$ code. These results approach the teraquop regime, highlighting the promise of this code family for practical ultra-high-rate quantum error correction.",
+    "arxiv_id": "2604.16209",
+    "arxiv_version": "v1",
+    "authors": [
+      "Chen Zhao",
+      "Casey Duckering",
+      "Andi Gu",
+      "Nishad Maskara",
+      "Hengyun Zhou"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.IT"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "0cea3d0f0e4efb43f612e34701004a99c0f0c30ee3bcaeac82cc15ea1b29b3d4",
+    "last_processed_at": "2026-04-20T13:59:22.338285+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2604.16209v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2604.16209v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "3234e8634d791bb0897f7e4c17b01a078ad1028c9ab5dd52542d387fc866b9dd",
+    "submitted_date": "2026-04-17",
+    "tags": [
+      "cs.IT",
+      "decoder",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Towards Ultra-High-Rate Quantum Error Correction with Reconfigurable Atom Arrays",
+    "updated_date": "2026-04-17"
+  },
+  {
+    "abstract": "Due to the high error rate of qubits, detecting and correcting errors is essential for achieving fault-tolerant quantum computing (FTQC). Quantum low-density parity-check (QLDPC) codes are one of the most promising quantum error correction (QEC) methods due to their high encoding rates. BP (Belief Propagation)-based decoders are widely used and highly competitive for QLDPC codes because BP offers inherent parallelism and strong scalability. However, BP-based decoders still suffer from high decoding latency, a large portion of which is spent in the iterative BP stage. In this paper, we propose a lightweight preprocessing step that utilizes local patterns in the syndrome to detect likely trivial error events and provide them as hints to BP-based decoders. These hints accelerate BP convergence and thereby reduce the overall decoding time. The proposed preprocessing step offers a broadly compatible approach to reducing the latency of BP-based QLDPC decodes. On the bivariate bicycle code $[[144,12,12]]$ at low physical error rates, our method achieves a $10\\times$ speedup in decoding time for BP-OSD, and more than $2\\times$ speedup for both BP-LSD and Relay-BP. Our method maintains the logical error rate when combined with BP-OSD and Relay-BP, while further achieving a significant reduction in logical error rate when combined with BP-LSD.",
+    "arxiv_id": "2509.01892",
+    "arxiv_version": "v2",
+    "authors": [
+      "Wenxuan Fan",
+      "Yasunari Suzuki",
+      "Gokul Subramanian Ravi",
+      "Yosuke Ueno",
+      "Ilkwon Byun",
+      "Koji Inoue",
+      "Teruo Tanimoto"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "1f5a362cf5bf2064692c73ad765c01908bccd4f388bc09c0189a31be044d70db",
+    "last_processed_at": "2026-04-20T13:59:22.344630+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2509.01892v2",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2509.01892v2"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding",
+        "belief propagation"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "3001ab16cc8bbb38709334c8a5c0125e9bb7f19c2c9eb19c6eed73b730bbd662",
+    "submitted_date": "2025-09-02",
+    "tags": [
+      "belief propagation",
+      "decoder",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Accelerating BP-based decoders for QLDPC Codes with Local Syndrome-Based Preprocessing",
+    "updated_date": "2026-04-17"
+  },
+  {
+    "abstract": "This paper investigates certified upper bounds on the minimum distance of an explicit family of Calderbank-Shor-Steane quantum LDPC codes constructed from affine permutation matrices. All codes considered here have active Tanner graphs of girth eight. Rather than attempting to prove a general lower bound for the full code distance, we focus on constructing low-weight non-stabilizer logical representatives, which yield valid upper bounds once they are verified to lie in the opposite parity-check kernel and outside the stabilizer row space. We develop a unified framework for such witnesses arising from latent row relations, restricted-lift subspaces including block-compressed, selected-fiber, and CRT-stripe constructions, cycle- 8 elementary trapping-set structures, and decoder-failure residuals. In every case, search is used only to generate candidates; the reported bounds begin only after explicit kernel and row-space exclusion tests have been passed. For the latent part, we also identify a block-compression criterion under which the certification becomes exact. Applying these methods to representative APM-LDPC codes sharpens previously reported upper bounds and provides concrete certified values across the explored parameter range.",
+    "arxiv_id": "2604.15307",
+    "arxiv_version": "v1",
+    "authors": [
+      "Kenta Kasai"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.IT"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "fd20497542c7809136cbe9c94084dead0489fe456e4fee4859b4d92bb004599c",
+    "last_processed_at": "2026-04-20T13:59:22.347278+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2604.15307v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2604.15307v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.55,
+      "label": "relevant",
+      "matched_keywords": [
+        "quantum ldpc",
+        "decoder"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "8657cef6726300e2f034636e92841e406dda4d40341536b1539a8e854a42f067",
+    "submitted_date": "2026-04-16",
+    "tags": [
+      "cs.IT",
+      "decoder",
+      "quant-ph",
+      "quantum ldpc",
+      "relevance:relevant"
+    ],
+    "title": "Heuristic Search for Minimum-Distance Upper-Bound Witnesses in Quantum APM-LDPC Codes",
+    "updated_date": "2026-04-16"
+  },
+  {
     "abstract": "Quantum error correction (QEC) is essential for scalable quantum computing. However, it requires classical decoders that are fast and accurate enough to keep pace with quantum hardware. While quantum low-density parity-check codes have recently emerged as a promising route to efficient fault tolerance, current decoding algorithms do not allow one to realize the full potential of these codes in practical settings. Here, we introduce a convolutional neural network decoder that exploits the geometric structure of QEC codes, and use it to probe a novel \"waterfall\" regime of error suppression, demonstrating that the logical error rates required for large-scale fault-tolerant algorithms are attainable with modest code sizes at current physical error rates, and with latencies within the real-time budgets of several leading hardware platforms. For example, for the $[144, 12, 12]$ Gross code, the decoder achieves logical error rates up to $\\sim 17$x below existing decoders - reaching logical error rates $\\sim 10^{-10}$ at physical error $p=0.1\\%$ - with 3-5 orders of magnitude higher throughput. This decoder also produces well-calibrated confidence estimates that can significantly reduce the time overhead of repeat-until-success protocols. Taken together, these results suggest that the space-time costs associated with fault-tolerant quantum computation may be significantly lower than previously anticipated.",
     "arxiv_id": "2604.08358",
     "arxiv_version": "v1",
@@ -3144,70 +3329,6 @@
     ],
     "title": "Localized statistics decoding for quantum low-density parity-check codes",
     "updated_date": "2025-09-05"
-  },
-  {
-    "abstract": "Due to the high error rate of qubits, detecting and correcting errors is essential for achieving fault-tolerant quantum computing (FTQC). Quantum low-density parity-check (QLDPC) codes are one of the most promising quantum error correction (QEC) methods due to their high encoding rates. Belief Propagation-Ordered Statistics Decoding (BP-OSD) is the state-of-the-art decoder for QLDPC codes, but it suffers from high decoding latency. We find from experiments that a large portion of this latency originates from the iterative BP stage, making BP runtime reduction a key optimization target. In this paper, we propose a lightweight preprocessing step that utilizes local syndrome patterns to detect likely trivial error events and feed them as hints into BP-OSD. These hints reduce the number of BP iterations and the overall decoding time. On Bivariate Bicycle codes, the proposed method achieves more than an 80% reduction in BP iterations and total decoding time for the $[[144,12,12]]$ code at a physical error rate of 0.05%, while maintaining the original logical error rate of BP-OSD.",
-    "arxiv_id": "2509.01892",
-    "arxiv_version": "v1",
-    "authors": [
-      "Wenxuan Fan",
-      "Yasunari Suzuki",
-      "Gokul Subramanian Ravi",
-      "Yosuke Ueno",
-      "Koji Inoue",
-      "Teruo Tanimoto"
-    ],
-    "categories": [
-      "quant-ph"
-    ],
-    "decoder": {
-      "algorithm_outline": [],
-      "complexity_claims": [],
-      "decoder_family": null,
-      "high_level_description": "Unknown / not specified from available text.",
-      "implementation_notes": [],
-      "key_ideas": [],
-      "name": null
-    },
-    "extraction_hash": "2a796eb5f973d42014e18b182e4526b7d688f262f9e9853b4f018a046a02be43",
-    "last_processed_at": "2026-02-21T13:37:40.738028+00:00",
-    "links": {
-      "abs_url": "https://arxiv.org/abs/2509.01892v1",
-      "code_repo_urls": [],
-      "doi": null,
-      "pdf_url": "https://arxiv.org/pdf/2509.01892v1"
-    },
-    "missing_fields": [
-      "decoder.name",
-      "decoder.algorithm_outline",
-      "decoder.complexity_claims",
-      "performance_claims.thresholds",
-      "performance_claims.runtime_scaling_claims",
-      "simulations",
-      "links.code_repo_urls"
-    ],
-    "primary_category": "quant-ph",
-    "relevance": {
-      "confidence": 0.35,
-      "label": "maybe",
-      "matched_keywords": [
-        "decoder",
-        "decoding",
-        "belief propagation"
-      ],
-      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
-    },
-    "source_hash": "acd693fdc03bc97028643b393d027770ea136faad83d9c7318b429fa475234b7",
-    "submitted_date": "2025-09-02",
-    "tags": [
-      "belief propagation",
-      "decoder",
-      "decoding",
-      "quant-ph",
-      "relevance:maybe"
-    ],
-    "title": "Accelerating BP-OSD Decoder for QLDPC Codes with Local Syndrome-Based Preprocessing",
-    "updated_date": "2025-09-02"
   },
   {
     "abstract": "We construct a family of quantum low-density parity-check codes locally equivalent to higher-dimensional quantum hypergraph-product (QHP) codes. Similarly to QHP codes, the proposed codes have highly redundant sets of low-weight stabilizer generators, which improves decoding accuracy in a fault-tolerant regime and gives them single-shot properties. The advantage of the new construction is that it gives shorter codes. We derive simple expressions for the dimension of the proposed codes in two important special cases, give bounds on the distances, and explicitly construct some relatively short codes. Circuit simulations for codes locally equivalent to 4-dimensional toric codes show a (pseudo)threshold close to 1.1%, better than for toric or surface codes with a similar noise model.",

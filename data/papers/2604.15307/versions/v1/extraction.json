@@ -1,0 +1,58 @@
+{
+  "abstract": "This paper investigates certified upper bounds on the minimum distance of an explicit family of Calderbank-Shor-Steane quantum LDPC codes constructed from affine permutation matrices. All codes considered here have active Tanner graphs of girth eight. Rather than attempting to prove a general lower bound for the full code distance, we focus on constructing low-weight non-stabilizer logical representatives, which yield valid upper bounds once they are verified to lie in the opposite parity-check kernel and outside the stabilizer row space. We develop a unified framework for such witnesses arising from latent row relations, restricted-lift subspaces including block-compressed, selected-fiber, and CRT-stripe constructions, cycle- 8 elementary trapping-set structures, and decoder-failure residuals. In every case, search is used only to generate candidates; the reported bounds begin only after explicit kernel and row-space exclusion tests have been passed. For the latent part, we also identify a block-compression criterion under which the certification becomes exact. Applying these methods to representative APM-LDPC codes sharpens previously reported upper bounds and provides concrete certified values across the explored parameter range.",
+  "arxiv_id": "2604.15307",
+  "arxiv_version": "v1",
+  "authors": [
+    "Kenta Kasai"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2604.15307v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2604.15307v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoder"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-04-16",
+  "title": "Heuristic Search for Minimum-Distance Upper-Bound Witnesses in Quantum APM-LDPC Codes",
+  "updated_date": "2026-04-16"
+}
