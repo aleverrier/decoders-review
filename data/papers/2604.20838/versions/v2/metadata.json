@@ -1,0 +1,31 @@
+{
+  "abstract": "We construct a quantum low-density parity-check code family from a length-$512$ Calderbank--Shor--Steane base matrix pair. The base pair is permutation-equivalent to the known SPC(3) product CSS code, and the present affine-coset description gives a direct proof that both Tanner graphs are $(3,8)$-regular with girth $8$. The base code has parameters $[[512,174,8]]$. We then apply circulant permutation matrix (CPM) lifts. The main decoding experiment uses the CPM-lifted code with lift factor $P=32$, which has parameters $[[16384,4142,\\le 40]]$, under the code-capacity depolarizing model. A belief-propagation decoder with post-processing achieved frame error rate about $10^{-8}$ at $p=0.085$, and one observed logical residual of weight $40$ gives a decoder-derived upper bound $d\\le 40$.",
+  "arxiv_id": "2604.20838",
+  "arxiv_version": "v2",
+  "authors": [
+    "Koki Okada",
+    "Kenta Kasai"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "4254e6c56d829352fddfc7c2df26adf91da1c476c4dd872bcd390eaf55d1bc92",
+  "last_processed_at": "2026-04-27T14:11:57.188103+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2604.20838v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2604.20838v2"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "b43ac66768bd9a15068d04023c1a1f761eaaa316c43df4e17e60159827280a26",
+  "submitted_date": "2026-04-22",
+  "tags": [
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "High-Girth Regular Quantum LDPC Codes from Affine-Coset Structures",
+  "updated_date": "2026-04-24"
+}

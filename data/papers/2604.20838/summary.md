@@ -1,7 +1,7 @@
-# Decoding Quantum LDPC Codes using Collaborative Check Node Removal
+# High-Girth Regular Quantum LDPC Codes from Affine-Coset Structures
 
-- arXiv: `2501.08036v3`
-- Categories: quant-ph, cs.IT
+- arXiv: `2604.20838v2`
+- Categories: quant-ph
 - Relevance: **maybe** (confidence 0.35)
 
 ## Decoder approach
@@ -29,6 +29,6 @@
 - links.code_repo_urls
 
 ## Links
-- Abstract: https://arxiv.org/abs/2501.08036v3
-- PDF: https://arxiv.org/pdf/2501.08036v3
+- Abstract: https://arxiv.org/abs/2604.20838v2
+- PDF: https://arxiv.org/pdf/2604.20838v2
 - DOI: Unknown / not specified
