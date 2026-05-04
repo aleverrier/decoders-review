@@ -1,5 +1,128 @@
 [
   {
+    "abstract": "Quantum error correction (QEC) for fault-tolerant quantum computing requires a balanced decoding solution that offers high performance, low complexity, and low latency. However, the de facto standard, belief propagation (BP) combined with ordered statistics decoding (OSD), suffers from excessive iterations in the BP stage and high complexity in the OSD stage. To address these challenges, we propose an evolutionary BP (EBP) decoder optimized via a differential evolution (DE) algorithm. By leveraging the gradient-free nature of DE, we enable end-to-end optimization of the EBP+OSD structure to maximize overall performance. In addition, a multi-objective selection rule is introduced to suppress frequent OSD activation, significantly reducing complexity overhead. Experimental results on surface codes and quantum low-density parity-check (QLDPC) codes demonstrate that EBP plus OSD simultaneously achieves superior decoding performance and substantially lower complexity compared to conventional BP plus OSD, particularly in stringent low-latency regimes.",
+    "arxiv_id": "2512.18273",
+    "arxiv_version": "v2",
+    "authors": [
+      "Hee-Youl Kwak",
+      "Seong-Joon Park",
+      "Hyunwoo Jung",
+      "Jeongseok Ha",
+      "Jae-Won Kim"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.AI"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "1a11409aef6d6d51097684c729ea1baf779ce47a0a7c9f122c16aead803244ae",
+    "last_processed_at": "2026-05-04T14:19:15.781812+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2512.18273v2",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2512.18273v2"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding",
+        "belief propagation"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "4a128960e72de42751e04d9b62aa5f90c6cb16623043610005b79ab2bf4ebdec",
+    "submitted_date": "2025-12-20",
+    "tags": [
+      "belief propagation",
+      "cs.AI",
+      "decoder",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Evolutionary BP+OSD Decoding for Low-Latency Quantum Error Correction",
+    "updated_date": "2026-05-01"
+  },
+  {
+    "abstract": "We study square-base Calderbank--Shor--Steane (CSS) hypergraph-product codes as a finite-length class for regular high-girth quantum low-density parity-check (LDPC) design. For base matrices of small column weight, we give checkable conditions for regularity, rank deficiency, and short-cycle exclusion, and we present explicit column-weight-three and column-weight-four examples with Tanner girth 6 and 8. We also analyze circulant permutation matrix (CPM) lifts of this class. Using the standard voltage-sum criterion, we identify orthogonality-forced Tanner 8-cycles and show that CPM lifting cannot raise the Tanner girth beyond 8 when these cycles are present. As a representative finite-length instance, a randomized CPM lift of the girth-8 base construction gives a $[[28800,62]]$ girth-8 $(3,6)$-regular CSS-LDPC code. Under degeneracy-aware belief-propagation decoding with optional ordered-statistics-decoding-lite post-processing, this code produced zero decoding failures in $2.993\\times 10^8$ independent trials at depolarizing probability $p=0.1402$; the Wilson 95% upper confidence bound is $1.28\\times 10^{-8}$.",
+    "arxiv_id": "2604.27817",
+    "arxiv_version": "v1",
+    "authors": [
+      "Koki Okada",
+      "Kenta Kasai"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.IT"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "8694d268bcbcf8c8703315b6abe3e83f4eced758eb177ec419b1909d15cff005",
+    "last_processed_at": "2026-05-04T14:19:15.794204+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2604.27817v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2604.27817v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "c35ab0d63184620ce186c22201ebe9c6422728061c79775464e6eba531913ec7",
+    "submitted_date": "2026-04-30",
+    "tags": [
+      "cs.IT",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "High-Girth Regular Quantum LDPC Codes from Square-Base Hypergraph Products via CPM Lifts",
+    "updated_date": "2026-04-30"
+  },
+  {
     "abstract": "We construct a quantum low-density parity-check code family from a length-$512$ Calderbank--Shor--Steane base matrix pair. The base pair is permutation-equivalent to the known SPC(3) product CSS code, and the present affine-coset description gives a direct proof that both Tanner graphs are $(3,8)$-regular with girth $8$. The base code has parameters $[[512,174,8]]$. We then apply circulant permutation matrix (CPM) lifts. The main decoding experiment uses the CPM-lifted code with lift factor $P=32$, which has parameters $[[16384,4142,\\le 40]]$, under the code-capacity depolarizing model. A belief-propagation decoder with post-processing achieved frame error rate about $10^{-8}$ at $p=0.085$, and one observed logical residual of weight $40$ gives a decoder-derived upper bound $d\\le 40$.",
     "arxiv_id": "2604.20838",
     "arxiv_version": "v2",
@@ -2093,71 +2216,6 @@
     ],
     "title": "Poincaré Duality and Multiplicative Structures on Quantum Codes",
     "updated_date": "2025-12-30"
-  },
-  {
-    "abstract": "We propose an evolutionary belief propagation (EBP) decoder for quantum error correction, which incorporates trainable weights into the BP algorithm and optimizes them via the differential evolution algorithm. This approach enables end-to-end optimization of the EBP combined with ordered statistics decoding (OSD). Experimental results on surface codes and quantum low-density parity-check codes show that EBP+OSD achieves better decoding performance and lower computational complexity than BP+OSD, particularly under strict low latency constraints (within 5 BP iterations).",
-    "arxiv_id": "2512.18273",
-    "arxiv_version": "v1",
-    "authors": [
-      "Hee-Youl Kwak",
-      "Seong-Joon Park",
-      "Hyunwoo Jung",
-      "Jeongseok Ha",
-      "Jae-Won Kim"
-    ],
-    "categories": [
-      "quant-ph",
-      "cs.AI"
-    ],
-    "decoder": {
-      "algorithm_outline": [],
-      "complexity_claims": [],
-      "decoder_family": null,
-      "high_level_description": "Unknown / not specified from available text.",
-      "implementation_notes": [],
-      "key_ideas": [],
-      "name": null
-    },
-    "extraction_hash": "81220bac9cc9fc0bc96cafe8e450e0efbc65efbdf04356f14c9aae2128fc3786",
-    "last_processed_at": "2026-02-21T13:36:54.082864+00:00",
-    "links": {
-      "abs_url": "https://arxiv.org/abs/2512.18273v1",
-      "code_repo_urls": [],
-      "doi": null,
-      "pdf_url": "https://arxiv.org/pdf/2512.18273v1"
-    },
-    "missing_fields": [
-      "decoder.name",
-      "decoder.algorithm_outline",
-      "decoder.complexity_claims",
-      "performance_claims.thresholds",
-      "performance_claims.runtime_scaling_claims",
-      "simulations",
-      "links.code_repo_urls"
-    ],
-    "primary_category": "quant-ph",
-    "relevance": {
-      "confidence": 0.35,
-      "label": "maybe",
-      "matched_keywords": [
-        "decoder",
-        "decoding",
-        "belief propagation"
-      ],
-      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
-    },
-    "source_hash": "5fcfdd8af00457eecb1d3382d598570811684f8b668594e1cbc0c218b48ca4ca",
-    "submitted_date": "2025-12-20",
-    "tags": [
-      "belief propagation",
-      "cs.AI",
-      "decoder",
-      "decoding",
-      "quant-ph",
-      "relevance:maybe"
-    ],
-    "title": "Evolutionary BP+OSD Decoding for Low-Latency Quantum Error Correction",
-    "updated_date": "2025-12-20"
   },
   {
     "abstract": "(Abridged.) This thesis investigates scalable fault-tolerant quantum computation through the development of bosonic quantum codes, quantum LDPC codes, and decoding protocols that connect continuous-variable and discrete-variable error correction. We investigate superconducting microwave implementations of continuous-variable quantum computing, including the deterministic generation of cubic phase states, and introduce the dissipatively stabilized squeezed cat qubit, a noise-biased bosonic encoding with enhanced error suppression and faster gates. The performance of rotation-symmetric and GKP codes is analyzed under realistic noise and measurement models, revealing key trade-offs in measurement-based schemes. To integrate bosonic codes into larger architectures, we develop decoding methods that exploit analog syndrome information, enabling quasi-single-shot decoding in concatenated systems. On the discrete-variable side, we introduce localized statistics decoding, a highly parallelizable decoder for quantum LDPC codes, and propose quantum radial codes, a new family of single-shot LDPC codes with low overhead and strong circuit-level performance. Finally, we present fault complexes, a homological framework for analyzing faults in dynamic quantum error correction protocols. Extending the role of homology in static CSS codes, fault complexes provide a general language for the design and analysis of fault-tolerant schemes.",

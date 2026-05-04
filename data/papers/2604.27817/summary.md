@@ -1,7 +1,7 @@
-# Evolutionary BP+OSD Decoding for Low-Latency Quantum Error Correction
+# High-Girth Regular Quantum LDPC Codes from Square-Base Hypergraph Products via CPM Lifts
 
-- arXiv: `2512.18273v2`
-- Categories: quant-ph, cs.AI
+- arXiv: `2604.27817v1`
+- Categories: quant-ph, cs.IT
 - Relevance: **maybe** (confidence 0.35)
 
 ## Decoder approach
@@ -29,6 +29,6 @@
 - links.code_repo_urls
 
 ## Links
-- Abstract: https://arxiv.org/abs/2512.18273v2
-- PDF: https://arxiv.org/pdf/2512.18273v2
+- Abstract: https://arxiv.org/abs/2604.27817v1
+- PDF: https://arxiv.org/pdf/2604.27817v1
 - DOI: Unknown / not specified
