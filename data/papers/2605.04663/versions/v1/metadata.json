@@ -1,0 +1,32 @@
+{
+  "abstract": "Quantum low density parity check (qLDPC) codes, particularly bivariate bicycle (BB) codes, achieve competitive fault tolerance thresholds while offering substantially higher encoding rates than planar surface codes. However, their intrinsically long-range stabilizer structure makes them difficult to implement on monolithic devices with nearest neighbor connectivity and limited qubit capacity. In this work, we study the realization of a BB code in a modular multiprocessor architecture, where quantum processors are interconnected through shared Bell pairs. We consider processors with all to all internal connectivity, which is feasible on trapped ion and neutral atom platforms, enabling flexible local gate execution while inter-processor (nonlocal) gates are mediated by shared entanglement. We describe a star network architecture that can realize this distributed setting. We partition the qubits of the [[144,12,12]] BB code across 4, 6, and 12 quantum processors and analyze the resulting logical error rates and pseudo-threshold performance under circuit level noise by varying the number of processors and a scaling factor that captures the additional noise associated with nonlocal operations. We use Monte Carlo simulations with BP+OSD decoding and extend the previously known BB code ansatz to the distributed setting. Our results provide architectural insight and design considerations for distributed BB codes in modular quantum computing architectures.",
+  "arxiv_id": "2605.04663",
+  "arxiv_version": "v1",
+  "authors": [
+    "Nitish Kumar Chandra",
+    "Eneet Kaur",
+    "Reza Nejabati",
+    "Kaushik P. Seshadreesan"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "2eddb4bd302218724f3a5c8d3aa6afe2a2d6e8971409a5acfb812a0f238bb983",
+  "last_processed_at": "2026-05-11T15:27:31.039212+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2605.04663v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2605.04663v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "6df7ee2a262364033a2d8c0de9b0a8f125cc9f61fea811396f2f440b7156067b",
+  "submitted_date": "2026-05-06",
+  "tags": [
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Distributed Quantum Error Correction with Bivariate Bicycle Codes in a Modular Architecture",
+  "updated_date": "2026-05-06"
+}

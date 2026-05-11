@@ -1,5 +1,187 @@
 [
   {
+    "abstract": "Quantum low-density parity-check codes are promising candidates for low-overhead fault-tolerant quantum computing, but degeneracy is known to impair the convergence of belief-propagation (BP) decoding of these codes. In this work, we show that appending linearly independent rows to a check matrix of a stabilizer code can reduce the search space for a valid degenerate solution. Motivated by this, we extend the recently proposed affine subcode ensemble decoding technique from the classical to the quantum setting. Moreover, we employ overcomplete matrices for each decoding path. Monte-Carlo simulations on toric and generalized bicycle codes demonstrate improved convergence and reduced logical error rate.",
+    "arxiv_id": "2605.06547",
+    "arxiv_version": "v2",
+    "authors": [
+      "Leo Wursthorn",
+      "Jonathan Mandelbaum",
+      "Sisi Miao",
+      "Hedongliang Liu",
+      "Holger Jäkel",
+      "Stergios Koutsioumpas",
+      "Laurent Schmalen"
+    ],
+    "categories": [
+      "cs.IT",
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "7ef8f49bc27faef3f7edff66001ef844550591136947cf1518230809da8b0b6c",
+    "last_processed_at": "2026-05-11T15:27:31.034410+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2605.06547v2",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2605.06547v2"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "cs.IT",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "b4d693534f161f4a83a0e45c6e729488d267c96258e365ff5ab5db589953ad19",
+    "submitted_date": "2026-05-07",
+    "tags": [
+      "cs.IT",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Affine Subcode Ensemble Decoding for Degeneracy-Aware Quantum Error Correction",
+    "updated_date": "2026-05-08"
+  },
+  {
+    "abstract": "Quantum low density parity check (qLDPC) codes, particularly bivariate bicycle (BB) codes, achieve competitive fault tolerance thresholds while offering substantially higher encoding rates than planar surface codes. However, their intrinsically long-range stabilizer structure makes them difficult to implement on monolithic devices with nearest neighbor connectivity and limited qubit capacity. In this work, we study the realization of a BB code in a modular multiprocessor architecture, where quantum processors are interconnected through shared Bell pairs. We consider processors with all to all internal connectivity, which is feasible on trapped ion and neutral atom platforms, enabling flexible local gate execution while inter-processor (nonlocal) gates are mediated by shared entanglement. We describe a star network architecture that can realize this distributed setting. We partition the qubits of the [[144,12,12]] BB code across 4, 6, and 12 quantum processors and analyze the resulting logical error rates and pseudo-threshold performance under circuit level noise by varying the number of processors and a scaling factor that captures the additional noise associated with nonlocal operations. We use Monte Carlo simulations with BP+OSD decoding and extend the previously known BB code ansatz to the distributed setting. Our results provide architectural insight and design considerations for distributed BB codes in modular quantum computing architectures.",
+    "arxiv_id": "2605.04663",
+    "arxiv_version": "v1",
+    "authors": [
+      "Nitish Kumar Chandra",
+      "Eneet Kaur",
+      "Reza Nejabati",
+      "Kaushik P. Seshadreesan"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "2eddb4bd302218724f3a5c8d3aa6afe2a2d6e8971409a5acfb812a0f238bb983",
+    "last_processed_at": "2026-05-11T15:27:31.039212+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2605.04663v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2605.04663v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "6df7ee2a262364033a2d8c0de9b0a8f125cc9f61fea811396f2f440b7156067b",
+    "submitted_date": "2026-05-06",
+    "tags": [
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Distributed Quantum Error Correction with Bivariate Bicycle Codes in a Modular Architecture",
+    "updated_date": "2026-05-06"
+  },
+  {
+    "abstract": "Quantum low-density parity-check codes are a promising approach to fault-tolerant quantum computation, offering potential advantages in rate and decoding efficiency. In this work, we introduce quantum Margulis codes, a new class of QLDPC codes derived from Margulis' classical LDPC construction via the two-block group algebra framework. We show that quantum Margulis codes, unlike bivariate bicycle codes which require ordered statistics decoding for effective error correction, can be efficiently decoded using a standard min-sum decoder with linear complexity, when decoded under the code capacity noise model. This is attributed to their Tanner graph structure, which does not exhibit group symmetry, thereby mitigating the well-known problem of error degeneracy in QLDPC decoding. To further enhance performance, we propose an algorithm for constructing 2BGA codes with controlled girth, ensuring a minimum girth of 6 or 8, and use it to generate several quantum Margulis codes of length 240 and 642. We validate our approach through numerical simulations, demonstrating that quantum Margulis codes behave significantly better than BB codes in the error floor region, under min-sum decoding.",
+    "arxiv_id": "2503.03936",
+    "arxiv_version": "v3",
+    "authors": [
+      "Michele Pacenti",
+      "Dimitris Chytas",
+      "Bane Vasic"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.IT"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "199d530dd856c5e98b2e73610923156924fb23a2ba09216c6006a4bd71799ba3",
+    "last_processed_at": "2026-05-11T15:27:31.041630+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2503.03936v3",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.03936v3"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "11a91076bb49db059de00ee9d8747a8ca85a774ff0220dfe8d4a6990243b35ee",
+    "submitted_date": "2025-03-05",
+    "tags": [
+      "cs.IT",
+      "decoder",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Construction and Decoding of Quantum Margulis Codes",
+    "updated_date": "2026-05-06"
+  },
+  {
     "abstract": "Quantum error correction (QEC) for fault-tolerant quantum computing requires a balanced decoding solution that offers high performance, low complexity, and low latency. However, the de facto standard, belief propagation (BP) combined with ordered statistics decoding (OSD), suffers from excessive iterations in the BP stage and high complexity in the OSD stage. To address these challenges, we propose an evolutionary BP (EBP) decoder optimized via a differential evolution (DE) algorithm. By leveraging the gradient-free nature of DE, we enable end-to-end optimization of the EBP+OSD structure to maximize overall performance. In addition, a multi-objective selection rule is introduced to suppress frequent OSD activation, significantly reducing complexity overhead. Experimental results on surface codes and quantum low-density parity-check (QLDPC) codes demonstrate that EBP plus OSD simultaneously achieves superior decoding performance and substantially lower complexity compared to conventional BP plus OSD, particularly in stringent low-latency regimes.",
     "arxiv_id": "2512.18273",
     "arxiv_version": "v2",
@@ -4829,67 +5011,6 @@
     ],
     "title": "Stabilizer Entanglement Distillation and Efficient Fault-Tolerant Encoders",
     "updated_date": "2025-03-07"
-  },
-  {
-    "abstract": "Quantum low-density parity-check codes are a promising approach to fault-tolerant quantum computation, offering potential advantages in rate and decoding efficiency. In this work, we introduce quantum Margulis codes, a new class of QLDPC codes derived from Margulis' classical LDPC construction via the two-block group algebra framework. We show that quantum Margulis codes, unlike bivariate bicycle codes which require ordered statistics decoding for effective error correction, can be efficiently decoded using a standard min-sum decoder with linear complexity, when decoded under depolarizing noise. This is attributed to their Tanner graph structure, which does not exhibit group symmetry, thereby mitigating the well-known problem of error degeneracy in QLDPC decoding. To further enhance performance, we propose an algorithm for constructing 2BGA codes with controlled girth, ensuring a minimum girth of 6 or 8, and use it to generate several quantum Margulis codes of length 240 and 642. We validate our approach through numerical simulations, demonstrating that quantum Margulis codes behave significantly better than BB codes in the error floor region, under min-sum decoding.",
-    "arxiv_id": "2503.03936",
-    "arxiv_version": "v1",
-    "authors": [
-      "Michele Pacenti",
-      "Dimitris Chytas",
-      "Bane Vasic"
-    ],
-    "categories": [
-      "quant-ph",
-      "cs.IT"
-    ],
-    "decoder": {
-      "algorithm_outline": [],
-      "complexity_claims": [],
-      "decoder_family": null,
-      "high_level_description": "Unknown / not specified from available text.",
-      "implementation_notes": [],
-      "key_ideas": [],
-      "name": null
-    },
-    "extraction_hash": "9141599f12d15c4834b7fdbbc2d6d058ee1b69d6690d1ed682f9d5f27d0a2447",
-    "last_processed_at": "2026-02-21T13:38:12.762535+00:00",
-    "links": {
-      "abs_url": "https://arxiv.org/abs/2503.03936v1",
-      "code_repo_urls": [],
-      "doi": null,
-      "pdf_url": "https://arxiv.org/pdf/2503.03936v1"
-    },
-    "missing_fields": [
-      "decoder.name",
-      "decoder.algorithm_outline",
-      "decoder.complexity_claims",
-      "performance_claims.thresholds",
-      "performance_claims.runtime_scaling_claims",
-      "simulations",
-      "links.code_repo_urls"
-    ],
-    "primary_category": "quant-ph",
-    "relevance": {
-      "confidence": 0.35,
-      "label": "maybe",
-      "matched_keywords": [
-        "decoder",
-        "decoding"
-      ],
-      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
-    },
-    "source_hash": "0049079832b7cfb65a71ceb76f7b9a86263180261d3028b60f3152870182b627",
-    "submitted_date": "2025-03-05",
-    "tags": [
-      "cs.IT",
-      "decoder",
-      "decoding",
-      "quant-ph",
-      "relevance:maybe"
-    ],
-    "title": "Construction and Decoding of Quantum Margulis Codes",
-    "updated_date": "2025-03-05"
   },
   {
     "abstract": "We introduce Decision Tree Decoders (DTDs), which rely only on the sparsity of the binary check matrix, making them broadly applicable for decoding any quantum low-density parity-check (qLDPC) code and fault-tolerant quantum circuits. DTDs construct corrections incrementally by adding faults one-by-one, forming a path through a Decision Tree (DT). Each DTD algorithm is defined by its strategy for exploring the tree, with well-designed algorithms typically needing to explore only a small portion before finding a correction. We propose two explicit DTD algorithms that can be applied to any qLDPC code: (1) A provable decoder: Guaranteed to find a minimum-weight correction. While it can be slow in the worst case, numerical results show surprisingly fast median-case runtime, exploring only $w$ DT nodes to find a correction for weight-$w$ errors in notable qLDPC codes, such as bivariate bicycle and color codes. This decoder may be useful for ensemble decoding and determining provable code distances, and can be adapted to compute all minimum-weight logical operators of a code. (2) A heuristic decoder: Achieves higher accuracy and faster performance than BP-OSD on the gross code with circuit noise in realistic parameter regimes.",

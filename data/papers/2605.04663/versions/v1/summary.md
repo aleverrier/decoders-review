@@ -1,7 +1,7 @@
-# Construction and Decoding of Quantum Margulis Codes
+# Distributed Quantum Error Correction with Bivariate Bicycle Codes in a Modular Architecture
 
-- arXiv: `2503.03936v3`
-- Categories: quant-ph, cs.IT
+- arXiv: `2605.04663v1`
+- Categories: quant-ph
 - Relevance: **maybe** (confidence 0.35)
 
 ## Decoder approach
@@ -29,6 +29,6 @@
 - links.code_repo_urls
 
 ## Links
-- Abstract: https://arxiv.org/abs/2503.03936v3
-- PDF: https://arxiv.org/pdf/2503.03936v3
+- Abstract: https://arxiv.org/abs/2605.04663v1
+- PDF: https://arxiv.org/pdf/2605.04663v1
 - DOI: Unknown / not specified

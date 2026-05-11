@@ -1,0 +1,37 @@
+{
+  "abstract": "Quantum low-density parity-check codes are promising candidates for low-overhead fault-tolerant quantum computing, but degeneracy is known to impair the convergence of belief-propagation (BP) decoding of these codes. In this work, we show that appending linearly independent rows to a check matrix of a stabilizer code can reduce the search space for a valid degenerate solution. Motivated by this, we extend the recently proposed affine subcode ensemble decoding technique from the classical to the quantum setting. Moreover, we employ overcomplete matrices for each decoding path. Monte-Carlo simulations on toric and generalized bicycle codes demonstrate improved convergence and reduced logical error rate.",
+  "arxiv_id": "2605.06547",
+  "arxiv_version": "v2",
+  "authors": [
+    "Leo Wursthorn",
+    "Jonathan Mandelbaum",
+    "Sisi Miao",
+    "Hedongliang Liu",
+    "Holger Jäkel",
+    "Stergios Koutsioumpas",
+    "Laurent Schmalen"
+  ],
+  "categories": [
+    "cs.IT",
+    "quant-ph"
+  ],
+  "extraction_hash": "7ef8f49bc27faef3f7edff66001ef844550591136947cf1518230809da8b0b6c",
+  "last_processed_at": "2026-05-11T15:27:31.034410+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2605.06547v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2605.06547v2"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "b4d693534f161f4a83a0e45c6e729488d267c96258e365ff5ab5db589953ad19",
+  "submitted_date": "2026-05-07",
+  "tags": [
+    "cs.IT",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Affine Subcode Ensemble Decoding for Degeneracy-Aware Quantum Error Correction",
+  "updated_date": "2026-05-08"
+}
