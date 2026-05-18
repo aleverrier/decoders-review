@@ -1,0 +1,32 @@
+{
+  "abstract": "In this paper, we propose a belief-propagation (BP)-based decoder, termed the Multiple-Bases Belief-Propagation List Decoder (MBBP-LD), for quantum low-density parity-check (QLDPC) codes. The key idea is to generate \\emph{structured decoding diversity} by constructing multiple redundant parity-check representations via cycle-free subtree decompositions of the Tanner graph, and running BP decoding in parallel across these representations. This extends the classical Multiple-Bases Belief-Propagation (MBBP) framework to the quantum setting while preserving the linear-time complexity and efficiency of standard BP decoding, and avoids the need for super-linear post-processing. Simulation results demonstrate that MBBP-LD improves upon existing BP-based decoders, including BP with ordered statistics decoding (BP-OSD) and belief propagation with guided decimation (BPGD) across several QLDPC codes, while requiring substantially fewer total BP iterations. For bivariate bicycle codes $[[144,12,12]]$ and $[[288,12,18]]$, MBBP-LD achieves up to $20\\%$ reduction in error rate compared to BPGD and up to $30\\%$ compared to BP-OSD in the low- and moderate-error regimes. For the larger B1 code $[[882, 24, 18 \\leq d \\leq 24]]$, MBBP-LD attains comparable or improved performance relative to BPGD while maintaining BP-like decoding latency under parallel implementation.",
+  "arxiv_id": "2605.14170",
+  "arxiv_version": "v1",
+  "authors": [
+    "Sheida Rabeti",
+    "Hessam Mahdavifar"
+  ],
+  "categories": [
+    "cs.IT"
+  ],
+  "extraction_hash": "c0835187a1a4fee6e948779ba6c667bae3f8d7aedb59601ce19ed5ad6becbf8b",
+  "last_processed_at": "2026-05-18T15:47:42.475991+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2605.14170v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2605.14170v1"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "8aef67a3a5d9082e6bc4bbb849517a924c51451f80375fc29a53d3a30349b424",
+  "submitted_date": "2026-05-13",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "relevance:maybe"
+  ],
+  "title": "Multiple-Bases Belief Propagation List Decoding for Quantum LDPC Codes",
+  "updated_date": "2026-05-13"
+}

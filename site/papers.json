@@ -1,5 +1,125 @@
 [
   {
+    "abstract": "In this paper, we propose a belief-propagation (BP)-based decoder, termed the Multiple-Bases Belief-Propagation List Decoder (MBBP-LD), for quantum low-density parity-check (QLDPC) codes. The key idea is to generate \\emph{structured decoding diversity} by constructing multiple redundant parity-check representations via cycle-free subtree decompositions of the Tanner graph, and running BP decoding in parallel across these representations. This extends the classical Multiple-Bases Belief-Propagation (MBBP) framework to the quantum setting while preserving the linear-time complexity and efficiency of standard BP decoding, and avoids the need for super-linear post-processing. Simulation results demonstrate that MBBP-LD improves upon existing BP-based decoders, including BP with ordered statistics decoding (BP-OSD) and belief propagation with guided decimation (BPGD) across several QLDPC codes, while requiring substantially fewer total BP iterations. For bivariate bicycle codes $[[144,12,12]]$ and $[[288,12,18]]$, MBBP-LD achieves up to $20\\%$ reduction in error rate compared to BPGD and up to $30\\%$ compared to BP-OSD in the low- and moderate-error regimes. For the larger B1 code $[[882, 24, 18 \\leq d \\leq 24]]$, MBBP-LD attains comparable or improved performance relative to BPGD while maintaining BP-like decoding latency under parallel implementation.",
+    "arxiv_id": "2605.14170",
+    "arxiv_version": "v1",
+    "authors": [
+      "Sheida Rabeti",
+      "Hessam Mahdavifar"
+    ],
+    "categories": [
+      "cs.IT"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "c0835187a1a4fee6e948779ba6c667bae3f8d7aedb59601ce19ed5ad6becbf8b",
+    "last_processed_at": "2026-05-18T15:47:42.475991+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2605.14170v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2605.14170v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "cs.IT",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding",
+        "belief propagation"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "8aef67a3a5d9082e6bc4bbb849517a924c51451f80375fc29a53d3a30349b424",
+    "submitted_date": "2026-05-13",
+    "tags": [
+      "belief propagation",
+      "cs.IT",
+      "decoder",
+      "decoding",
+      "relevance:maybe"
+    ],
+    "title": "Multiple-Bases Belief Propagation List Decoding for Quantum LDPC Codes",
+    "updated_date": "2026-05-13"
+  },
+  {
+    "abstract": "Hypergraph product codes are a prototypical family of quantum codes with state-of-the-art decodability properties. In this work we consider the \"noisy\" syndrome decoding problem and exact recovery problem for hypergraph product codes and show a reduction to the decoding and exact recovery of classical codes in the noisy syndrome setting. Our results hold for a broad class of codes admitting efficient syndrome decoding, including Sipser-Spielman codes and Reed-Solomon codes.",
+    "arxiv_id": "2510.07602",
+    "arxiv_version": "v2",
+    "authors": [
+      "Venkata Gandikota",
+      "Elena Grigorescu",
+      "Vatsal Jha",
+      "S. Venkitesh"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "b154a7e1d27580ccabb5cfd8266b9f995af845f48987ab9daac21d19e90271e6",
+    "last_processed_at": "2026-05-18T15:47:42.482586+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2510.07602v2",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2510.07602v2"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoding",
+        "hypergraph product"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "2532407acc3a2fdc236431f22aa8f5b82e9407332885a75008bfa40d92127fd8",
+    "submitted_date": "2025-10-08",
+    "tags": [
+      "decoding",
+      "hypergraph product",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Noisy-Syndrome Decoding of Hypergraph Product Codes",
+    "updated_date": "2026-05-13"
+  },
+  {
     "abstract": "Quantum low-density parity-check codes are promising candidates for low-overhead fault-tolerant quantum computing, but degeneracy is known to impair the convergence of belief-propagation (BP) decoding of these codes. In this work, we show that appending linearly independent rows to a check matrix of a stabilizer code can reduce the search space for a valid degenerate solution. Motivated by this, we extend the recently proposed affine subcode ensemble decoding technique from the classical to the quantum setting. Moreover, we employ overcomplete matrices for each decoding path. Monte-Carlo simulations on toric and generalized bicycle codes demonstrate improved convergence and reduced logical error rate.",
     "arxiv_id": "2605.06547",
     "arxiv_version": "v2",
@@ -3259,66 +3379,6 @@
     ],
     "title": "Degeneracy Cutting: A Local and Efficient Post-Processing for Belief Propagation Decoding of Quantum Low-Density Parity-Check Codes",
     "updated_date": "2025-10-09"
-  },
-  {
-    "abstract": "Hypergraph product codes are a prototypical family of quantum codes with state-of-the-art decodability properties. Recently, Golowich and Guruswami (FOCS 2024) showed a reduction from quantum decoding to syndrome decoding for a general class of codes, which includes hypergraph product codes. In this work we consider the \"noisy\" syndrome decoding problem for hypergraph product codes, and show a similar reduction in the noisy setting, addressing a question posed by Golowich and Guruswami. Our results hold for a general family of codes wherein the code and the dual code are \"simultaneously nice\"; in particular, for codes admitting good syndrome decodability and whose duals look \"similar\". These include expander codes, Reed-Solomon codes, and variants.",
-    "arxiv_id": "2510.07602",
-    "arxiv_version": "v1",
-    "authors": [
-      "Venkata Gandikota",
-      "Elena Grigorescu",
-      "Vatsal Jha",
-      "S. Venkitesh"
-    ],
-    "categories": [
-      "quant-ph"
-    ],
-    "decoder": {
-      "algorithm_outline": [],
-      "complexity_claims": [],
-      "decoder_family": null,
-      "high_level_description": "Unknown / not specified from available text.",
-      "implementation_notes": [],
-      "key_ideas": [],
-      "name": null
-    },
-    "extraction_hash": "12ecd37226db778e0b969aa59f041dce169518e637bf0f1934f2175459c922d8",
-    "last_processed_at": "2026-02-21T13:37:23.054943+00:00",
-    "links": {
-      "abs_url": "https://arxiv.org/abs/2510.07602v1",
-      "code_repo_urls": [],
-      "doi": null,
-      "pdf_url": "https://arxiv.org/pdf/2510.07602v1"
-    },
-    "missing_fields": [
-      "decoder.name",
-      "decoder.algorithm_outline",
-      "decoder.complexity_claims",
-      "performance_claims.thresholds",
-      "performance_claims.runtime_scaling_claims",
-      "simulations",
-      "links.code_repo_urls"
-    ],
-    "primary_category": "quant-ph",
-    "relevance": {
-      "confidence": 0.35,
-      "label": "maybe",
-      "matched_keywords": [
-        "decoding",
-        "hypergraph product"
-      ],
-      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
-    },
-    "source_hash": "0405f12cd9d38ef7e878b68e33c1fa24cac14c88ec99d30ac85e5e27cd5aa96b",
-    "submitted_date": "2025-10-08",
-    "tags": [
-      "decoding",
-      "hypergraph product",
-      "quant-ph",
-      "relevance:maybe"
-    ],
-    "title": "Noisy-Syndrome Decoding of Hypergraph Product Codes",
-    "updated_date": "2025-10-08"
   },
   {
     "abstract": "It is a major challenge to perform addressable and parallel logical operations on constant-rate quantum LDPC (qLDPC) codes. Indeed, the overhead of targeting specific logical qubits represents a crucial bottleneck in many quantum fault-tolerance schemes. We introduce fault-tolerant protocols for performing various addressable as well as parallel logical operations with constant space-time overhead, on a family of constant-rate and polynomial-distance qLDPC codes. Specifically, we construct gadgets for a large class of permutations of logical qubits. We apply these logical permutations to construct gadgets for applying a targeted Hadamard (or $CNOT$) gate on any chosen logical qubit (pair). We also construct gadgets for preparing logical code states, and for applying Hadamard gates on all logical qubits in a codeblock. All of our gadgets use constant quantum space-time overhead along with polynomially bounded classical computation. Prior protocols for such operations required larger overhead, or else relied on codes with certain symmetries that lack known asymptotic constructions. Our codes are given by tensor products of classical codes constructed from lossless expander graphs. Our core technical contribution is a constant-overhead code-switching procedure between 2- and 3-dimensional product codes, which generalizes Bombin's dimensional jump (arXiv:1412.5079). We prove that all of our gadgets exhibit a constant threshold under locally stochastic noise. Along the way, we develop a small-set flip decoder for high-dimensional product codes from lossless expanders. Our techniques yield additional interesting consequences, such as single-shot state preparation of 2-dimensional product codes with constant space-time overhead. We also propose a method for performing parallel non-Clifford gates by extending our techniques to codes supporting transversal application of such gates.",

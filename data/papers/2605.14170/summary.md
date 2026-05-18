@@ -1,7 +1,7 @@
-# Noisy-Syndrome Decoding of Hypergraph Product Codes
+# Multiple-Bases Belief Propagation List Decoding for Quantum LDPC Codes
 
-- arXiv: `2510.07602v2`
-- Categories: quant-ph
+- arXiv: `2605.14170v1`
+- Categories: cs.IT
 - Relevance: **maybe** (confidence 0.35)
 
 ## Decoder approach
@@ -29,6 +29,6 @@
 - links.code_repo_urls
 
 ## Links
-- Abstract: https://arxiv.org/abs/2510.07602v2
-- PDF: https://arxiv.org/pdf/2510.07602v2
+- Abstract: https://arxiv.org/abs/2605.14170v1
+- PDF: https://arxiv.org/pdf/2605.14170v1
 - DOI: Unknown / not specified
