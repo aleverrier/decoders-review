@@ -1,0 +1,33 @@
+{
+  "abstract": "This paper develops a two-branch multiplicative-coset construction for regular Calderbank-Shor-Steane (CSS) quantum low-density parity-check base matrices. For a target column weight \\(J\\) and an even row weight \\(L\\), the method reduces regularity, CSS orthogonality, and same-type 4-cycle exclusion to explicit quotient-coset conditions over a finite field. A normalized exhaustive search for these conditions produces base matrices for several \\((J,L)\\) pairs, so the construction is not tied to a single degree distribution. The construction separates the finite-length design into two stages: the base matrix fixes the degree distribution and the first girth constraints, and a cyclic lift randomizes edge connections subject to exact algebraic checks. As a detailed example, we carry one \\((3,10)\\)-regular base through the lift and decoding stages. For this example, the selected 64-fold lift gives a code whose same-type Tanner graphs have girth at least eight, and it also excludes a specified weight-16 nondegenerate logical-support orbit. The resulting instance is a \\([[10240,4108,\\,10\\le d\\le32]]\\) CSS code. For decoding, we use joint log-domain belief propagation together with low-complexity deterministic post-processing rules for small residual syndromes, including repairs for residual patterns with two unsatisfied checks. The frame error rate (FER) measurements provide finite-length decoding data for this detailed example; at depolarizing probability \\(p=0.058\\), the post-processing FER is \\(1.0\\times10^{-7}\\).",
+  "arxiv_id": "2605.23894",
+  "arxiv_version": "v1",
+  "authors": [
+    "Koki Okada",
+    "Kenta Kasai"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "66e0d7aec70210509c5f3da6bcc8d887acd8c02b7eacddbeaebf52b17d3edb39",
+  "last_processed_at": "2026-05-25T15:21:16.328907+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2605.23894v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2605.23894v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "b00d4e82d89ca05bb7f9de417440a05e1f48124385b364ce1a1edf06b8185d7e",
+  "submitted_date": "2026-05-22",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "A Two-Branch Finite-Field Construction for Regular CSS LDPC Bases",
+  "updated_date": "2026-05-22"
+}
