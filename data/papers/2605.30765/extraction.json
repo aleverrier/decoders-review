@@ -1,0 +1,66 @@
+{
+  "abstract": "Quantum error correction (QEC) is transitioning from physical feasibility demonstrations to systems engineering challenges. Google has achieved below-threshold performance on distance-5/7 surface codes, while Riverlane and Rigetti have demonstrated hardware-integrated low-latency feedback loops. These milestones indicate that the core challenge of real-time decoding has shifted from algorithmic capability to system-level engineering. However, a substantial engineering gap remains between laboratory demonstrations and scalable fault-tolerant quantum computing (FTQC). This white paper addresses three questions: (1) Where are the real bottlenecks in real-time QEC: beyond average decoder speed, the constraints lie in QEC round time, tail latency, and end-to-end data path coordination; (2) How mature are mainstream decoder algorithms: we benchmark the major decoders for both surface codes and quantum low-density parity-check (qLDPC) codes, evaluating their real-time readiness; (3) What system stack do we propose: a six-layer reference architecture from syndrome acquisition to logical operations, with interface definitions and latency budget models. Our results quantify the gap between current decoder performance and real-time requirements, and identify the architectural choices needed to close it.",
+  "arxiv_id": "2605.30765",
+  "arxiv_version": "v1",
+  "authors": [
+    "Yaojian Chen",
+    "Chun-Yang Luan",
+    "Peilin Zheng",
+    "Xianghong Zeng",
+    "Jia-Yi Hou",
+    "Zhuo Fu",
+    "Yirong Jin",
+    "Fei Wang",
+    "Guangwen Yang",
+    "Dingshun Lv"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2605.30765v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2605.30765v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-05-29",
+  "title": "Real-Time Quantum Error Correction System Stack: Architecture, Algorithms, and Engineering Practice",
+  "updated_date": "2026-05-29"
+}

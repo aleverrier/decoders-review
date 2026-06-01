@@ -1,5 +1,132 @@
 [
   {
+    "abstract": "Quantum error correction (QEC) is transitioning from physical feasibility demonstrations to systems engineering challenges. Google has achieved below-threshold performance on distance-5/7 surface codes, while Riverlane and Rigetti have demonstrated hardware-integrated low-latency feedback loops. These milestones indicate that the core challenge of real-time decoding has shifted from algorithmic capability to system-level engineering. However, a substantial engineering gap remains between laboratory demonstrations and scalable fault-tolerant quantum computing (FTQC). This white paper addresses three questions: (1) Where are the real bottlenecks in real-time QEC: beyond average decoder speed, the constraints lie in QEC round time, tail latency, and end-to-end data path coordination; (2) How mature are mainstream decoder algorithms: we benchmark the major decoders for both surface codes and quantum low-density parity-check (qLDPC) codes, evaluating their real-time readiness; (3) What system stack do we propose: a six-layer reference architecture from syndrome acquisition to logical operations, with interface definitions and latency budget models. Our results quantify the gap between current decoder performance and real-time requirements, and identify the architectural choices needed to close it.",
+    "arxiv_id": "2605.30765",
+    "arxiv_version": "v1",
+    "authors": [
+      "Yaojian Chen",
+      "Chun-Yang Luan",
+      "Peilin Zheng",
+      "Xianghong Zeng",
+      "Jia-Yi Hou",
+      "Zhuo Fu",
+      "Yirong Jin",
+      "Fei Wang",
+      "Guangwen Yang",
+      "Dingshun Lv"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "ecab58a8879fb7e81fad8d7aff8fc1065e3894ce77547dfb3f5274e468dd7196",
+    "last_processed_at": "2026-06-01T17:54:43.107621+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2605.30765v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2605.30765v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "3e9a963d6753e92871cf83cf65f3d0ab1d182b00457d872290553c7eaf1dbe66",
+    "submitted_date": "2026-05-29",
+    "tags": [
+      "decoder",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Real-Time Quantum Error Correction System Stack: Architecture, Algorithms, and Engineering Practice",
+    "updated_date": "2026-05-29"
+  },
+  {
+    "abstract": "Noise is one of the central obstacles to building useful quantum computers, and quantum error correction (QEC) provides the framework for protecting quantum information against it. Unlike classical error correction, QEC must preserve fragile quantum states without copying them, measuring them directly, or destroying the information they encode. Driven by rapid progress in both theory and experiment, this challenge has grown into one of the most active areas of quantum information science. This tutorial gives a guided introduction to modern QEC, developing the core concepts of codes, syndromes, stabilizers, decoding, and fault tolerance before connecting them to major code families and current research directions. We cover both established constructions and newer developments, including topological and subsystem codes, bosonic and qudit codes, dynamical codes, and quantum low-density parity-check (qLDPC) codes. The emphasis is on building operational understanding: explaining not only what the main objects are, but how they are used in code design, error diagnosis, decoding, and fault-tolerant computation. The tutorial is intended for newcomers seeking a first path through QEC, as well as researchers looking for a coherent reference for the concepts, code families, and tools that arise in current work.",
+    "arxiv_id": "2605.29137",
+    "arxiv_version": "v1",
+    "authors": [
+      "Daniel J. Spencer",
+      "Shubham P. Jain",
+      "Andrew Tanggara",
+      "Zeen Sun",
+      "Tobias Haug",
+      "Derek Khu",
+      "Kishor Bharti"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "b6b0f9cb99f7344cde46f173e1c5df6b7cedf7d0af2835bc309089299dbfe2e7",
+    "last_processed_at": "2026-06-01T17:54:43.113875+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2605.29137v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2605.29137v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "b512b549d5ae1bf478cef34dad1fa59bfe85795d2620c8727b9c8978a6b3f094",
+    "submitted_date": "2026-05-27",
+    "tags": [
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Quantum error correction and fault tolerance: A comprehensive tutorial",
+    "updated_date": "2026-05-27"
+  },
+  {
     "abstract": "This paper develops a two-branch multiplicative-coset construction for regular Calderbank-Shor-Steane (CSS) quantum low-density parity-check base matrices. For a target column weight \\(J\\) and an even row weight \\(L\\), the method reduces regularity, CSS orthogonality, and same-type 4-cycle exclusion to explicit quotient-coset conditions over a finite field. A normalized exhaustive search for these conditions produces base matrices for several \\((J,L)\\) pairs, so the construction is not tied to a single degree distribution. The construction separates the finite-length design into two stages: the base matrix fixes the degree distribution and the first girth constraints, and a cyclic lift randomizes edge connections subject to exact algebraic checks. As a detailed example, we carry one \\((3,10)\\)-regular base through the lift and decoding stages. For this example, the selected 64-fold lift gives a code whose same-type Tanner graphs have girth at least eight, and it also excludes a specified weight-16 nondegenerate logical-support orbit. The resulting instance is a \\([[10240,4108,\\,10\\le d\\le32]]\\) CSS code. For decoding, we use joint log-domain belief propagation together with low-complexity deterministic post-processing rules for small residual syndromes, including repairs for residual patterns with two unsatisfied checks. The frame error rate (FER) measurements provide finite-length decoding data for this detailed example; at depolarizing probability \\(p=0.058\\), the post-processing FER is \\(1.0\\times10^{-7}\\).",
     "arxiv_id": "2605.23894",
     "arxiv_version": "v1",

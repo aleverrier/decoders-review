@@ -1,0 +1,62 @@
+{
+  "abstract": "Noise is one of the central obstacles to building useful quantum computers, and quantum error correction (QEC) provides the framework for protecting quantum information against it. Unlike classical error correction, QEC must preserve fragile quantum states without copying them, measuring them directly, or destroying the information they encode. Driven by rapid progress in both theory and experiment, this challenge has grown into one of the most active areas of quantum information science. This tutorial gives a guided introduction to modern QEC, developing the core concepts of codes, syndromes, stabilizers, decoding, and fault tolerance before connecting them to major code families and current research directions. We cover both established constructions and newer developments, including topological and subsystem codes, bosonic and qudit codes, dynamical codes, and quantum low-density parity-check (qLDPC) codes. The emphasis is on building operational understanding: explaining not only what the main objects are, but how they are used in code design, error diagnosis, decoding, and fault-tolerant computation. The tutorial is intended for newcomers seeking a first path through QEC, as well as researchers looking for a coherent reference for the concepts, code families, and tools that arise in current work.",
+  "arxiv_id": "2605.29137",
+  "arxiv_version": "v1",
+  "authors": [
+    "Daniel J. Spencer",
+    "Shubham P. Jain",
+    "Andrew Tanggara",
+    "Zeen Sun",
+    "Tobias Haug",
+    "Derek Khu",
+    "Kishor Bharti"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2605.29137v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2605.29137v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-05-27",
+  "title": "Quantum error correction and fault tolerance: A comprehensive tutorial",
+  "updated_date": "2026-05-27"
+}
