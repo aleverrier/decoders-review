@@ -1,5 +1,66 @@
 [
   {
+    "abstract": "Lifted product codes are an important family of quantum low-density parity-check (QLDPC) codes, as they were the first QLDPC code family shown to be asymptotically good. Understanding the structure of their parity-check matrices $H_{\\mathsf{X}}$ and $H_{\\mathsf{Z}}$, as well as the associated Tanner graphs, is essential for analyzing their decoding behavior and error-floor performance. In this work, we show that the Tanner graphs of $H_{\\mathsf{X}}$ and $H_{\\mathsf{Z}}$ are indeed isomorphic, and investigate their graph-theoretical structure. We establish conditions ensuring the connectivity of these graphs and provide bounds on their minimal absorbing sets, providing new insight into the combinatorial structures influencing decoding performance.",
+    "arxiv_id": "2606.11987",
+    "arxiv_version": "v1",
+    "authors": [
+      "Ragnar Freij-Hollanti",
+      "Kirsten D. Morris",
+      "Patricija Šapokaitė"
+    ],
+    "categories": [
+      "cs.IT",
+      "math.CO"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "9d165949141959c26e444517d300a0cf01f9ae81842ec3a8bf590286f99419b0",
+    "last_processed_at": "2026-06-15T17:23:18.371878+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2606.11987v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2606.11987v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "cs.IT",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoding",
+        "lifted product"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "aeba4f46d857ff7d1060702e4dd3e62a7e891808e5cc4b02ed4a297eb7a6685b",
+    "submitted_date": "2026-06-10",
+    "tags": [
+      "cs.IT",
+      "decoding",
+      "lifted product",
+      "math.CO",
+      "relevance:maybe"
+    ],
+    "title": "Graphical Analysis of Lifted Product Code Constructions",
+    "updated_date": "2026-06-10"
+  },
+  {
     "abstract": "Quantum error correction (QEC) is transitioning from physical feasibility demonstrations to systems engineering challenges. Google has achieved below-threshold performance on distance-5/7 surface codes, while Riverlane and Rigetti have demonstrated hardware-integrated low-latency feedback loops. These milestones indicate that the core challenge of real-time decoding has shifted from algorithmic capability to system-level engineering. However, a substantial engineering gap remains between laboratory demonstrations and scalable fault-tolerant quantum computing (FTQC). This white paper addresses three questions: (1) Where are the real bottlenecks in real-time QEC: beyond average decoder speed, the constraints lie in QEC round time, tail latency, and end-to-end data path coordination; (2) How mature are mainstream decoder algorithms: we benchmark the major decoders for both surface codes and quantum low-density parity-check (qLDPC) codes, evaluating their real-time readiness; (3) What system stack do we propose: a six-layer reference architecture from syndrome acquisition to logical operations, with interface definitions and latency budget models. Our results quantify the gap between current decoder performance and real-time requirements, and identify the architectural choices needed to close it.",
     "arxiv_id": "2605.30765",
     "arxiv_version": "v1",
