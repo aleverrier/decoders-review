@@ -1,0 +1,35 @@
+{
+  "abstract": "Quantum error correction is essential for building scalable quantum computers. Within the stabilizer formalism, the Calderbank-Shor-Steane framework constructs quantum codes from pairs of classical linear codes. A distinctive feature in this setting is degeneracy, where multiple equivalent error estimates exist-a phenomenon that has no classical counterpart, and the lack of a meaningful classical coding-theoretic interpretation of which has remained a gap in the literature. In this paper, we demonstrate that degeneracy is closely related to the classical operation of shortening of a linear block code. Interestingly, the shortening here takes place at the decoder rather than at the encoder. Leveraging this insight, we present a parallel decoding scheme for quantum low-density parity-check codes, which we term impulse decoding, that significantly outperforms belief propagation with ordered statistics decoding, as well as several other existing techniques, under both code-capacity and circuit-level noise, with significantly lesser complexity. We then present another algorithm based on decoding of residual errors, which when combined with impulse decoding achieves further performance improvement under circuit-level noise.",
+  "arxiv_id": "2606.18240",
+  "arxiv_version": "v1",
+  "authors": [
+    "Shobhit Bhatnagar",
+    "Michele Pacenti",
+    "Nithin Raveendran",
+    "David Declercq",
+    "Bane Vasić"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "98b07e4378fc6438be94a50d2b86a52c97d8616b6b7d6e6581c7c470b500ff2d",
+  "last_processed_at": "2026-06-22T17:07:09.396630+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2606.18240v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2606.18240v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "bac7ff1ec52aed0981ba817823f1ca599bf7e68845ae3f7f7b5ea81e8e1eb068",
+  "submitted_date": "2026-06-16",
+  "tags": [
+    "belief propagation",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Impulse Decoding of Quantum LDPC Codes: Equivalence of Degeneracy and Code-Shortening",
+  "updated_date": "2026-06-16"
+}
