@@ -1,0 +1,32 @@
+{
+  "abstract": "Quantum computers could outperform classical machines on important problems, but only if the errors that pervade quantum hardware can be corrected at scale. Quantum low-density parity-check (qLDPC) codes offer a promising route to this goal by combining sparse parity checks with finite encoding rate and growing distance, but their construction remains a challenging discrete design problem. Here we introduce structured concept evolution (SCE), a search framework that pairs a large language model with a structured algebraic mutation grammar to discover lifted-product code families, a class of CSS qLDPC codes. Instead of asking the LLM to design codes from first principles, SCE evolves structured concepts consisting of algebraic specifications paired with executable programs that realize them, using hierarchical mutations that modify the group algebra, protograph geometry, or base space. Running SCE, we discover a diverse set of competitive code families, ranging from abelian constructions to families over non-abelian groups beyond those underlying standard designs such as bivariate-bicycle codes, and characterize them under code-capacity depolarizing noise with BP+OSD decoding. These results are obtained with lightweight models (GPT-5.4-mini and GPT-5.4-nano).",
+  "arxiv_id": "2606.24808",
+  "arxiv_version": "v1",
+  "authors": [
+    "Zidu Liu",
+    "Florian Marquardt"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.AI"
+  ],
+  "extraction_hash": "b7bb867506a158cb4f5270cbc7cf75a0ae0383028a30960bddf18cf2572ba499",
+  "last_processed_at": "2026-07-06T15:47:35.340850+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2606.24808v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2606.24808v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "baa832ee0a6221354d1bef124749dce12da037d8d04d21661e3ac904a0652443",
+  "submitted_date": "2026-06-23",
+  "tags": [
+    "cs.AI",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Large-Language-Model Discovery of Quantum LDPC Codes through Structured Concept Evolution",
+  "updated_date": "2026-06-23"
+}

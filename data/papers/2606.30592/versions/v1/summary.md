@@ -1,6 +1,6 @@
-# An almost-linear time decoding algorithm for quantum LDPC codes under circuit-level noise
+# Untangling QLDPC Codes with Biased Noise Ancilla
 
-- arXiv: `2409.01440v3`
+- arXiv: `2606.30592v1`
 - Categories: quant-ph
 - Relevance: **maybe** (confidence 0.35)
 
@@ -29,6 +29,6 @@
 - links.code_repo_urls
 
 ## Links
-- Abstract: https://arxiv.org/abs/2409.01440v3
-- PDF: https://arxiv.org/pdf/2409.01440v3
-- DOI: 10.1038/s41534-026-01292-1
+- Abstract: https://arxiv.org/abs/2606.30592v1
+- PDF: https://arxiv.org/pdf/2606.30592v1
+- DOI: Unknown / not specified

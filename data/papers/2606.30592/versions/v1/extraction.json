@@ -1,0 +1,60 @@
+{
+  "abstract": "Remarkable technical progress has made high-rate, high-distance, quantum low-density parity-check codes (QLDPC) promising candidates for scalable quantum computing. However, it is hard to design low-depth syndrome extraction circuits that do not spread errors from ancilla qubits to multiple data qubits, also known as hook errors, for general QLDPC codes. Additionally, widely used decoders for these codes based on belief propagation are impaired due to short loops in the Tanner graph. Here, we investigate a hardware-aware approach to avoid these hooks and loops using biased noise ancillas. Using examples of bicycle bivariate codes and a cyclic hypergraph product code, which have been widely considered for practical application, we show that the effective fault-distance of the conventional syndrome extraction circuit can be significantly higher and the number of short loops can be significantly lower when the ancillas are subject to phase-flip errors only, compared to when they are also subject to bit-flip errors. This can result in almost an order of magnitude improvement in the logical error rate at circuit noise of $2\\times 10^{-3}$ and when bit-flip errors in the ancilla are 50 times less likely than phase-flip errors. Our work demonstrates a significant and practical quantum error correction advantage with biased noise qubits in which full-bias cannot be maintained.",
+  "arxiv_id": "2606.30592",
+  "arxiv_version": "v1",
+  "authors": [
+    "Runjiang Bi",
+    "Kathleen Chang",
+    "Shruti Puri"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2606.30592v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2606.30592v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "belief propagation",
+      "hypergraph product"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-06-29",
+  "title": "Untangling QLDPC Codes with Biased Noise Ancilla",
+  "updated_date": "2026-06-29"
+}

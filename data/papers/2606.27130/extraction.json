@@ -1,0 +1,59 @@
+{
+  "abstract": "We construct a rate-$2/3$ quantum low-density parity-check (LDPC) code from a $(3,18)$-regular two-branch finite-field base and a circulant-permutation-matrix (CPM) lift of degree $P=101$. The resulting code is a Calderbank-Shor-Steane (CSS) code with parameters $[[34542,23032,d\\le 310]]$. We do not regard this upper bound as an estimate of the true minimum distance; rather, $d\\le310$ is the tightest upper bound currently obtained from structural lifts and decoder-produced logical errors. The construction has row weight 18 and column weight 3, and the Tanner graphs of $H_X$ and $H_Z$ separately have girth 8. Decoder experiments with log-likelihood-ratio (LLR) joint belief propagation (BP) and deterministic post-processing show no failures in $10^8$ trials at $p=0.01$, and a finite-length frame error rate (FER) sweep estimates the transition near $p=0.029$.",
+  "arxiv_id": "2606.27130",
+  "arxiv_version": "v1",
+  "authors": [
+    "Koki Okada",
+    "Kenta Kasai"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2606.27130v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2606.27130v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "belief propagation"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-06-25",
+  "title": "Rate-2/3 Girth-8 (3,18)-Regular Quantum LDPC Codes from Two-Branch Finite-Field Bases and CPM Lifts",
+  "updated_date": "2026-06-25"
+}

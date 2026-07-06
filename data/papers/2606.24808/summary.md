@@ -1,7 +1,7 @@
-# An almost-linear time decoding algorithm for quantum LDPC codes under circuit-level noise
+# Large-Language-Model Discovery of Quantum LDPC Codes through Structured Concept Evolution
 
-- arXiv: `2409.01440v3`
-- Categories: quant-ph
+- arXiv: `2606.24808v1`
+- Categories: quant-ph, cs.AI
 - Relevance: **maybe** (confidence 0.35)
 
 ## Decoder approach
@@ -29,6 +29,6 @@
 - links.code_repo_urls
 
 ## Links
-- Abstract: https://arxiv.org/abs/2409.01440v3
-- PDF: https://arxiv.org/pdf/2409.01440v3
-- DOI: 10.1038/s41534-026-01292-1
+- Abstract: https://arxiv.org/abs/2606.24808v1
+- PDF: https://arxiv.org/pdf/2606.24808v1
+- DOI: Unknown / not specified
