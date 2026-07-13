@@ -1,0 +1,55 @@
+{
+  "abstract": "Tile codes are a family of planar quantum low-density parity-check (qLDPC) codes with weight-6 stabilizers and open boundary conditions, offering an encoding efficiency $kd^2/n$ of up to four times that of the surface code. In this work, we develop an exhaustive search algorithm for finding SWAP-based routing schemes that implement syndrome extraction for four tile-code families using only nearest-neighbor interactions on a two-dimensional square lattice, matching the connectivity of the surface code. Using explicitly constructed routed syndrome-extraction circuits decoded with BP+OSD, we estimate the circuit-level thresholds of these code families. For the SI1000 noise model, the threshold without such a connectivity constraint is obtained in a range 0.23%-0.31%, while it decreases to 0.11%-0.13% with routing, representing a reduction factor of around two to three. Despite this threshold penalty, our resource-footprint analysis shows that routed tile codes require fewer physical qubits per logical qubit than the surface code at sufficiently low physical error rates: Under the SI1000 noise model, we find a crossover near $p^*\\approx 0.08\\%$, below which routed tile codes become more qubit-efficient, with an advantage that grows monotonically as the physical error rate decreases.",
+  "arxiv_id": "2607.05897",
+  "arxiv_version": "v1",
+  "authors": [
+    "Yoonjin Bae",
+    "Chae-Yeun Park"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2607.05897v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2607.05897v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-07-07",
+  "title": "Strictly Local Tile-Code Architectures on Two-Dimensional Planar Lattices",
+  "updated_date": "2026-07-07"
+}

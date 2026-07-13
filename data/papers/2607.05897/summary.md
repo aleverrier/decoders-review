@@ -1,6 +1,6 @@
-# Degeneracy Cutting: A Local and Efficient Post-Processing for Belief Propagation Decoding of Quantum Low-Density Parity-Check Codes
+# Strictly Local Tile-Code Architectures on Two-Dimensional Planar Lattices
 
-- arXiv: `2510.08695v2`
+- arXiv: `2607.05897v1`
 - Categories: quant-ph
 - Relevance: **maybe** (confidence 0.35)
 
@@ -29,6 +29,6 @@
 - links.code_repo_urls
 
 ## Links
-- Abstract: https://arxiv.org/abs/2510.08695v2
-- PDF: https://arxiv.org/pdf/2510.08695v2
+- Abstract: https://arxiv.org/abs/2607.05897v1
+- PDF: https://arxiv.org/pdf/2607.05897v1
 - DOI: Unknown / not specified
