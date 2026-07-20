@@ -1,0 +1,61 @@
+{
+  "abstract": "Stabilizer codes are often constructed within the Calderbank--Shor--Steane (CSS) framework, where two mutually orthogonal binary classical codes define $X$ and $Z$-type stabilizer generators. While this structure is algebraically convenient, additional non-CSS constraints may help suppress low-weight logical operators and improve decoding performance in the finite-length regime. We thus introduce quantum XYZ stabilizer codes, whose parity-check matrix (PCM) is built from three pairwise orthogonal binary PCMs associated with $X$-, $Y$-, and $Z$-type stabilizer generators. A nontrivial point is that an XYZ code instance is not automatically genuinely non-CSS: the same stabilizer group may admit a CSS generating set. We characterize this collapse, obtaining algebraic and rank conditions for deciding when the $Y$-type checks are redundant and when they define genuinely non-CSS stabilizer constraints. We also derive upper and lower bounds on the quantum minimum distance, including bounds for mixed Pauli logical operators. The novel framework includes a known non-CSS topological code, namely the XYZ$^2$ hexagonal code, and yields also sparse finite-length quantum low-density parity-check (qLDPC) constructions from intersecting-subset and quasi-dyadic code families. Simulations under depolarizing code-capacity noise and quaternary belief propagation decoding show that the proposed XYZ qLDPC instances can outperform representative CSS qLDPC instances with similar finite-length parameters.",
+  "arxiv_id": "2607.14988",
+  "arxiv_version": "v1",
+  "authors": [
+    "Alessio Baldelli",
+    "Davide Orsucci",
+    "Francisco Lázaro",
+    "Massimo Battaglioni"
+  ],
+  "categories": [
+    "cs.IT",
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2607.14988v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2607.14988v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "cs.IT",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoding",
+      "belief propagation"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-07-16",
+  "title": "Quantum XYZ Stabilizer Codes",
+  "updated_date": "2026-07-16"
+}

@@ -1,5 +1,126 @@
 [
   {
+    "abstract": "Stabilizer codes are often constructed within the Calderbank--Shor--Steane (CSS) framework, where two mutually orthogonal binary classical codes define $X$ and $Z$-type stabilizer generators. While this structure is algebraically convenient, additional non-CSS constraints may help suppress low-weight logical operators and improve decoding performance in the finite-length regime. We thus introduce quantum XYZ stabilizer codes, whose parity-check matrix (PCM) is built from three pairwise orthogonal binary PCMs associated with $X$-, $Y$-, and $Z$-type stabilizer generators. A nontrivial point is that an XYZ code instance is not automatically genuinely non-CSS: the same stabilizer group may admit a CSS generating set. We characterize this collapse, obtaining algebraic and rank conditions for deciding when the $Y$-type checks are redundant and when they define genuinely non-CSS stabilizer constraints. We also derive upper and lower bounds on the quantum minimum distance, including bounds for mixed Pauli logical operators. The novel framework includes a known non-CSS topological code, namely the XYZ$^2$ hexagonal code, and yields also sparse finite-length quantum low-density parity-check (qLDPC) constructions from intersecting-subset and quasi-dyadic code families. Simulations under depolarizing code-capacity noise and quaternary belief propagation decoding show that the proposed XYZ qLDPC instances can outperform representative CSS qLDPC instances with similar finite-length parameters.",
+    "arxiv_id": "2607.14988",
+    "arxiv_version": "v1",
+    "authors": [
+      "Alessio Baldelli",
+      "Davide Orsucci",
+      "Francisco Lázaro",
+      "Massimo Battaglioni"
+    ],
+    "categories": [
+      "cs.IT",
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "42734ea27a7641a398ec85137b57b3e3e4e216e8bf355ff535c442e62a2a59fb",
+    "last_processed_at": "2026-07-20T14:21:37.848736+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2607.14988v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2607.14988v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "cs.IT",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoding",
+        "belief propagation"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "ee98cfbc0dcd8e72fc8e80881331e28b06114f19f38bed5de2002bdcedbc4cee",
+    "submitted_date": "2026-07-16",
+    "tags": [
+      "belief propagation",
+      "cs.IT",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Quantum XYZ Stabilizer Codes",
+    "updated_date": "2026-07-16"
+  },
+  {
+    "abstract": "Utility-scale quantum computing requires quantum error correction (QEC) to protect quantum information against noise. Currently, superconducting hardware is a promising candidate for achieving fault tolerance due to its fast gate times and feasible scalability. However, it is often restricted to two-dimensional nearest-neighbour connectivity, and therefore the variety of quantum low-density parity-check (qLDPC) codes that can be implemented on it without sacrificing QEC performance is believed to be greatly restricted. In this paper we construct a new family of qLDPC codes, which we call ``directional codes'', that outperforms the rotated toric code (RTC) while satisfying the connectivity requirements of the widely adopted square-grid, and some even the sparser hexagonal-grid, on a torus. The key idea is to utilise the iSWAP gate -- a native gate demonstrated on superconducting qubits -- to construct circuits that measure the stabilisers of these qLDPC codes without the need for additional connections. We numerically evaluate the performance of directional codes, encoding four, six, twelve and eighteen logical qubits, using a common superconducting-inspired circuit-level Pauli noise model. We also compare them to the RTC and to the bivariate bicycle (BB) codes, currently the two most popular quantum LDPC code families. As a concrete example, when evaluated with the Tesseract decoder with short beam setting, the best directional code family investigated achieves the same logical error rate as the RTC at physical error rate $p=10^{-3}$ but requires only a quarter to a third of the number of physical qubits. Our discovery opens a novel direction in QEC code design, suggesting that complex high-connectivity hardware may not be necessary for low-overhead fault-tolerant quantum computation.",
+    "arxiv_id": "2507.19430",
+    "arxiv_version": "v3",
+    "authors": [
+      "György P. Gehér",
+      "David Byfield",
+      "Archibald Ruban"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "fd1e92267c003b82027649a6015fbbcbe4b4e13d7280b011c68654fdb7a9253e",
+    "last_processed_at": "2026-07-20T14:21:37.855184+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2507.19430v3",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2507.19430v3"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.55,
+      "label": "relevant",
+      "matched_keywords": [
+        "quantum ldpc",
+        "decoder"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "182932b8cf24d65f054a5dd279cae5417779fe51f49b866add304dd2e1235a1f",
+    "submitted_date": "2025-07-25",
+    "tags": [
+      "decoder",
+      "quant-ph",
+      "quantum ldpc",
+      "relevance:relevant"
+    ],
+    "title": "Directional Codes: a new family of quantum LDPC codes on hexagonal- and square-grid connectivity hardware",
+    "updated_date": "2026-07-14"
+  },
+  {
     "abstract": "Quantum low-density parity-check (qLDPC) codes are promising for realizing scalable fault-tolerant quantum computation due to their potential for low-overhead protocols. A common approach to decoding qLDPC codes is to use the belief propagation (BP) decoder, followed by a post-processing step to enhance decoding accuracy. For fast decoding, the post-processing algorithm is desirable to have a small computational cost and rely only on local operations on the Tanner graph to facilitate parallel implementation. To address this requirement, we propose degeneracy cutting (DC), an efficient post-processing technique for the BP decoder that operates on information restricted to the support of each stabilizer generator. DC selectively removes one variable node with the lowest error probability for each stabilizer generator, significantly improving decoding performance while retaining the favorable computational scaling and structure amenable to parallelization inherent to BP. We further extend our method to realistic noise models, including phenomenological and circuit-level noise models, by introducing the detector degeneracy matrix, which generalizes the notion of stabilizer-induced degeneracy to these settings. Numerical simulations demonstrate that BP+DC achieves decoding performance approaching that of BP followed by ordered statistics decoding (BP+OSD) in several settings, while requiring significantly less computational cost. Our results present BP+DC as a promising decoder for fault-tolerant quantum computing, offering a valuable balance of accuracy, efficiency, and suitability for parallel implementation.",
     "arxiv_id": "2510.08695",
     "arxiv_version": "v2",

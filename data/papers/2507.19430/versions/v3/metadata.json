@@ -1,0 +1,32 @@
+{
+  "abstract": "Utility-scale quantum computing requires quantum error correction (QEC) to protect quantum information against noise. Currently, superconducting hardware is a promising candidate for achieving fault tolerance due to its fast gate times and feasible scalability. However, it is often restricted to two-dimensional nearest-neighbour connectivity, and therefore the variety of quantum low-density parity-check (qLDPC) codes that can be implemented on it without sacrificing QEC performance is believed to be greatly restricted. In this paper we construct a new family of qLDPC codes, which we call ``directional codes'', that outperforms the rotated toric code (RTC) while satisfying the connectivity requirements of the widely adopted square-grid, and some even the sparser hexagonal-grid, on a torus. The key idea is to utilise the iSWAP gate -- a native gate demonstrated on superconducting qubits -- to construct circuits that measure the stabilisers of these qLDPC codes without the need for additional connections. We numerically evaluate the performance of directional codes, encoding four, six, twelve and eighteen logical qubits, using a common superconducting-inspired circuit-level Pauli noise model. We also compare them to the RTC and to the bivariate bicycle (BB) codes, currently the two most popular quantum LDPC code families. As a concrete example, when evaluated with the Tesseract decoder with short beam setting, the best directional code family investigated achieves the same logical error rate as the RTC at physical error rate $p=10^{-3}$ but requires only a quarter to a third of the number of physical qubits. Our discovery opens a novel direction in QEC code design, suggesting that complex high-connectivity hardware may not be necessary for low-overhead fault-tolerant quantum computation.",
+  "arxiv_id": "2507.19430",
+  "arxiv_version": "v3",
+  "authors": [
+    "György P. Gehér",
+    "David Byfield",
+    "Archibald Ruban"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "fd1e92267c003b82027649a6015fbbcbe4b4e13d7280b011c68654fdb7a9253e",
+  "last_processed_at": "2026-07-20T14:21:37.855184+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2507.19430v3",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2507.19430v3"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "182932b8cf24d65f054a5dd279cae5417779fe51f49b866add304dd2e1235a1f",
+  "submitted_date": "2025-07-25",
+  "tags": [
+    "decoder",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Directional Codes: a new family of quantum LDPC codes on hexagonal- and square-grid connectivity hardware",
+  "updated_date": "2026-07-14"
+}
