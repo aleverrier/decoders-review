@@ -1,5 +1,194 @@
 [
   {
+    "abstract": "Error correction thresholds are often treated as the primary figure of merit for comparing quantum error-correcting code families. We show that the optimal error correction threshold for many commonly considered codes is constrained to a single universal value at leading order in a replica limit. Through a statistical mechanical mapping, we demonstrate that duality constrains all zero-rate em-symmetric CSS codes to have the same optimal code capacity threshold. Here, em symmetry means that the X- and Z-type parity-check matrices are equivalent up to row and column permutations. Under this statistical mechanical mapping, em-symmetric CSS codes are self-dual under a generalized Kramers-Wannier duality up to a mixing of logical sectors. For zero-rate code families, this mixing contributes only subextensive corrections, so the thermodynamic bulk free energy is self-dual in the trivial logical sector. This self-duality fixes the clean critical point and constrains the disordered phase boundary. We also show that self-duality is preserved under code concatenation, and that optimal decoding of concatenated codes can be reformulated as a renormalization group flow on a hierarchical lattice. Our results provide a common framework for analyzing topological, concatenated, and more general quantum low-density parity-check code families, including both their optimal code capacity thresholds and their sub-threshold logical error suppression.",
+    "arxiv_id": "2607.21160",
+    "arxiv_version": "v1",
+    "authors": [
+      "Lucas H. English",
+      "Haoyuan Luo",
+      "Yangming Wang",
+      "Basudha Srivastava",
+      "Stephen D. Bartlett",
+      "Dominic J. Williamson"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "5e4b9699580ef20e693acf0e18c974c738ad71506b6e74605a3e853f2e367ec8",
+    "last_processed_at": "2026-07-27T14:50:11.512404+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2607.21160v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2607.21160v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "f63ec82ba70342bc72d1b38d64fc1329643920a8dd9f2ceb4260afb13021c539",
+    "submitted_date": "2026-07-23",
+    "tags": [
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Duality constrains optimal thresholds in quantum error correction",
+    "updated_date": "2026-07-23"
+  },
+  {
+    "abstract": "Belief-propagation (BP) decoding for quantum low-density parity-check (QLDPC) codes is attractive due to its low complexity, but its performance is often limited by short cycles, degeneracy, and convergence failures. Recently, reinforcement-learning-based sequential variable-node (VN) scheduling (RL-S) was shown to improve BP decoding by learning state-dependent update orders. However, the VN-by-VN nature of that approach offers limited within-iteration parallelism, since only one VN is updated at a time. In this paper, we propose a cluster-based extension of RL-S for QLDPC codes. The VNs are partitioned into fixed clusters, and at each scheduling step the RL agent selects one cluster to update, after which all VNs in that cluster are updated in parallel using the same pre-update incoming messages. To keep the tabular state space practical for large cluster sizes, we introduce a permutation-invariant cluster state based on a normalized histogram of local mismatch weights, followed by quantization. This representation makes the number of cluster states depend on the quantization resolution rather than the cluster size. We also develop the corresponding cluster-level Markov decision process, reward function, and Q-learning update. Numerical results on representative QLDPC codes show that the proposed clustered learned scheduling preserves most of the error-rate benefit of VN-level learned sequential scheduling while substantially reducing the number of scheduling decisions per BP iteration, thereby providing an attractive latency-parallelism tradeoff.",
+    "arxiv_id": "2607.20130",
+    "arxiv_version": "v1",
+    "authors": [
+      "Mohsen Moradi",
+      "Taejoon Kim",
+      "Rémi A. Chou",
+      "David G. M. Mitchell"
+    ],
+    "categories": [
+      "cs.IT",
+      "math.QA",
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "c55cbb9796bbc257b27bbfebcbae00af50266a183c3931314b098c0ea4a4e32c",
+    "last_processed_at": "2026-07-27T14:50:11.520887+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2607.20130v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2607.20130v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "cs.IT",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "68eae4d582481323fefda526f8a20e4a02a8d6eff2c2bb8543ded9ece3331e03",
+    "submitted_date": "2026-07-22",
+    "tags": [
+      "cs.IT",
+      "decoding",
+      "math.QA",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Learning to Decode Quantum LDPC Codes via Cluster-Based Sequential Belief Propagation",
+    "updated_date": "2026-07-22"
+  },
+  {
+    "abstract": "Quantum error correcting codes are essential to achieve fault-tolerant quantum computation. This work introduces two constructions of high-rate, dual-containing (DC) Calderbank--Shor--Steane low-density parity-check (LDPC) codes based on quasi-dyadic matrices. We characterize the automorphism group of such codes, investigate their minimum distance behavior, and provide several theoretical results on their cycle properties. Monte Carlo simulations under depolarizing and phenomenological noise show better finite-length logical error rates than the considered DC benchmark codes and competitive performance against several state-of-the-art quantum LDPC code families. Finally, we employ an automorphism-ensemble belief propagation decoder to improve their decoding performance.",
+    "arxiv_id": "2605.03631",
+    "arxiv_version": "v3",
+    "authors": [
+      "Alessio Baldelli",
+      "Marco Baldi",
+      "Massimo Battaglioni",
+      "Franco Chiaraluce",
+      "Paolo Santini"
+    ],
+    "categories": [
+      "cs.IT",
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "d24fa4da9c2e37481816bdef3c73572a0f254a0a3bb2c3d7847534e380eae04a",
+    "last_processed_at": "2026-07-27T14:50:11.524496+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2605.03631v3",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2605.03631v3"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "cs.IT",
+    "relevance": {
+      "confidence": 0.55,
+      "label": "relevant",
+      "matched_keywords": [
+        "quantum ldpc",
+        "decoder",
+        "decoding",
+        "belief propagation"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "dae4ea8c2cab01f38e3d9de5d52a4082d954977ab545d7df9f9c294b88dc1665",
+    "submitted_date": "2026-05-05",
+    "tags": [
+      "belief propagation",
+      "cs.IT",
+      "decoder",
+      "decoding",
+      "quant-ph",
+      "quantum ldpc",
+      "relevance:relevant"
+    ],
+    "title": "Design and Analysis of Quantum Dual-Containing CSS LDPC Codes based on Quasi-Dyadic Matrices",
+    "updated_date": "2026-07-22"
+  },
+  {
     "abstract": "Stabilizer codes are often constructed within the Calderbank--Shor--Steane (CSS) framework, where two mutually orthogonal binary classical codes define $X$ and $Z$-type stabilizer generators. While this structure is algebraically convenient, additional non-CSS constraints may help suppress low-weight logical operators and improve decoding performance in the finite-length regime. We thus introduce quantum XYZ stabilizer codes, whose parity-check matrix (PCM) is built from three pairwise orthogonal binary PCMs associated with $X$-, $Y$-, and $Z$-type stabilizer generators. A nontrivial point is that an XYZ code instance is not automatically genuinely non-CSS: the same stabilizer group may admit a CSS generating set. We characterize this collapse, obtaining algebraic and rank conditions for deciding when the $Y$-type checks are redundant and when they define genuinely non-CSS stabilizer constraints. We also derive upper and lower bounds on the quantum minimum distance, including bounds for mixed Pauli logical operators. The novel framework includes a known non-CSS topological code, namely the XYZ$^2$ hexagonal code, and yields also sparse finite-length quantum low-density parity-check (qLDPC) constructions from intersecting-subset and quasi-dyadic code families. Simulations under depolarizing code-capacity noise and quaternary belief propagation decoding show that the proposed XYZ qLDPC instances can outperform representative CSS qLDPC instances with similar finite-length parameters.",
     "arxiv_id": "2607.14988",
     "arxiv_version": "v1",

@@ -1,0 +1,36 @@
+{
+  "abstract": "Belief-propagation (BP) decoding for quantum low-density parity-check (QLDPC) codes is attractive due to its low complexity, but its performance is often limited by short cycles, degeneracy, and convergence failures. Recently, reinforcement-learning-based sequential variable-node (VN) scheduling (RL-S) was shown to improve BP decoding by learning state-dependent update orders. However, the VN-by-VN nature of that approach offers limited within-iteration parallelism, since only one VN is updated at a time. In this paper, we propose a cluster-based extension of RL-S for QLDPC codes. The VNs are partitioned into fixed clusters, and at each scheduling step the RL agent selects one cluster to update, after which all VNs in that cluster are updated in parallel using the same pre-update incoming messages. To keep the tabular state space practical for large cluster sizes, we introduce a permutation-invariant cluster state based on a normalized histogram of local mismatch weights, followed by quantization. This representation makes the number of cluster states depend on the quantization resolution rather than the cluster size. We also develop the corresponding cluster-level Markov decision process, reward function, and Q-learning update. Numerical results on representative QLDPC codes show that the proposed clustered learned scheduling preserves most of the error-rate benefit of VN-level learned sequential scheduling while substantially reducing the number of scheduling decisions per BP iteration, thereby providing an attractive latency-parallelism tradeoff.",
+  "arxiv_id": "2607.20130",
+  "arxiv_version": "v1",
+  "authors": [
+    "Mohsen Moradi",
+    "Taejoon Kim",
+    "Rémi A. Chou",
+    "David G. M. Mitchell"
+  ],
+  "categories": [
+    "cs.IT",
+    "math.QA",
+    "quant-ph"
+  ],
+  "extraction_hash": "c55cbb9796bbc257b27bbfebcbae00af50266a183c3931314b098c0ea4a4e32c",
+  "last_processed_at": "2026-07-27T14:50:11.520887+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2607.20130v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2607.20130v1"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "68eae4d582481323fefda526f8a20e4a02a8d6eff2c2bb8543ded9ece3331e03",
+  "submitted_date": "2026-07-22",
+  "tags": [
+    "cs.IT",
+    "decoding",
+    "math.QA",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Learning to Decode Quantum LDPC Codes via Cluster-Based Sequential Belief Propagation",
+  "updated_date": "2026-07-22"
+}
