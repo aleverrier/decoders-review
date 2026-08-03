@@ -1,5 +1,184 @@
 [
   {
+    "abstract": "Despite significant progress on quantum low-density parity-check (qLDPC) codes, building qLDPC processors that are high-rate, high-throughput, hardware-friendly, and fast-to-decode remains a challenge. We introduce mitten codes, a family of qLDPC processor codes of encoding rate $20\\%$ and check weight $9$, based on non-abelian groups. Their non-abelian structure evades distance bounds constraining abelian counterparts, allowing mitten codes to reach distance $18$ and beyond with just a few hundred data qubits. The logical operators of a mitten code are related by the group action, yielding a modular, low-overhead logical toolkit: full Clifford operations follow from bridging two reusable seed surgery gadgets or from a single fixed extractor. Furthermore, qLDPC processors based on mitten codes support high-rate surgery that executes many logical measurements in parallel, and parallel magic-state injection into all logical qubits at once. Under circuit-level noise, with our fast decoder, the $[\\![300,60,14]\\!]$ mitten code achieves, without extrapolation, a block logical error rate of ${\\sim}10^{-11}$ per round at $0.1\\%$ physical error rate (PER), while the $[\\![ 975,195,\\leq 24 ]\\!]$ code reaches ${\\sim}10^{-8}$ at $0.4\\%$ PER. Decoding $15$ billion surgery experiments on the $[\\![540,108,18]\\!]$ code at $0.1\\%$ PER, we observe only two logical failures, demonstrating a qLDPC processor capable of running ${\\sim}10^{10}$ logical operations. Our decoder is compatible with sub-millisecond average latency per logical cycle, sufficient for real-time decoding on neutral atom hardware. Discovered by an end-to-end design pipeline built on sQetch, a distance estimator orders of magnitude faster than existing tools, and mapping efficiently onto near-term neutral atom and superconducting hardware, mitten codes open a practical path toward fault-tolerant quantum computation.",
+    "arxiv_id": "2607.28795",
+    "arxiv_version": "v1",
+    "authors": [
+      "Aditya Bhardwaj",
+      "Muzhou Ma",
+      "Nadine Meister",
+      "Robbie King",
+      "Dolev Bluvstein",
+      "John Preskill",
+      "Madelyn Cain",
+      "Qian Xu",
+      "Hsin-Yuan Huang"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "5b67e2884a2410b53503adcd76cdb6fc96d0f28b56d37870bc9693d4b446dd50",
+    "last_processed_at": "2026-08-03T14:53:56.648381+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2607.28795v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2607.28795v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "5c049ad9271cbc93817c1e5396e0a3c2d37917674dd60ae20256b2b43e69595f",
+    "submitted_date": "2026-07-30",
+    "tags": [
+      "decoder",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "High-rate qLDPC processors",
+    "updated_date": "2026-07-30"
+  },
+  {
+    "abstract": "Constant-rate quantum low-density parity-check (LDPC) codes promise fault-tolerant quantum computation with constant spatial overhead in the asymptotic limit. Nonetheless, discovering finite-length code instances with good practical performance remains challenging. We introduce a new family of quantum LDPC codes with design rate $1/5$ and check weight $9$ that approaches the teraquop memory regime per qubit-round with several hundred physical qubits, under idling-free circuit-level noise of strength $0.1\\%$ and GPU-accelerated Relay-belief-propagation (Relay-BP) decoding with average latencies around 1-2 ms, a regime relevant to trapped-ion and neutral-atom processors. The construction involves the balanced product of classical LDPC codes with design rate $1/2$ that share non-abelian $\\mathbb{Z}_\\ell \\rtimes \\mathbb{Z}_m$ group symmetries, which may be of independent interest for classical error correction. We build syndrome extraction circuits tailored to reconfigurable atom arrays using a simple greedy scheduler, with single-round rearrangement times around 30-60 ms using present hardware specifications, and substantial room for future improvements. We also construct logical Pauli bases that are equivariant with respect to the group symmetry, which can significantly compress the design space for code surgery. Together, these results further advance the practicality of constant-rate quantum LDPC codes for near-term, fault-tolerant quantum computers.",
+    "arxiv_id": "2607.27644",
+    "arxiv_version": "v1",
+    "authors": [
+      "Yifan Hong"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "58f7000d3cd30c9b2a2532feca28400c54c5742e73745b441f20a936c832d06d",
+    "last_processed_at": "2026-08-03T14:53:56.651555+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2607.27644v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2607.27644v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.55,
+      "label": "relevant",
+      "matched_keywords": [
+        "quantum ldpc",
+        "decoding",
+        "balanced product"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "33237aa107492e07e5016d8f7e050524ae0c67f5ce490f553826eaea36bd66f0",
+    "submitted_date": "2026-07-30",
+    "tags": [
+      "balanced product",
+      "decoding",
+      "quant-ph",
+      "quantum ldpc",
+      "relevance:relevant"
+    ],
+    "title": "Quantum LDPC codes with design rate 1/5 and good performance below 1000 physical qubits",
+    "updated_date": "2026-07-30"
+  },
+  {
+    "abstract": "Abelian multicycle (AMC) codes are compact quantum low-density parity-check codes whose multiblock chain-complex structure provides redundant low-weight stabilizers and supports single-shot error correction. We introduce Floquet AMC codes by deriving a quotient-lattice representation of a general level-$j$, $D$-dimensional AMC complex over a finite Abelian group algebra, lifting this lattice to spacetime, and rotating the circuit-time direction in the associated ZX network. When the check and data spiders have even valence and admit a time-oriented local port matching, the network decomposes into a periodic schedule of native two-qubit $XX$ and $ZZ$ measurements. We construct generalized-bicycle and level-$2$ AMC4 examples, determine their instantaneous stabilizer groups, and compute their embedded distances by minimizing over all inequivalent circuit cuts. For AMC4 instances locally equivalent to four-dimensional toric codes, we obtain Floquet memories with parameters $[[108,6,5]]$, $[[144,6,8]]$, and $[[324,6,10]]$. Local Pauli-web detector templates and beam-search decoding under the measurement-native EM3 noise model yield an estimated pseudothreshold of approximately $1.2\\%$. These results provide compact measurement-only realizations of higher-dimensional homological redundancy without directly measuring the original weight-six stabilizers.",
+    "arxiv_id": "2607.27521",
+    "arxiv_version": "v1",
+    "authors": [
+      "Alexey A. Kovalev"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "237b20f7f9de243de17a3b0799128e13e102a44ed969199650f65363dd3f7732",
+    "last_processed_at": "2026-08-03T14:53:56.653670+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2607.27521v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2607.27521v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "5714629526582b206cd9d1ff83076b390e0ad9c9bc705c3fe56bf65005bdf6e5",
+    "submitted_date": "2026-07-29",
+    "tags": [
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Floquet Abelian Multicycle Codes",
+    "updated_date": "2026-07-29"
+  },
+  {
     "abstract": "Error correction thresholds are often treated as the primary figure of merit for comparing quantum error-correcting code families. We show that the optimal error correction threshold for many commonly considered codes is constrained to a single universal value at leading order in a replica limit. Through a statistical mechanical mapping, we demonstrate that duality constrains all zero-rate em-symmetric CSS codes to have the same optimal code capacity threshold. Here, em symmetry means that the X- and Z-type parity-check matrices are equivalent up to row and column permutations. Under this statistical mechanical mapping, em-symmetric CSS codes are self-dual under a generalized Kramers-Wannier duality up to a mixing of logical sectors. For zero-rate code families, this mixing contributes only subextensive corrections, so the thermodynamic bulk free energy is self-dual in the trivial logical sector. This self-duality fixes the clean critical point and constrains the disordered phase boundary. We also show that self-duality is preserved under code concatenation, and that optimal decoding of concatenated codes can be reformulated as a renormalization group flow on a hierarchical lattice. Our results provide a common framework for analyzing topological, concatenated, and more general quantum low-density parity-check code families, including both their optimal code capacity thresholds and their sub-threshold logical error suppression.",
     "arxiv_id": "2607.21160",
     "arxiv_version": "v1",

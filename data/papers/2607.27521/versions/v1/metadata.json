@@ -1,0 +1,29 @@
+{
+  "abstract": "Abelian multicycle (AMC) codes are compact quantum low-density parity-check codes whose multiblock chain-complex structure provides redundant low-weight stabilizers and supports single-shot error correction. We introduce Floquet AMC codes by deriving a quotient-lattice representation of a general level-$j$, $D$-dimensional AMC complex over a finite Abelian group algebra, lifting this lattice to spacetime, and rotating the circuit-time direction in the associated ZX network. When the check and data spiders have even valence and admit a time-oriented local port matching, the network decomposes into a periodic schedule of native two-qubit $XX$ and $ZZ$ measurements. We construct generalized-bicycle and level-$2$ AMC4 examples, determine their instantaneous stabilizer groups, and compute their embedded distances by minimizing over all inequivalent circuit cuts. For AMC4 instances locally equivalent to four-dimensional toric codes, we obtain Floquet memories with parameters $[[108,6,5]]$, $[[144,6,8]]$, and $[[324,6,10]]$. Local Pauli-web detector templates and beam-search decoding under the measurement-native EM3 noise model yield an estimated pseudothreshold of approximately $1.2\\%$. These results provide compact measurement-only realizations of higher-dimensional homological redundancy without directly measuring the original weight-six stabilizers.",
+  "arxiv_id": "2607.27521",
+  "arxiv_version": "v1",
+  "authors": [
+    "Alexey A. Kovalev"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "237b20f7f9de243de17a3b0799128e13e102a44ed969199650f65363dd3f7732",
+  "last_processed_at": "2026-08-03T14:53:56.653670+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2607.27521v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2607.27521v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "5714629526582b206cd9d1ff83076b390e0ad9c9bc705c3fe56bf65005bdf6e5",
+  "submitted_date": "2026-07-29",
+  "tags": [
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Floquet Abelian Multicycle Codes",
+  "updated_date": "2026-07-29"
+}

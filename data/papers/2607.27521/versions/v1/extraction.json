@@ -1,0 +1,56 @@
+{
+  "abstract": "Abelian multicycle (AMC) codes are compact quantum low-density parity-check codes whose multiblock chain-complex structure provides redundant low-weight stabilizers and supports single-shot error correction. We introduce Floquet AMC codes by deriving a quotient-lattice representation of a general level-$j$, $D$-dimensional AMC complex over a finite Abelian group algebra, lifting this lattice to spacetime, and rotating the circuit-time direction in the associated ZX network. When the check and data spiders have even valence and admit a time-oriented local port matching, the network decomposes into a periodic schedule of native two-qubit $XX$ and $ZZ$ measurements. We construct generalized-bicycle and level-$2$ AMC4 examples, determine their instantaneous stabilizer groups, and compute their embedded distances by minimizing over all inequivalent circuit cuts. For AMC4 instances locally equivalent to four-dimensional toric codes, we obtain Floquet memories with parameters $[[108,6,5]]$, $[[144,6,8]]$, and $[[324,6,10]]$. Local Pauli-web detector templates and beam-search decoding under the measurement-native EM3 noise model yield an estimated pseudothreshold of approximately $1.2\\%$. These results provide compact measurement-only realizations of higher-dimensional homological redundancy without directly measuring the original weight-six stabilizers.",
+  "arxiv_id": "2607.27521",
+  "arxiv_version": "v1",
+  "authors": [
+    "Alexey A. Kovalev"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2607.27521v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2607.27521v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-07-29",
+  "title": "Floquet Abelian Multicycle Codes",
+  "updated_date": "2026-07-29"
+}
