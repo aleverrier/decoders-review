@@ -1,0 +1,59 @@
+{
+  "abstract": "The distance of a classical or quantum code is a key figure of merit which reflects its capacity to detect errors. Quantum LDPC code families have considerable promise in reducing the overhead required for fault-tolerant quantum computation, but calculating their distance is challenging with existing methods. We generally assess the performance of a quantum code under circuit level error models, and for such scenarios the circuit distance is an important consideration. Calculating circuit distance is in general more difficult than finding the distance of the corresponding code as the detector error matrix of the circuit is usually much larger than the code's check matrix. In this work, we benchmark a wide range of distance-finding methods for various classical and quantum code families, as well as syndrome-extraction circuits. We consider both exact methods (such as Brouwer-Zimmermann, connected cluster, SAT and mixed integer programming) and heuristic methods which have lower run-time but can only give a bound on distance (examples include random information set, syndrome decoder algorithms, and Stim undetectable error methods). We further develop the QDistEvol algorithm and show that it performs well for the quantum LDPC codes in our benchmark. The algorithms and test data have been made available to the community in the codeDistance Python package.",
+  "arxiv_id": "2603.22532",
+  "arxiv_version": "v2",
+  "authors": [
+    "Mark Webster",
+    "Abraham Jacob",
+    "Oscar Higgott"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2603.22532v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2603.22532v2"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.55,
+    "label": "relevant",
+    "matched_keywords": [
+      "quantum ldpc",
+      "decoder"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-03-23",
+  "title": "Distance-Finding Algorithms for Quantum Codes and Circuits",
+  "updated_date": "2026-08-14"
+}

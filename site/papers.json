@@ -1,5 +1,362 @@
 [
   {
+    "abstract": "This paper develops a two-branch multiplicative-coset construction for regular Calderbank-Shor-Steane (CSS) quantum low-density parity-check base matrices. For a target column weight \\(J\\) and an even row weight \\(L\\), the method reduces regularity, CSS orthogonality, and same-type 4-cycle exclusion to explicit quotient-coset conditions over a finite field. A normalized exhaustive search for these conditions produces base matrices for several \\((J,L)\\) pairs, so the construction is not tied to a single degree distribution. The construction separates the finite-length design into two stages: the base matrix fixes the degree distribution and the first girth constraints, and a cyclic lift randomizes edge connections subject to exact algebraic checks. As a detailed example, we carry one \\((3,10)\\)-regular base through the lift and decoding stages. For this example, the selected 64-fold lift gives a code whose same-type Tanner graphs have girth at least eight, and it also excludes a specified weight-16 nondegenerate logical-support orbit. The resulting instance is a \\([[10240,4108,\\,10\\le d\\le32]]\\) CSS code. For decoding, we use joint log-domain belief propagation together with low-complexity deterministic post-processing rules for small residual syndromes, including repairs for residual patterns with two unsatisfied checks. The frame error rate (FER) measurements provide finite-length decoding data for this detailed example; at depolarizing probability \\(p=0.058\\), the post-processing FER is \\(1.0\\times10^{-7}\\).",
+    "arxiv_id": "2605.23894",
+    "arxiv_version": "v2",
+    "authors": [
+      "Koki Okada",
+      "Kenta Kasai"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.IT"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "0ad47c4545139ffa9e0c25ebc11794b425b1175cef9368c7b483429ccad43868",
+    "last_processed_at": "2026-08-17T12:55:04.155497+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2605.23894v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2605.23894v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoding",
+        "belief propagation"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "b00d4e82d89ca05bb7f9de417440a05e1f48124385b364ce1a1edf06b8185d7e",
+    "submitted_date": "2026-05-22",
+    "tags": [
+      "belief propagation",
+      "cs.IT",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "A Two-Branch Finite-Field Construction for Regular CSS LDPC Bases",
+    "updated_date": "2026-08-14"
+  },
+  {
+    "abstract": "We study square-base Calderbank--Shor--Steane (CSS) hypergraph-product codes as a finite-length class for regular high-girth quantum low-density parity-check (LDPC) design. For base matrices of small column weight, we give checkable conditions for regularity, rank deficiency, and short-cycle exclusion, and we present explicit column-weight-three and column-weight-four examples with Tanner girth 6 and 8. We also analyze circulant permutation matrix (CPM) lifts of this class. Using the standard voltage-sum criterion, we identify orthogonality-forced Tanner 8-cycles and show that CPM lifting cannot raise the Tanner girth beyond 8 when these cycles are present. As a representative finite-length instance, a randomized CPM lift of the girth-8 base construction gives a $[[28800,62,\\le192]]$ girth-8 $(3,6)$-regular CSS-LDPC code. Explicit weight-$192$ non-stabilizer logical representatives give $d_X,d_Z\\le192$. Under degeneracy-aware belief-propagation decoding with optional ordered-statistics-decoding-lite post-processing, this code produced zero decoding failures in $2.993\\times 10^8$ independent trials at depolarizing probability $p=0.1402$; the Wilson 95\\% upper confidence bound is $1.28\\times 10^{-8}$.",
+    "arxiv_id": "2604.27817",
+    "arxiv_version": "v2",
+    "authors": [
+      "Koki Okada",
+      "Kenta Kasai"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.IT"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "56853f987dda4d024af6128e11e85e4b2571881816fa37357cb301bafd77b1f6",
+    "last_processed_at": "2026-08-17T12:55:04.158586+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2604.27817v2",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2604.27817v2"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "863b60bca49fbcf5bd8251e92549862be5268eea14d8d68accac027a87027731",
+    "submitted_date": "2026-04-30",
+    "tags": [
+      "cs.IT",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "High-Girth Regular Quantum LDPC Codes from Square-Base Hypergraph Products via CPM Lifts",
+    "updated_date": "2026-08-14"
+  },
+  {
+    "abstract": "We construct a quantum low-density parity-check code family from a length-$512$ Calderbank--Shor--Steane base matrix pair. The base pair is permutation-equivalent to the known SPC(3) product CSS code, and the present affine-coset description gives a direct proof that both Tanner graphs are $(3,8)$-regular with girth $8$. The base code has parameters $[[512,174,8]]$. We then apply circulant permutation matrix (CPM) lifts. The main decoding experiment uses the CPM-lifted code with lift factor $P=32$, which has parameters $[[16384,4142,\\le 32]]$, under the code-capacity depolarizing model. Explicit weight-$32$ non-stabilizer logical representatives on both the $X$ and $Z$ sides give $d_X,d_Z\\le32$. A belief-propagation decoder with post-processing achieved frame error rate about $10^{-8}$ at $p=0.085$; an independently observed logical residual of weight $40$ is consistent with the sharper structural bound.",
+    "arxiv_id": "2604.20838",
+    "arxiv_version": "v3",
+    "authors": [
+      "Koki Okada",
+      "Kenta Kasai"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "b885b977a5e960f36a3557cceb815e37f2a3fbfd733ab0ced43eb3df3303b642",
+    "last_processed_at": "2026-08-17T12:55:04.160542+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2604.20838v3",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2604.20838v3"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "9761b060702dde213bd808286c6c7649bdd28fff49c0ff4c5e478c7b66bb6d9b",
+    "submitted_date": "2026-04-22",
+    "tags": [
+      "decoder",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "High-Girth Regular Quantum LDPC Codes from Affine-Coset Structures",
+    "updated_date": "2026-08-14"
+  },
+  {
+    "abstract": "The distance of a classical or quantum code is a key figure of merit which reflects its capacity to detect errors. Quantum LDPC code families have considerable promise in reducing the overhead required for fault-tolerant quantum computation, but calculating their distance is challenging with existing methods. We generally assess the performance of a quantum code under circuit level error models, and for such scenarios the circuit distance is an important consideration. Calculating circuit distance is in general more difficult than finding the distance of the corresponding code as the detector error matrix of the circuit is usually much larger than the code's check matrix. In this work, we benchmark a wide range of distance-finding methods for various classical and quantum code families, as well as syndrome-extraction circuits. We consider both exact methods (such as Brouwer-Zimmermann, connected cluster, SAT and mixed integer programming) and heuristic methods which have lower run-time but can only give a bound on distance (examples include random information set, syndrome decoder algorithms, and Stim undetectable error methods). We further develop the QDistEvol algorithm and show that it performs well for the quantum LDPC codes in our benchmark. The algorithms and test data have been made available to the community in the codeDistance Python package.",
+    "arxiv_id": "2603.22532",
+    "arxiv_version": "v2",
+    "authors": [
+      "Mark Webster",
+      "Abraham Jacob",
+      "Oscar Higgott"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "a2acd75848fd4b5b88774b8e26a9eb76c80374be64c4e2d5a1da707cee39349c",
+    "last_processed_at": "2026-08-17T12:55:04.162551+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2603.22532v2",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2603.22532v2"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.55,
+      "label": "relevant",
+      "matched_keywords": [
+        "quantum ldpc",
+        "decoder"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "7efb498865f4635f05249f25ab147decf0e5c271737d1866a7a38a4f1f85dae9",
+    "submitted_date": "2026-03-23",
+    "tags": [
+      "decoder",
+      "quant-ph",
+      "quantum ldpc",
+      "relevance:relevant"
+    ],
+    "title": "Distance-Finding Algorithms for Quantum Codes and Circuits",
+    "updated_date": "2026-08-14"
+  },
+  {
+    "abstract": "We propose a method for modifying orthogonal sparse matrix pairs used in CSS codes while preserving their matrix row and column weight distributions, which play a crucial role in determining the performance of belief-propagation decoding. Unlike simple row or column permutations that merely reorder existing elements, the proposed local modification introduces genuine structural randomness through small $2\\times2$ cross-swap operations followed by integer-linear-program-based local repairs that restore orthogonality. By applying this procedure repeatedly in a random manner, ensembles of randomized quantum LDPC codes can be constructed. The computational complexity of each repair depends only on the maximum row and column weights and is independent of the overall matrix size, ensuring scalability to large code blocks.",
+    "arxiv_id": "2511.04634",
+    "arxiv_version": "v2",
+    "authors": [
+      "Koki Okada",
+      "Kenta Kasai"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.IT"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "9383ef4cc89c2885e7490f0281c5c272bf2960f407e08f9ad29fa7a2a542c2de",
+    "last_processed_at": "2026-08-17T12:55:04.164645+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2511.04634v2",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2511.04634v2"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.55,
+      "label": "relevant",
+      "matched_keywords": [
+        "quantum ldpc",
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "bc16a94dd74d4723e9472dbd8b23b7eded14ef4b661c3debe36642f41f61754b",
+    "submitted_date": "2025-11-06",
+    "tags": [
+      "cs.IT",
+      "decoding",
+      "quant-ph",
+      "quantum ldpc",
+      "relevance:relevant"
+    ],
+    "title": "Random Construction of Quantum LDPC Codes",
+    "updated_date": "2026-08-14"
+  },
+  {
+    "abstract": "In this study, we report that quantum quasi-cyclic low-density parity-check codes decoded via joint belief propagation (BP) exhibit steep error-rate curves, despite the presence of error floors. To the best of our knowledge, this is the first observation of such threshold-like behavior for quantum LDPC codes with non-vanishing coding rate, excluding those decoded with non-binary BP decoders. Moreover, we find that dominant error events contributing to the error floor typically involve only a small number of bits. These findings suggest that the error floor is caused by trapping sets--specific subgraph structures in the Tanner graph--and indicate that identifying and avoiding such structures may lead to further reduction of the error floor.",
+    "arxiv_id": "2507.11534",
+    "arxiv_version": "v3",
+    "authors": [
+      "Daiki Komoto",
+      "Kenta Kasai"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.IT"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "fa7185b9b9220cab42c7467d11026abb65972a0a5f601a0950b054e54f41633d",
+    "last_processed_at": "2026-08-17T12:55:04.166520+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2507.11534v3",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2507.11534v3"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.55,
+      "label": "relevant",
+      "matched_keywords": [
+        "quantum ldpc",
+        "decoder",
+        "belief propagation"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "73222cec7fd8f30902c7ce76996e890e2a9923d74bd37c9d19fab404060db603",
+    "submitted_date": "2025-07-15",
+    "tags": [
+      "belief propagation",
+      "cs.IT",
+      "decoder",
+      "quant-ph",
+      "quantum ldpc",
+      "relevance:relevant"
+    ],
+    "title": "Sharp Error-Rate Transitions in Quantum QC-LDPC Codes under Joint BP Decoding",
+    "updated_date": "2026-08-14"
+  },
+  {
     "abstract": "Despite significant progress on quantum low-density parity-check (qLDPC) codes, building qLDPC processors that are high-rate, high-throughput, hardware-friendly, and fast-to-decode remains a challenge. We introduce mitten codes, a family of qLDPC processor codes of encoding rate $20\\%$ and check weight $9$, based on non-abelian groups. Their non-abelian structure evades distance bounds constraining abelian counterparts, allowing mitten codes to reach distance $18$ and beyond with just a few hundred data qubits. The logical operators of a mitten code are related by the group action, yielding a modular, low-overhead logical toolkit: full Clifford operations follow from bridging two reusable seed surgery gadgets or from a single fixed extractor. Furthermore, qLDPC processors based on mitten codes support high-rate surgery that executes many logical measurements in parallel, and parallel magic-state injection into all logical qubits at once. Under circuit-level noise, with our fast decoder, the $[\\![300,60,14]\\!]$ mitten code achieves, without extrapolation, a block logical error rate of ${\\sim}10^{-11}$ per round at $0.1\\%$ physical error rate (PER), while the $[\\![ 975,195,\\leq 24 ]\\!]$ code reaches ${\\sim}10^{-8}$ at $0.4\\%$ PER. Decoding $15$ billion surgery experiments on the $[\\![540,108,18]\\!]$ code at $0.1\\%$ PER, we observe only two logical failures, demonstrating a qLDPC processor capable of running ${\\sim}10^{10}$ logical operations. Our decoder is compatible with sub-millisecond average latency per logical cycle, sufficient for real-time decoding on neutral atom hardware. Discovered by an end-to-end design pipeline built on sQetch, a distance estimator orders of magnitude faster than existing tools, and mapping efficiently onto near-term neutral atom and superconducting hardware, mitten codes open a practical path toward fault-tolerant quantum computation.",
     "arxiv_id": "2607.28795",
     "arxiv_version": "v1",
@@ -1156,66 +1513,6 @@
     "updated_date": "2026-05-27"
   },
   {
-    "abstract": "This paper develops a two-branch multiplicative-coset construction for regular Calderbank-Shor-Steane (CSS) quantum low-density parity-check base matrices. For a target column weight \\(J\\) and an even row weight \\(L\\), the method reduces regularity, CSS orthogonality, and same-type 4-cycle exclusion to explicit quotient-coset conditions over a finite field. A normalized exhaustive search for these conditions produces base matrices for several \\((J,L)\\) pairs, so the construction is not tied to a single degree distribution. The construction separates the finite-length design into two stages: the base matrix fixes the degree distribution and the first girth constraints, and a cyclic lift randomizes edge connections subject to exact algebraic checks. As a detailed example, we carry one \\((3,10)\\)-regular base through the lift and decoding stages. For this example, the selected 64-fold lift gives a code whose same-type Tanner graphs have girth at least eight, and it also excludes a specified weight-16 nondegenerate logical-support orbit. The resulting instance is a \\([[10240,4108,\\,10\\le d\\le32]]\\) CSS code. For decoding, we use joint log-domain belief propagation together with low-complexity deterministic post-processing rules for small residual syndromes, including repairs for residual patterns with two unsatisfied checks. The frame error rate (FER) measurements provide finite-length decoding data for this detailed example; at depolarizing probability \\(p=0.058\\), the post-processing FER is \\(1.0\\times10^{-7}\\).",
-    "arxiv_id": "2605.23894",
-    "arxiv_version": "v1",
-    "authors": [
-      "Koki Okada",
-      "Kenta Kasai"
-    ],
-    "categories": [
-      "quant-ph",
-      "cs.IT"
-    ],
-    "decoder": {
-      "algorithm_outline": [],
-      "complexity_claims": [],
-      "decoder_family": null,
-      "high_level_description": "Unknown / not specified from available text.",
-      "implementation_notes": [],
-      "key_ideas": [],
-      "name": null
-    },
-    "extraction_hash": "66e0d7aec70210509c5f3da6bcc8d887acd8c02b7eacddbeaebf52b17d3edb39",
-    "last_processed_at": "2026-05-25T15:21:16.328907+00:00",
-    "links": {
-      "abs_url": "https://arxiv.org/abs/2605.23894v1",
-      "code_repo_urls": [],
-      "doi": null,
-      "pdf_url": "https://arxiv.org/pdf/2605.23894v1"
-    },
-    "missing_fields": [
-      "decoder.name",
-      "decoder.algorithm_outline",
-      "decoder.complexity_claims",
-      "performance_claims.thresholds",
-      "performance_claims.runtime_scaling_claims",
-      "simulations",
-      "links.code_repo_urls"
-    ],
-    "primary_category": "quant-ph",
-    "relevance": {
-      "confidence": 0.35,
-      "label": "maybe",
-      "matched_keywords": [
-        "decoding",
-        "belief propagation"
-      ],
-      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
-    },
-    "source_hash": "b00d4e82d89ca05bb7f9de417440a05e1f48124385b364ce1a1edf06b8185d7e",
-    "submitted_date": "2026-05-22",
-    "tags": [
-      "belief propagation",
-      "cs.IT",
-      "decoding",
-      "quant-ph",
-      "relevance:maybe"
-    ],
-    "title": "A Two-Branch Finite-Field Construction for Regular CSS LDPC Bases",
-    "updated_date": "2026-05-22"
-  },
-  {
     "abstract": "In this paper, we propose a belief-propagation (BP)-based decoder, termed the Multiple-Bases Belief-Propagation List Decoder (MBBP-LD), for quantum low-density parity-check (QLDPC) codes. The key idea is to generate \\emph{structured decoding diversity} by constructing multiple redundant parity-check representations via cycle-free subtree decompositions of the Tanner graph, and running BP decoding in parallel across these representations. This extends the classical Multiple-Bases Belief-Propagation (MBBP) framework to the quantum setting while preserving the linear-time complexity and efficiency of standard BP decoding, and avoids the need for super-linear post-processing. Simulation results demonstrate that MBBP-LD improves upon existing BP-based decoders, including BP with ordered statistics decoding (BP-OSD) and belief propagation with guided decimation (BPGD) across several QLDPC codes, while requiring substantially fewer total BP iterations. For bivariate bicycle codes $[[144,12,12]]$ and $[[288,12,18]]$, MBBP-LD achieves up to $20\\%$ reduction in error rate compared to BPGD and up to $30\\%$ compared to BP-OSD in the low- and moderate-error regimes. For the larger B1 code $[[882, 24, 18 \\leq d \\leq 24]]$, MBBP-LD attains comparable or improved performance relative to BPGD while maintaining BP-like decoding latency under parallel implementation.",
     "arxiv_id": "2605.14170",
     "arxiv_version": "v1",
@@ -1581,122 +1878,6 @@
     ],
     "title": "Evolutionary BP+OSD Decoding for Low-Latency Quantum Error Correction",
     "updated_date": "2026-05-01"
-  },
-  {
-    "abstract": "We study square-base Calderbank--Shor--Steane (CSS) hypergraph-product codes as a finite-length class for regular high-girth quantum low-density parity-check (LDPC) design. For base matrices of small column weight, we give checkable conditions for regularity, rank deficiency, and short-cycle exclusion, and we present explicit column-weight-three and column-weight-four examples with Tanner girth 6 and 8. We also analyze circulant permutation matrix (CPM) lifts of this class. Using the standard voltage-sum criterion, we identify orthogonality-forced Tanner 8-cycles and show that CPM lifting cannot raise the Tanner girth beyond 8 when these cycles are present. As a representative finite-length instance, a randomized CPM lift of the girth-8 base construction gives a $[[28800,62]]$ girth-8 $(3,6)$-regular CSS-LDPC code. Under degeneracy-aware belief-propagation decoding with optional ordered-statistics-decoding-lite post-processing, this code produced zero decoding failures in $2.993\\times 10^8$ independent trials at depolarizing probability $p=0.1402$; the Wilson 95% upper confidence bound is $1.28\\times 10^{-8}$.",
-    "arxiv_id": "2604.27817",
-    "arxiv_version": "v1",
-    "authors": [
-      "Koki Okada",
-      "Kenta Kasai"
-    ],
-    "categories": [
-      "quant-ph",
-      "cs.IT"
-    ],
-    "decoder": {
-      "algorithm_outline": [],
-      "complexity_claims": [],
-      "decoder_family": null,
-      "high_level_description": "Unknown / not specified from available text.",
-      "implementation_notes": [],
-      "key_ideas": [],
-      "name": null
-    },
-    "extraction_hash": "8694d268bcbcf8c8703315b6abe3e83f4eced758eb177ec419b1909d15cff005",
-    "last_processed_at": "2026-05-04T14:19:15.794204+00:00",
-    "links": {
-      "abs_url": "https://arxiv.org/abs/2604.27817v1",
-      "code_repo_urls": [],
-      "doi": null,
-      "pdf_url": "https://arxiv.org/pdf/2604.27817v1"
-    },
-    "missing_fields": [
-      "decoder.name",
-      "decoder.algorithm_outline",
-      "decoder.complexity_claims",
-      "performance_claims.thresholds",
-      "performance_claims.runtime_scaling_claims",
-      "simulations",
-      "links.code_repo_urls"
-    ],
-    "primary_category": "quant-ph",
-    "relevance": {
-      "confidence": 0.35,
-      "label": "maybe",
-      "matched_keywords": [
-        "decoding"
-      ],
-      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
-    },
-    "source_hash": "c35ab0d63184620ce186c22201ebe9c6422728061c79775464e6eba531913ec7",
-    "submitted_date": "2026-04-30",
-    "tags": [
-      "cs.IT",
-      "decoding",
-      "quant-ph",
-      "relevance:maybe"
-    ],
-    "title": "High-Girth Regular Quantum LDPC Codes from Square-Base Hypergraph Products via CPM Lifts",
-    "updated_date": "2026-04-30"
-  },
-  {
-    "abstract": "We construct a quantum low-density parity-check code family from a length-$512$ Calderbank--Shor--Steane base matrix pair. The base pair is permutation-equivalent to the known SPC(3) product CSS code, and the present affine-coset description gives a direct proof that both Tanner graphs are $(3,8)$-regular with girth $8$. The base code has parameters $[[512,174,8]]$. We then apply circulant permutation matrix (CPM) lifts. The main decoding experiment uses the CPM-lifted code with lift factor $P=32$, which has parameters $[[16384,4142,\\le 40]]$, under the code-capacity depolarizing model. A belief-propagation decoder with post-processing achieved frame error rate about $10^{-8}$ at $p=0.085$, and one observed logical residual of weight $40$ gives a decoder-derived upper bound $d\\le 40$.",
-    "arxiv_id": "2604.20838",
-    "arxiv_version": "v2",
-    "authors": [
-      "Koki Okada",
-      "Kenta Kasai"
-    ],
-    "categories": [
-      "quant-ph"
-    ],
-    "decoder": {
-      "algorithm_outline": [],
-      "complexity_claims": [],
-      "decoder_family": null,
-      "high_level_description": "Unknown / not specified from available text.",
-      "implementation_notes": [],
-      "key_ideas": [],
-      "name": null
-    },
-    "extraction_hash": "4254e6c56d829352fddfc7c2df26adf91da1c476c4dd872bcd390eaf55d1bc92",
-    "last_processed_at": "2026-04-27T14:11:57.188103+00:00",
-    "links": {
-      "abs_url": "https://arxiv.org/abs/2604.20838v2",
-      "code_repo_urls": [],
-      "doi": null,
-      "pdf_url": "https://arxiv.org/pdf/2604.20838v2"
-    },
-    "missing_fields": [
-      "decoder.name",
-      "decoder.algorithm_outline",
-      "decoder.complexity_claims",
-      "performance_claims.thresholds",
-      "performance_claims.runtime_scaling_claims",
-      "simulations",
-      "links.code_repo_urls"
-    ],
-    "primary_category": "quant-ph",
-    "relevance": {
-      "confidence": 0.35,
-      "label": "maybe",
-      "matched_keywords": [
-        "decoder",
-        "decoding"
-      ],
-      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
-    },
-    "source_hash": "b43ac66768bd9a15068d04023c1a1f761eaaa316c43df4e17e60159827280a26",
-    "submitted_date": "2026-04-22",
-    "tags": [
-      "decoder",
-      "decoding",
-      "quant-ph",
-      "relevance:maybe"
-    ],
-    "title": "High-Girth Regular Quantum LDPC Codes from Affine-Coset Structures",
-    "updated_date": "2026-04-24"
   },
   {
     "abstract": "Quantum error correction will likely be essential for building a large-scale quantum computer, but it comes with significant requirements at the level of classical control software. In particular, a quantum error-correcting code must be supplemented with a fast and accurate classical decoding algorithm. Standard techniques for measuring the parity-check operators of a quantum error-correcting code involve repeated measurements, which both increases the amount of data that needs to be processed by the decoder, and changes the nature of the decoding problem. Knill error correction is a technique that replaces repeated syndrome measurements with a single round of measurements, but requires an auxiliary logical Bell state. Here, we provide a theoretical and numerical investigation into Knill error correction from the perspective of decoding. We give a self-contained description of the protocol, prove its fault tolerance under locally decaying (circuit-level) noise, and numerically benchmark its performance for quantum low-density parity-check codes. We show analytically and numerically that the time-constrained decoding problem for Knill error correction can be solved using the same decoder used for the simpler code-capacity noise model, illustrating that Knill error correction may alleviate the stringent requirements on classical control required for building a large-scale quantum computer.",
@@ -4101,66 +4282,6 @@
     "updated_date": "2025-11-14"
   },
   {
-    "abstract": "We propose a method for modifying orthogonal sparse matrix pairs used in CSS codes while preserving their matrix row and column weight distributions, which play a crucial role in determining the performance of belief-propagation decoding. Unlike simple row or column permutations that merely reorder existing elements, the proposed local modification introduces genuine structural randomness through small $2\\times2$ cross-swap operations followed by integer-linear-program-based local repairs that restore orthogonality. By applying this procedure repeatedly in a random manner, ensembles of randomized quantum LDPC codes can be constructed. The computational complexity of each repair depends only on the maximum row and column weights and is independent of the overall matrix size, ensuring scalability to large code blocks.",
-    "arxiv_id": "2511.04634",
-    "arxiv_version": "v1",
-    "authors": [
-      "Koki Okada",
-      "Kenta Kasai"
-    ],
-    "categories": [
-      "quant-ph",
-      "cs.IT"
-    ],
-    "decoder": {
-      "algorithm_outline": [],
-      "complexity_claims": [],
-      "decoder_family": null,
-      "high_level_description": "Unknown / not specified from available text.",
-      "implementation_notes": [],
-      "key_ideas": [],
-      "name": null
-    },
-    "extraction_hash": "8d4e07f0c00060d8a66557c9ad35e506d9675340f39bfdd639497146d408d9b6",
-    "last_processed_at": "2026-02-21T13:37:08.781683+00:00",
-    "links": {
-      "abs_url": "https://arxiv.org/abs/2511.04634v1",
-      "code_repo_urls": [],
-      "doi": null,
-      "pdf_url": "https://arxiv.org/pdf/2511.04634v1"
-    },
-    "missing_fields": [
-      "decoder.name",
-      "decoder.algorithm_outline",
-      "decoder.complexity_claims",
-      "performance_claims.thresholds",
-      "performance_claims.runtime_scaling_claims",
-      "simulations",
-      "links.code_repo_urls"
-    ],
-    "primary_category": "quant-ph",
-    "relevance": {
-      "confidence": 0.55,
-      "label": "relevant",
-      "matched_keywords": [
-        "quantum ldpc",
-        "decoding"
-      ],
-      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
-    },
-    "source_hash": "6d668525bd0552c4fb2be7678dc6e436c0c772b0673c031ab4ca43c7079689c4",
-    "submitted_date": "2025-11-06",
-    "tags": [
-      "cs.IT",
-      "decoding",
-      "quant-ph",
-      "quantum ldpc",
-      "relevance:relevant"
-    ],
-    "title": "Random Construction of Quantum LDPC Codes",
-    "updated_date": "2025-11-06"
-  },
-  {
     "abstract": "In this paper, we propose a new decoder, called the Multiple-Bases Belief-Propagation List Decoder (MBBP-LD), for Quantum Low-Density Parity-Check (QLDPC) codes. It extends the Multiple-Bases Belief-Propagation (MBBP) framework, originally developed for classical cyclic LDPC codes. The proposed method preserves the linear-time complexity of standard BP decoder while improving the logical error rate. To further reduce the logical error rate, a new decision rule is introduced for the post-processing list decoder, outperforming the conventional least-metric selector (LMS) criterion. For the recently developed and implemented bivariate bicycle (BB) code with parameters \\([[144,12,12]]\\), our proposed MBBP-LD decoder achieves up to 40\\% lower logical error rate compared to the state-of-the-art decoder for short QLDPC codes, i.e., BP with ordered-statistics decoding (BP-OSD), while retaining the linear-time complexity of the plain BP decoder. In addition, we explore a new subclass of BB codes, that we refer to as the univariate bicycle (UB) codes, specifically with lower-weight parity checks (\\(w=6,8\\)). This reduces the polynomial search space for the code compared to general BB codes, i.e., by reducing the search space over two polynomial components in BB codes to just a single polynomial component in UB codes. Simulations demonstrate the promising performance of these codes under various types of BP decoders.",
     "arxiv_id": "2511.02951",
     "arxiv_version": "v1",
@@ -5033,68 +5154,6 @@
     ],
     "title": "Power and Limitations of Linear Programming Decoder for Quantum LDPC Codes",
     "updated_date": "2025-08-06"
-  },
-  {
-    "abstract": "In this study, we report that quantum quasi-cyclic low-density parity-check codes decoded via joint belief propagation (BP) exhibit steep error-rate curves, despite the presence of error floors. To the best of our knowledge, this is the first observation of such threshold-like behavior for quantum LDPC codes with non-vanishing coding rate, excluding those decoded with non-binary BP decoders. Moreover, we find that dominant error events contributing to the error floor typically involve only a small number of bits. These findings suggest that the error floor is caused by trapping sets--specific subgraph structures in the Tanner graph--and indicate that identifying and avoiding such structures may lead to further reduction of the error floor.",
-    "arxiv_id": "2507.11534",
-    "arxiv_version": "v2",
-    "authors": [
-      "Daiki Komoto",
-      "Kenta Kasai"
-    ],
-    "categories": [
-      "quant-ph",
-      "cs.IT"
-    ],
-    "decoder": {
-      "algorithm_outline": [],
-      "complexity_claims": [],
-      "decoder_family": null,
-      "high_level_description": "Unknown / not specified from available text.",
-      "implementation_notes": [],
-      "key_ideas": [],
-      "name": null
-    },
-    "extraction_hash": "1ec9b1045242f8929cae9e68473321a83adb995055980cc57a8a352316eafa85",
-    "last_processed_at": "2026-02-21T13:37:44.241809+00:00",
-    "links": {
-      "abs_url": "https://arxiv.org/abs/2507.11534v2",
-      "code_repo_urls": [],
-      "doi": null,
-      "pdf_url": "https://arxiv.org/pdf/2507.11534v2"
-    },
-    "missing_fields": [
-      "decoder.name",
-      "decoder.algorithm_outline",
-      "decoder.complexity_claims",
-      "performance_claims.thresholds",
-      "performance_claims.runtime_scaling_claims",
-      "simulations",
-      "links.code_repo_urls"
-    ],
-    "primary_category": "quant-ph",
-    "relevance": {
-      "confidence": 0.55,
-      "label": "relevant",
-      "matched_keywords": [
-        "quantum ldpc",
-        "decoder",
-        "belief propagation"
-      ],
-      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
-    },
-    "source_hash": "489012a433463eb90d9410d8e8e300f17b744273c3157b4322d06a551160ea32",
-    "submitted_date": "2025-07-15",
-    "tags": [
-      "belief propagation",
-      "cs.IT",
-      "decoder",
-      "quant-ph",
-      "quantum ldpc",
-      "relevance:relevant"
-    ],
-    "title": "Sharp Error-Rate Transitions in Quantum QC-LDPC Codes under Joint BP Decoding",
-    "updated_date": "2025-07-16"
   },
   {
     "abstract": "We propose and analyze a hierarchical quantum error correction (QEC) scheme that concatenates hypergraph product (HGP) codes with rotated surface codes, which is compatible with quantum computers with only nearest-neighbor interactions. The upper layer employs (3,4)-random HGP codes, known for their constant encoding rate and favorable distance scaling, while the lower layer consists of a rotated surface code with distance 5, allowing hardware compatibility through lattice surgery. To address the decoding bottleneck, we utilize a soft-decision decoding strategy that combines belief propagation with ordered statistics (BP-OS) decoding, enhanced by a syndrome-conditioned logical error probability computed via a tailored lookup table for the lower layer. Numerical simulations under a code capacity noise model demonstrate that our hierarchical codes achieve logical error suppression below the threshold. Furthermore, we derive explicit conditions under which the proposed codes surpass surface codes in both qubit efficiency and error rate. In particular, for the size parameter $s \\geq 4$ (which corresponds to 16 logical qubits) and the distance $d\\geq 25$, our construction outperforms the rotated surface code in practical regimes with physical error rates around or less than $10^{-2}$. These results suggest that concatenated qLDPC-surface architectures offer a scalable and resource-efficient path toward near-term fault-tolerant quantum computation.",

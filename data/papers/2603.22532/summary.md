@@ -1,8 +1,8 @@
-# High-Girth Regular Quantum LDPC Codes from Square-Base Hypergraph Products via CPM Lifts
+# Distance-Finding Algorithms for Quantum Codes and Circuits
 
-- arXiv: `2604.27817v2`
-- Categories: quant-ph, cs.IT
-- Relevance: **maybe** (confidence 0.35)
+- arXiv: `2603.22532v2`
+- Categories: quant-ph
+- Relevance: **relevant** (confidence 0.55)
 
 ## Decoder approach
 - Name: Unknown / not specified
@@ -29,6 +29,6 @@
 - links.code_repo_urls
 
 ## Links
-- Abstract: https://arxiv.org/abs/2604.27817v2
-- PDF: https://arxiv.org/pdf/2604.27817v2
+- Abstract: https://arxiv.org/abs/2603.22532v2
+- PDF: https://arxiv.org/pdf/2603.22532v2
 - DOI: Unknown / not specified
