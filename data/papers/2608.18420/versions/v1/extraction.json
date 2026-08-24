@@ -1,0 +1,60 @@
+{
+  "abstract": "Maximum-probability (MP) decoding selects the most probable microscopic error, whereas degenerate maximum-likelihood (MLD) decoding includes the configurational entropy of an entire logical sector. Using code-capacity Pauli noise to isolate rigidity intrinsic to the code, we determine the first physical error weight $m$ at which their logical winner sets become disjoint, even under optimal MP tie resolution. Code distance imposes the universal bound $m\\geq h=\\lceil d/2\\rceil$. We define the entropic rigidity depth $r$ through $m=h+r$ and certify a three-level hierarchy: $r=0$ for planar surface codes and two concatenated families, $r=1$ for odd-distance square toric codes and the Gross $[[144,12,12]]$ quantum low-density-parity-check code, and $r=2$ for a separable family with hypergraph product and bivariate bicycle descriptions. The onset fixes the leading operational failure gap, proportional to the $m$th power of the physical noise strength. Geometry and algebra therefore provide quantifiable controls of configurational entropy and an exact benchmark for low-noise decoder selection.",
+  "arxiv_id": "2608.18420",
+  "arxiv_version": "v1",
+  "authors": [
+    "Yixin Zhao",
+    "Fei Yan"
+  ],
+  "categories": [
+    "quant-ph",
+    "cond-mat.stat-mech"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2608.18420v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2608.18420v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding",
+      "hypergraph product"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-08-19",
+  "title": "Entropic Rigidity in Quantum Memories: How Geometry and Algebra Control the Onset of Degeneracy Corrections",
+  "updated_date": "2026-08-19"
+}
