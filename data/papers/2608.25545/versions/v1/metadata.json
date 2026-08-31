@@ -1,0 +1,42 @@
+{
+  "abstract": "Quantum low-density parity-check (qLDPC) codes reduce the qubit overhead of fault-tolerant quantum computation by an order of magnitude, but their decoding is harder than its classical counterpart: because many physical errors are equivalent up to stabilizers, the degenerate maximum-likelihood (ML) decoder must compare the probabilities of entire equivalence classes of errors, that is, partition functions, rather than single errors. The workhorse decoder BP+OSD sidesteps degeneracy heuristically and offers no guarantees. We treat degenerate decoding as probabilistic inference in an undirected graphical model: the probability of each logical class is the partition function of an unconstrained, strictly positive Markov random field over the code's check variables, a construction that generalizes the random-bond Ising mapping of the surface code to arbitrary CSS codes and to spacetime decoding with measurement errors and circuit-level noise. On this model we build two decoders. The first estimates all class partition functions by annealed importance sampling with common random numbers and attaches to every decision a certificate of optimality: a paired bootstrap test, or, composed with constant-factor estimators such as WISH, an exact optimality proof. The second is region-based: the Bethe free energy, whose bias cancels between classes, reproduces exact ML decoding on every tested surface-code instance at millisecond cost, and enlarging the regions to elimination clusters makes exact degenerate ML decoding of the [[72,12,6]] bivariate bicycle code feasible. Across surface codes and the bivariate bicycle codes [[72,12,6]] and [[144,12,12]], under code-capacity, phenomenological, and circuit-level noise, the sampling decoder matches or exceeds BP+OSD while certifying the bulk of its decisions, and the certificate flags exactly the syndromes on which any fast decoder should be distrusted.",
+  "arxiv_id": "2608.25545",
+  "arxiv_version": "v1",
+  "authors": [
+    "Ragavi Krishnamoorthy",
+    "Florian Gerhardt",
+    "Johannes Knaute",
+    "Thomas Klir",
+    "Stefan Raimund Maschek",
+    "Erik Schulze",
+    "Tomislav Maras",
+    "Alexander Dotterweich",
+    "Loong Kuan Lee",
+    "Christian Bauckhage",
+    "Nico Piatkowski"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "33424a6a55383e8863e892010e2709c6f81cd04846fb761bf6522fa748f37c96",
+  "last_processed_at": "2026-08-31T19:01:45.678689+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2608.25545v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2608.25545v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "a686b78c458ceb6cf6aadaf8842944c8dd7dc8688eae320b7cc01c10b9a12cd9",
+  "submitted_date": "2026-08-26",
+  "tags": [
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Certified decoding of quantum LDPC codes",
+  "updated_date": "2026-08-26"
+}
