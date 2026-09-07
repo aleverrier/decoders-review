@@ -1,7 +1,7 @@
-# Streaming Belief Propagation on Mixed-Alphabet Tanner Graphs for Practical Quantum Memory
+# Lifted-Product QLDPC Codes in the Polynomial Domain
 
-- arXiv: `2409.18689v2`
-- Categories: quant-ph
+- arXiv: `2609.01305v1`
+- Categories: cs.IT
 - Relevance: **maybe** (confidence 0.35)
 
 ## Decoder approach
@@ -29,6 +29,6 @@
 - links.code_repo_urls
 
 ## Links
-- Abstract: https://arxiv.org/abs/2409.18689v2
-- PDF: https://arxiv.org/pdf/2409.18689v2
+- Abstract: https://arxiv.org/abs/2609.01305v1
+- PDF: https://arxiv.org/pdf/2609.01305v1
 - DOI: Unknown / not specified

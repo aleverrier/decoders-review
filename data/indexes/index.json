@@ -1,5 +1,123 @@
 [
   {
+    "abstract": "Reliable quantum memory under circuit-level noise requires decoders that can process syndrome information continuously and at a rate comparable to its generation. In practical quantum error correction (QEC), repeated syndrome measurements cause the number of potential error locations to grow rapidly with both code size and time. In this paper, we propose a streaming mixed-alphabet belief propagation (SM-BP) decoder. We construct a space-time Tanner graph across multiple rounds of syndrome extraction with mixed-alphabet error variables, preserving correlations arising from multi-qubit faults. Additionally, we propose an adaptive sliding window procedure that captures long error events across window boundaries and adjusts the decoding in real time. To enhance SM-BP, we introduce a technique of probabilistic error consolidation to mitigate degeneracy effects and short cycles. Our simulations demonstrate high error thresholds of 0.4% to 0.87% and strong error-floor performance for topological code families, including rotated toric, toric color, and twisted XZZX toric codes. These results show that SM-BP provides a practical decoding framework for continuous QEC under circuit-level noise.",
+    "arxiv_id": "2409.18689",
+    "arxiv_version": "v2",
+    "authors": [
+      "Kao-Yueh Kuo",
+      "Ching-Yi Lai"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "8582f03bb6f9742ecdcbaa3b84753d9d1ad27d9359ce7df561443b5d8c3fd9eb",
+    "last_processed_at": "2026-09-07T17:38:34.634754+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2409.18689v2",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2409.18689v2"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding",
+        "belief propagation"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "374e7981eafc55ca722de7b88cf6a7a86637c1fbf3df6022fb1e8c28c4faa69c",
+    "submitted_date": "2024-09-27",
+    "tags": [
+      "belief propagation",
+      "decoder",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Streaming Belief Propagation on Mixed-Alphabet Tanner Graphs for Practical Quantum Memory",
+    "updated_date": "2026-09-02"
+  },
+  {
+    "abstract": "This paper presents a finite-length polynomial-domain formulation of lifted-product quantum low-density parity-check (QLDPC) codes. We formulate the code construction over the quotient ring F 2[D]/(D L + 1), where polynomial base matrices are lifted entrywise to binary circulant blocks. This representation gives a compact algebraic description of the lifted-product parity-check matrices and allows CSS orthogonality to be analyzed before binary expansion. We show that the standard circulant lifting map is compatible with polynomial conjugation, which implies that the resulting binary matrices satisfy the CSS commutation constraint. The construction is illustrated with a constraint length 7, rate 1/2 NASA convolutional code example, and numerical examples are provided from a 3 x 4 polynomial parity-check matrix. The finite-length performance of selected constructed codes is then evaluated over the depolarizing channel using various benchmark decoders. The resulting framework gives a structured method to construct finite-length lifted-product QLDPC codes from small polynomial base matrices.",
+    "arxiv_id": "2609.01305",
+    "arxiv_version": "v1",
+    "authors": [
+      "Vahid Nourozi",
+      "Mohsen Moradi",
+      "Roxana Smarandache",
+      "David G. M. Mitchell"
+    ],
+    "categories": [
+      "cs.IT"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "a700a3a3410962884a0cc2bfa7c7a2cad89f3504a913d3f7ec70168bbc6cba48",
+    "last_processed_at": "2026-09-07T17:38:34.639781+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2609.01305v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.01305v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "cs.IT",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "7393eef8ff26ca9fab3846c4400e37321eccc0f7b647317593e361b5c1263f81",
+    "submitted_date": "2026-09-01",
+    "tags": [
+      "cs.IT",
+      "decoder",
+      "relevance:maybe"
+    ],
+    "title": "Lifted-Product QLDPC Codes in the Polynomial Domain",
+    "updated_date": "2026-09-01"
+  },
+  {
     "abstract": "Real-time quantum error correction requires classical decoders to process growing syndrome workloads with low and predictable latency. For quantum low-density parity-check (qLDPC) codes, iterative belief propagation (BP) repeatedly updates messages over sparse Tanner graphs, creating substantial memory-access and data-movement demands. We map normalized Min-Sum BP decoding of the [[144,12,12]] Bivariate Bicycle qLDPC code onto a DPU-based Processing-in-Memory (PIM) architecture. Within each DPU, 11 tasklets cooperatively decode one syndrome, while multiple DPUs process independent syndrome instances in parallel. Using uPIMulator and a data-qubit Pauli error model with ideal syndrome measurements, we compare throughput, per-syndrome processing time, logical error rate (LER), and single-syndrome tail latency against a 16-logical-CPU baseline. At a component-wise physical error probability of p=0.001 and one BP iteration, the projected aggregate kernel throughput of 2,560 DPUs reaches 1.071 x 10^7 decodes/s, compared with 1.22 x 10^6 decodes/s for the CPU, an 8.8x improvement. From two iterations onward, the measured LER remains below the physical error probability for every evaluated value of p. For one to five iterations, the maximum sampled serialized X+Z DPU compute latency remains below the 1 ms decoder-side reference for trapped-ion QEC, reaching approximately 0.873 ms at five iterations. These results show that near-memory processing can provide high aggregate throughput and sub-millisecond compute latency for qLDPC BP decoding under the evaluated conditions.",
     "arxiv_id": "2608.27901",
     "arxiv_version": "v1",
@@ -7102,66 +7220,6 @@
     ],
     "title": "MaxSAT decoders for arbitrary CSS codes",
     "updated_date": "2024-10-02"
-  },
-  {
-    "abstract": "A fault-tolerant approach to reliable quantum memory is essential for scalable quantum computing, as physical qubits are susceptible to noise. Quantum error correction (QEC) must be continuously performed to prolong the memory lifetime. In QEC, error syndromes are generated rapidly, often within the execution time of a few quantum gates, requiring decoders to process this error data with equal speed. A typical QEC cycle involves multiple rounds of syndrome measurements, causing potential error locations to scale rapidly with the code size and the number of measurement rounds. However, no such decoders currently exist for general quantum low-density parity-check codes. In this paper, we propose a fault-tolerant belief propagation (FTBP) decoder that utilizes a space-time Tanner graph across multiple rounds of syndrome extraction with mixed-alphabet error variables. To enhance FTBP, we introduce a technique of probabilistic error consolidation to mitigate degeneracy effects and short cycles. Additionally, we propose an adaptive sliding window procedure that captures long error events across window boundaries and adjusts the decoding in real time. Our simulations demonstrate high error thresholds of 0.4%-0.87% and strong error-floor performance for topological code families, including rotated toric, toric color, and twisted XZZX toric codes.",
-    "arxiv_id": "2409.18689",
-    "arxiv_version": "v1",
-    "authors": [
-      "Kao-Yueh Kuo",
-      "Ching-Yi Lai"
-    ],
-    "categories": [
-      "quant-ph"
-    ],
-    "decoder": {
-      "algorithm_outline": [],
-      "complexity_claims": [],
-      "decoder_family": null,
-      "high_level_description": "Unknown / not specified from available text.",
-      "implementation_notes": [],
-      "key_ideas": [],
-      "name": null
-    },
-    "extraction_hash": "3ae9625912c09fa5508ae21c515825638ed250d09798a181be64acc731519d3c",
-    "last_processed_at": "2026-02-21T13:38:35.541832+00:00",
-    "links": {
-      "abs_url": "https://arxiv.org/abs/2409.18689v1",
-      "code_repo_urls": [],
-      "doi": null,
-      "pdf_url": "https://arxiv.org/pdf/2409.18689v1"
-    },
-    "missing_fields": [
-      "decoder.name",
-      "decoder.algorithm_outline",
-      "decoder.complexity_claims",
-      "performance_claims.thresholds",
-      "performance_claims.runtime_scaling_claims",
-      "simulations",
-      "links.code_repo_urls"
-    ],
-    "primary_category": "quant-ph",
-    "relevance": {
-      "confidence": 0.35,
-      "label": "maybe",
-      "matched_keywords": [
-        "decoder",
-        "decoding",
-        "belief propagation"
-      ],
-      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
-    },
-    "source_hash": "3944590d1eecb41b875981a22b0a0abaa7aa166da5914e55a767a2cd6fbf311d",
-    "submitted_date": "2024-09-27",
-    "tags": [
-      "belief propagation",
-      "decoder",
-      "decoding",
-      "quant-ph",
-      "relevance:maybe"
-    ],
-    "title": "Fault-Tolerant Belief Propagation for Practical Quantum Memory",
-    "updated_date": "2024-09-27"
   },
   {
     "abstract": "Quantum error correction is necessary for achieving exponential speedups on important applications. The planar surface code has remained the most studied error-correcting code for the last two decades because of its relative simplicity. However, encoding a singular logical qubit with the planar surface code requires physical qubits quadratic in the code distance~($d$), making it space-inefficient for the large-distance codes necessary for promising applications. Thus, {\\em Quantum Low-Density Parity-Check (QLDPC)} have emerged as an alternative to the planar surface code but require a higher degree of connectivity. Furthermore, the problems of fault-tolerant syndrome extraction and decoding are understudied for these codes and also remain obstacles to their usage. In this paper, we consider two under-studied families of QLDPC codes: hyperbolic surface codes and hyperbolic color codes. We tackle the three challenges mentioned above as follows. {\\em First}, we propose {\\em Flag-Proxy Networks (FPNs)}, a generalizable architecture for quantum codes that achieves low connectivity through flag and proxy qubits. {\\em Second}, we propose a {\\em greedy syndrome extraction scheduling} algorithm for general quantum codes and further use this algorithm for fault-tolerant syndrome extraction on FPNs. {\\em Third}, we present two decoders that leverage flag measurements to decode the hyperbolic codes accurately. Our work finds that degree-4 FPNs of the hyperbolic surface and color codes are respectively $2.9\\times$ and $5.5\\times$ more space-efficient than the $d = 5$ planar surface code, and become even more space-efficient when considering higher distances. The hyperbolic codes also have error rates comparable to their planar counterparts.",

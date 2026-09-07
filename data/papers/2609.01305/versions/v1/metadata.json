@@ -1,0 +1,32 @@
+{
+  "abstract": "This paper presents a finite-length polynomial-domain formulation of lifted-product quantum low-density parity-check (QLDPC) codes. We formulate the code construction over the quotient ring F 2[D]/(D L + 1), where polynomial base matrices are lifted entrywise to binary circulant blocks. This representation gives a compact algebraic description of the lifted-product parity-check matrices and allows CSS orthogonality to be analyzed before binary expansion. We show that the standard circulant lifting map is compatible with polynomial conjugation, which implies that the resulting binary matrices satisfy the CSS commutation constraint. The construction is illustrated with a constraint length 7, rate 1/2 NASA convolutional code example, and numerical examples are provided from a 3 x 4 polynomial parity-check matrix. The finite-length performance of selected constructed codes is then evaluated over the depolarizing channel using various benchmark decoders. The resulting framework gives a structured method to construct finite-length lifted-product QLDPC codes from small polynomial base matrices.",
+  "arxiv_id": "2609.01305",
+  "arxiv_version": "v1",
+  "authors": [
+    "Vahid Nourozi",
+    "Mohsen Moradi",
+    "Roxana Smarandache",
+    "David G. M. Mitchell"
+  ],
+  "categories": [
+    "cs.IT"
+  ],
+  "extraction_hash": "a700a3a3410962884a0cc2bfa7c7a2cad89f3504a913d3f7ec70168bbc6cba48",
+  "last_processed_at": "2026-09-07T17:38:34.639781+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2609.01305v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2609.01305v1"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "7393eef8ff26ca9fab3846c4400e37321eccc0f7b647317593e361b5c1263f81",
+  "submitted_date": "2026-09-01",
+  "tags": [
+    "cs.IT",
+    "decoder",
+    "relevance:maybe"
+  ],
+  "title": "Lifted-Product QLDPC Codes in the Polynomial Domain",
+  "updated_date": "2026-09-01"
+}
