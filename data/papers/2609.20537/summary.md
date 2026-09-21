@@ -1,6 +1,6 @@
-# High-Girth Regular Quantum LDPC Codes from Affine-Coset Structures
+# Coherent error threshold for quantum LDPC codes
 
-- arXiv: `2604.20838v4`
+- arXiv: `2609.20537v1`
 - Categories: quant-ph
 - Relevance: **maybe** (confidence 0.35)
 
@@ -29,6 +29,6 @@
 - links.code_repo_urls
 
 ## Links
-- Abstract: https://arxiv.org/abs/2604.20838v4
-- PDF: https://arxiv.org/pdf/2604.20838v4
+- Abstract: https://arxiv.org/abs/2609.20537v1
+- PDF: https://arxiv.org/pdf/2609.20537v1
 - DOI: Unknown / not specified

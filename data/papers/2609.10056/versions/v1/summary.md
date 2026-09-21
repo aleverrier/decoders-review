@@ -1,7 +1,7 @@
-# High-Girth Regular Quantum LDPC Codes from Affine-Coset Structures
+# Accelerating A*-Based Algorithms for Decoding Quantum Low-Density Parity-Check Codes
 
-- arXiv: `2604.20838v4`
-- Categories: quant-ph
+- arXiv: `2609.10056v1`
+- Categories: quant-ph, eess.SP
 - Relevance: **maybe** (confidence 0.35)
 
 ## Decoder approach
@@ -29,6 +29,6 @@
 - links.code_repo_urls
 
 ## Links
-- Abstract: https://arxiv.org/abs/2604.20838v4
-- PDF: https://arxiv.org/pdf/2604.20838v4
+- Abstract: https://arxiv.org/abs/2609.10056v1
+- PDF: https://arxiv.org/pdf/2609.10056v1
 - DOI: Unknown / not specified
