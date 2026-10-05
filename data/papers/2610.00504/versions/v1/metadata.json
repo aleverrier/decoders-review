@@ -1,0 +1,32 @@
+{
+  "abstract": "Post-selection improves the logical reliability of quantum computation by rejecting shots which are likely to result in logical failure. We introduce graph neural networks that predict decoder failure without additional decoder executions, using only syndromes, and for high-rate quantum low-density parity-check (qLDPC) codes, existing belief-propagation posteriors. We evaluate rotated surface and bivariate bicycle (BB) code memories under uniform depolarising circuit-level noise. Retaining 90% of shots gives approximately 3700x and 740x reductions in logical error rates for [[72,12,6]] and [[144,12,12]] BB codes at realistic physical error rates. For the distance 5 surface code at physical noise p=0.003, our neural post-selector achieves logical error suppression comparable to the leading complementary gap method without running the decoder.",
+  "arxiv_id": "2610.00504",
+  "arxiv_version": "v1",
+  "authors": [
+    "Conor Carty",
+    "Tamas Noszko",
+    "Joschka Roffe",
+    "Roberto Bondesan"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "af1394998960238c8c1da479d2956597d623f7c778ac0326def88cccef7ebfff",
+  "last_processed_at": "2026-10-05T20:38:14.474603+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2610.00504v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2610.00504v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "e4bf52ca102311eebae1e670e2da3e33a512a6521ad366a0c0fe5d095a6ef6d5",
+  "submitted_date": "2026-09-30",
+  "tags": [
+    "decoder",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Graph Neural Post-selection for Quantum Error Correction",
+  "updated_date": "2026-09-30"
+}

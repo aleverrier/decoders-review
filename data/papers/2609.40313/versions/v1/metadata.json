@@ -1,0 +1,34 @@
+{
+  "abstract": "In classical coding theory, the quest for explicit codes achieving list decoding capacity has been an important driving force. While random codes are easily shown to achieve capacity, an explicit construction was only discovered decades later in the seminal work [Guruswami and Rudra, STOC 2006]. In quantum coding theory, it is highly desirable that a code family be LDPC. While good quantum codes were known for decades, obtaining the additional LDPC property was elusive. In fact, only very recently that good quantum LDPC codes were discovered in a breakthrough work [Panteleev and Kalachev, STOC 2022]. In this context, a natural question is to ask for an explicit family of quantum codes achieving list decoding capacity while also possessing the important LDPC property. In this work, we provide (to the best of our knowledge) the first explicit constructions of quantum LDPC codes achieving list decoding capacity, namely, with a list decoding radius approaching the quantum Singleton bound with constant list sizes. Furthermore, we provide near-linear time (in the block-length) list decoding algorithms approaching capacity. Our explicit code construction are based on expander graphs via the quantum analogue of Alon-Edmonds-Luby (AEL) amplification [Bergamaschi, Golowich and Gunn, STOC 2024], and this enables the important LDPC property. Our efficient list decoding algorithms are obtained by generalizing the classical expander-based weak-regularity list decoding algorithms [Srivastava and Tulsiani, FOCS 2025] [Jeronimo and Singh, 2025] to suitable instantiations of quantum AEL.",
+  "arxiv_id": "2609.40313",
+  "arxiv_version": "v1",
+  "authors": [
+    "William Gay",
+    "Fernando Granha Jeronimo",
+    "Abhi Shukul"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "extraction_hash": "0b8fe0ff644e1f8461895a9dc7cc3f18c0c85866ed22f9db2d602e051ec97708",
+  "last_processed_at": "2026-10-05T20:38:14.477012+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2609.40313v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2609.40313v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "d37f4e4bb765c25b684da28f40212bb7dd1a02e828011af874d335402e1974bd",
+  "submitted_date": "2026-09-30",
+  "tags": [
+    "cs.IT",
+    "decoding",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Explicit Capacity-Achieving Quantum LDPC Codes List Decodable in Near-linear Time",
+  "updated_date": "2026-09-30"
+}

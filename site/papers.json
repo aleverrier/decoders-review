@@ -1,5 +1,605 @@
 [
   {
+    "abstract": "Despite significant progress on quantum low-density parity-check (qLDPC) codes, building qLDPC processors that are high-rate, high-throughput, hardware-friendly, and fast-to-decode remains a challenge. We introduce mitten codes, a family of qLDPC processor codes of encoding rate $20\\%$ and check weight $9$, based on non-abelian groups. Their non-abelian structure evades distance bounds constraining abelian counterparts, allowing mitten codes to reach distance $18$ and beyond with just a few hundred data qubits. The logical operators of a mitten code are related by the group action, yielding a modular, low-overhead logical toolkit: full Clifford operations follow from bridging two reusable seed surgery gadgets or from a single fixed extractor. Furthermore, qLDPC processors based on mitten codes support high-rate surgery that executes many logical measurements in parallel, and parallel magic-state injection into all logical qubits at once. Under circuit-level noise, with our fast decoder, the $[\\![300,60,14]\\!]$ mitten code achieves, without extrapolation, a block logical error rate of ${\\sim}10^{-11}$ per round at $0.1\\%$ physical error rate (PER), while the $[\\![ 975,195,\\leq 24 ]\\!]$ code reaches ${\\sim}10^{-8}$ at $0.4\\%$ PER. Decoding $15$ billion surgery experiments on the $[\\![540,108,18]\\!]$ code at $0.1\\%$ PER, we observe only two logical failures, demonstrating a qLDPC processor capable of running ${\\sim}10^{10}$ logical operations. Our decoder is compatible with sub-millisecond average latency per logical cycle, sufficient for real-time decoding on neutral atom hardware. Discovered by an end-to-end design pipeline built on sQetch, a distance estimator orders of magnitude faster than existing tools, and mapping efficiently onto near-term neutral atom and superconducting hardware, mitten codes open a practical path toward fault-tolerant quantum computation.",
+    "arxiv_id": "2607.28795",
+    "arxiv_version": "v2",
+    "authors": [
+      "Aditya Bhardwaj",
+      "Muzhou Ma",
+      "Nadine Meister",
+      "Robbie King",
+      "Dolev Bluvstein",
+      "John Preskill",
+      "Madelyn Cain",
+      "Qian Xu",
+      "Hsin-Yuan Huang"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "72178878e01e3b1c9798e7631dc267a36518004950acc12a25b1cf44b674c143",
+    "last_processed_at": "2026-10-05T20:38:14.463325+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2607.28795v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2607.28795v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "5c049ad9271cbc93817c1e5396e0a3c2d37917674dd60ae20256b2b43e69595f",
+    "submitted_date": "2026-07-30",
+    "tags": [
+      "decoder",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "High-rate qLDPC processors",
+    "updated_date": "2026-10-02"
+  },
+  {
+    "abstract": "While quantum low-density parity check (qLDPC) codes are a low-overhead means of quantum information storage, it is valuable for quantum codes to possess fault-tolerant features beyond this resource efficiency. In this work, we introduce trivariate tricycle (TT) codes, qLDPC codes that combine several desirable features: high thresholds under a circuit-level noise model, partial single-shot decodability for low-time-overhead decoding, a large set of transversal Clifford gates and automorphisms within and between code blocks, and (for several sub-constructions) constant-depth implementations of a (non-Clifford) $CCZ$ gate. TT codes are CSS codes based on a length-3 chain complex, and are defined from three trivariate polynomials, with the 3D toric code (3DTC) belonging to this construction. We numerically search for TT codes and find several candidates with improved parameters relative to the 3DTC, using up to 48$\\times$ fewer data qubits as equivalent 3DTC encodings. We construct syndrome-extraction circuits for these codes and numerically demonstrate single-shot decoding in $Z$ memory, in both phenomenological and circuit-level noise models. We also demonstrate that the codes have good performance under single-shot decoding even in $X$ memory. Under circuit-level noise, TT codes have a crossing point of $0.3\\%$ in $X$ memory and $1\\%$ in $Z$ memory (with single-shot decoding). All TT codes possess several transversal $CZ$ gates that can partially address logical qubits between two code blocks. The codes possess a large set of automorphisms that can perform Clifford gates within a code block. Finally, we establish several TT code polynomial constructions that allow for a constant-depth implementation of logical $CCZ$ gates. We find codes with $CCZ$ gates that use up to $5.7\\times$ fewer data qubits as equivalent-distance 3DTC encodings, and others with encoding rates as high as $1/4$.",
+    "arxiv_id": "2508.08191",
+    "arxiv_version": "v3",
+    "authors": [
+      "Abraham Jacob",
+      "Campbell McLauchlan",
+      "Dan E. Browne"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "529f48caa2db9bdd31d4a53a71dd3a7883eab4fe12518ca22a44964f7ad3b921",
+    "last_processed_at": "2026-10-05T20:38:14.466994+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2508.08191v3",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2508.08191v3"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "212a031b3cf24e5e9d7e0e696148e03dcc010912e86c6c3d17c39a628fb69781",
+    "submitted_date": "2025-08-11",
+    "tags": [
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Single-Shot Decoding and Fault-tolerant Gates with Trivariate Tricycle Codes",
+    "updated_date": "2026-10-02"
+  },
+  {
+    "abstract": "We first provide a simple proof showing that any single-shot code is self-correcting. We then show that any $[[n,k]]$ CSS quantum low-density parity-check (QLDPC) code can be transformed into an $[[nm,k]]$ CSS QLDPC code with single-shot (SS) quantum error correction and an efficient local decoder which runs in $O(\\log m)$ parallel time. Below a constant threshold $p_{\\rm RG}>0$ for joint local stochastic physical and measurement noise, the logical failure probability over $T$ correction rounds is bounded by \\begin{equation*} O(T n)\\exp[-Ω(m^α)] \\end{equation*} for a constant $α>0$; we say that the \\textit{threshold} is $p_{\\rm RG}$ and \\textit{error suppression} is $Ω(m^α)$. Moreover, if the input code is equipped with a single-shot decoder with threshold $p_c>0$ and error suppression $Ω(n^β)$, then the output code \\textit{enhances} the error suppression to $Ω(m^α n^β)$, while maintaining the decoder-independent threshold $p_{\\rm RG}$, and thus \\textit{enhanced} if $p_c < p_{\\rm RG}$.",
+    "arxiv_id": "2610.02137",
+    "arxiv_version": "v1",
+    "authors": [
+      "Andrew C. Yuan"
+    ],
+    "categories": [
+      "quant-ph",
+      "math-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "4e4fc1f75057c95a2fbfccaeb87885be6887a4955444a597198740ce2319d954",
+    "last_processed_at": "2026-10-05T20:38:14.469904+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2610.02137v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.02137v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "91eaa4398c8993207ec7e52633135aed955a3dcd9514c682ffaabcdb7b4d68f9",
+    "submitted_date": "2026-10-01",
+    "tags": [
+      "decoder",
+      "math-ph",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "One-Shot any Code",
+    "updated_date": "2026-10-01"
+  },
+  {
+    "abstract": "Quantum low-density parity-check (QLDPC) codes are promising candidates for low-overhead fault-tolerant quantum computation, but their practical use requires fast, low-complexity, and reliable decoders. Belief propagation (BP) is attractive because of its local message-passing structure, yet standard flooding BP often suffers from convergence failures on QLDPC codes due to short cycles, degeneracy, and symmetric decoding trajectories. Learned sequential BP improves convergence by using a reinforcement-learning policy to choose variable-node update orders, but a single learned trajectory can still be sensitive to unfavorable local Pauli decisions. We propose a learned parallel bit-flipping sequential BP decoder with a new quaternary score combining syndrome gain, a quantized Pauli log-likelihood penalty, and Q-table lookahead at hypothetical post-flip states. Our decoder first runs learned sequential BP for a fixed number of iterations. If the syndrome is not satisfied, it constructs quaternary bit-flipping candidates, each corresponding to changing the current Pauli decision of one qubit. The selected candidates initialize independent learned sequential BP continuations from the same decoder state. Since these continuations are independent, they can be executed in parallel, so testing several candidates mainly increases parallel hardware resources rather than sequential decoding latency. Simulations on representative QLDPC codes over the depolarizing channel show that the proposed decoder improves the reliability of learned sequential BP while having a parallel low-latency structure.",
+    "arxiv_id": "2610.01068",
+    "arxiv_version": "v1",
+    "authors": [
+      "Mohsen Moradi",
+      "Taejoon Kim",
+      "Remi A. Chou"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.IT"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "ed4b570eea1a569a8bb18b527b08ba6ba4b64049149df36cc00802eabea81071",
+    "last_processed_at": "2026-10-05T20:38:14.472224+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2610.01068v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.01068v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding",
+        "belief propagation"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "9ad4ab4da7f5187fa601c69481a6d316a45ad3bc7281820fdf5da2ed3dd80867",
+    "submitted_date": "2026-10-01",
+    "tags": [
+      "belief propagation",
+      "cs.IT",
+      "decoder",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Learned Parallel Bit-Flipping Sequential Belief Propagation Decoding of Quantum LDPC Codes",
+    "updated_date": "2026-10-01"
+  },
+  {
+    "abstract": "Post-selection improves the logical reliability of quantum computation by rejecting shots which are likely to result in logical failure. We introduce graph neural networks that predict decoder failure without additional decoder executions, using only syndromes, and for high-rate quantum low-density parity-check (qLDPC) codes, existing belief-propagation posteriors. We evaluate rotated surface and bivariate bicycle (BB) code memories under uniform depolarising circuit-level noise. Retaining 90% of shots gives approximately 3700x and 740x reductions in logical error rates for [[72,12,6]] and [[144,12,12]] BB codes at realistic physical error rates. For the distance 5 surface code at physical noise p=0.003, our neural post-selector achieves logical error suppression comparable to the leading complementary gap method without running the decoder.",
+    "arxiv_id": "2610.00504",
+    "arxiv_version": "v1",
+    "authors": [
+      "Conor Carty",
+      "Tamas Noszko",
+      "Joschka Roffe",
+      "Roberto Bondesan"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "af1394998960238c8c1da479d2956597d623f7c778ac0326def88cccef7ebfff",
+    "last_processed_at": "2026-10-05T20:38:14.474603+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2610.00504v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.00504v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "e4bf52ca102311eebae1e670e2da3e33a512a6521ad366a0c0fe5d095a6ef6d5",
+    "submitted_date": "2026-09-30",
+    "tags": [
+      "decoder",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Graph Neural Post-selection for Quantum Error Correction",
+    "updated_date": "2026-09-30"
+  },
+  {
+    "abstract": "In classical coding theory, the quest for explicit codes achieving list decoding capacity has been an important driving force. While random codes are easily shown to achieve capacity, an explicit construction was only discovered decades later in the seminal work [Guruswami and Rudra, STOC 2006]. In quantum coding theory, it is highly desirable that a code family be LDPC. While good quantum codes were known for decades, obtaining the additional LDPC property was elusive. In fact, only very recently that good quantum LDPC codes were discovered in a breakthrough work [Panteleev and Kalachev, STOC 2022]. In this context, a natural question is to ask for an explicit family of quantum codes achieving list decoding capacity while also possessing the important LDPC property. In this work, we provide (to the best of our knowledge) the first explicit constructions of quantum LDPC codes achieving list decoding capacity, namely, with a list decoding radius approaching the quantum Singleton bound with constant list sizes. Furthermore, we provide near-linear time (in the block-length) list decoding algorithms approaching capacity. Our explicit code construction are based on expander graphs via the quantum analogue of Alon-Edmonds-Luby (AEL) amplification [Bergamaschi, Golowich and Gunn, STOC 2024], and this enables the important LDPC property. Our efficient list decoding algorithms are obtained by generalizing the classical expander-based weak-regularity list decoding algorithms [Srivastava and Tulsiani, FOCS 2025] [Jeronimo and Singh, 2025] to suitable instantiations of quantum AEL.",
+    "arxiv_id": "2609.40313",
+    "arxiv_version": "v1",
+    "authors": [
+      "William Gay",
+      "Fernando Granha Jeronimo",
+      "Abhi Shukul"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.IT"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "0b8fe0ff644e1f8461895a9dc7cc3f18c0c85866ed22f9db2d602e051ec97708",
+    "last_processed_at": "2026-10-05T20:38:14.477012+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2609.40313v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.40313v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.55,
+      "label": "relevant",
+      "matched_keywords": [
+        "quantum ldpc",
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "d37f4e4bb765c25b684da28f40212bb7dd1a02e828011af874d335402e1974bd",
+    "submitted_date": "2026-09-30",
+    "tags": [
+      "cs.IT",
+      "decoding",
+      "quant-ph",
+      "quantum ldpc",
+      "relevance:relevant"
+    ],
+    "title": "Explicit Capacity-Achieving Quantum LDPC Codes List Decodable in Near-linear Time",
+    "updated_date": "2026-09-30"
+  },
+  {
+    "abstract": "We construct the first known fault-tolerant scheme for injecting states into quantum error-correcting codes with constant space and time overhead. That is, we construct a family of constant-rate quantum error-correcting codes for which a set of bare physical qubits can be injected, i.e. fault-tolerantly encoded, into a code block. Similarly, a code state can be ejected, i.e. fault-tolerantly decoded, back into bare physical qubits. We show that these injection and ejection procedures succeed under circuit-level locally stochastic noise, while incurring just a small constant probability of corrupting each qubit, which is unavoidable for bare physical qubits. We also show how to perform fault-tolerant error correction and code-state preparation under locally stochastic noise. All of our gadgets can be implemented with constant quantum circuit depth (i.e. are single-shot), and with a number of physical qubits growing linearly with the number of logical qubits, assuming the ability to run polynomial-sized noiseless classical circuits on the side. We construct our quantum codes by taking a high-dimensional hypergraph product of classical LDPC codes, which in turn are a simplified version of Spielman's linear-time encodable codes (STOC'95). As our resulting product codes are only resilient to physical errors occurring with non-uniform probabilities across qubits, we then show how to concatenate with inner codes of various sizes to obtain fault-tolerance against uniform noise.",
+    "arxiv_id": "2609.39345",
+    "arxiv_version": "v1",
+    "authors": [
+      "Louis Golowich",
+      "Venkatesan Guruswami"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.IT"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "c75c6f85d8c6d3c2e1fede3f419ea832ffcf444fc0ecbec6ea75829fa9df80d4",
+    "last_processed_at": "2026-10-05T20:38:14.479648+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2609.39345v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.39345v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "hypergraph product"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "b9cbeda4dcfc4e37bf08097389f1aee4257961f5fdd39e6679da56174db81df2",
+    "submitted_date": "2026-09-30",
+    "tags": [
+      "cs.IT",
+      "hypergraph product",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Constant-Overhead Injection into Quantum Codes",
+    "updated_date": "2026-09-30"
+  },
+  {
+    "abstract": "We introduce a local and distributed framework for decoding quantum LDPC codes. Built atop belief propagation (BP), the architecture combines strictly local processing of syndrome information, local feedback, autonomous operation, and highly parallelized decoding. We establish the framework at two complementary levels. First, we show that any code exhibiting a threshold under iterative BP decoding can be promoted to an autonomous local measurement-and-feedback dynamics while preserving that threshold. We then turn to codes for which naive BP does not itself exhibit threshold behavior. Our key observation is that BP can nevertheless provide sufficiently accurate \\emph{local} marginal information: active syndrome defects use these local beliefs to \\emph{move}, pair, and annihilate through asynchronous feedback. We demonstrate numerically that this construction exhibits threshold behavior in the point-like sectors of the two- and three-dimensional toric codes, where conventional BP decoding fails. Exploiting the graph-generality of BP, we then study the inference dynamics on the membrane-like sector of the three-dimensional toric code and in a family of bivariate-bicycle quantum LDPC codes.",
+    "arxiv_id": "2609.38139",
+    "arxiv_version": "v1",
+    "authors": [
+      "Siddhant Midha",
+      "Dmitry A. Abanin"
+    ],
+    "categories": [
+      "quant-ph",
+      "cond-mat.dis-nn"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "640ca644953ad8bd0b8533eaa54e27e63c8c401f3b8efae136b532912da54c6d",
+    "last_processed_at": "2026-10-05T20:38:14.482005+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2609.38139v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.38139v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.55,
+      "label": "relevant",
+      "matched_keywords": [
+        "quantum ldpc",
+        "decoding",
+        "belief propagation"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "f7902a98e3fac1aae660dca70c8e1798550fdcf353994807773638958b0873ba",
+    "submitted_date": "2026-09-29",
+    "tags": [
+      "belief propagation",
+      "cond-mat.dis-nn",
+      "decoding",
+      "quant-ph",
+      "quantum ldpc",
+      "relevance:relevant"
+    ],
+    "title": "Local autonomous inference machines for quantum LDPC codes",
+    "updated_date": "2026-09-29"
+  },
+  {
+    "abstract": "Accurate decoding of quantum low-density parity-check (qLDPC) codes often relies on expensive post-processing search, although decoding difficulty varies strongly between syndromes. We find that the benefit of deeper post-processing search is highly concentrated in a small subset of decoding instances, and that these instances can be identified directly from the decoder itself. To this end, we introduce an adaptive decoder based on belief propagation (BP) and ordered-statistics decoding (OSD), using the disagreement between the BP hard decision and the syndrome-consistent order-zero OSD solution as an internal risk signal to determine where deeper search is required. On a $[[144,12,12]]$ bivariate bicycle code under circuit-level depolarising noise, encoding $12$ logical qubits in $144$ data qubits with distance $12$, escalating only the highest-risk $20\\%$ of instances recovers $85\\%$ to $92\\%$ of the improvement in logical error rate available from a full one-free-variable sweep, while reducing the mean serial decoding cost by a factor of $3.6$ relative to applying the same truncated search to every instance. At matched budget, disagreement-guided routing also outperforms routing based on the BP syndrome residual, syndrome weight and random selection. The same behaviour reappears on a structurally distinct radial qLDPC code obtained from a lifted-product construction, where escalating $20\\%$ of instances recovers $87\\%$ to $94\\%$ of the available gain. A $Z$-memory experiment on the Quantinuum H2 trapped-ion processor, implementing both $X$-type and $Z$-type checks, further shows that the signal remains predictive under device noise. These results show that decoder-internal disagreement can expose where additional decoding effort is valuable, allowing classical computation to be concentrated on the instances most likely to benefit from it.",
+    "arxiv_id": "2609.37629",
+    "arxiv_version": "v1",
+    "authors": [
+      "Maida Wang",
+      "Peter V. Coveney"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "8d99ef60bdc6753156c4a18c70a3a930b4da5d0fa6b440902ec914ce50515dca",
+    "last_processed_at": "2026-10-05T20:38:14.484337+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2609.37629v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.37629v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding",
+        "belief propagation"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "dc76d56d42ebc358e66fd9dcbc9142910747c2d1bcac612d4ba5f4489a2e66de",
+    "submitted_date": "2026-09-29",
+    "tags": [
+      "belief propagation",
+      "decoder",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Adaptive decoding of quantum LDPC codes through decoder disagreement",
+    "updated_date": "2026-09-29"
+  },
+  {
+    "abstract": "The preparation of a quantum state using a noisy quantum computer (gate noise strength $δ$) will necessarily affect an O($δ$)-fraction of the qubits, no matter which protocol is used. Here, we show that fault-tolerant quantum state preparation can be achieved with constant space overhead improving on previous constructions requiring polylogarithmic overhead. To achieve this, we add to the toolbox of fault-tolerant schemes for circuits with quantum input and output. More specifically, we construct fault-tolerant interfaces that decrease the level of protection for quantum low-density parity-check (LDPC) codes. When information is encoded in multiple code blocks, our interfaces have constant space overhead. In our decoder construction that change the level of protection by an arbitrary amount, we circumvent bottlenecks to error pileup and overhead by gradual lowering of the level of encoding at the same time as we increase the number of blocks on which decoding is carried out simultaneously.",
+    "arxiv_id": "2602.16948",
+    "arxiv_version": "v2",
+    "authors": [
+      "Matthias Christandl",
+      "Omar Fawzi",
+      "Ashutosh Goswami"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "6a7ff2a1b299ae0320033c63b03ca6266c85eaf2e96b923b0dcc7d1d8bf5b85e",
+    "last_processed_at": "2026-10-05T20:38:14.486762+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2602.16948v2",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2602.16948v2"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "24c93adca6030fd5b0f878cdfda8986f2a7f951fb396815d118f3f82fb8463ca",
+    "submitted_date": "2026-02-18",
+    "tags": [
+      "decoder",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Fault-tolerant interfaces for quantum LDPC codes",
+    "updated_date": "2026-09-29"
+  },
+  {
     "abstract": "The decoder is a critical component of a fault-tolerant quantum computer, computing corrections based on parity-check measurements performed throughout the computation. A soft decoder supplements its output with a confidence score which, when used alongside post-selection, can substantially improve logical performance. We introduce a soft beam search decoder for quantum low-density parity-check codes that uses internal decoder data as a confidence metric, removing the need for extra computation. We perform circuit-level simulations of five quantum LDPC codes relevant for superconducting and trapped ion architectures equipped with our global soft decoder and we obtain up to $580\\times$ logical-error suppression at a physical error rate of $10^{-3}$ while rejecting only $0.1\\%$ of shots. Then, we simulate an error detected measurement, which is a core logical operation of the walking cat architecture, using a streaming version of soft beam decoder and we achieve up to $210\\times$ error suppression while increasing the rejection probability by only $0.5$ percentage points. Finally, we revisit recent quantum LDPC code memory experiments on trapped ions, demonstrating that our soft decoder doubles the logical qubit lifetimes at the price of a mean rejection rate of $2.6\\%$--$5.6\\%$ per syndrome round, bringing all five codes into the beyond-breakeven regime.",
     "arxiv_id": "2609.26958",
     "arxiv_version": "v1",
@@ -848,71 +1448,6 @@
     ],
     "title": "Sharp Error-Rate Transitions in Quantum QC-LDPC Codes under Joint BP Decoding",
     "updated_date": "2026-08-14"
-  },
-  {
-    "abstract": "Despite significant progress on quantum low-density parity-check (qLDPC) codes, building qLDPC processors that are high-rate, high-throughput, hardware-friendly, and fast-to-decode remains a challenge. We introduce mitten codes, a family of qLDPC processor codes of encoding rate $20\\%$ and check weight $9$, based on non-abelian groups. Their non-abelian structure evades distance bounds constraining abelian counterparts, allowing mitten codes to reach distance $18$ and beyond with just a few hundred data qubits. The logical operators of a mitten code are related by the group action, yielding a modular, low-overhead logical toolkit: full Clifford operations follow from bridging two reusable seed surgery gadgets or from a single fixed extractor. Furthermore, qLDPC processors based on mitten codes support high-rate surgery that executes many logical measurements in parallel, and parallel magic-state injection into all logical qubits at once. Under circuit-level noise, with our fast decoder, the $[\\![300,60,14]\\!]$ mitten code achieves, without extrapolation, a block logical error rate of ${\\sim}10^{-11}$ per round at $0.1\\%$ physical error rate (PER), while the $[\\![ 975,195,\\leq 24 ]\\!]$ code reaches ${\\sim}10^{-8}$ at $0.4\\%$ PER. Decoding $15$ billion surgery experiments on the $[\\![540,108,18]\\!]$ code at $0.1\\%$ PER, we observe only two logical failures, demonstrating a qLDPC processor capable of running ${\\sim}10^{10}$ logical operations. Our decoder is compatible with sub-millisecond average latency per logical cycle, sufficient for real-time decoding on neutral atom hardware. Discovered by an end-to-end design pipeline built on sQetch, a distance estimator orders of magnitude faster than existing tools, and mapping efficiently onto near-term neutral atom and superconducting hardware, mitten codes open a practical path toward fault-tolerant quantum computation.",
-    "arxiv_id": "2607.28795",
-    "arxiv_version": "v1",
-    "authors": [
-      "Aditya Bhardwaj",
-      "Muzhou Ma",
-      "Nadine Meister",
-      "Robbie King",
-      "Dolev Bluvstein",
-      "John Preskill",
-      "Madelyn Cain",
-      "Qian Xu",
-      "Hsin-Yuan Huang"
-    ],
-    "categories": [
-      "quant-ph"
-    ],
-    "decoder": {
-      "algorithm_outline": [],
-      "complexity_claims": [],
-      "decoder_family": null,
-      "high_level_description": "Unknown / not specified from available text.",
-      "implementation_notes": [],
-      "key_ideas": [],
-      "name": null
-    },
-    "extraction_hash": "5b67e2884a2410b53503adcd76cdb6fc96d0f28b56d37870bc9693d4b446dd50",
-    "last_processed_at": "2026-08-03T14:53:56.648381+00:00",
-    "links": {
-      "abs_url": "https://arxiv.org/abs/2607.28795v1",
-      "code_repo_urls": [],
-      "doi": null,
-      "pdf_url": "https://arxiv.org/pdf/2607.28795v1"
-    },
-    "missing_fields": [
-      "decoder.name",
-      "decoder.algorithm_outline",
-      "decoder.complexity_claims",
-      "performance_claims.thresholds",
-      "performance_claims.runtime_scaling_claims",
-      "simulations",
-      "links.code_repo_urls"
-    ],
-    "primary_category": "quant-ph",
-    "relevance": {
-      "confidence": 0.35,
-      "label": "maybe",
-      "matched_keywords": [
-        "decoder",
-        "decoding"
-      ],
-      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
-    },
-    "source_hash": "5c049ad9271cbc93817c1e5396e0a3c2d37917674dd60ae20256b2b43e69595f",
-    "submitted_date": "2026-07-30",
-    "tags": [
-      "decoder",
-      "decoding",
-      "quant-ph",
-      "relevance:maybe"
-    ],
-    "title": "High-rate qLDPC processors",
-    "updated_date": "2026-07-30"
   },
   {
     "abstract": "Constant-rate quantum low-density parity-check (LDPC) codes promise fault-tolerant quantum computation with constant spatial overhead in the asymptotic limit. Nonetheless, discovering finite-length code instances with good practical performance remains challenging. We introduce a new family of quantum LDPC codes with design rate $1/5$ and check weight $9$ that approaches the teraquop memory regime per qubit-round with several hundred physical qubits, under idling-free circuit-level noise of strength $0.1\\%$ and GPU-accelerated Relay-belief-propagation (Relay-BP) decoding with average latencies around 1-2 ms, a regime relevant to trapped-ion and neutral-atom processors. The construction involves the balanced product of classical LDPC codes with design rate $1/2$ that share non-abelian $\\mathbb{Z}_\\ell \\rtimes \\mathbb{Z}_m$ group symmetries, which may be of independent interest for classical error correction. We build syndrome extraction circuits tailored to reconfigurable atom arrays using a simple greedy scheduler, with single-round rearrangement times around 30-60 ms using present hardware specifications, and substantial room for future improvements. We also construct logical Pauli bases that are equivariant with respect to the group symmetry, which can significantly compress the design space for code surgery. Together, these results further advance the practicality of constant-rate quantum LDPC codes for near-term, fault-tolerant quantum computers.",
@@ -3253,65 +3788,6 @@
     "updated_date": "2026-02-26"
   },
   {
-    "abstract": "The preparation of a quantum state using a noisy quantum computer (gate noise strength $δ$), will necessarily affect an O($δ$)-fraction of the qubits, no matter which protocol is used. Here, we show that fault-tolerant quantum state preparation can be achieved with constant space overhead improving on previous constructions requiring polylogarithmic overhead. To achieve this, we add to the toolbox of fault-tolerant schemes for circuits with quantum input and output. More specifically, we construct fault-tolerant interfaces that decrease the level of protection for quantum low-density parity-check (LDPC) codes. When information is encoded in multiple code blocks, our interfaces have constant space overhead. In our decoder construction that change the level of protection by an arbitrary amount, we circumvent bottlenecks to error pileup and overhead by gradual lowering of the level of encoding at the same time as we increase the number of blocks on which decoding is carried out simultaneously.",
-    "arxiv_id": "2602.16948",
-    "arxiv_version": "v1",
-    "authors": [
-      "Matthias Christandl",
-      "Omar Fawzi",
-      "Ashutosh Goswami"
-    ],
-    "categories": [
-      "quant-ph"
-    ],
-    "decoder": {
-      "algorithm_outline": [],
-      "complexity_claims": [],
-      "decoder_family": null,
-      "high_level_description": "Unknown / not specified from available text.",
-      "implementation_notes": [],
-      "key_ideas": [],
-      "name": null
-    },
-    "extraction_hash": "655edf5a562866dbe7be423f97acf1f461967e245d1ad668819b980477f87681",
-    "last_processed_at": "2026-02-21T13:36:28.778799+00:00",
-    "links": {
-      "abs_url": "https://arxiv.org/abs/2602.16948v1",
-      "code_repo_urls": [],
-      "doi": null,
-      "pdf_url": "https://arxiv.org/pdf/2602.16948v1"
-    },
-    "missing_fields": [
-      "decoder.name",
-      "decoder.algorithm_outline",
-      "decoder.complexity_claims",
-      "performance_claims.thresholds",
-      "performance_claims.runtime_scaling_claims",
-      "simulations",
-      "links.code_repo_urls"
-    ],
-    "primary_category": "quant-ph",
-    "relevance": {
-      "confidence": 0.35,
-      "label": "maybe",
-      "matched_keywords": [
-        "decoder",
-        "decoding"
-      ],
-      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
-    },
-    "source_hash": "f764778a747e04bd78cce7d7f73dcd9abbead2fa9532766f94c68ecf01e7060b",
-    "submitted_date": "2026-02-18",
-    "tags": [
-      "decoder",
-      "decoding",
-      "quant-ph",
-      "relevance:maybe"
-    ],
-    "title": "Fault-tolerant interfaces for quantum LDPC codes",
-    "updated_date": "2026-02-18"
-  },
-  {
     "abstract": "Optimal constructions of classical LDPC codes can be obtained by choosing the Tanner graph uniformly at random among biregular graphs. We introduce a class of codes that we call ``diffusion codes'', defined by placing each edge connecting bits and checks on some graph, and acting on that graph with a random SWAP network. By tuning the depth of the SWAP network, we can tune a tradeoff between the amount of randomness -- and hence the optimality of code parameters -- and locality with respect to the underlying graph. For diffusion codes defined on the cycle graph, if the SWAP network has depth $\\sim Tn$ with $T> n^{2β}$ for arbitrary $β>0$, then we prove that almost surely the Tanner graph is a lossless ``smaller set'' vertex expander for small sets up size $δ\\sim \\sqrt T \\sim n^β$, with bounded bit and check degree. At the same time, the geometric size of the largest stabilizer is bounded by $\\sqrt T$ in graph distance. We argue, based on physical intuition, that this result should hold more generally on arbitrary graphs. By taking hypergraph products of these classical codes we obtain quantum LDPC codes defined on the torus with smaller-set boundary and co-boundary expansion and the same expansion/locality tradeoffs as for the classical codes. These codes are self-correcting and admit single-shot decoding, while having the geometric size of the stabilizer growing as an arbitrarily small power law. Our proof technique establishes mixing of a random SWAP network on small subsystems at times scaling with only the subsystem size, which may be of independent interest.",
     "arxiv_id": "2510.07179",
     "arxiv_version": "v2",
@@ -3564,63 +4040,6 @@
     ],
     "title": "BiBiEQ: Bivariate Bicycle Codes on Erasure Qubits",
     "updated_date": "2026-02-07"
-  },
-  {
-    "abstract": "While quantum low-density parity check (qLDPC) codes are a low-overhead means of quantum information storage, it is valuable for quantum codes to possess fault-tolerant features beyond this resource efficiency. In this work, we introduce trivariate tricycle (TT) codes, qLDPC codes that combine several desirable features: high thresholds under a circuit-level noise model, partial single-shot decodability for low-time-overhead decoding, a large set of transversal Clifford gates and automorphisms within and between code blocks, and (for several sub-constructions) constant-depth implementations of a (non-Clifford) $CCZ$ gate. TT codes are CSS codes based on a length-3 chain complex, and are defined from three trivariate polynomials, with the 3D toric code (3DTC) belonging to this construction. We numerically search for TT codes and find several candidates with improved parameters relative to the 3DTC, using up to 48$\\times$ fewer data qubits as equivalent 3DTC encodings. We construct syndrome-extraction circuits for these codes and numerically demonstrate single-shot decoding in the X error channel in both phenomenological and circuit-level noise models. Under circuit-level noise, TT codes have a threshold of $0.3\\%$ in the Z error channel and $1\\%$ in the X error channel (with single-shot decoding). All TT codes possess several transversal $CZ$ gates that can partially address logical qubits between two code blocks. Additionally, the codes possess a large set of automorphisms that can perform Clifford gates within a code block. Finally, we establish several TT code polynomial constructions that allows for a constant-depth implementation of logical $CCZ$ gates. We find examples of error-correcting and error-detecting codes using these constructions whose parameters out-perform those of the 3DTC, using up to $4\\times$ fewer data qubits for equivalent-distance 3DTC encodings.",
-    "arxiv_id": "2508.08191",
-    "arxiv_version": "v2",
-    "authors": [
-      "Abraham Jacob",
-      "Campbell McLauchlan",
-      "Dan E. Browne"
-    ],
-    "categories": [
-      "quant-ph"
-    ],
-    "decoder": {
-      "algorithm_outline": [],
-      "complexity_claims": [],
-      "decoder_family": null,
-      "high_level_description": "Unknown / not specified from available text.",
-      "implementation_notes": [],
-      "key_ideas": [],
-      "name": null
-    },
-    "extraction_hash": "0c62f34269f63050db28fd9955791a5dc452b14fb20bee930a3e2e75537384c2",
-    "last_processed_at": "2026-02-21T13:36:36.450640+00:00",
-    "links": {
-      "abs_url": "https://arxiv.org/abs/2508.08191v2",
-      "code_repo_urls": [],
-      "doi": null,
-      "pdf_url": "https://arxiv.org/pdf/2508.08191v2"
-    },
-    "missing_fields": [
-      "decoder.name",
-      "decoder.algorithm_outline",
-      "decoder.complexity_claims",
-      "performance_claims.thresholds",
-      "performance_claims.runtime_scaling_claims",
-      "simulations",
-      "links.code_repo_urls"
-    ],
-    "primary_category": "quant-ph",
-    "relevance": {
-      "confidence": 0.35,
-      "label": "maybe",
-      "matched_keywords": [
-        "decoding"
-      ],
-      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
-    },
-    "source_hash": "42352192598e680ec587012d5658d92ff05b26d6ebb6c7733843d476b632a147",
-    "submitted_date": "2025-08-11",
-    "tags": [
-      "decoding",
-      "quant-ph",
-      "relevance:maybe"
-    ],
-    "title": "Single-Shot Decoding and Fault-tolerant Gates with Trivariate Tricycle Codes",
-    "updated_date": "2026-01-29"
   },
   {
     "abstract": "Quantum error-correcting codes protect fragile quantum information by encoding it redundantly, but identifying codes that perform well in practice with minimal overhead remains difficult due to the combinatorial search space and the high cost of logical error rate evaluation. We propose a Bayesian optimization framework to discover quantum error-correcting codes that improves data efficiency and scalability with respect to previous machine learning approaches to this task. Our main contribution is a multi-view chain-complex neural embedding that allows us to predict the logical error rate of quantum LDPC codes without performing expensive simulations. Using bivariate bicycle codes and code capacity noise as a testbed, our algorithm discovers a high-rate code [[144,36]] that achieves competitive per-qubit error rate compared to the gross code, as well as a low-error code [[144,16]] that outperforms the gross code in terms of error rate per qubit. These results highlight the ability of our pipeline to automatically discover codes balancing rate and noise suppression, while the generality of the framework enables application across diverse code families, decoders, and noise models.",

@@ -1,0 +1,34 @@
+{
+  "abstract": "We introduce a local and distributed framework for decoding quantum LDPC codes. Built atop belief propagation (BP), the architecture combines strictly local processing of syndrome information, local feedback, autonomous operation, and highly parallelized decoding. We establish the framework at two complementary levels. First, we show that any code exhibiting a threshold under iterative BP decoding can be promoted to an autonomous local measurement-and-feedback dynamics while preserving that threshold. We then turn to codes for which naive BP does not itself exhibit threshold behavior. Our key observation is that BP can nevertheless provide sufficiently accurate \\emph{local} marginal information: active syndrome defects use these local beliefs to \\emph{move}, pair, and annihilate through asynchronous feedback. We demonstrate numerically that this construction exhibits threshold behavior in the point-like sectors of the two- and three-dimensional toric codes, where conventional BP decoding fails. Exploiting the graph-generality of BP, we then study the inference dynamics on the membrane-like sector of the three-dimensional toric code and in a family of bivariate-bicycle quantum LDPC codes.",
+  "arxiv_id": "2609.38139",
+  "arxiv_version": "v1",
+  "authors": [
+    "Siddhant Midha",
+    "Dmitry A. Abanin"
+  ],
+  "categories": [
+    "quant-ph",
+    "cond-mat.dis-nn"
+  ],
+  "extraction_hash": "640ca644953ad8bd0b8533eaa54e27e63c8c401f3b8efae136b532912da54c6d",
+  "last_processed_at": "2026-10-05T20:38:14.482005+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2609.38139v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2609.38139v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "f7902a98e3fac1aae660dca70c8e1798550fdcf353994807773638958b0873ba",
+  "submitted_date": "2026-09-29",
+  "tags": [
+    "belief propagation",
+    "cond-mat.dis-nn",
+    "decoding",
+    "quant-ph",
+    "quantum ldpc",
+    "relevance:relevant"
+  ],
+  "title": "Local autonomous inference machines for quantum LDPC codes",
+  "updated_date": "2026-09-29"
+}

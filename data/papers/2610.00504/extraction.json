@@ -1,0 +1,59 @@
+{
+  "abstract": "Post-selection improves the logical reliability of quantum computation by rejecting shots which are likely to result in logical failure. We introduce graph neural networks that predict decoder failure without additional decoder executions, using only syndromes, and for high-rate quantum low-density parity-check (qLDPC) codes, existing belief-propagation posteriors. We evaluate rotated surface and bivariate bicycle (BB) code memories under uniform depolarising circuit-level noise. Retaining 90% of shots gives approximately 3700x and 740x reductions in logical error rates for [[72,12,6]] and [[144,12,12]] BB codes at realistic physical error rates. For the distance 5 surface code at physical noise p=0.003, our neural post-selector achieves logical error suppression comparable to the leading complementary gap method without running the decoder.",
+  "arxiv_id": "2610.00504",
+  "arxiv_version": "v1",
+  "authors": [
+    "Conor Carty",
+    "Tamas Noszko",
+    "Joschka Roffe",
+    "Roberto Bondesan"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2610.00504v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2610.00504v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-09-30",
+  "title": "Graph Neural Post-selection for Quantum Error Correction",
+  "updated_date": "2026-09-30"
+}

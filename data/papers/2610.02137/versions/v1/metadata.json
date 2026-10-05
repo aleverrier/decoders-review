@@ -1,0 +1,31 @@
+{
+  "abstract": "We first provide a simple proof showing that any single-shot code is self-correcting. We then show that any $[[n,k]]$ CSS quantum low-density parity-check (QLDPC) code can be transformed into an $[[nm,k]]$ CSS QLDPC code with single-shot (SS) quantum error correction and an efficient local decoder which runs in $O(\\log m)$ parallel time. Below a constant threshold $p_{\\rm RG}>0$ for joint local stochastic physical and measurement noise, the logical failure probability over $T$ correction rounds is bounded by \\begin{equation*} O(T n)\\exp[-Ω(m^α)] \\end{equation*} for a constant $α>0$; we say that the \\textit{threshold} is $p_{\\rm RG}$ and \\textit{error suppression} is $Ω(m^α)$. Moreover, if the input code is equipped with a single-shot decoder with threshold $p_c>0$ and error suppression $Ω(n^β)$, then the output code \\textit{enhances} the error suppression to $Ω(m^α n^β)$, while maintaining the decoder-independent threshold $p_{\\rm RG}$, and thus \\textit{enhanced} if $p_c < p_{\\rm RG}$.",
+  "arxiv_id": "2610.02137",
+  "arxiv_version": "v1",
+  "authors": [
+    "Andrew C. Yuan"
+  ],
+  "categories": [
+    "quant-ph",
+    "math-ph"
+  ],
+  "extraction_hash": "4e4fc1f75057c95a2fbfccaeb87885be6887a4955444a597198740ce2319d954",
+  "last_processed_at": "2026-10-05T20:38:14.469904+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2610.02137v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2610.02137v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "91eaa4398c8993207ec7e52633135aed955a3dcd9514c682ffaabcdb7b4d68f9",
+  "submitted_date": "2026-10-01",
+  "tags": [
+    "decoder",
+    "math-ph",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "One-Shot any Code",
+  "updated_date": "2026-10-01"
+}
