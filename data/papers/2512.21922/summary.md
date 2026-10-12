@@ -1,6 +1,6 @@
 # Poincaré Duality and Multiplicative Structures on Quantum Codes
 
-- arXiv: `2512.21922v2`
+- arXiv: `2512.21922v3`
 - Categories: quant-ph, cs.CC, cs.IT, math-ph
 - Relevance: **relevant** (confidence 0.55)
 
@@ -29,6 +29,6 @@
 - links.code_repo_urls
 
 ## Links
-- Abstract: https://arxiv.org/abs/2512.21922v2
-- PDF: https://arxiv.org/pdf/2512.21922v2
+- Abstract: https://arxiv.org/abs/2512.21922v3
+- PDF: https://arxiv.org/pdf/2512.21922v3
 - DOI: Unknown / not specified

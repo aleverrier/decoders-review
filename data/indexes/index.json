@@ -1,5 +1,133 @@
 [
   {
+    "abstract": "Quantum low-density parity-check (qLDPC) decoding requires reliable corrections and low latency over long syndrome histories. We extend BP-SF, an oscillation-guided belief-propagation (BP) decoder with independent syndrome-flip trials, by introducing windowed and streaming operations. Our CUDA implementation combines disordered-memory retries, sliding windows, correlation-aware graphs, and layered scheduling. Circuit-level simulations test fixed-basis memory and complete logical Pauli-frame recovery. On the [[144,12,12]] bivariate bicycle code at physical error rate p = 0.002, parallel BP-SF reduces 99.9th-percentile call latency by a factor of 13.15 relative to an eight-chain Relay-BP GPU baseline on 100,000 matched samples for which every tested method's initial BP stage fails within 80 iterations. Windowed BP-SF maintains a flat logical error rate and nearly constant per-round compute time through 512 rounds, reaching a 17.1-fold speedup over monolithic decoding. In 512-round full-frame streaming decoding with 2.97-ms syndrome arrivals, layered BP-SF on a transformed joint graph with 20 retries reduces 99.9th-percentile correction-release age from 166.29 to 36.25 ms relative to the joint graph with flooding updates and 100 retries. These results connect parallel BP post-processing to lower decoding costs and earlier correction release in streaming quantum memory.",
+    "arxiv_id": "2610.13879",
+    "arxiv_version": "v1",
+    "authors": [
+      "Ming Wang",
+      "Yanbo Zhao",
+      "Ang Li",
+      "Frank Mueller"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.IT"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "6bd52987d4b87705aa35253e3100fc348d4933e4ffc945ce484563ff0e2f11f7",
+    "last_processed_at": "2026-10-12T21:09:51.579387+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2610.13879v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.13879v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "aba673d1a03c144d9f17100143b61c91e377ab4c81778436ec0e8f24ed3f0e48",
+    "submitted_date": "2026-10-09",
+    "tags": [
+      "cs.IT",
+      "decoder",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "GPU-Based Parallel BP Decoding for Quantum LDPC Memory",
+    "updated_date": "2026-10-09"
+  },
+  {
+    "abstract": "Quantum LDPC codes have attracted intense interest due to their advantageous properties for realizing efficient fault-tolerant quantum computing. In particular, sheaf codes represent a novel framework that encompasses all well-known good qLDPC codes with profound underlying mathematics. In this work, we generalize Poincaré duality from manifolds to both classical and quantum codes defined via sheaf theory on $t$-dimensional cell complexes. Viewing important code properties including the encoding rate, code distance, local testability soundness, and efficient decoders as parameters of the underlying (co)chain complexes, we rigorously prove a duality relationship between the $i$-th chain and the $(t-i)$-th cochain of sheaf codes. We further build multiplicative structures such as cup and cap products on sheaved chain complexes, inspired by the standard notions of multiplicative structures and Poincaré duality on manifolds. This immediately leads to an explicit isomorphism between (co)homology groups of sheaf codes via a cap product. As an application, we obtain transversal disjoint logical $\\mathrm{C}Z$ gates with $k_{\\mathrm{C}Z}=Θ(n)$ on families of good qLDPC and almost-good quantum locally testable codes. Moreover, we provide multiple new methods to construct transversal circuits composed of $\\mathrm{C}\\mathrm{C}Z$ gates as well as for higher order controlled-$Z$ that are provably logical operations on the code space. We conjecture that they generate nontrivial logical actions, pointing towards fault-tolerant non-Clifford gates on nearly optimal qLDPC sheaf codes. Mathematically, our results are built on establishing the equivalence between sheaf cohomology in the derived-functor sense, Čech cohomology, and the cohomology of sheaf codes, thereby introducing new mathematical tools into quantum coding theory.",
+    "arxiv_id": "2512.21922",
+    "arxiv_version": "v3",
+    "authors": [
+      "Yiming Li",
+      "Zimu Li",
+      "Zi-Wen Liu",
+      "Quynh T. Nguyen"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.CC",
+      "cs.IT",
+      "math-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "6e88393778b4694901ba286f745dfbed990255f58e8cde9e68ffda49e658a228",
+    "last_processed_at": "2026-10-12T21:09:51.583123+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2512.21922v3",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2512.21922v3"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.55,
+      "label": "relevant",
+      "matched_keywords": [
+        "quantum ldpc",
+        "decoder"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "48c986c22e8a7758333ca011118b010a08e41a85a9ec0f86a6ce78350805c82f",
+    "submitted_date": "2025-12-26",
+    "tags": [
+      "cs.CC",
+      "cs.IT",
+      "decoder",
+      "math-ph",
+      "quant-ph",
+      "quantum ldpc",
+      "relevance:relevant"
+    ],
+    "title": "Poincaré Duality and Multiplicative Structures on Quantum Codes",
+    "updated_date": "2026-10-06"
+  },
+  {
     "abstract": "Despite significant progress on quantum low-density parity-check (qLDPC) codes, building qLDPC processors that are high-rate, high-throughput, hardware-friendly, and fast-to-decode remains a challenge. We introduce mitten codes, a family of qLDPC processor codes of encoding rate $20\\%$ and check weight $9$, based on non-abelian groups. Their non-abelian structure evades distance bounds constraining abelian counterparts, allowing mitten codes to reach distance $18$ and beyond with just a few hundred data qubits. The logical operators of a mitten code are related by the group action, yielding a modular, low-overhead logical toolkit: full Clifford operations follow from bridging two reusable seed surgery gadgets or from a single fixed extractor. Furthermore, qLDPC processors based on mitten codes support high-rate surgery that executes many logical measurements in parallel, and parallel magic-state injection into all logical qubits at once. Under circuit-level noise, with our fast decoder, the $[\\![300,60,14]\\!]$ mitten code achieves, without extrapolation, a block logical error rate of ${\\sim}10^{-11}$ per round at $0.1\\%$ physical error rate (PER), while the $[\\![ 975,195,\\leq 24 ]\\!]$ code reaches ${\\sim}10^{-8}$ at $0.4\\%$ PER. Decoding $15$ billion surgery experiments on the $[\\![540,108,18]\\!]$ code at $0.1\\%$ PER, we observe only two logical failures, demonstrating a qLDPC processor capable of running ${\\sim}10^{10}$ logical operations. Our decoder is compatible with sub-millisecond average latency per logical cycle, sufficient for real-time decoding on neutral atom hardware. Discovered by an end-to-end design pipeline built on sQetch, a distance estimator orders of magnitude faster than existing tools, and mapping efficiently onto near-term neutral atom and superconducting hardware, mitten codes open a practical path toward fault-tolerant quantum computation.",
     "arxiv_id": "2607.28795",
     "arxiv_version": "v2",
@@ -4700,72 +4828,6 @@
     ],
     "title": "Single-Shot and Few-Shot Decoding via Stabilizer Redundancy in Bivariate Bicycle Codes",
     "updated_date": "2026-01-03"
-  },
-  {
-    "abstract": "Quantum LDPC codes have attracted intense interest due to their advantageous properties for realizing efficient fault-tolerant quantum computing. In particular, sheaf codes represent a novel framework that encompasses all well-known good qLDPC codes with profound underlying mathematics. In this work, we generalize Poincaré duality from manifolds to both classical and quantum codes defined via sheaf theory on $t$-dimensional cell complexes. Viewing important code properties including the encoding rate, code distance, local testability soundness, and efficient decoders as parameters of the underlying (co)chain complexes, we rigorously prove a duality relationship between the $i$-th chain and the $(t-i)$-th cochain of sheaf codes. We further build multiplicative structures such as cup and cap products on sheaved chain complexes, inspired by the standard notions of multiplicative structures and Poincaré duality on manifolds. This immediately leads to an explicit isomorphism between (co)homology groups of sheaf codes via a cap product. As an application, we obtain transversal disjoint logical $\\mathrm{C}Z$ gates with $k_{\\mathrm{C}Z}=Θ(n)$ on families of good qLDPC and almost-good quantum locally testable codes. Moreover, we provide multiple new methods to construct transversal circuits composed of $\\mathrm{C}\\mathrm{C}Z$ gates as well as for higher order controlled-$Z$ that are provably logical operations on the code space. We conjecture that they generate nontrivial logical actions, pointing towards fault-tolerant non-Clifford gates on nearly optimal qLDPC sheaf codes. Mathematically, our results are built on establishing the equivalence between sheaf cohomology in the derived-functor sense, Čech cohomology, and the cohomology of sheaf codes, thereby introducing new mathematical tools into quantum coding theory.",
-    "arxiv_id": "2512.21922",
-    "arxiv_version": "v2",
-    "authors": [
-      "Yiming Li",
-      "Zimu Li",
-      "Zi-Wen Liu",
-      "Quynh T. Nguyen"
-    ],
-    "categories": [
-      "quant-ph",
-      "cs.CC",
-      "cs.IT",
-      "math-ph"
-    ],
-    "decoder": {
-      "algorithm_outline": [],
-      "complexity_claims": [],
-      "decoder_family": null,
-      "high_level_description": "Unknown / not specified from available text.",
-      "implementation_notes": [],
-      "key_ideas": [],
-      "name": null
-    },
-    "extraction_hash": "ebb12aeab9fcaec08b01e4bafb8ec5dee3bade09d5ebf6094ae6088cc96ff9c7",
-    "last_processed_at": "2026-02-21T13:36:53.228401+00:00",
-    "links": {
-      "abs_url": "https://arxiv.org/abs/2512.21922v2",
-      "code_repo_urls": [],
-      "doi": null,
-      "pdf_url": "https://arxiv.org/pdf/2512.21922v2"
-    },
-    "missing_fields": [
-      "decoder.name",
-      "decoder.algorithm_outline",
-      "decoder.complexity_claims",
-      "performance_claims.thresholds",
-      "performance_claims.runtime_scaling_claims",
-      "simulations",
-      "links.code_repo_urls"
-    ],
-    "primary_category": "quant-ph",
-    "relevance": {
-      "confidence": 0.55,
-      "label": "relevant",
-      "matched_keywords": [
-        "quantum ldpc",
-        "decoder"
-      ],
-      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
-    },
-    "source_hash": "205c7d1fb3c3285eb7b0b133b52c026a4570535e038d71c33cde8d5b7e989250",
-    "submitted_date": "2025-12-26",
-    "tags": [
-      "cs.CC",
-      "cs.IT",
-      "decoder",
-      "math-ph",
-      "quant-ph",
-      "quantum ldpc",
-      "relevance:relevant"
-    ],
-    "title": "Poincaré Duality and Multiplicative Structures on Quantum Codes",
-    "updated_date": "2025-12-30"
   },
   {
     "abstract": "(Abridged.) This thesis investigates scalable fault-tolerant quantum computation through the development of bosonic quantum codes, quantum LDPC codes, and decoding protocols that connect continuous-variable and discrete-variable error correction. We investigate superconducting microwave implementations of continuous-variable quantum computing, including the deterministic generation of cubic phase states, and introduce the dissipatively stabilized squeezed cat qubit, a noise-biased bosonic encoding with enhanced error suppression and faster gates. The performance of rotation-symmetric and GKP codes is analyzed under realistic noise and measurement models, revealing key trade-offs in measurement-based schemes. To integrate bosonic codes into larger architectures, we develop decoding methods that exploit analog syndrome information, enabling quasi-single-shot decoding in concatenated systems. On the discrete-variable side, we introduce localized statistics decoding, a highly parallelizable decoder for quantum LDPC codes, and propose quantum radial codes, a new family of single-shot LDPC codes with low overhead and strong circuit-level performance. Finally, we present fault complexes, a homological framework for analyzing faults in dynamic quantum error correction protocols. Extending the role of homology in static CSS codes, fault complexes provide a general language for the design and analysis of fault-tolerant schemes.",
