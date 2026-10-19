@@ -1,0 +1,32 @@
+{
+  "abstract": "We introduce a parallel decoder for quantum low-density parity-check (QLDPC) codes based on probabilistic bits (p-bits), tunable stochastic binary units controlled by local fields. The idea is that predicted error configurations, interpreted as explanations of the observed syndrome, are updated stochastically using local Gibbs conditionals, while a progressively strengthened parity penalty drives the search toward syndrome-valid configurations. A coloring of the decoding graph enables parallel block updates, and independent replicas and restarts provide trajectory diversity. The best candidate encountered during the search is returned, mirroring the candidate-selection strategy of recent ensemble decoders. At the stated update budgets, the resulting logical error rates are on par with leading decoders under both code-capacity and circuit-level noise. While the total number of variable resamplings can be substantially larger than the message-update count of BP-based alternatives, the numerical results establish constraint-annealed p-bit dynamics as a competitive stochastic alternative for QLDPC decoding and motivate further study of hardware-native implementations.",
+  "arxiv_id": "2610.17520",
+  "arxiv_version": "v1",
+  "authors": [
+    "Mert Gökduman",
+    "Cyril Guyot",
+    "Henry D. Pfister"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "32757c6a49d48ee7647e8583215f259963f0a240f12e152d34e7bff8e48b94d2",
+  "last_processed_at": "2026-10-19T18:36:47.401547+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2610.17520v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2610.17520v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "c98e0d384bb46c862872649132e56028dcb1f82859df47d6d64ac80530115356",
+  "submitted_date": "2026-10-13",
+  "tags": [
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Chromatic Block-Gibbs p-Bit Decoding of QLDPC Codes",
+  "updated_date": "2026-10-13"
+}
