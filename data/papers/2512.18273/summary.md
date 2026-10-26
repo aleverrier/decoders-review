@@ -1,6 +1,6 @@
 # Evolutionary BP+OSD Decoding for Low-Latency Quantum Error Correction
 
-- arXiv: `2512.18273v2`
+- arXiv: `2512.18273v3`
 - Categories: quant-ph, cs.AI
 - Relevance: **maybe** (confidence 0.35)
 
@@ -29,6 +29,6 @@
 - links.code_repo_urls
 
 ## Links
-- Abstract: https://arxiv.org/abs/2512.18273v2
-- PDF: https://arxiv.org/pdf/2512.18273v2
+- Abstract: https://arxiv.org/abs/2512.18273v3
+- PDF: https://arxiv.org/pdf/2512.18273v3
 - DOI: Unknown / not specified

@@ -1,7 +1,7 @@
 {
-  "abstract": "Quantum error correction (QEC) for fault-tolerant quantum computing requires a balanced decoding solution that offers high performance, low complexity, and low latency. However, the de facto standard, belief propagation (BP) combined with ordered statistics decoding (OSD), suffers from excessive iterations in the BP stage and high complexity in the OSD stage. To address these challenges, we propose an evolutionary BP (EBP) decoder optimized via a differential evolution (DE) algorithm. By leveraging the gradient-free nature of DE, we enable end-to-end optimization of the EBP+OSD structure to maximize overall performance. In addition, a multi-objective selection rule is introduced to suppress frequent OSD activation, significantly reducing complexity overhead. Experimental results on surface codes and quantum low-density parity-check (QLDPC) codes demonstrate that EBP plus OSD simultaneously achieves superior decoding performance and substantially lower complexity compared to conventional BP plus OSD, particularly in stringent low-latency regimes.",
+  "abstract": "Quantum error correction (QEC) for fault-tolerant quantum computing requires a balanced decoding solution that offers high performance, low complexity, and low latency. However, the de facto standard - belief propagation (BP) combined with ordered statistics decoding (OSD) - suffers from excessive iterations in the BP stage and high complexity in the OSD stage. To address these challenges, we propose an evolutionary BP (EBP) decoder optimized via a differential evolution (DE) algorithm. By leveraging the gradient-free nature of DE, we enable end-to-end optimization of the EBP+OSD structure to maximize overall performance. In addition, a multi-objective selection rule is introduced to suppress frequent OSD activation, significantly reducing complexity overhead. Simulation results on surface codes and quantum low-density parity-check (QLDPC) codes demonstrate that EBP+OSD simultaneously achieves both superior decoding performance and substantially lower complexity compared to conventional BP+OSD, particularly in stringent low-latency regimes.",
   "arxiv_id": "2512.18273",
-  "arxiv_version": "v2",
+  "arxiv_version": "v3",
   "authors": [
     "Hee-Youl Kwak",
     "Seong-Joon Park",
@@ -23,10 +23,10 @@
     "name": null
   },
   "links": {
-    "abs_url": "https://arxiv.org/abs/2512.18273v2",
+    "abs_url": "https://arxiv.org/abs/2512.18273v3",
     "code_repo_urls": [],
     "doi": null,
-    "pdf_url": "https://arxiv.org/pdf/2512.18273v2"
+    "pdf_url": "https://arxiv.org/pdf/2512.18273v3"
   },
   "missing_fields": [
     "decoder.name",
@@ -59,5 +59,5 @@
   "simulations": [],
   "submitted_date": "2025-12-20",
   "title": "Evolutionary BP+OSD Decoding for Low-Latency Quantum Error Correction",
-  "updated_date": "2026-05-01"
+  "updated_date": "2026-10-21"
 }

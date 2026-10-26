@@ -1,0 +1,37 @@
+{
+  "abstract": "Quantum error correction (QEC) for fault-tolerant quantum computing requires a balanced decoding solution that offers high performance, low complexity, and low latency. However, the de facto standard - belief propagation (BP) combined with ordered statistics decoding (OSD) - suffers from excessive iterations in the BP stage and high complexity in the OSD stage. To address these challenges, we propose an evolutionary BP (EBP) decoder optimized via a differential evolution (DE) algorithm. By leveraging the gradient-free nature of DE, we enable end-to-end optimization of the EBP+OSD structure to maximize overall performance. In addition, a multi-objective selection rule is introduced to suppress frequent OSD activation, significantly reducing complexity overhead. Simulation results on surface codes and quantum low-density parity-check (QLDPC) codes demonstrate that EBP+OSD simultaneously achieves both superior decoding performance and substantially lower complexity compared to conventional BP+OSD, particularly in stringent low-latency regimes.",
+  "arxiv_id": "2512.18273",
+  "arxiv_version": "v3",
+  "authors": [
+    "Hee-Youl Kwak",
+    "Seong-Joon Park",
+    "Hyunwoo Jung",
+    "Jeongseok Ha",
+    "Jae-Won Kim"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.AI"
+  ],
+  "extraction_hash": "e143dd1c7f40edaa45a9c55eeaa4da2a01fcc80fced9b8e5daf4ad0f8a4ae0dc",
+  "last_processed_at": "2026-10-26T18:34:39.945891+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2512.18273v3",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2512.18273v3"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "93786fb6e3728a3412d40514993f59049135a6319cb1645d94f6c6144729c370",
+  "submitted_date": "2025-12-20",
+  "tags": [
+    "belief propagation",
+    "cs.AI",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Evolutionary BP+OSD Decoding for Low-Latency Quantum Error Correction",
+  "updated_date": "2026-10-21"
+}

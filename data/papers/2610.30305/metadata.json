@@ -1,0 +1,35 @@
+{
+  "abstract": "Belief Propagation combined with Ordered Statistics Decoding (BP OSD) is an open-source decoding tool used widely within the community due to its versatility and ease of application to Quantum Low Density Parity Check (QLDPC) codes. However, the degeneracy of quantum codes has been observed to degrade the performance of BP OSD, particularly leading to error floors for low physical error rates. Here, we investigate the low-weight error configurations responsible for such failures in Bivariate Bicycle codes. We show that, at code capacity, BP OSD fails on errors whose weight is significantly smaller than d/2, arising from global symmetries of the decoding graph that prevent the convergence of parallel BP. Furthermore, our analysis reveals new pitfalls that can arise when analysing the performance of BP OSD in the rare events regime, such as loss of ergodicity in splitting methods and numerical instabilities in the decoder. We show how to mitigate these failure mechanisms by modifying the BP update rules and the decoder implementation, leading to substantial improvement in logical error rate.",
+  "arxiv_id": "2610.30305",
+  "arxiv_version": "v1",
+  "authors": [
+    "Giacomo Fregona",
+    "Matthias C. Löbl",
+    "Benjamin J. Brown",
+    "Michael J. Kastoryano",
+    "Stefano Paesani"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "b3248e43ba9d473c8868c671c6c2b827c57fb5f31d121545d1085c5c73cc9c44",
+  "last_processed_at": "2026-10-26T18:34:39.943649+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2610.30305v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2610.30305v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "bd965632c007b2458c7c6fab74cace9dc0955a220dddc86deb43d28559b53339",
+  "submitted_date": "2026-10-21",
+  "tags": [
+    "belief propagation",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Dealing with low-weight errors that lead BP OSD to fail",
+  "updated_date": "2026-10-21"
+}

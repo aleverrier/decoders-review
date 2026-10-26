@@ -1,0 +1,36 @@
+{
+  "abstract": "The measured logical error rate of a quantum low-density parity-check (QLDPC) code depends on the decoding algorithm. We develop a framework that certifies non-degenerate maximum-likelihood (ML) decoding outcomes on individual sampled shots under circuit-level noise, providing a common reference for comparing decoders and codes. Upper and lower bounds on the minimum correction cost in the true and competing logical classes establish success, failure, or an undecided outcome. Branch-and-bound search refines these intervals while retaining valid bounds under resource limits. Counting the outcomes bounds the empirical ML logical error rate, with interval width equal to the undecided fraction. Results for two bivariate bicycle codes show that best-first ordered statistics decoding (BF-OSD) tracks the non-degenerate ML benchmark closely while leaving some ML-correctable shots.",
+  "arxiv_id": "2610.28008",
+  "arxiv_version": "v1",
+  "authors": [
+    "Michele Banfi",
+    "Marco Ferrari",
+    "Antonino Favano",
+    "Alberto Tarable",
+    "Luca Barletta"
+  ],
+  "categories": [
+    "cs.IT",
+    "quant-ph"
+  ],
+  "extraction_hash": "ea2a364dae1b316ce434274bf44697103e709f3b93adbfe3f684e22d8144784c",
+  "last_processed_at": "2026-10-26T18:34:39.953825+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2610.28008v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2610.28008v1"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "884f46d4f9c5946fe45ea3f2e33aa855ebc3e8c19d63af9ee7355e70b0dd5b1e",
+  "submitted_date": "2026-10-20",
+  "tags": [
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Certified Non-Degenerate Maximum-Likelihood Benchmarking of Quantum LDPC Decoders",
+  "updated_date": "2026-10-20"
+}

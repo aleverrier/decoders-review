@@ -1,0 +1,31 @@
+{
+  "abstract": "Calderbank--Shor--Steane (CSS) codes support decoding and fault-tolerant logical operations through separate pure $X$ and pure $Z$ stabilizer checks. Generator choices and single-qubit Clifford transformations can obscure this structure. We give a deterministic polynomial-time algorithm that decides whether an arbitrary stabilizer code is locally Clifford-equivalent to a CSS code and constructs the required transformation and CSS checks whenever such a form exists. For $m$ possibly redundant generator rows on $n$ qubits, the algorithm uses $O(mn^2+n^4)$ binary field operations. We reduce the problem to affine linear systems by characterizing local projectors that preserve the span of the binary stabilizer labels. The conversion preserves code parameters and check sparsity for quantum low-density parity-check (qLDPC) codes. We demonstrate CSS recovery and decoder reuse and resolve previously open LC-to-CSS classification questions for published code constructions. For graph states, LC-to-CSS equivalence corresponds to the existence of a bipartite graph in the local-complementation orbit. We derive a necessary-and-sufficient adjacency-matrix criterion for this property and construct such a graph whenever one exists. Our algorithm makes CSS decoding and fault-tolerant constructions accessible throughout the local Clifford equivalence classes of CSS codes.",
+  "arxiv_id": "2610.28737",
+  "arxiv_version": "v1",
+  "authors": [
+    "Mingyuan Wang",
+    "Stefan Krastanov"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "extraction_hash": "cbf7599c223afe13fd303a7232be5849fbaaa69b4716ce31754fc643cb85b80c",
+  "last_processed_at": "2026-10-26T18:34:39.951714+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2610.28737v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2610.28737v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "f9b1992769a40d399f9604b544a70cac18daabe9fec5ccc9b7414b7f318776d8",
+  "submitted_date": "2026-10-20",
+  "tags": [
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Local Clifford equivalence to CSS codes: Polynomial-time classification and conversion",
+  "updated_date": "2026-10-20"
+}
