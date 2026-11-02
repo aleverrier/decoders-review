@@ -1,0 +1,57 @@
+{
+  "abstract": "Quantum low-density parity check (QLDPC) codes may lead to order-of-magnitude reductions in the qubit overhead required for fault-tolerant quantum computation. Achieving this improved overhead requires logical operations that selectively address individual logical qubits encoded within multi-qubit code blocks. Recently proposed architectures achieve this through QLDPC surgery, in which non-destructive Pauli measurements are performed using ancillary ''gadget'' systems transiently entangled with the code block, generalising lattice surgery. Here we implement QLDPC surgery on a [[10,2,3]] generalised bicycle code using Quantinuum's H2-2 trapped ion processor. A single-round surgery measurement using seven gadget qubits measures the $\\bar{X}_1$ operator with a 0.72 [0.32, 1.41]% (95% credible interval) error rate and agrees with subsequent transversal measurement with 1.03 [0.60, 1.65]% error. Decoding across three rounds of syndrome extraction suppresses the gadget measurement error, reducing the error rate to below 0.26%. The syndrome after surgery confirms return to the code space and the unaddressed ''spectator'' qubit is preserved with error 0.21 [0.04, 0.67]% during the three-round measurement. We further demonstrate composition of conjugate basis gadgets by sequentially measuring $\\bar{X}_1$ then $\\bar{Z}_2$, reusing the gadget qubits, and obtain a 1.12 [0.60, 1.94]% error in the $\\bar{Z}_2$ measurement. These results constitute a hardware validation of the generalised surgery primitive underlying Pauli-based computing for QLDPC architectures.",
+  "arxiv_id": "2610.39067",
+  "arxiv_version": "v1",
+  "authors": [
+    "Surabhi Luthra",
+    "Alex Owens"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2610.39067v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2610.39067v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-10-28",
+  "title": "Individually Addressed Logical Pauli Measurements by QLDPC Surgery on a Trapped Ion Quantum Computer",
+  "updated_date": "2026-10-28"
+}

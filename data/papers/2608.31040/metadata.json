@@ -1,0 +1,35 @@
+{
+  "abstract": "We design low-complexity, fault-tolerant decoders for quantum low-density parity-check (QLDPC) codes with the goal of reducing decoding latency. We target two major bottlenecks of decoding under the \\emph{circuit-level} noise model: (i) post-processing via order-statistics decoding (OSD), and (ii) the large number of auxiliary variable nodes commonly introduced to represent CNOT-induced correlations during syndrome extraction. Our key observation is that propagating CNOT faults (\\emph{hook errors}) create \\emph{stabilizer-induced} trapping sets (TSs) that are intrinsic to hypergraph-product (HGP) and lifted-product (LP) constructions. Therefore, instead of modeling each such fault with an explicit correlation node and relying on OSD to clean up the resulting failures, we design message-passing decoders that resolve the corresponding \\emph{stabilizer-induced} TSs directly. We obtain these decoders by deriving QLDPC decoders from decoders for the parent classical LDPC codes and using them collectively to correct broad families of \\emph{stabilizer-induced} TSs. For CNOT faults that manifest primarily as syndrome errors, we show that their effect is equivalent to a data error together with syndrome-bit measurement errors. Consequently, given repeated measurements and a decoding graph that already includes nodes representing syndrome-bit errors, no distinct variable node is needed for each CNOT fault. Using a \\emph{phenomenological} Tanner graph with nodes representing only data errors and syndrome-bit errors, simulations on LP codes show a significant improvement in logical error rate relative to BP+OSD. Moreover, the improved error correction relies on low-complexity finite-state iterative decoders, targeted for fast and low-latency FPGA implementation.",
+  "arxiv_id": "2608.31040",
+  "arxiv_version": "v2",
+  "authors": [
+    "Asit Kumar Pradhan",
+    "Nithin Raveendran",
+    "David Declercq",
+    "Bane Vasić"
+  ],
+  "categories": [
+    "cs.IT",
+    "quant-ph"
+  ],
+  "extraction_hash": "97cf6df03b8cb0ab3184b05b3fec899b81dabf81401eaae5f35c7b64b58b3553",
+  "last_processed_at": "2026-11-02T21:37:37.988896+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2608.31040v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2608.31040v2"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "1247cd3539471e3be017c689b6ec6ec10ba739e474fb5ffedc5d84dd2c0c5b5e",
+  "submitted_date": "2026-08-31",
+  "tags": [
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Fast Fault-Tolerant Decoders for Hypergraph Product and Lifted-Product Codes",
+  "updated_date": "2026-10-27"
+}

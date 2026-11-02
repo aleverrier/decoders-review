@@ -1,6 +1,6 @@
 # Quantum XYZ Stabilizer Codes
 
-- arXiv: `2607.14988v1`
+- arXiv: `2607.14988v2`
 - Categories: cs.IT, quant-ph
 - Relevance: **maybe** (confidence 0.35)
 
