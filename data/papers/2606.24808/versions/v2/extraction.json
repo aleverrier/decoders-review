@@ -1,0 +1,58 @@
+{
+  "abstract": "Quantum low-density parity-check codes promise low-overhead error correction, but high-performing constructions remain hard to find. Here we introduce structured concept evolution, in which a large language model (LLM) evolves construction programs and their internal search strategies by modifying the finite group, protograph shapes or entry-assignment rule. We search for codes with fewer than $600$ data qubits and check weight at most $12$, optimizing $kd^2/n$ or the circuit-level logical error rate. Our method improves on published lifted-product benchmarks in selected parameter regimes, with exactly certified distances for the leading results. Circuit-level optimization typically yields lower logical error rates than $kd^2/n$ optimization, often despite smaller code distances. With the same evolution framework and step budget, the best LLM outperforms all random-mutation and hill-climbing runs on both objectives. Our results point to LLM-driven program search as an approach to designing general quantum LDPC codes.",
+  "arxiv_id": "2606.24808",
+  "arxiv_version": "v2",
+  "authors": [
+    "Zidu Liu",
+    "Florian Marquardt"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.AI"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2606.24808v2",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2606.24808v2"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "quantum ldpc"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-06-23",
+  "title": "Large-Language-Model Discovery of Quantum LDPC Codes through Structured Concept Evolution",
+  "updated_date": "2026-11-04"
+}

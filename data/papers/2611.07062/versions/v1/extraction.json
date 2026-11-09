@@ -1,0 +1,61 @@
+{
+  "abstract": "We propose a joint framework for constructing and decoding Logically Augmented (LA) quantum low-density parity-check (QLDPC) codes. This is motivated by the need for flexible coding rates and adaptive error protection while preserving block length and code structure. On the construction side, we use an auxiliary \\textit{Logical Protection Code (LPC)} to impose additional stabilizer constraints on selected logical qubits of a \\textit{primary} code. On the decoding side, the proposed decoder uses the LPC syndrome to generate logical error hypotheses and condition belief propagation (BP) on each hypothesis. The proposed \\textit{Hierarchical Logical List Decoder (HLLD)} is invoked only when the initial BP decoder for primary code fails to converge. It then selects the correction with the smallest Hamming weight among the syndrome-consistent candidates produced by hypothesis-conditioned BP runs. For numerical evaluation, we focus on short repetition LPCs, which provide a flexible means of trading rate for additional error protection. Each LPC syndrome admits exactly two logical error hypotheses, irrespective of repetition length, which enables HLLD to explore both possibilities without relying on a single logical estimate. Numerical results show that varying the repetition length provides a tunable trade-off between rate and error-correction performance across a wide range of primary code constructions and their operating regimes. On the decoding side, with the overall LA code held fixed, HLLD reduces the logical error rate by up to 81\\%, 75\\%, and 69\\% for LA codes based on mitten, lifted-product, and bivariate bicycle codes, respectively, compared with conventional BP decoding of the same LA codes.",
+  "arxiv_id": "2611.07062",
+  "arxiv_version": "v1",
+  "authors": [
+    "Sheida Rabeti",
+    "Ayushi Shirke",
+    "Ivana Dimitrova",
+    "Hessam Mahdavifar"
+  ],
+  "categories": [
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2611.07062v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2611.07062v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "cs.IT",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "decoding",
+      "belief propagation"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-11-04",
+  "title": "Logically Augmented Quantum LDPC Codes: Construction and Hierarchical Decoding",
+  "updated_date": "2026-11-04"
+}

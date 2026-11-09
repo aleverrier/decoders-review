@@ -1,6 +1,6 @@
 # Graphical Analysis of Lifted Product Code Constructions
 
-- arXiv: `2606.11987v1`
+- arXiv: `2606.11987v3`
 - Categories: cs.IT, math.CO
 - Relevance: **maybe** (confidence 0.35)
 

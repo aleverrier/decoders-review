@@ -1,0 +1,36 @@
+{
+  "abstract": "Quantum low-density parity-check (QLDPC) codes are promising for fault-tolerant quantum computing, but their decoding algorithms present significant hardware implementation challenges. Reinforcement-learned sequential belief propagation (RL-S) improves the error-correction performance of conventional belief propagation (BP) through adaptive variable-node scheduling. However, its heap-based priority management introduces substantial hardware overhead. This paper presents hardware implementations of BP, RL-S, and bucket-based reinforcement-learned BP (BRL-S) for the [[288,12,18]] bivariate bicycle QLDPC code. The BRL-S architectures employ quantized priorities and first-in, first-out (FIFO) buckets to simplify scheduling. Three configurations with two, four, and eight priority levels are evaluated. FPGA synthesis results demonstrate that BRL-S reduces lookup-table utilization by approximately 68--72% compared with RL-S. ASIC synthesis further shows reductions of 63--67% in area and 64--69% in estimated power consumption. These results demonstrate that bucket-based scheduling substantially improves the hardware efficiency of reinforcement-learned QLDPC decoders.",
+  "arxiv_id": "2611.04179",
+  "arxiv_version": "v1",
+  "authors": [
+    "Mohsen Moradi",
+    "Vahid Nourozi",
+    "Wei Tang",
+    "David Mitchell"
+  ],
+  "categories": [
+    "cs.IT",
+    "quant-ph"
+  ],
+  "extraction_hash": "b2dd35f3a15270864da43fdaafdaec3e2d54c2e6e6ead704dd58e88ed1b2573f",
+  "last_processed_at": "2026-11-09T22:11:12.105096+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2611.04179v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2611.04179v1"
+  },
+  "primary_category": "cs.IT",
+  "source_hash": "05f7a600415abaff5e5bec36743c0dda0c0be6a17294b7af60d313052baf5cd8",
+  "submitted_date": "2026-11-03",
+  "tags": [
+    "belief propagation",
+    "cs.IT",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Hardware-Efficient Reinforcement-Learned Scheduling for Quantum LDPC Decoders",
+  "updated_date": "2026-11-03"
+}

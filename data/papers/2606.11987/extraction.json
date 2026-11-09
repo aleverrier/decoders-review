@@ -1,7 +1,7 @@
 {
   "abstract": "Lifted product codes are an important family of quantum low-density parity-check (QLDPC) codes, as they were the first QLDPC code family shown to be asymptotically good. Understanding the structure of their parity-check matrices $H_{\\mathsf{X}}$ and $H_{\\mathsf{Z}}$, as well as the associated Tanner graphs, is essential for analyzing their decoding behavior and error-floor performance. In this work, we show that the Tanner graphs of $H_{\\mathsf{X}}$ and $H_{\\mathsf{Z}}$ are indeed isomorphic, and investigate their graph-theoretical structure. We establish conditions ensuring the connectivity of these graphs and provide bounds on their minimal absorbing sets, providing new insight into the combinatorial structures influencing decoding performance.",
   "arxiv_id": "2606.11987",
-  "arxiv_version": "v1",
+  "arxiv_version": "v3",
   "authors": [
     "Ragnar Freij-Hollanti",
     "Kirsten D. Morris",
@@ -56,5 +56,5 @@
   "simulations": [],
   "submitted_date": "2026-06-10",
   "title": "Graphical Analysis of Lifted Product Code Constructions",
-  "updated_date": "2026-06-10"
+  "updated_date": "2026-11-06"
 }

@@ -1,6 +1,6 @@
 # Large-Language-Model Discovery of Quantum LDPC Codes through Structured Concept Evolution
 
-- arXiv: `2606.24808v1`
+- arXiv: `2606.24808v2`
 - Categories: quant-ph, cs.AI
 - Relevance: **maybe** (confidence 0.35)
 
@@ -29,6 +29,6 @@
 - links.code_repo_urls
 
 ## Links
-- Abstract: https://arxiv.org/abs/2606.24808v1
-- PDF: https://arxiv.org/pdf/2606.24808v1
+- Abstract: https://arxiv.org/abs/2606.24808v2
+- PDF: https://arxiv.org/pdf/2606.24808v2
 - DOI: Unknown / not specified

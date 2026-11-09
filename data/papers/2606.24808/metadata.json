@@ -1,7 +1,7 @@
 {
-  "abstract": "Quantum computers could outperform classical machines on important problems, but only if the errors that pervade quantum hardware can be corrected at scale. Quantum low-density parity-check (qLDPC) codes offer a promising route to this goal by combining sparse parity checks with finite encoding rate and growing distance, but their construction remains a challenging discrete design problem. Here we introduce structured concept evolution (SCE), a search framework that pairs a large language model with a structured algebraic mutation grammar to discover lifted-product code families, a class of CSS qLDPC codes. Instead of asking the LLM to design codes from first principles, SCE evolves structured concepts consisting of algebraic specifications paired with executable programs that realize them, using hierarchical mutations that modify the group algebra, protograph geometry, or base space. Running SCE, we discover a diverse set of competitive code families, ranging from abelian constructions to families over non-abelian groups beyond those underlying standard designs such as bivariate-bicycle codes, and characterize them under code-capacity depolarizing noise with BP+OSD decoding. These results are obtained with lightweight models (GPT-5.4-mini and GPT-5.4-nano).",
+  "abstract": "Quantum low-density parity-check codes promise low-overhead error correction, but high-performing constructions remain hard to find. Here we introduce structured concept evolution, in which a large language model (LLM) evolves construction programs and their internal search strategies by modifying the finite group, protograph shapes or entry-assignment rule. We search for codes with fewer than $600$ data qubits and check weight at most $12$, optimizing $kd^2/n$ or the circuit-level logical error rate. Our method improves on published lifted-product benchmarks in selected parameter regimes, with exactly certified distances for the leading results. Circuit-level optimization typically yields lower logical error rates than $kd^2/n$ optimization, often despite smaller code distances. With the same evolution framework and step budget, the best LLM outperforms all random-mutation and hill-climbing runs on both objectives. Our results point to LLM-driven program search as an approach to designing general quantum LDPC codes.",
   "arxiv_id": "2606.24808",
-  "arxiv_version": "v1",
+  "arxiv_version": "v2",
   "authors": [
     "Zidu Liu",
     "Florian Marquardt"
@@ -10,23 +10,23 @@
     "quant-ph",
     "cs.AI"
   ],
-  "extraction_hash": "b7bb867506a158cb4f5270cbc7cf75a0ae0383028a30960bddf18cf2572ba499",
-  "last_processed_at": "2026-07-06T15:47:35.340850+00:00",
+  "extraction_hash": "f7ab1f792e1160f0427428649dfd9517f8eea2d6fab952e457dc81893324d33d",
+  "last_processed_at": "2026-11-09T22:11:12.102018+00:00",
   "links": {
-    "abs_url": "https://arxiv.org/abs/2606.24808v1",
+    "abs_url": "https://arxiv.org/abs/2606.24808v2",
     "code_repo_urls": [],
     "doi": null,
-    "pdf_url": "https://arxiv.org/pdf/2606.24808v1"
+    "pdf_url": "https://arxiv.org/pdf/2606.24808v2"
   },
   "primary_category": "quant-ph",
-  "source_hash": "baa832ee0a6221354d1bef124749dce12da037d8d04d21661e3ac904a0652443",
+  "source_hash": "3766b634f4b5ae3419058ef66c63a3151b3ce477a56223f7b4b297810409d6c6",
   "submitted_date": "2026-06-23",
   "tags": [
     "cs.AI",
-    "decoding",
     "quant-ph",
+    "quantum ldpc",
     "relevance:maybe"
   ],
   "title": "Large-Language-Model Discovery of Quantum LDPC Codes through Structured Concept Evolution",
-  "updated_date": "2026-06-23"
+  "updated_date": "2026-11-04"
 }

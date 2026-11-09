@@ -1,5 +1,250 @@
 [
   {
+    "abstract": "Lifted product codes are an important family of quantum low-density parity-check (QLDPC) codes, as they were the first QLDPC code family shown to be asymptotically good. Understanding the structure of their parity-check matrices $H_{\\mathsf{X}}$ and $H_{\\mathsf{Z}}$, as well as the associated Tanner graphs, is essential for analyzing their decoding behavior and error-floor performance. In this work, we show that the Tanner graphs of $H_{\\mathsf{X}}$ and $H_{\\mathsf{Z}}$ are indeed isomorphic, and investigate their graph-theoretical structure. We establish conditions ensuring the connectivity of these graphs and provide bounds on their minimal absorbing sets, providing new insight into the combinatorial structures influencing decoding performance.",
+    "arxiv_id": "2606.11987",
+    "arxiv_version": "v3",
+    "authors": [
+      "Ragnar Freij-Hollanti",
+      "Kirsten D. Morris",
+      "Patricija Šapokaitė"
+    ],
+    "categories": [
+      "cs.IT",
+      "math.CO"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "ec6642f263ca733ca593450aec5d79b3df678c614a8d3198a9d03c4e32c919c9",
+    "last_processed_at": "2026-11-09T22:11:12.093724+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2606.11987v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2606.11987v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "cs.IT",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoding",
+        "lifted product"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "aeba4f46d857ff7d1060702e4dd3e62a7e891808e5cc4b02ed4a297eb7a6685b",
+    "submitted_date": "2026-06-10",
+    "tags": [
+      "cs.IT",
+      "decoding",
+      "lifted product",
+      "math.CO",
+      "relevance:maybe"
+    ],
+    "title": "Graphical Analysis of Lifted Product Code Constructions",
+    "updated_date": "2026-11-06"
+  },
+  {
+    "abstract": "We propose a joint framework for constructing and decoding Logically Augmented (LA) quantum low-density parity-check (QLDPC) codes. This is motivated by the need for flexible coding rates and adaptive error protection while preserving block length and code structure. On the construction side, we use an auxiliary \\textit{Logical Protection Code (LPC)} to impose additional stabilizer constraints on selected logical qubits of a \\textit{primary} code. On the decoding side, the proposed decoder uses the LPC syndrome to generate logical error hypotheses and condition belief propagation (BP) on each hypothesis. The proposed \\textit{Hierarchical Logical List Decoder (HLLD)} is invoked only when the initial BP decoder for primary code fails to converge. It then selects the correction with the smallest Hamming weight among the syndrome-consistent candidates produced by hypothesis-conditioned BP runs. For numerical evaluation, we focus on short repetition LPCs, which provide a flexible means of trading rate for additional error protection. Each LPC syndrome admits exactly two logical error hypotheses, irrespective of repetition length, which enables HLLD to explore both possibilities without relying on a single logical estimate. Numerical results show that varying the repetition length provides a tunable trade-off between rate and error-correction performance across a wide range of primary code constructions and their operating regimes. On the decoding side, with the overall LA code held fixed, HLLD reduces the logical error rate by up to 81\\%, 75\\%, and 69\\% for LA codes based on mitten, lifted-product, and bivariate bicycle codes, respectively, compared with conventional BP decoding of the same LA codes.",
+    "arxiv_id": "2611.07062",
+    "arxiv_version": "v1",
+    "authors": [
+      "Sheida Rabeti",
+      "Ayushi Shirke",
+      "Ivana Dimitrova",
+      "Hessam Mahdavifar"
+    ],
+    "categories": [
+      "cs.IT"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "3ca988d2b8176044e8cc77d0074ac61d404de2ad99b86ea504ceef4cb260292d",
+    "last_processed_at": "2026-11-09T22:11:12.099271+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2611.07062v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.07062v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "cs.IT",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding",
+        "belief propagation"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "db1c49dd302d0c28c50331bfcb9b7d2b2da8073ddbedecd7f0e48e08d180f5e7",
+    "submitted_date": "2026-11-04",
+    "tags": [
+      "belief propagation",
+      "cs.IT",
+      "decoder",
+      "decoding",
+      "relevance:maybe"
+    ],
+    "title": "Logically Augmented Quantum LDPC Codes: Construction and Hierarchical Decoding",
+    "updated_date": "2026-11-04"
+  },
+  {
+    "abstract": "Quantum low-density parity-check codes promise low-overhead error correction, but high-performing constructions remain hard to find. Here we introduce structured concept evolution, in which a large language model (LLM) evolves construction programs and their internal search strategies by modifying the finite group, protograph shapes or entry-assignment rule. We search for codes with fewer than $600$ data qubits and check weight at most $12$, optimizing $kd^2/n$ or the circuit-level logical error rate. Our method improves on published lifted-product benchmarks in selected parameter regimes, with exactly certified distances for the leading results. Circuit-level optimization typically yields lower logical error rates than $kd^2/n$ optimization, often despite smaller code distances. With the same evolution framework and step budget, the best LLM outperforms all random-mutation and hill-climbing runs on both objectives. Our results point to LLM-driven program search as an approach to designing general quantum LDPC codes.",
+    "arxiv_id": "2606.24808",
+    "arxiv_version": "v2",
+    "authors": [
+      "Zidu Liu",
+      "Florian Marquardt"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.AI"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "f7ab1f792e1160f0427428649dfd9517f8eea2d6fab952e457dc81893324d33d",
+    "last_processed_at": "2026-11-09T22:11:12.102018+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2606.24808v2",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2606.24808v2"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "quantum ldpc"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "3766b634f4b5ae3419058ef66c63a3151b3ce477a56223f7b4b297810409d6c6",
+    "submitted_date": "2026-06-23",
+    "tags": [
+      "cs.AI",
+      "quant-ph",
+      "quantum ldpc",
+      "relevance:maybe"
+    ],
+    "title": "Large-Language-Model Discovery of Quantum LDPC Codes through Structured Concept Evolution",
+    "updated_date": "2026-11-04"
+  },
+  {
+    "abstract": "Quantum low-density parity-check (QLDPC) codes are promising for fault-tolerant quantum computing, but their decoding algorithms present significant hardware implementation challenges. Reinforcement-learned sequential belief propagation (RL-S) improves the error-correction performance of conventional belief propagation (BP) through adaptive variable-node scheduling. However, its heap-based priority management introduces substantial hardware overhead. This paper presents hardware implementations of BP, RL-S, and bucket-based reinforcement-learned BP (BRL-S) for the [[288,12,18]] bivariate bicycle QLDPC code. The BRL-S architectures employ quantized priorities and first-in, first-out (FIFO) buckets to simplify scheduling. Three configurations with two, four, and eight priority levels are evaluated. FPGA synthesis results demonstrate that BRL-S reduces lookup-table utilization by approximately 68--72% compared with RL-S. ASIC synthesis further shows reductions of 63--67% in area and 64--69% in estimated power consumption. These results demonstrate that bucket-based scheduling substantially improves the hardware efficiency of reinforcement-learned QLDPC decoders.",
+    "arxiv_id": "2611.04179",
+    "arxiv_version": "v1",
+    "authors": [
+      "Mohsen Moradi",
+      "Vahid Nourozi",
+      "Wei Tang",
+      "David Mitchell"
+    ],
+    "categories": [
+      "cs.IT",
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "b2dd35f3a15270864da43fdaafdaec3e2d54c2e6e6ead704dd58e88ed1b2573f",
+    "last_processed_at": "2026-11-09T22:11:12.105096+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2611.04179v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.04179v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "cs.IT",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding",
+        "belief propagation"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "05f7a600415abaff5e5bec36743c0dda0c0be6a17294b7af60d313052baf5cd8",
+    "submitted_date": "2026-11-03",
+    "tags": [
+      "belief propagation",
+      "cs.IT",
+      "decoder",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Hardware-Efficient Reinforcement-Learned Scheduling for Quantum LDPC Decoders",
+    "updated_date": "2026-11-03"
+  },
+  {
     "abstract": "We introduce GraphMP, a learning-based message-passing decoder for quantum low-density parity-check codes that transfers without fine-tuning across code families, code sizes, physical error rates, and noise models. GraphMP uses local message passing to keep computation scalable as the decoding graph grows. Guided by its predictions, beam search progressively refines candidate error patterns, trading additional decoding time for lower logical error rates. We develop the decoder model factory as a paradigm for training successive models on experience generated by earlier models during decoding. Model-guided search supplies verified trajectories for knowledge distillation, folding computation spent on decoding into reusable training data. Repeated collection and distillation improve the decoder across generations and adapt its strategy as the noise changes. These results motivate a coupled quantum--classical architecture with two interacting cycles: rapid decoding protects quantum information, while slower learning renews the models from operating experience. The long-term vision is a scalable decoder model factory that produces high-performance, low-latency decoders and continually adapts them to evolving quantum hardware.",
     "arxiv_id": "2610.41398",
     "arxiv_version": "v1",
@@ -3043,64 +3288,6 @@
     "updated_date": "2026-06-25"
   },
   {
-    "abstract": "Quantum computers could outperform classical machines on important problems, but only if the errors that pervade quantum hardware can be corrected at scale. Quantum low-density parity-check (qLDPC) codes offer a promising route to this goal by combining sparse parity checks with finite encoding rate and growing distance, but their construction remains a challenging discrete design problem. Here we introduce structured concept evolution (SCE), a search framework that pairs a large language model with a structured algebraic mutation grammar to discover lifted-product code families, a class of CSS qLDPC codes. Instead of asking the LLM to design codes from first principles, SCE evolves structured concepts consisting of algebraic specifications paired with executable programs that realize them, using hierarchical mutations that modify the group algebra, protograph geometry, or base space. Running SCE, we discover a diverse set of competitive code families, ranging from abelian constructions to families over non-abelian groups beyond those underlying standard designs such as bivariate-bicycle codes, and characterize them under code-capacity depolarizing noise with BP+OSD decoding. These results are obtained with lightweight models (GPT-5.4-mini and GPT-5.4-nano).",
-    "arxiv_id": "2606.24808",
-    "arxiv_version": "v1",
-    "authors": [
-      "Zidu Liu",
-      "Florian Marquardt"
-    ],
-    "categories": [
-      "quant-ph",
-      "cs.AI"
-    ],
-    "decoder": {
-      "algorithm_outline": [],
-      "complexity_claims": [],
-      "decoder_family": null,
-      "high_level_description": "Unknown / not specified from available text.",
-      "implementation_notes": [],
-      "key_ideas": [],
-      "name": null
-    },
-    "extraction_hash": "b7bb867506a158cb4f5270cbc7cf75a0ae0383028a30960bddf18cf2572ba499",
-    "last_processed_at": "2026-07-06T15:47:35.340850+00:00",
-    "links": {
-      "abs_url": "https://arxiv.org/abs/2606.24808v1",
-      "code_repo_urls": [],
-      "doi": null,
-      "pdf_url": "https://arxiv.org/pdf/2606.24808v1"
-    },
-    "missing_fields": [
-      "decoder.name",
-      "decoder.algorithm_outline",
-      "decoder.complexity_claims",
-      "performance_claims.thresholds",
-      "performance_claims.runtime_scaling_claims",
-      "simulations",
-      "links.code_repo_urls"
-    ],
-    "primary_category": "quant-ph",
-    "relevance": {
-      "confidence": 0.35,
-      "label": "maybe",
-      "matched_keywords": [
-        "decoding"
-      ],
-      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
-    },
-    "source_hash": "baa832ee0a6221354d1bef124749dce12da037d8d04d21661e3ac904a0652443",
-    "submitted_date": "2026-06-23",
-    "tags": [
-      "cs.AI",
-      "decoding",
-      "quant-ph",
-      "relevance:maybe"
-    ],
-    "title": "Large-Language-Model Discovery of Quantum LDPC Codes through Structured Concept Evolution",
-    "updated_date": "2026-06-23"
-  },
-  {
     "abstract": "Quantum error correction is essential for building scalable quantum computers. Within the stabilizer formalism, the Calderbank-Shor-Steane framework constructs quantum codes from pairs of classical linear codes. A distinctive feature in this setting is degeneracy, where multiple equivalent error estimates exist-a phenomenon that has no classical counterpart, and the lack of a meaningful classical coding-theoretic interpretation of which has remained a gap in the literature. In this paper, we demonstrate that degeneracy is closely related to the classical operation of shortening of a linear block code. Interestingly, the shortening here takes place at the decoder rather than at the encoder. Leveraging this insight, we present a parallel decoding scheme for quantum low-density parity-check codes, which we term impulse decoding, that significantly outperforms belief propagation with ordered statistics decoding, as well as several other existing techniques, under both code-capacity and circuit-level noise, with significantly lesser complexity. We then present another algorithm based on decoding of residual errors, which when combined with impulse decoding achieves further performance improvement under circuit-level noise.",
     "arxiv_id": "2606.18240",
     "arxiv_version": "v1",
@@ -3162,67 +3349,6 @@
     ],
     "title": "Impulse Decoding of Quantum LDPC Codes: Equivalence of Degeneracy and Code-Shortening",
     "updated_date": "2026-06-16"
-  },
-  {
-    "abstract": "Lifted product codes are an important family of quantum low-density parity-check (QLDPC) codes, as they were the first QLDPC code family shown to be asymptotically good. Understanding the structure of their parity-check matrices $H_{\\mathsf{X}}$ and $H_{\\mathsf{Z}}$, as well as the associated Tanner graphs, is essential for analyzing their decoding behavior and error-floor performance. In this work, we show that the Tanner graphs of $H_{\\mathsf{X}}$ and $H_{\\mathsf{Z}}$ are indeed isomorphic, and investigate their graph-theoretical structure. We establish conditions ensuring the connectivity of these graphs and provide bounds on their minimal absorbing sets, providing new insight into the combinatorial structures influencing decoding performance.",
-    "arxiv_id": "2606.11987",
-    "arxiv_version": "v1",
-    "authors": [
-      "Ragnar Freij-Hollanti",
-      "Kirsten D. Morris",
-      "Patricija Šapokaitė"
-    ],
-    "categories": [
-      "cs.IT",
-      "math.CO"
-    ],
-    "decoder": {
-      "algorithm_outline": [],
-      "complexity_claims": [],
-      "decoder_family": null,
-      "high_level_description": "Unknown / not specified from available text.",
-      "implementation_notes": [],
-      "key_ideas": [],
-      "name": null
-    },
-    "extraction_hash": "9d165949141959c26e444517d300a0cf01f9ae81842ec3a8bf590286f99419b0",
-    "last_processed_at": "2026-06-15T17:23:18.371878+00:00",
-    "links": {
-      "abs_url": "https://arxiv.org/abs/2606.11987v1",
-      "code_repo_urls": [],
-      "doi": null,
-      "pdf_url": "https://arxiv.org/pdf/2606.11987v1"
-    },
-    "missing_fields": [
-      "decoder.name",
-      "decoder.algorithm_outline",
-      "decoder.complexity_claims",
-      "performance_claims.thresholds",
-      "performance_claims.runtime_scaling_claims",
-      "simulations",
-      "links.code_repo_urls"
-    ],
-    "primary_category": "cs.IT",
-    "relevance": {
-      "confidence": 0.35,
-      "label": "maybe",
-      "matched_keywords": [
-        "decoding",
-        "lifted product"
-      ],
-      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
-    },
-    "source_hash": "aeba4f46d857ff7d1060702e4dd3e62a7e891808e5cc4b02ed4a297eb7a6685b",
-    "submitted_date": "2026-06-10",
-    "tags": [
-      "cs.IT",
-      "decoding",
-      "lifted product",
-      "math.CO",
-      "relevance:maybe"
-    ],
-    "title": "Graphical Analysis of Lifted Product Code Constructions",
-    "updated_date": "2026-06-10"
   },
   {
     "abstract": "Quantum error correction (QEC) is transitioning from physical feasibility demonstrations to systems engineering challenges. Google has achieved below-threshold performance on distance-5/7 surface codes, while Riverlane and Rigetti have demonstrated hardware-integrated low-latency feedback loops. These milestones indicate that the core challenge of real-time decoding has shifted from algorithmic capability to system-level engineering. However, a substantial engineering gap remains between laboratory demonstrations and scalable fault-tolerant quantum computing (FTQC). This white paper addresses three questions: (1) Where are the real bottlenecks in real-time QEC: beyond average decoder speed, the constraints lie in QEC round time, tail latency, and end-to-end data path coordination; (2) How mature are mainstream decoder algorithms: we benchmark the major decoders for both surface codes and quantum low-density parity-check (qLDPC) codes, evaluating their real-time readiness; (3) What system stack do we propose: a six-layer reference architecture from syndrome acquisition to logical operations, with interface definitions and latency budget models. Our results quantify the gap between current decoder performance and real-time requirements, and identify the architectural choices needed to close it.",
