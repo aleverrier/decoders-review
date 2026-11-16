@@ -1,7 +1,7 @@
 {
-  "abstract": "Maximum-probability (MP) decoding selects the most probable microscopic error, whereas degenerate maximum-likelihood (MLD) decoding includes the configurational entropy of an entire logical sector. Using code-capacity Pauli noise to isolate rigidity intrinsic to the code, we determine the first physical error weight $m$ at which their logical winner sets become disjoint, even under optimal MP tie resolution. Code distance imposes the universal bound $m\\geq h=\\lceil d/2\\rceil$. We define the entropic rigidity depth $r$ through $m=h+r$ and certify a three-level hierarchy: $r=0$ for planar surface codes and two concatenated families, $r=1$ for odd-distance square toric codes and the Gross $[[144,12,12]]$ quantum low-density-parity-check code, and $r=2$ for a separable family with hypergraph product and bivariate bicycle descriptions. The onset fixes the leading operational failure gap, proportional to the $m$th power of the physical noise strength. Geometry and algebra therefore provide quantifiable controls of configurational entropy and an exact benchmark for low-noise decoder selection.",
+  "abstract": "In the asymptotic low-noise limit of quantum error correction, two optimal decoding rules can disagree. Maximum-probability (MP) decoding selects the most probable microscopic error, whereas degenerate maximum-likelihood (MLD) decoding selects the logical sector with the largest total probability. Under code-capacity Pauli noise, we determine the first physical error weight $m$ at which the MP and MLD logical winner sets become provably disjoint, even under optimal MP tie resolution. As the physical error rate tends to zero, MLD retains a residual zero-temperature degeneracy from the multiplicity of minimum-weight errors sharing a syndrome and logical label, which can outweigh the single most probable error. Code distance imposes the universal bound $m\\geq h=\\lceil d/2\\rceil$; the rigidity depth $r$, defined by $m=h+r$, counts the additional error-weight shells above $h$ on which MP and MLD remain equivalent. We certify a three-level hierarchy: $r=0$ for planar surface codes and two recursively concatenated families, $r=1$ for odd-distance square toric codes and the Gross $[[144,12,12]]$ quantum low-density-parity-check code, and $r=2$ for a separable family with hypergraph product and bivariate bicycle descriptions. The onset weight fixes the leading failure-rate gap between best-tie MP and MLD, proportional to the $m$th power of the physical noise strength, providing an exact subthreshold benchmark for the advantage of degeneracy-aware decoding over the computationally cheaper nondegenerate rule.",
   "arxiv_id": "2608.18420",
-  "arxiv_version": "v1",
+  "arxiv_version": "v2",
   "authors": [
     "Yixin Zhao",
     "Fei Yan"
@@ -10,25 +10,24 @@
     "quant-ph",
     "cond-mat.stat-mech"
   ],
-  "extraction_hash": "748e6a8128efefa3c3f75eb50509ab82485a31e71805f51a9f46bf0c37e31dd5",
-  "last_processed_at": "2026-08-24T13:01:43.777929+00:00",
+  "extraction_hash": "429d9fa137adb3a763401d88330a718b3eab95812a4074e3d905bd4e8bc4c76d",
+  "last_processed_at": "2026-11-16T21:52:11.810256+00:00",
   "links": {
-    "abs_url": "https://arxiv.org/abs/2608.18420v1",
+    "abs_url": "https://arxiv.org/abs/2608.18420v2",
     "code_repo_urls": [],
     "doi": null,
-    "pdf_url": "https://arxiv.org/pdf/2608.18420v1"
+    "pdf_url": "https://arxiv.org/pdf/2608.18420v2"
   },
   "primary_category": "quant-ph",
-  "source_hash": "0f09afab86c4022d6e25094f2038875a8c511c73e8c15c836537a820e2b6f805",
+  "source_hash": "fd5284a6ce6d4b101648d52b21ee99fe6cd7f6931c6a2d49e0f37e2766452ab5",
   "submitted_date": "2026-08-19",
   "tags": [
     "cond-mat.stat-mech",
-    "decoder",
     "decoding",
     "hypergraph product",
     "quant-ph",
     "relevance:maybe"
   ],
-  "title": "Entropic Rigidity in Quantum Memories: How Geometry and Algebra Control the Onset of Degeneracy Corrections",
-  "updated_date": "2026-08-19"
+  "title": "Divergence between Maximum-Probability and Maximum-Likelihood Decoding in the Low-Noise Limit of Quantum Error Correction",
+  "updated_date": "2026-11-10"
 }

@@ -1,0 +1,48 @@
+{
+  "abstract": "Fault-tolerant quantum computation requires decoders that combine accuracy, throughput, low latency, and scalability to large numbers of physical qubits. In photonic fusion-based architectures, erasures from photon loss and probabilistic fusion measurements are a dominant error mechanism, motivating decoders that remain accurate at high erasure rates. We introduce PRISM, a transformer-based machine-learning decoder designed to exploit the known locations of erasures in protocols subject to both Pauli and erasure errors. We benchmark PRISM across a wide range of fault-tolerant protocols based on surface codes, color codes, and quantum low-density parity-check codes, with distances up to 24. Across these benchmarks, PRISM matches the logical error rates of integer-programming-based decoders while being significantly faster, including at error rates up to 50% of threshold. We further optimize the decoder and its real-time hardware implementation to reduce latency while maintaining accuracy. Our optimized implementation on an AMD VP1902 FPGA can decode logical blocks of distance 8 in both space and time, demonstrating a latency of 6.59 microseconds and an amortized decoding time of 1.56 microseconds per logical block is possible. These results show that machine-learning decoding can provide accurate, low-latency inference for erasure-dominated fault-tolerant quantum architectures.",
+  "arxiv_id": "2611.13630",
+  "arxiv_version": "v1",
+  "authors": [
+    "Daniel Barter",
+    "Jacob C. Bridgeman",
+    "Chris Dawson",
+    "Terry Farrelly",
+    "Shane Fleming",
+    "Mercedes Gimeno-Segovia",
+    "Paul Hartke",
+    "Timothy Hein",
+    "Sean Howell",
+    "Gregory Hyegang Jun",
+    "Siddhartha Kamalakara",
+    "Yehua Liu",
+    "Jose M. Monsalve Diaz",
+    "Eddie Richter",
+    "Sam Roberts"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.AR",
+    "cs.LG"
+  ],
+  "extraction_hash": "4c04fc6a71ed94bbda707fa8673bd18dcc46b98050439fff97760d7a2db953c5",
+  "last_processed_at": "2026-11-16T21:52:11.808476+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2611.13630v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2611.13630v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "964bb0e14906eb309bcd8e8b65706e2b3e09189e466ec69c25b81ec539974684",
+  "submitted_date": "2026-11-10",
+  "tags": [
+    "cs.AR",
+    "cs.LG",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Machine-learning decoders for fusion-based quantum computing in real time",
+  "updated_date": "2026-11-10"
+}

@@ -1,6 +1,6 @@
-# Entropic Rigidity in Quantum Memories: How Geometry and Algebra Control the Onset of Degeneracy Corrections
+# Divergence between Maximum-Probability and Maximum-Likelihood Decoding in the Low-Noise Limit of Quantum Error Correction
 
-- arXiv: `2608.18420v1`
+- arXiv: `2608.18420v2`
 - Categories: quant-ph, cond-mat.stat-mech
 - Relevance: **maybe** (confidence 0.35)
 
@@ -29,6 +29,6 @@
 - links.code_repo_urls
 
 ## Links
-- Abstract: https://arxiv.org/abs/2608.18420v1
-- PDF: https://arxiv.org/pdf/2608.18420v1
+- Abstract: https://arxiv.org/abs/2608.18420v2
+- PDF: https://arxiv.org/pdf/2608.18420v2
 - DOI: Unknown / not specified

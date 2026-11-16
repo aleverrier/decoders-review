@@ -1,0 +1,64 @@
+{
+  "abstract": "Quantum low-density parity-check (QLDPC) codes are a promising route to fault-tolerant quantum computation with low overhead, and qudits offer advantages over qubits including more efficient information representation, improved magic state distillation, and richer algebraic structure for code design. Asymptotically good QLDPC codes arise from the lifted product (LP) construction with non-abelian lifts, but cyclic lifts remain attractive in practice because the resulting quasi-cyclic codes have circulant structure that hardware decoders exploit, which matters especially for non-binary decoders with costly check node operations. We introduce a qudit generalization of the LP construction over cyclic group algebras, which extends hypergraph product and LP codes to arbitrary prime-power dimensions and yields quasi-cyclic qudit CSS codes for every stacking order. We bound encoding rates via a connection to additive codes, and show that in the fully stacked case, qudit LP codes built from lifted Tanner codes on expander graphs form families with $Θ(\\log N)$ logical qudits and almost linear minimum distance $Θ(N/\\log N)$, via a distance bound that holds for a general class of LP factors. We also study an additive decoder for general qudit codes and a linear merged-syndrome decoder for fully stacked codes. Monte Carlo simulations under a depolarizing channel with equal symbol error probability show that qudit codes achieve lower frame error rates than comparable qubit codes, and that the linear decoder gives further gains for fully stacked codes.",
+  "arxiv_id": "2611.15952",
+  "arxiv_version": "v1",
+  "authors": [
+    "Shantom K. Borah",
+    "Abhinav Vaishya",
+    "V. Lalitha",
+    "Asit Kumar Pradhan",
+    "Bane Vasic",
+    "Narayanan Rengaswamy"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2611.15952v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2611.15952v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoder",
+      "hypergraph product",
+      "lifted product"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-11-11",
+  "title": "Quasi-Cyclic Qudit Lifted Product Codes with Almost Linear Minimum Distance",
+  "updated_date": "2026-11-11"
+}

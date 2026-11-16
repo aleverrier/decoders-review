@@ -1,5 +1,206 @@
 [
   {
+    "abstract": "Quantum low-density parity-check (QLDPC) codes are a promising route to fault-tolerant quantum computation with low overhead, and qudits offer advantages over qubits including more efficient information representation, improved magic state distillation, and richer algebraic structure for code design. Asymptotically good QLDPC codes arise from the lifted product (LP) construction with non-abelian lifts, but cyclic lifts remain attractive in practice because the resulting quasi-cyclic codes have circulant structure that hardware decoders exploit, which matters especially for non-binary decoders with costly check node operations. We introduce a qudit generalization of the LP construction over cyclic group algebras, which extends hypergraph product and LP codes to arbitrary prime-power dimensions and yields quasi-cyclic qudit CSS codes for every stacking order. We bound encoding rates via a connection to additive codes, and show that in the fully stacked case, qudit LP codes built from lifted Tanner codes on expander graphs form families with $Θ(\\log N)$ logical qudits and almost linear minimum distance $Θ(N/\\log N)$, via a distance bound that holds for a general class of LP factors. We also study an additive decoder for general qudit codes and a linear merged-syndrome decoder for fully stacked codes. Monte Carlo simulations under a depolarizing channel with equal symbol error probability show that qudit codes achieve lower frame error rates than comparable qubit codes, and that the linear decoder gives further gains for fully stacked codes.",
+    "arxiv_id": "2611.15952",
+    "arxiv_version": "v1",
+    "authors": [
+      "Shantom K. Borah",
+      "Abhinav Vaishya",
+      "V. Lalitha",
+      "Asit Kumar Pradhan",
+      "Bane Vasic",
+      "Narayanan Rengaswamy"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.IT"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "93f3e3728964f078ae1cbeac0f2219bb7f2915ec578818611d627154d69f5c37",
+    "last_processed_at": "2026-11-16T21:52:11.780611+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2611.15952v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.15952v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "hypergraph product",
+        "lifted product"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "01290942c2c2189bfe3dbe8a6198b76e89a3c281d38d8e0f84a064d2c2fa6019",
+    "submitted_date": "2026-11-11",
+    "tags": [
+      "cs.IT",
+      "decoder",
+      "hypergraph product",
+      "lifted product",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Quasi-Cyclic Qudit Lifted Product Codes with Almost Linear Minimum Distance",
+    "updated_date": "2026-11-11"
+  },
+  {
+    "abstract": "Fault-tolerant quantum computation requires decoders that combine accuracy, throughput, low latency, and scalability to large numbers of physical qubits. In photonic fusion-based architectures, erasures from photon loss and probabilistic fusion measurements are a dominant error mechanism, motivating decoders that remain accurate at high erasure rates. We introduce PRISM, a transformer-based machine-learning decoder designed to exploit the known locations of erasures in protocols subject to both Pauli and erasure errors. We benchmark PRISM across a wide range of fault-tolerant protocols based on surface codes, color codes, and quantum low-density parity-check codes, with distances up to 24. Across these benchmarks, PRISM matches the logical error rates of integer-programming-based decoders while being significantly faster, including at error rates up to 50% of threshold. We further optimize the decoder and its real-time hardware implementation to reduce latency while maintaining accuracy. Our optimized implementation on an AMD VP1902 FPGA can decode logical blocks of distance 8 in both space and time, demonstrating a latency of 6.59 microseconds and an amortized decoding time of 1.56 microseconds per logical block is possible. These results show that machine-learning decoding can provide accurate, low-latency inference for erasure-dominated fault-tolerant quantum architectures.",
+    "arxiv_id": "2611.13630",
+    "arxiv_version": "v1",
+    "authors": [
+      "Daniel Barter",
+      "Jacob C. Bridgeman",
+      "Chris Dawson",
+      "Terry Farrelly",
+      "Shane Fleming",
+      "Mercedes Gimeno-Segovia",
+      "Paul Hartke",
+      "Timothy Hein",
+      "Sean Howell",
+      "Gregory Hyegang Jun",
+      "Siddhartha Kamalakara",
+      "Yehua Liu",
+      "Jose M. Monsalve Diaz",
+      "Eddie Richter",
+      "Sam Roberts"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.AR",
+      "cs.LG"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "4c04fc6a71ed94bbda707fa8673bd18dcc46b98050439fff97760d7a2db953c5",
+    "last_processed_at": "2026-11-16T21:52:11.808476+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2611.13630v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.13630v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "964bb0e14906eb309bcd8e8b65706e2b3e09189e466ec69c25b81ec539974684",
+    "submitted_date": "2026-11-10",
+    "tags": [
+      "cs.AR",
+      "cs.LG",
+      "decoder",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Machine-learning decoders for fusion-based quantum computing in real time",
+    "updated_date": "2026-11-10"
+  },
+  {
+    "abstract": "In the asymptotic low-noise limit of quantum error correction, two optimal decoding rules can disagree. Maximum-probability (MP) decoding selects the most probable microscopic error, whereas degenerate maximum-likelihood (MLD) decoding selects the logical sector with the largest total probability. Under code-capacity Pauli noise, we determine the first physical error weight $m$ at which the MP and MLD logical winner sets become provably disjoint, even under optimal MP tie resolution. As the physical error rate tends to zero, MLD retains a residual zero-temperature degeneracy from the multiplicity of minimum-weight errors sharing a syndrome and logical label, which can outweigh the single most probable error. Code distance imposes the universal bound $m\\geq h=\\lceil d/2\\rceil$; the rigidity depth $r$, defined by $m=h+r$, counts the additional error-weight shells above $h$ on which MP and MLD remain equivalent. We certify a three-level hierarchy: $r=0$ for planar surface codes and two recursively concatenated families, $r=1$ for odd-distance square toric codes and the Gross $[[144,12,12]]$ quantum low-density-parity-check code, and $r=2$ for a separable family with hypergraph product and bivariate bicycle descriptions. The onset weight fixes the leading failure-rate gap between best-tie MP and MLD, proportional to the $m$th power of the physical noise strength, providing an exact subthreshold benchmark for the advantage of degeneracy-aware decoding over the computationally cheaper nondegenerate rule.",
+    "arxiv_id": "2608.18420",
+    "arxiv_version": "v2",
+    "authors": [
+      "Yixin Zhao",
+      "Fei Yan"
+    ],
+    "categories": [
+      "quant-ph",
+      "cond-mat.stat-mech"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "429d9fa137adb3a763401d88330a718b3eab95812a4074e3d905bd4e8bc4c76d",
+    "last_processed_at": "2026-11-16T21:52:11.810256+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2608.18420v2",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2608.18420v2"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoding",
+        "hypergraph product"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "fd5284a6ce6d4b101648d52b21ee99fe6cd7f6931c6a2d49e0f37e2766452ab5",
+    "submitted_date": "2026-08-19",
+    "tags": [
+      "cond-mat.stat-mech",
+      "decoding",
+      "hypergraph product",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Divergence between Maximum-Probability and Maximum-Likelihood Decoding in the Low-Noise Limit of Quantum Error Correction",
+    "updated_date": "2026-11-10"
+  },
+  {
     "abstract": "Lifted product codes are an important family of quantum low-density parity-check (QLDPC) codes, as they were the first QLDPC code family shown to be asymptotically good. Understanding the structure of their parity-check matrices $H_{\\mathsf{X}}$ and $H_{\\mathsf{Z}}$, as well as the associated Tanner graphs, is essential for analyzing their decoding behavior and error-floor performance. In this work, we show that the Tanner graphs of $H_{\\mathsf{X}}$ and $H_{\\mathsf{Z}}$ are indeed isomorphic, and investigate their graph-theoretical structure. We establish conditions ensuring the connectivity of these graphs and provide bounds on their minimal absorbing sets, providing new insight into the combinatorial structures influencing decoding performance.",
     "arxiv_id": "2606.11987",
     "arxiv_version": "v3",
@@ -2323,68 +2524,6 @@
     ],
     "title": "Certified decoding of quantum LDPC codes",
     "updated_date": "2026-08-26"
-  },
-  {
-    "abstract": "Maximum-probability (MP) decoding selects the most probable microscopic error, whereas degenerate maximum-likelihood (MLD) decoding includes the configurational entropy of an entire logical sector. Using code-capacity Pauli noise to isolate rigidity intrinsic to the code, we determine the first physical error weight $m$ at which their logical winner sets become disjoint, even under optimal MP tie resolution. Code distance imposes the universal bound $m\\geq h=\\lceil d/2\\rceil$. We define the entropic rigidity depth $r$ through $m=h+r$ and certify a three-level hierarchy: $r=0$ for planar surface codes and two concatenated families, $r=1$ for odd-distance square toric codes and the Gross $[[144,12,12]]$ quantum low-density-parity-check code, and $r=2$ for a separable family with hypergraph product and bivariate bicycle descriptions. The onset fixes the leading operational failure gap, proportional to the $m$th power of the physical noise strength. Geometry and algebra therefore provide quantifiable controls of configurational entropy and an exact benchmark for low-noise decoder selection.",
-    "arxiv_id": "2608.18420",
-    "arxiv_version": "v1",
-    "authors": [
-      "Yixin Zhao",
-      "Fei Yan"
-    ],
-    "categories": [
-      "quant-ph",
-      "cond-mat.stat-mech"
-    ],
-    "decoder": {
-      "algorithm_outline": [],
-      "complexity_claims": [],
-      "decoder_family": null,
-      "high_level_description": "Unknown / not specified from available text.",
-      "implementation_notes": [],
-      "key_ideas": [],
-      "name": null
-    },
-    "extraction_hash": "748e6a8128efefa3c3f75eb50509ab82485a31e71805f51a9f46bf0c37e31dd5",
-    "last_processed_at": "2026-08-24T13:01:43.777929+00:00",
-    "links": {
-      "abs_url": "https://arxiv.org/abs/2608.18420v1",
-      "code_repo_urls": [],
-      "doi": null,
-      "pdf_url": "https://arxiv.org/pdf/2608.18420v1"
-    },
-    "missing_fields": [
-      "decoder.name",
-      "decoder.algorithm_outline",
-      "decoder.complexity_claims",
-      "performance_claims.thresholds",
-      "performance_claims.runtime_scaling_claims",
-      "simulations",
-      "links.code_repo_urls"
-    ],
-    "primary_category": "quant-ph",
-    "relevance": {
-      "confidence": 0.35,
-      "label": "maybe",
-      "matched_keywords": [
-        "decoder",
-        "decoding",
-        "hypergraph product"
-      ],
-      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
-    },
-    "source_hash": "0f09afab86c4022d6e25094f2038875a8c511c73e8c15c836537a820e2b6f805",
-    "submitted_date": "2026-08-19",
-    "tags": [
-      "cond-mat.stat-mech",
-      "decoder",
-      "decoding",
-      "hypergraph product",
-      "quant-ph",
-      "relevance:maybe"
-    ],
-    "title": "Entropic Rigidity in Quantum Memories: How Geometry and Algebra Control the Onset of Degeneracy Corrections",
-    "updated_date": "2026-08-19"
   },
   {
     "abstract": "The distance of a classical or quantum code is a key figure of merit which reflects its capacity to detect errors. Quantum LDPC code families have considerable promise in reducing the overhead required for fault-tolerant quantum computation, but calculating their distance is challenging with existing methods. We generally assess the performance of a quantum code under circuit level error models, and for such scenarios the circuit distance is an important consideration. Calculating circuit distance is in general more difficult than finding the distance of the corresponding code as the detector error matrix of the circuit is usually much larger than the code's check matrix. In this work, we benchmark a wide range of distance-finding methods for various classical and quantum code families, as well as syndrome-extraction circuits. We consider both exact methods (such as Brouwer-Zimmermann, connected cluster, SAT and mixed integer programming) and heuristic methods which have lower run-time but can only give a bound on distance (examples include random information set, syndrome decoder algorithms, and Stim undetectable error methods). We further develop the QDistEvol algorithm and show that it performs well for the quantum LDPC codes in our benchmark. The algorithms and test data have been made available to the community in the codeDistance Python package.",
