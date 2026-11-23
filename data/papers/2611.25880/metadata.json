@@ -1,0 +1,39 @@
+{
+  "abstract": "Quantum computation entails robustness engineering: a noisy quantum state is measured continuously, and a classical algorithm (the decoder) must infer corrections that reliably remove the noise, fast enough to keep up. We write several published belief-propagation (BP) decoders for quantum low-density parity-check (qLDPC) codes in a Domain-Specific Language (DSL), and search over it with grammatical evolution. Written in the language, the published decoders show their parameters in plain view, allowing us to re-parameterise BP+OSD (ordered statistics decoding) and BP+LSD (localized statistics decoding) decoders with damping, before any search, making each 17.1--41.0$\\times$ faster at a higher error rate, and BP+OSD-0 about 103 faster than the ldpc package's version tuned on the [[72,12,6]] bivariate-bicycle code. Evolution over the language finds decoders that improve the time-error front. One makes 23% fewer logical errors than BP+OSD-0 with damping at 0.64$\\times$ its time, and decoders evolved from random code are more accurate than ldpc's tuned BP+OSD-0 at 1/31 of its time or less. Frozen at one operating point, the two fastest evolved decoders generalize well across noise levels, code sizes and round counts, staying at the time-error front. Ultimately, we demonstrate that capturing expert knowledge within a DSL creates a powerful intermediate layer---one that effectively bridges human intuition and machine-driven optimization to unlock highly efficient quantum error correction.",
+  "arxiv_id": "2611.25880",
+  "arxiv_version": "v1",
+  "authors": [
+    "Eduardo Dueñez",
+    "Edgar Said Hernandez Sanchez",
+    "Edgar A. Duéñez-Guzmán",
+    "Suzanne Sadedin"
+  ],
+  "categories": [
+    "quant-ph",
+    "cs.AI",
+    "cs.MA",
+    "cs.NE"
+  ],
+  "extraction_hash": "73046414e55f838024b285e047812fa8a610b48948721d19ceaa3835b79f1e02",
+  "last_processed_at": "2026-11-23T23:41:51.119013+00:00",
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2611.25880v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2611.25880v1"
+  },
+  "primary_category": "quant-ph",
+  "source_hash": "021c181e06c38fb48e30bef4b95e022eaa7024a2fdcb5f36fb16a49d22560375",
+  "submitted_date": "2026-11-19",
+  "tags": [
+    "cs.AI",
+    "cs.MA",
+    "cs.NE",
+    "decoder",
+    "decoding",
+    "quant-ph",
+    "relevance:maybe"
+  ],
+  "title": "Evolving Decoding Algorithms for Quantum Error Correction",
+  "updated_date": "2026-11-19"
+}

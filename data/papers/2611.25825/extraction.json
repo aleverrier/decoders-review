@@ -1,0 +1,61 @@
+{
+  "abstract": "Gate orders can change fault propagation and logical error rates even when syndrome-extraction circuits implement the same ideal stabilizer measurements. Optimizing these orderings independently for every check, however, becomes computationally demanding as code size increases. We present a synthesis method for structured Calderbank-Shor-Steane codes that groups checks by recurring connectivity and shares one relative gate order per group, reducing independent ordering choices. A CP-SAT solver jointly determines the shared orders and the execution time of each physical gate, enforcing resource and measurement constraints across the circuit. Noisy circuit simulations with decoding then guide the selection of the final circuit. We compare with state-of-the-art approaches, including Auto-Stabilizer-Check (ASC), PropHunt, and AlphaSyndrome. Across 15 quantum low-density parity-check codes from ten code families, our method achieves the lowest logical error rate estimates. Relative to ASC, the strongest baseline in our evaluation, the median reduction is 11.4% and the largest is 38.6%. Our circuits improve circuit-level distance over ASC on ten instances and preserve the code distance in seven. Across five timed codes, our method reduces the mean time to the first feasible circuit by factors of 21.4-136.6 relative to ASC, at equal or lower depth.",
+  "arxiv_id": "2611.25825",
+  "arxiv_version": "v1",
+  "authors": [
+    "Shanchuan Li",
+    "Xin Hong",
+    "Pengcheng Zhu",
+    "Xiangzhen Zhou",
+    "Fanxu Meng",
+    "Shenggang Ying"
+  ],
+  "categories": [
+    "quant-ph"
+  ],
+  "decoder": {
+    "algorithm_outline": [],
+    "complexity_claims": [],
+    "decoder_family": null,
+    "high_level_description": "Unknown / not specified from available text.",
+    "implementation_notes": [],
+    "key_ideas": [],
+    "name": null
+  },
+  "links": {
+    "abs_url": "https://arxiv.org/abs/2611.25825v1",
+    "code_repo_urls": [],
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2611.25825v1"
+  },
+  "missing_fields": [
+    "decoder.name",
+    "decoder.algorithm_outline",
+    "decoder.complexity_claims",
+    "performance_claims.thresholds",
+    "performance_claims.runtime_scaling_claims",
+    "simulations",
+    "links.code_repo_urls"
+  ],
+  "performance_claims": {
+    "headline_claims": [],
+    "limitations_or_caveats": [
+      "Full paper text not analyzed; extraction limited to metadata/abstract."
+    ],
+    "runtime_scaling_claims": [],
+    "thresholds": []
+  },
+  "primary_category": "quant-ph",
+  "relevance": {
+    "confidence": 0.35,
+    "label": "maybe",
+    "matched_keywords": [
+      "decoding"
+    ],
+    "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+  },
+  "simulations": [],
+  "submitted_date": "2026-11-19",
+  "title": "Structure-Guided Synthesis of Low-Error Syndrome Extraction Circuits",
+  "updated_date": "2026-11-19"
+}

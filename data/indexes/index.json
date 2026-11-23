@@ -1,5 +1,305 @@
 [
   {
+    "abstract": "Quantum computation entails robustness engineering: a noisy quantum state is measured continuously, and a classical algorithm (the decoder) must infer corrections that reliably remove the noise, fast enough to keep up. We write several published belief-propagation (BP) decoders for quantum low-density parity-check (qLDPC) codes in a Domain-Specific Language (DSL), and search over it with grammatical evolution. Written in the language, the published decoders show their parameters in plain view, allowing us to re-parameterise BP+OSD (ordered statistics decoding) and BP+LSD (localized statistics decoding) decoders with damping, before any search, making each 17.1--41.0$\\times$ faster at a higher error rate, and BP+OSD-0 about 103 faster than the ldpc package's version tuned on the [[72,12,6]] bivariate-bicycle code. Evolution over the language finds decoders that improve the time-error front. One makes 23% fewer logical errors than BP+OSD-0 with damping at 0.64$\\times$ its time, and decoders evolved from random code are more accurate than ldpc's tuned BP+OSD-0 at 1/31 of its time or less. Frozen at one operating point, the two fastest evolved decoders generalize well across noise levels, code sizes and round counts, staying at the time-error front. Ultimately, we demonstrate that capturing expert knowledge within a DSL creates a powerful intermediate layer---one that effectively bridges human intuition and machine-driven optimization to unlock highly efficient quantum error correction.",
+    "arxiv_id": "2611.25880",
+    "arxiv_version": "v1",
+    "authors": [
+      "Eduardo Dueñez",
+      "Edgar Said Hernandez Sanchez",
+      "Edgar A. Duéñez-Guzmán",
+      "Suzanne Sadedin"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.AI",
+      "cs.MA",
+      "cs.NE"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "73046414e55f838024b285e047812fa8a610b48948721d19ceaa3835b79f1e02",
+    "last_processed_at": "2026-11-23T23:41:51.119013+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2611.25880v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.25880v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "021c181e06c38fb48e30bef4b95e022eaa7024a2fdcb5f36fb16a49d22560375",
+    "submitted_date": "2026-11-19",
+    "tags": [
+      "cs.AI",
+      "cs.MA",
+      "cs.NE",
+      "decoder",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Evolving Decoding Algorithms for Quantum Error Correction",
+    "updated_date": "2026-11-19"
+  },
+  {
+    "abstract": "Gate orders can change fault propagation and logical error rates even when syndrome-extraction circuits implement the same ideal stabilizer measurements. Optimizing these orderings independently for every check, however, becomes computationally demanding as code size increases. We present a synthesis method for structured Calderbank-Shor-Steane codes that groups checks by recurring connectivity and shares one relative gate order per group, reducing independent ordering choices. A CP-SAT solver jointly determines the shared orders and the execution time of each physical gate, enforcing resource and measurement constraints across the circuit. Noisy circuit simulations with decoding then guide the selection of the final circuit. We compare with state-of-the-art approaches, including Auto-Stabilizer-Check (ASC), PropHunt, and AlphaSyndrome. Across 15 quantum low-density parity-check codes from ten code families, our method achieves the lowest logical error rate estimates. Relative to ASC, the strongest baseline in our evaluation, the median reduction is 11.4% and the largest is 38.6%. Our circuits improve circuit-level distance over ASC on ten instances and preserve the code distance in seven. Across five timed codes, our method reduces the mean time to the first feasible circuit by factors of 21.4-136.6 relative to ASC, at equal or lower depth.",
+    "arxiv_id": "2611.25825",
+    "arxiv_version": "v1",
+    "authors": [
+      "Shanchuan Li",
+      "Xin Hong",
+      "Pengcheng Zhu",
+      "Xiangzhen Zhou",
+      "Fanxu Meng",
+      "Shenggang Ying"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "40996f819ba2581fe3bef0cb5063eb2ad134aa3eaa34f503eb15ba8dff10b1ef",
+    "last_processed_at": "2026-11-23T23:41:51.138051+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2611.25825v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.25825v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "e811c4823501af11e88bf88f4948332dc4562e7f205f58aa805f79d325515c66",
+    "submitted_date": "2026-11-19",
+    "tags": [
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Structure-Guided Synthesis of Low-Error Syndrome Extraction Circuits",
+    "updated_date": "2026-11-19"
+  },
+  {
+    "abstract": "Post-selection lowers the logical error rate of a quantum error-correcting code by rejecting unreliable shots. For a code with $K$ logical observables, the logical gap, a standard post-selection criterion, involves $2^K$ logical classes, and existing approximations to it suffer from a non-convergence error floor or a shielding effect. We introduce a decoder-agnostic post-selection strategy for quantum low-density parity-check (qLDPC) codes, called parity push post-selection (PPPS), which re-decodes a shot once per logical observable with a push toward the opposite parity. Each push adds one check node and one variable node to the Tanner graph of the detector error model, and we accept a shot only when every re-decoding returns a solution in the original logical class. We show that, with degenerate maximum-likelihood decoding, PPPS accepts a shot exactly when the logical gap exceeds the push strength $λ$. Applied with the Relay-BP decoder to the [[72,12,6]] bivariate bicycle code at $p=10^{-3}$ and the [[144,12,12]] code at $p=3\\times10^{-3}$ under circuit-level depolarizing noise, PPPS lowers the logical error rate by factors of about 50 and 75, respectively, at rejection rates near 1%. We observe that PPPS rejects failures that prior post-selection strategies cannot reject, and thus shows improved performance.",
+    "arxiv_id": "2611.23759",
+    "arxiv_version": "v1",
+    "authors": [
+      "Hong Jun Kim",
+      "Gun Sik Min",
+      "Seok-Hyung Lee",
+      "Jun Heo"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "762beb810c33633a0ba8ded3a20b58f0280d85b99cd0eebff475b5a14fb0cb5b",
+    "last_processed_at": "2026-11-23T23:41:51.140249+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2611.23759v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.23759v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoder",
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "f4d0c0bfa4efc81f22ba391507cebd49e46feb496871c53cfe58ed29c8c2521d",
+    "submitted_date": "2026-11-18",
+    "tags": [
+      "decoder",
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Parity Push Post-Selection with Soft Parity Constraints for Quantum LDPC Codes",
+    "updated_date": "2026-11-18"
+  },
+  {
+    "abstract": "Quantum LDPC codes provide a substantial reduction in qubit overhead required for fault-tolerant quantum computation compared to surface code, thanks to their high encoding rate. However, operating simultaneously on multiple logical qubits encoded in the same block is more challenging and may slow down logical operations. Prior work addresses this problem by designing complex resource states to perform logical measurements in LDPC codes. Here, we propose an approach that only consumes cat states. Whereas previous work on cat-based measurements focuses on a single logical measurement, we design a protocol for the joint measurement of $\\ell$ commuting logical operators. The key ingredient is the design of a scheduler code determining the measurement sequence and allowing for the decoding of all logical measurement outcomes. Numerical simulations with the LDPC codes Q70 and Q102 of the walking cat architecture show a reduction of nearly $3\\times$ in the number of cat-based measurements required versus the Viterbi method for measuring $\\ell=20$ commuting logical operators. Combining our logical measurement protocols with a new variant of the CliNR partial error correction scheme, we achieve a reduction of up to $73\\times$ versus the Viterbi method for random Clifford circuits. Our approach also applies to non-Clifford gates, producing a reduction of up to $5\\times$ versus the Viterbi method for Toffoli gates.",
+    "arxiv_id": "2607.16166",
+    "arxiv_version": "v3",
+    "authors": [
+      "Mark Webster",
+      "Nicolas Delfosse"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "474ea4599774c344eff9dec7677951a5f42b5922271e624e55d37efff0c095fb",
+    "last_processed_at": "2026-11-23T23:41:51.142480+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2607.16166v3",
+      "code_repo_urls": [],
+      "doi": "10.1103/vz2d-jq2z",
+      "pdf_url": "https://arxiv.org/pdf/2607.16166v3"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.55,
+      "label": "relevant",
+      "matched_keywords": [
+        "quantum ldpc",
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "aeb320c5e53bb24b9275145f7d0351a21caede391c98e7f57401a0abd5318ec2",
+    "submitted_date": "2026-07-17",
+    "tags": [
+      "decoding",
+      "quant-ph",
+      "quantum ldpc",
+      "relevance:relevant"
+    ],
+    "title": "Efficient logical operations in quantum LDPC codes using simple resource states",
+    "updated_date": "2026-11-18"
+  },
+  {
+    "abstract": "High-rate quantum low-density parity-check (qLDPC) codes could greatly reduce the qubit count of silicon spin-qubit processors, but their checks are long-range and of high weight. Shuttling one ancilla electron through every data qubit of a check measures such checks, but a single fault on the ancilla spreads to several data qubits, so the circuit distance can fall far below the code distance. We make the mobile ancilla one half of a spin singlet whose partner stays at home; a Bell measurement at the end of the check provides a flag for isolated bit-flip faults acquired during the walk. Using new distance-6 codes with check weights 8, 10 and 12, and exact circuit distances from two independent solvers, we show that without the flag the circuit distance falls as check weight grows, to 1 at weight 12, while with it every weight-8 and weight-10 code recovers circuit distance 5 or 6 and corrects as many faults as the code. For codes of distance 8 to 12 the flag raises the circuit distance by one to four, and the Gross code [[144,12,12]] rises from 7 to 10. In circuit-level simulations of shuttled spin qubits, the flag lowers logical error rates by typically 2-10x across bivariate-bicycle, circulant-permutation and surface codes, and the gain survives percent-level flag-readout errors and bit flips on the singlet's electrons. BP+OSD does not reach the full circuit distance of the flagged circuits, so our flagged logical error rates are upper bounds: decoding the same shots exactly raises the flag's gain on the distance-6 codes from 3-7x to 5-17x for the weight-6 BB code, and from 1-12x to 5-90x at weights 8 and 10 for p >= 2.5x10^-4.",
+    "arxiv_id": "2611.23528",
+    "arxiv_version": "v1",
+    "authors": [
+      "William Chow",
+      "Jonathan Baugh"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "decoder": {
+      "algorithm_outline": [],
+      "complexity_claims": [],
+      "decoder_family": null,
+      "high_level_description": "Unknown / not specified from available text.",
+      "implementation_notes": [],
+      "key_ideas": [],
+      "name": null
+    },
+    "extraction_hash": "ad830ff8a95044c8de1e18e1533a5158ab5542840b23707aeee29442776a0613",
+    "last_processed_at": "2026-11-23T23:41:51.144770+00:00",
+    "links": {
+      "abs_url": "https://arxiv.org/abs/2611.23528v1",
+      "code_repo_urls": [],
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.23528v1"
+    },
+    "missing_fields": [
+      "decoder.name",
+      "decoder.algorithm_outline",
+      "decoder.complexity_claims",
+      "performance_claims.thresholds",
+      "performance_claims.runtime_scaling_claims",
+      "simulations",
+      "links.code_repo_urls"
+    ],
+    "primary_category": "quant-ph",
+    "relevance": {
+      "confidence": 0.35,
+      "label": "maybe",
+      "matched_keywords": [
+        "decoding"
+      ],
+      "rationale": "Fallback extraction from abstract only (OpenAI key unavailable)."
+    },
+    "source_hash": "a56645626ce3214edb54d6b24d9b29a66dd12a799f5513b4fd728b95b0c9d7fc",
+    "submitted_date": "2026-11-17",
+    "tags": [
+      "decoding",
+      "quant-ph",
+      "relevance:maybe"
+    ],
+    "title": "Singlet flags: using native entanglement to restore the circuit distance of shuttled qLDPC codes in silicon",
+    "updated_date": "2026-11-17"
+  },
+  {
     "abstract": "Quantum low-density parity-check (QLDPC) codes are a promising route to fault-tolerant quantum computation with low overhead, and qudits offer advantages over qubits including more efficient information representation, improved magic state distillation, and richer algebraic structure for code design. Asymptotically good QLDPC codes arise from the lifted product (LP) construction with non-abelian lifts, but cyclic lifts remain attractive in practice because the resulting quasi-cyclic codes have circulant structure that hardware decoders exploit, which matters especially for non-binary decoders with costly check node operations. We introduce a qudit generalization of the LP construction over cyclic group algebras, which extends hypergraph product and LP codes to arbitrary prime-power dimensions and yields quasi-cyclic qudit CSS codes for every stacking order. We bound encoding rates via a connection to additive codes, and show that in the fully stacked case, qudit LP codes built from lifted Tanner codes on expander graphs form families with $Θ(\\log N)$ logical qudits and almost linear minimum distance $Θ(N/\\log N)$, via a distance bound that holds for a general class of LP factors. We also study an additive decoder for general qudit codes and a linear merged-syndrome decoder for fully stacked codes. Monte Carlo simulations under a depolarizing channel with equal symbol error probability show that qudit codes achieve lower frame error rates than comparable qubit codes, and that the linear decoder gives further gains for fully stacked codes.",
     "arxiv_id": "2611.15952",
     "arxiv_version": "v1",
